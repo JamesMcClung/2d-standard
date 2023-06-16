@@ -16,6 +16,7 @@ level: int
 range: string
 components: string
 material?: string
+duration: string
 concentration?: boolean
 casting_time: string
 tags: string[] # includes classes, school(s), domain(s), element?, curse?, ritual?
