@@ -6,7 +6,6 @@ absorb_elements:
   level: 1
   name: Absorb Elements
   range: Self
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -26,7 +25,6 @@ acid_arrow:
   material: powdered rhubarb leaf and an adder's stomach
   name: Acid Arrow
   range: 90 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -43,7 +41,6 @@ acid_splash:
   level: 0
   name: Acid Splash
   range: 60 feet
-  ritual: false
   sources:
     - PHB (Errata 2.0)
   tags:
@@ -60,7 +57,6 @@ aid:
   material: a tiny strip of white cloth
   name: Aid
   range: 30 feet
-  ritual: false
   sources:
     - OneDnD
   tags:
@@ -84,13 +80,13 @@ alarm:
   material: a tiny bell and a piece of fine silver wire
   name: Alarm
   range: 30 feet
-  ritual: true
   sources:
     - PHB
   tags:
     - abjuration
     - artificer
     - ranger
+    - ritual
     - wizard
 alter_self:
   casting_time: 1 standard action
@@ -107,7 +103,6 @@ alter_self:
   level: 2
   name: Alter Self
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -124,7 +119,6 @@ animal_friendship:
   material: a morsel of food
   name: Animal Friendship
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -144,7 +138,6 @@ animal_messenger:
   material: a morsel of food
   name: Animal Messenger
   range: 30 feet
-  ritual: true
   sources:
     - PHB
   tags:
@@ -152,6 +145,7 @@ animal_messenger:
     - druid
     - enchantment
     - ranger
+    - ritual
 animal_shapes:
   casting_time: 1 standard action
   components: V, S
@@ -165,7 +159,6 @@ animal_shapes:
   level: 8
   name: Animal Shapes
   range: 30 feet
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -185,7 +178,6 @@ antilife_shell:
   level: 5
   name: Antilife Shell
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -219,7 +211,6 @@ antimagic_field:
   material: a pinch of powdered iron or iron filings
   name: Antimagic Field
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -244,7 +235,6 @@ antipathy_sympathy:
   material: either a lump of alum soaked in vinegar for the antipathy effect or a drop of honey for the sympathy effect
   name: Antipathy/Sympathy
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -267,7 +257,6 @@ arcane_eye:
   material: a bit of bat fur
   name: Arcane Eye
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -287,7 +276,6 @@ arcane_gate:
   level: 6
   name: Arcane Gate
   range: 100 feet
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -308,7 +296,6 @@ arcane_lock:
   material: gold dust worth at least 25 gp, which the spell consumes
   name: Arcane Lock
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -324,7 +311,6 @@ armor_of_ice:
   material: a cup of water
   name: Armor of Ice
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -350,7 +336,6 @@ astral_projection:
   material: for each creature you affect with this spell, you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100 gp, all of which the spell consumes
   name: Astral Projection
   range: 10 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -372,12 +357,12 @@ attendant_item:
   material: a sapphire worth 1,000 gp
   name: Attendant Item
   range: Touch
-  ritual: true
   sources:
     - PHB
     - 2D
   tags:
     - conjuration
+    - ritual
     - wizard
 augury:
   casting_time: 1 minute
@@ -398,7 +383,6 @@ augury:
   material: specially marked sticks, bones, or similar tokens worth at least 25 gp
   name: Augury
   range: Self
-  ritual: true
   sources:
     - PHB
     - TCE
@@ -406,6 +390,7 @@ augury:
     - cleric
     - divination
     - druid
+    - ritual
     - wizard
 aura_of_life:
   casting_time: 1 standard action
@@ -415,7 +400,6 @@ aura_of_life:
   level: 4
   name: Aura of Life
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -431,7 +415,6 @@ aura_of_purity:
   level: 4
   name: Aura of Purity
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -447,7 +430,6 @@ aura_of_vitality:
   level: 3
   name: Aura of Vitality
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -468,7 +450,6 @@ awaken:
   material: an agate worth at least 1,000 gp, which the spell consumes
   name: Awaken
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -484,7 +465,6 @@ bane:
   material: a drop of blood
   name: Bane
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -499,7 +479,6 @@ banishing_smite:
   level: 5
   name: Banishing Smite
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -520,7 +499,6 @@ banishment:
   material: an item distasteful to the target
   name: Banishment
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -539,7 +517,6 @@ barkskin:
   material: a handful of bark
   name: Barkskin
   range: Touch
-  ritual: false
   sources:
     - OneDnD
   tags:
@@ -554,7 +531,6 @@ beacon_of_hope:
   level: 3
   name: Beacon of Hope
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -569,7 +545,6 @@ beast_bond:
   material: a bit of fur wrapped in a cloth
   name: Beast Bond
   range: Touch
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -585,13 +560,13 @@ beast_sense:
   level: 2
   name: Beast Sense
   range: Touch
-  ritual: true
   sources:
     - PHB
   tags:
     - divination
     - druid
     - ranger
+    - ritual
 bestow_curse:
   casting_time: 1 standard action
   components: V, S
@@ -608,7 +583,6 @@ bestow_curse:
   level: 3
   name: Bestow Curse
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -625,7 +599,6 @@ binding_ice:
   material: a vial of meltwater
   name: Binding Ice
   range: Self (30-foot cone)
-  ritual: false
   sources:
     - FTD
   tags:
@@ -643,7 +616,6 @@ blade_barrier:
   level: 6
   name: Blade Barrier
   range: 90 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -662,7 +634,6 @@ blade_of_disaster:
   level: 9
   name: Blade of Disaster
   range: 60 feet
-  ritual: false
   sources:
     - TCE
   tags:
@@ -678,7 +649,6 @@ blade_ward:
   level: 0
   name: Blade Ward
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -696,7 +666,6 @@ bless:
   material: a sprinkling of holy water
   name: Bless
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -716,7 +685,6 @@ blight:
   level: 4
   name: Blight
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -733,7 +701,6 @@ blinding_smite:
   level: 3
   name: Blinding Smite
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -748,7 +715,6 @@ blindness_deafness:
   level: 2
   name: Blindness/Deafness
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -768,7 +734,6 @@ blink:
   level: 3
   name: Blink
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -784,7 +749,6 @@ blur:
   level: 2
   name: Blur
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -805,7 +769,6 @@ bones_of_the_earth:
   level: 6
   name: Bones of the Earth
   range: 120 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -824,7 +787,6 @@ booming_blade:
   material: a melee weapon worth at least 1 sp
   name: Booming Blade
   range: Self (5-foot radius)
-  ritual: false
   sources:
     - TCE
   tags:
@@ -841,7 +803,6 @@ branding_smite:
   level: 2
   name: Branding Smite
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -859,7 +820,6 @@ burning_hands:
   level: 1
   name: Burning Hands
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -877,7 +837,6 @@ call_lightning:
   level: 3
   name: Call Lightning
   range: 120 feet
-  ritual: false
   sources:
     - PHB (Errata 2.0)
     - 2D
@@ -895,7 +854,6 @@ calm_emotions:
   level: 2
   name: Calm Emotions
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -910,7 +868,6 @@ catapult:
   level: 1
   name: Catapult
   range: 60 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -928,7 +885,6 @@ catnap:
   material: a pinch of sand
   name: Catnap
   range: 30 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -945,7 +901,6 @@ cause_fear:
   level: 1
   name: Cause Fear
   range: 60 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -961,7 +916,6 @@ caustic_spray:
   material: a bit of rotten food
   name: Caustic Spray
   range: Self (30-foot line)
-  ritual: false
   sources:
     - TCE
   tags:
@@ -981,7 +935,6 @@ chain_lightning:
   material: a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins
   name: Chain Lightning
   range: 150 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1012,7 +965,6 @@ chaos_bolt:
   level: 1
   name: Chaos Bolt
   range: 120 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -1026,7 +978,6 @@ charm_monster:
   level: 4
   name: Charm Monster
   range: 30 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -1044,7 +995,6 @@ charm_person:
   level: 1
   name: Charm Person
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1067,7 +1017,6 @@ chill_touch:
   level: 0
   name: Chill Touch
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1084,7 +1033,6 @@ chromatic_orb:
   material: a diamond worth at least 50 gp
   name: Chromatic Orb
   range: 90 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1100,7 +1048,6 @@ circle_of_death:
   material: the powder of a crushed black pearl worth at least 500 gp
   name: Circle of Death
   range: 150 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1116,7 +1063,6 @@ circle_of_power:
   level: 5
   name: Circle of Power
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1136,7 +1082,6 @@ clairvoyance:
   material: a focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for seeing
   name: Clairvoyance
   range: 1 mile
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1157,7 +1102,6 @@ cloak_of_shadow:
   material: an undead eyeball encased in a gem worth at least 150 gp
   name: Cloak of Shadow
   range: Self
-  ritual: false
   sources:
     - XGE
   tags:
@@ -1175,7 +1119,6 @@ clone:
   material: a diamond worth at least 1,000 gp and at least 1 cubic inch of flesh of the creature that is to be cloned, which the spell consumes, and a vessel worth at least 2,000 gp that has a sealable lid and is large enough to hold the creature being cloned, such as a huge urn, coffin, mud-filled cyst in the ground, or crystal container filled with salt water
   name: Clone
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1190,7 +1133,6 @@ cloud_of_daggers:
   material: a sliver of glass
   name: Cloud of Daggers
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1212,7 +1154,6 @@ cloudkill:
   level: 5
   name: Cloudkill
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1231,7 +1172,6 @@ color_spray:
   material: a pinch of powder or sand that is colored red, yellow, and blue
   name: Color Spray
   range: Self
-  ritual: false
   sources:
     - PHB (Errata 2.0)
     - TCE
@@ -1261,7 +1201,6 @@ command:
   level: 1
   name: Command
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -1284,12 +1223,12 @@ commune:
   material: incense and a vial of holy or unholy water
   name: Commune
   range: Self
-  ritual: true
   sources:
     - PHB
   tags:
     - cleric
     - divination
+    - ritual
 commune_with_nature:
   casting_time: 1 minute
   components: V, S
@@ -1309,13 +1248,13 @@ commune_with_nature:
   level: 5
   name: Commune with Nature
   range: Self
-  ritual: true
   sources:
     - PHB
   tags:
     - divination
     - druid
     - ranger
+    - ritual
 compelled_duel:
   casting_time: 1 minor action
   components: V
@@ -1327,7 +1266,6 @@ compelled_duel:
   level: 1
   name: Compelled Duel
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1345,12 +1283,12 @@ comprehend_languages:
   material: a pinch of soot and salt
   name: Comprehend Languages
   range: Self
-  ritual: true
   sources:
     - PHB
   tags:
     - bard
     - divination
+    - ritual
     - sorcerer
     - warlock
     - wizard
@@ -1365,7 +1303,6 @@ compulsion:
   level: 4
   name: Compulsion
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1383,7 +1320,6 @@ cone_of_cold:
   material: a small crystal or glass cone
   name: Cone of Cold
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -1411,7 +1347,6 @@ confusion:
   material: three nut shells
   name: Confusion
   range: 90 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1429,7 +1364,6 @@ conjure_barrage:
   material: one piece of ammunition or a thrown weapon
   name: Conjure Barrage
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -1445,7 +1379,6 @@ conjure_volley:
   material: one piece of ammunition or one thrown weapon
   name: Conjure Volley
   range: 150 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1462,11 +1395,11 @@ contact_other_plane:
   level: 5
   name: Contact Other Plane
   range: Self
-  ritual: true
   sources:
     - PHB
   tags:
     - divination
+    - ritual
     - warlock
     - wizard
 contagion:
@@ -1494,7 +1427,6 @@ contagion:
   level: 5
   name: Contagion
   range: Touch
-  ritual: false
   sources:
     - PHB (Errata 2.0)
   tags:
@@ -1515,7 +1447,6 @@ contingency:
   material: a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp
   name: Contingency
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1530,7 +1461,6 @@ continual_flame:
   material: ruby dust worth 50 gp, which the spell consumes
   name: Continual Flame
   range: Touch
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -1556,7 +1486,6 @@ control_flames:
   level: 0
   name: Control Flames
   range: 60 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -1585,7 +1514,6 @@ control_water:
   material: a drop of water and a pinch of dust
   name: Control Water
   range: 300 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1635,7 +1563,6 @@ control_weather:
   material: burning incense and bits of earth and wood mixed in water
   name: Control Weather
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1658,7 +1585,6 @@ control_winds:
   level: 5
   name: Control Winds
   range: 300 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -1679,7 +1605,6 @@ cordon_of_arrows:
   material: four or more arrows or bolts
   name: Cordon of Arrows
   range: 5 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1693,7 +1618,6 @@ counterspell:
   level: 3
   name: Counterspell
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1714,7 +1638,6 @@ create_bonfire:
   level: 0
   name: Create Bonfire
   range: 60 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -1733,7 +1656,6 @@ create_food_and_water:
   level: 3
   name: Create Food and Water
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1755,7 +1677,6 @@ create_or_destroy_water:
   material: a drop of water if creating water, or a few grains of sand if destroying it
   name: Create or Destroy Water
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1784,7 +1705,6 @@ creation:
   material: a tiny piece of matter of the same type of the item you plan to create
   name: Creation
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1807,7 +1727,6 @@ crown_of_madness:
   level: 2
   name: Crown of Madness
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1827,7 +1746,6 @@ crown_of_stars:
   level: 7
   name: Crown of Stars
   range: Self
-  ritual: false
   sources:
     - XGE
   tags:
@@ -1843,7 +1761,6 @@ crusaders_mantle:
   level: 3
   name: Crusader's Mantle
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1857,7 +1774,6 @@ cure_wounds:
   level: 1
   name: Cure Wounds
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1880,7 +1796,6 @@ dancing_lights:
   material: a bit of phosphorus or wychwood, or a glowworm
   name: Dancing Lights
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1902,7 +1817,6 @@ danse_macabre:
   level: 5
   name: Danse Macabre
   range: 60 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -1923,7 +1837,6 @@ darkness:
   material: bat fur and a drop of pitch or piece of coal
   name: Darkness
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1940,7 +1853,6 @@ darkvision:
   material: either a pinch of dried carrot or an agate
   name: Darkvision
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -1964,7 +1876,6 @@ dawn:
   material: a sunburst pendant worth at least 100 gp
   name: Dawn
   range: 60 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -1984,7 +1895,6 @@ daylight:
   level: 3
   name: Daylight
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2007,7 +1917,6 @@ death_ward:
   level: 4
   name: Death Ward
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2030,7 +1939,6 @@ delayed_blast_fireball:
   material: a tiny ball of bat guano and sulfur
   name: Delayed Blast Fireball
   range: 150 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2048,7 +1956,6 @@ demiplane:
   level: 8
   name: Demiplane
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -2069,7 +1976,6 @@ desiccation:
   material: a bit of sponge
   name: Desiccation
   range: 150 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -2086,7 +1992,6 @@ destructive_wave:
   level: 5
   name: Destructive Wave
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2103,7 +2008,6 @@ detect_evil_and_good:
   level: 1
   name: Detect Evil and Good
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2121,7 +2025,6 @@ detect_magic:
   level: 1
   name: Detect Magic
   range: Self
-  ritual: true
   sources:
     - PHB
   tags:
@@ -2132,6 +2035,7 @@ detect_magic:
     - druid
     - paladin
     - ranger
+    - ritual
     - sorcerer
     - wizard
 detect_poison_and_disease:
@@ -2146,7 +2050,6 @@ detect_poison_and_disease:
   material: a yew leaf
   name: Detect Poison and Disease
   range: Self
-  ritual: true
   sources:
     - PHB
   tags:
@@ -2155,6 +2058,7 @@ detect_poison_and_disease:
     - druid
     - paladin
     - ranger
+    - ritual
 detect_thoughts:
   casting_time: 1 standard action
   components: V, S, M
@@ -2173,7 +2077,6 @@ detect_thoughts:
   material: a copper piece
   name: Detect Thoughts
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2194,7 +2097,6 @@ dimension_door:
   level: 4
   name: Dimension Door
   range: 500 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2216,7 +2118,6 @@ disguise_self:
   level: 1
   name: Disguise Self
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2241,7 +2142,6 @@ disintegrate:
   material: a lodestone and a pinch of dust
   name: Disintegrate
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2264,7 +2164,6 @@ dispel_evil_and_good:
   material: holy water or powdered silver and iron
   name: Dispel Evil and Good
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2279,7 +2178,6 @@ dispel_magic:
   level: 3
   name: Dispel Magic
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2300,7 +2198,6 @@ dissonant_whispers:
   level: 1
   name: Dissonant Whispers
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2322,7 +2219,6 @@ distort_magic:
   material: a small square of silk
   name: Distort Magic
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2342,7 +2238,6 @@ divination:
   material: incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes
   name: Divination
   range: Self
-  ritual: true
   sources:
     - PHB
     - TCE
@@ -2350,6 +2245,7 @@ divination:
     - cleric
     - divination
     - druid
+    - ritual
     - wizard
 divine_favor:
   casting_time: 1 minor action
@@ -2359,7 +2255,6 @@ divine_favor:
   level: 1
   name: Divine Favor
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2381,7 +2276,6 @@ divine_word:
   level: 7
   name: Divine Word
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2402,7 +2296,6 @@ dominate_beast:
   level: 4
   name: Dominate Beast
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -2426,7 +2319,6 @@ dominate_monster:
   level: 8
   name: Dominate Monster
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2450,7 +2342,6 @@ dominate_person:
   level: 5
   name: Dominate Person
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2472,7 +2363,6 @@ draconic_transformation:
   material: a statuette of a dragon, worth at least 500 gp
   name: Draconic Transformation
   range: Self
-  ritual: false
   sources:
     - FTD
   tags:
@@ -2489,7 +2379,6 @@ dragons_breath:
   material: a hot pepper
   name: Dragon's Breath
   range: Touch
-  ritual: false
   sources:
     - XGE
   tags:
@@ -2514,7 +2403,6 @@ dream:
   material: a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird
   name: Dream
   range: Special
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2550,7 +2438,6 @@ druid_grove:
   material: mistletoe, which the spell consumes, that was harvested with a golden sickle under the light of a full moon
   name: Druid Grove
   range: Touch
-  ritual: false
   sources:
     - XGE
   tags:
@@ -2570,7 +2457,6 @@ druidcraft:
   level: 0
   name: Druidcraft
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2590,7 +2476,6 @@ dust_devil:
   material: a pinch of dust
   name: Dust Devil
   range: 60 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -2607,7 +2492,6 @@ earth_tremor:
   level: 1
   name: Earth Tremor
   range: 10 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -2625,7 +2509,6 @@ earthbind:
   level: 2
   name: Earthbind
   range: 300 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -2652,7 +2535,6 @@ earthen_grasp:
   material: a miniature hand sculpted from clay
   name: Earthen Grasp
   range: 30 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -2682,7 +2564,6 @@ earthquake:
   material: a pinch of dirt, a piece of rock, and a lump of clay
   name: Earthquake
   range: 500 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2701,7 +2582,6 @@ eldritch_blast:
   level: 0
   name: Eldritch Blast
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2715,7 +2595,6 @@ elemental_bane:
   level: 4
   name: Elemental Bane
   range: 90 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -2733,7 +2612,6 @@ elemental_weapon:
   level: 3
   name: Elemental Weapon
   range: Touch
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -2755,7 +2633,6 @@ enemies_abound:
   level: 3
   name: Enemies Abound
   range: 120 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -2775,7 +2652,6 @@ enervation:
   level: 5
   name: Enervation
   range: 60 feet
-  ritual: false
   sources:
     - XGE
     - 2D
@@ -2806,7 +2682,6 @@ enhance_ability:
   material: fur or a feather from a beast
   name: Enhance Ability
   range: Touch
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -2835,7 +2710,6 @@ enlarge_reduce:
   material: a pinch of powdered iron
   name: Enlarge/Reduce
   range: 30 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -2857,7 +2731,6 @@ ensnaring_strike:
   level: 1
   name: Ensnaring Strike
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -2877,7 +2750,6 @@ entangle:
   level: 1
   name: Entangle
   range: 90 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -2893,7 +2765,6 @@ enthrall:
   level: 2
   name: Enthrall
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2909,7 +2780,6 @@ erupting_earth:
   material: a piece of obsidian
   name: Erupting Earth
   range: 120 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -2935,7 +2805,6 @@ etherealness:
   level: 7
   name: Etherealness
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -2962,7 +2831,6 @@ evil_eye:
   level: 6
   name: Evil Eye
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -2980,7 +2848,6 @@ expeditious_retreat:
   level: 1
   name: Expeditious Retreat
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3002,7 +2869,6 @@ fabricate:
   level: 4
   name: Fabricate
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3020,7 +2886,6 @@ faerie_fire:
   level: 1
   name: Faerie Fire
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3037,7 +2902,6 @@ false_life:
   material: a small amount of alcohol or distilled spirits
   name: False Life
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3054,7 +2918,6 @@ far_sense:
   material: a bit of fur from a bloodhound
   name: Far Sense
   range: 5 miles
-  ritual: true
   sources:
     - 2D
   tags:
@@ -3062,6 +2925,7 @@ far_sense:
     - divination
     - druid
     - ranger
+    - ritual
 far_step:
   casting_time: 1 minor action
   components: V
@@ -3070,7 +2934,6 @@ far_step:
   level: 5
   name: Far Step
   range: Self
-  ritual: false
   sources:
     - XGE
     - 2D
@@ -3091,7 +2954,6 @@ fear:
   material: a white feather or the heart of a hen
   name: Fear
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3109,7 +2971,6 @@ feather_fall:
   material: a small feather or a piece of down
   name: Feather Fall
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3134,7 +2995,6 @@ feeblemind:
   material: a handful of clay, crystal, glass, or mineral spheres
   name: Feeblemind
   range: 150 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3155,7 +3015,6 @@ feign_death:
   material: a pinch of graveyard dirt
   name: Feign Death
   range: Touch
-  ritual: true
   sources:
     - PHB
   tags:
@@ -3163,6 +3022,7 @@ feign_death:
     - cleric
     - druid
     - necromancy
+    - ritual
     - wizard
 fey_mischief:
   casting_time: 1 standard action
@@ -3182,7 +3042,6 @@ fey_mischief:
   material: a piece of crust from an apple pie
   name: Fey Mischief
   range: 60 feet
-  ritual: false
   sources:
     - FTD
   tags:
@@ -3210,11 +3069,11 @@ find_familiar:
   material: 10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier
   name: Find Familiar
   range: 10 feet
-  ritual: true
   sources:
     - PHB
   tags:
     - conjuration
+    - ritual
     - wizard
 find_the_path:
   casting_time: 1 minute
@@ -3228,7 +3087,6 @@ find_the_path:
   material: a set of divinatory tools—such as bones, ivory sticks, cards, teeth, or carved runes—worth 100 gp and an object from the location you wish to find
   name: Find the Path
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3247,7 +3105,6 @@ find_traps:
   level: 2
   name: Find Traps
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3266,7 +3123,6 @@ finger_of_death:
   level: 7
   name: Finger of Death
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3285,7 +3141,6 @@ fire_bolt:
   level: 0
   name: Fire Bolt
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3307,7 +3162,6 @@ fire_shield:
   material: a bit of phosphorus or a firefly
   name: Fire Shield
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -3327,7 +3181,6 @@ fire_storm:
   level: 7
   name: Fire Storm
   range: 150 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3347,7 +3200,6 @@ fireball:
   material: a tiny ball of bat guano and sulfur
   name: Fireball
   range: 150 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3362,7 +3214,6 @@ flame_arrows:
   level: 3
   name: Flame Arrows
   range: Touch
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -3387,7 +3238,6 @@ flame_blade:
   material: leaf of sumac
   name: Flame Blade
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -3404,7 +3254,6 @@ flame_strike:
   material: a burnt branch of a fig tree
   name: Flame Strike
   range: 300 feet
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -3425,7 +3274,6 @@ flaming_sphere:
   material: a bit of tallow, a pinch of brimstone, and a dusting of powdered iron
   name: Flaming Sphere
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -3445,7 +3293,6 @@ flaming_stride:
   level: 3
   name: Flaming Stride
   range: Self
-  ritual: false
   sources:
     - FTD
   tags:
@@ -3468,11 +3315,11 @@ floating_disk:
   material: a drop of mercury
   name: Floating Disk
   range: 30 feet
-  ritual: true
   sources:
     - PHB
   tags:
     - conjuration
+    - ritual
     - wizard
 fly:
   casting_time: 1 standard action
@@ -3483,7 +3330,6 @@ fly:
   material: a wing feather from any bird
   name: Fly
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3500,7 +3346,6 @@ fog_cloud:
   level: 1
   name: Fog Cloud
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3525,12 +3370,12 @@ forbiddance:
   material: a sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp
   name: Forbiddance
   range: Touch
-  ritual: true
   sources:
     - PHB
   tags:
     - abjuration
     - cleric
+    - ritual
 foresight:
   casting_time: 1 minute
   components: V, S, M
@@ -3543,7 +3388,6 @@ foresight:
   material: a hummingbird feather
   name: Foresight
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3564,7 +3408,6 @@ freedom_of_movement:
   material: a leather strap, bound around the arm or a similar appendage
   name: Freedom of Movement
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3588,7 +3431,6 @@ freezing_sphere:
   material: a small crystal sphere
   name: Freezing Sphere
   range: 300 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -3605,7 +3447,6 @@ friends:
   material: a small amount of makeup applied to the face as this spell is cast
   name: Friends
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3625,7 +3466,6 @@ frostbite:
   level: 0
   name: Frostbite
   range: 60 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -3650,7 +3490,6 @@ gaseous_form:
   material: a bit of gauze and a wisp of smoke
   name: Gaseous Form
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3674,7 +3513,6 @@ gate:
   material: a diamond worth at least 5,000 gp
   name: Gate
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -3697,7 +3535,6 @@ geas:
   level: 5
   name: Geas
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3719,7 +3556,6 @@ gentle_repose:
   material: a pinch of salt and one copper piece placed on each of the corpse's eyes, which must remain there for the duration
   name: Gentle Repose
   range: Touch
-  ritual: true
   sources:
     - PHB
     - TCE
@@ -3727,6 +3563,7 @@ gentle_repose:
     - cleric
     - necromancy
     - paladin
+    - ritual
     - wizard
 giant_insect:
   casting_time: 1 standard action
@@ -3743,7 +3580,6 @@ giant_insect:
   level: 4
   name: Giant Insect
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3757,7 +3593,6 @@ glibness:
   level: 8
   name: Glibness
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -3777,7 +3612,6 @@ globe_of_invulnerability:
   material: a glass or crystal bead that shatters when the spell ends
   name: Globe of Invulnerability
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3806,7 +3640,6 @@ glyph_of_warding:
   material: incense and powdered diamond worth at least 200 gp, the spell consumes
   name: Glyph of Warding
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3827,7 +3660,6 @@ goodberry:
   material: a sprig of mistletoe
   name: Goodberry
   range: Touch
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -3849,7 +3681,6 @@ grasping_tentacles:
   material: a piece of tentacle from a giant octopus or a giant squid
   name: Grasping Tentacles
   range: 90 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3866,7 +3697,6 @@ grasping_vine:
   level: 4
   name: Grasping Vine
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3885,7 +3715,6 @@ grease:
   material: a bit of pork rind or butter
   name: Grease
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -3902,7 +3731,6 @@ greater_invisibility:
   level: 4
   name: Greater Invisibility
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -3925,7 +3753,6 @@ greater_restoration:
   material: diamond dust worth at least 100 gp, which the spell consumes
   name: Greater Restoration
   range: Touch
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -3948,7 +3775,6 @@ green_flame_blade:
   material: a melee weapon worth at least 1 sp
   name: Green-Flame Blade
   range: Self (5-foot radius)
-  ritual: false
   sources:
     - TCE
   tags:
@@ -3968,7 +3794,6 @@ grim_apparitions:
   level: 3
   name: Grim Apparitions
   range: Self
-  ritual: false
   sources:
     - TCE
     - 2D
@@ -4001,7 +3826,6 @@ guardian_of_nature:
   level: 4
   name: Guardian of Nature
   range: Self
-  ritual: false
   sources:
     - XGE
   tags:
@@ -4040,7 +3864,6 @@ guards_and_wards:
   material: burning incense, a small measure of brimstone and oil, a knotted string, a small amount of umber hulk blood, and a small silver rod worth at least 10 gp
   name: Guards and Wards
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4055,7 +3878,6 @@ guidance:
   level: 0
   name: Guidance
   range: 10 feet
-  ritual: false
   sources:
     - OneDnD
   tags:
@@ -4071,7 +3893,6 @@ guiding_bolt:
   level: 1
   name: Guiding Bolt
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4090,7 +3911,6 @@ gust:
   level: 0
   name: Gust
   range: 30 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -4115,7 +3935,6 @@ gust_of_wind:
   material: a legume seed
   name: Gust of Wind
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -4133,7 +3952,6 @@ hail_of_thorns:
   level: 1
   name: Hail of Thorns
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -4174,7 +3992,6 @@ hallow:
   material: herbs, oils, and incense worth at least 1,000 gp, which the spell consumes
   name: Hallow
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4192,7 +4009,6 @@ hallucinatory_terrain:
   material: a stone, a twig, and a bit of green plant
   name: Hallucinatory Terrain
   range: 300 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4223,7 +4039,6 @@ hand_of_force:
   material: an eggshell and a snakeskin glove
   name: Hand of Force
   range: 120 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -4240,7 +4055,6 @@ harm:
   level: 6
   name: Harm
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4258,7 +4072,6 @@ haste:
   material: a shaving of licorice root
   name: Haste
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4274,7 +4087,6 @@ heal:
   level: 6
   name: Heal
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4294,7 +4106,6 @@ healing_spirit:
   level: 2
   name: Healing Spirit
   range: 60 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -4309,7 +4120,6 @@ healing_word:
   level: 1
   name: Healing Word
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4329,7 +4139,6 @@ heat_metal:
   material: a piece of iron and a flame
   name: Heat Metal
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4345,7 +4154,6 @@ hellish_rebuke:
   level: 1
   name: Hellish Rebuke
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4363,7 +4171,6 @@ heroes_feast:
   material: a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes
   name: Heroes' Feast
   range: 30 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -4380,7 +4187,6 @@ heroism:
   level: 1
   name: Heroism
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4401,7 +4207,6 @@ hex:
   material: the [petrified]($glossary/conditions#) eye of a newt
   name: Hex
   range: 90 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4416,7 +4221,6 @@ hold_monster:
   material: a small, straight piece of iron
   name: Hold Monster
   range: 90 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4434,7 +4238,6 @@ hold_person:
   material: a small, straight piece of iron
   name: Hold Person
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4454,7 +4257,6 @@ holy_aura:
   material: a tiny reliquary worth at least 1,000 gp containing a sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a religious text
   name: Holy Aura
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4473,7 +4275,6 @@ holy_weapon:
   level: 5
   name: Holy Weapon
   range: Touch
-  ritual: false
   sources:
     - XGE
     - 2D
@@ -4492,7 +4293,6 @@ hunger_of_the_void:
   material: a pickled octopus tentacle
   name: Hunger of the Void
   range: 150 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4510,7 +4310,6 @@ hypnotic_pattern:
   material: a glowing stick of incense or a crystal vial filled with phosphorescent material
   name: Hypnotic Pattern
   range: 120 feet
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -4529,7 +4328,6 @@ ice_knife:
   material: a drop of water or a piece of ice
   name: Ice Knife
   range: 60 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -4550,7 +4348,6 @@ ice_storm:
   material: a pinch of dust and a few drops of water
   name: Ice Storm
   range: 300 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4570,13 +4367,13 @@ identify:
   material: a pearl worth at least 100 gp and an owl feather
   name: Identify
   range: Touch
-  ritual: true
   sources:
     - PHB
   tags:
     - artificer
     - bard
     - divination
+    - ritual
     - wizard
 illusory_script:
   casting_time: 1 minute
@@ -4594,12 +4391,12 @@ illusory_script:
   material: a lead-based ink worth at least 10 gp, which this spell consumes
   name: Illusory Script
   range: Touch
-  ritual: true
   sources:
     - PHB
   tags:
     - bard
     - illusion
+    - ritual
     - warlock
     - wizard
 immolation:
@@ -4613,7 +4410,6 @@ immolation:
   level: 5
   name: Immolation
   range: 90 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -4660,7 +4456,6 @@ imprisonment:
   material: a vellum depiction or a carved statuette in the likeness of the target, and a special component that varies according to the version of the spell you choose, worth at least 500 gp per Hit Die of the target
   name: Imprisonment
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4680,7 +4475,6 @@ incendiary_cloud:
   level: 8
   name: Incendiary Cloud
   range: 150 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -4705,7 +4499,6 @@ indestructible_sphere:
   material: a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic
   name: Indestructible Sphere
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4724,7 +4517,6 @@ infestation:
   material: a living flea
   name: Infestation
   range: 30 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -4741,7 +4533,6 @@ inflict_wounds:
   level: 1
   name: Inflict Wounds
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4759,7 +4550,6 @@ insect_plague:
   material: a few grains of sugar, some kernels of grain, and a smear of fat
   name: Insect Plague
   range: 300 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4778,7 +4568,6 @@ intellect_fortress:
   level: 3
   name: Intellect Fortress
   range: 30 feet
-  ritual: false
   sources:
     - TCE
   tags:
@@ -4801,7 +4590,6 @@ investiture_of_flame:
   level: 6
   name: Investiture of Flame
   range: Self
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -4825,7 +4613,6 @@ investiture_of_ice:
   level: 6
   name: Investiture of Ice
   range: Self
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -4848,7 +4635,6 @@ investiture_of_stone:
   level: 6
   name: Investiture of Stone
   range: Self
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -4871,7 +4657,6 @@ investiture_of_wind:
   level: 6
   name: Investiture of Wind
   range: Self
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -4890,7 +4675,6 @@ invisibility:
   material: an eyelash encased in gum arabic
   name: Invisibility
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4909,7 +4693,6 @@ invulnerability:
   material: a piece of adamantine armor worth at least 5,000 gp, which you must wear for the duration of the spell
   name: Invulnerability
   range: Self
-  ritual: false
   sources:
     - XGE
     - 2D
@@ -4927,7 +4710,6 @@ irresistible_dance:
   level: 6
   name: Irresistible Dance
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4943,7 +4725,6 @@ jump:
   material: a grasshopper's hind leg
   name: Jump
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4968,7 +4749,6 @@ knock:
   level: 2
   name: Knock
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -4988,7 +4768,6 @@ legend_lore:
   material: incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each
   name: Legend Lore
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5004,7 +4783,6 @@ lesser_restoration:
   level: 2
   name: Lesser Restoration
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5029,7 +4807,6 @@ levitate:
   material: either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end
   name: Levitate
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5045,7 +4822,6 @@ life_transference:
   level: 3
   name: Life Transference
   range: 30 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -5064,7 +4840,6 @@ light:
   material: a firefly or phosphorescent moss
   name: Light
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5087,7 +4862,6 @@ lightning_arrow:
   level: 3
   name: Lightning Arrow
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -5106,7 +4880,6 @@ lightning_bolt:
   material: a bit of fur and a rod of amber, crystal, or glass
   name: Lightning Bolt
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5124,7 +4897,6 @@ lightning_lure:
   level: 0
   name: Lightning Lure
   range: Self (15-foot radius)
-  ritual: false
   sources:
     - TCE
   tags:
@@ -5147,7 +4919,6 @@ locate:
   material: a forked twig
   name: Locate
   range: 10 miles
-  ritual: false
   sources:
     - 2D
   tags:
@@ -5167,7 +4938,6 @@ longstrider:
   material: a pinch of dirt
   name: Longstrider
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5189,7 +4959,6 @@ maddening_darkness:
   material: a drop of pitch mixed with a drop of mercury
   name: Maddening Darkness
   range: 150 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -5205,7 +4974,6 @@ maelstrom:
   material: paper or leaf in the shape of a funnel
   name: Maelstrom
   range: 120 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -5221,7 +4989,6 @@ mage_armor:
   material: a piece of cured leather
   name: Mage Armor
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5241,7 +5008,6 @@ mage_hand:
   level: 0
   name: Mage Hand
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5269,7 +5035,6 @@ magic_circle:
   material: holy water or powdered silver and iron worth at least 100 gp, which the spell consumes
   name: Magic Circle
   range: 10 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5300,7 +5065,6 @@ magic_jar:
   material: a gem, crystal, reliquary, or some other ornamental container worth at least 500 gp
   name: Magic Jar
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5314,7 +5078,6 @@ magic_missile:
   level: 1
   name: Magic Missile
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5335,13 +5098,13 @@ magic_mouth:
   material: a small bit of honeycomb and jade dust worth at least 10 gp, which the spell consumes
   name: Magic Mouth
   range: 30 feet
-  ritual: true
   sources:
     - PHB
   tags:
     - artificer
     - bard
     - illusion
+    - ritual
     - wizard
 magic_stone:
   casting_time: 1 minor action
@@ -5354,7 +5117,6 @@ magic_stone:
   level: 0
   name: Magic Stone
   range: Touch
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -5371,7 +5133,6 @@ magic_weapon:
   level: 2
   name: Magic Weapon
   range: Touch
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -5396,7 +5157,6 @@ major_image:
   material: a bit of fleece
   name: Major Image
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5414,7 +5174,6 @@ mantle_of_meteors:
   material: niter, sulfur, and pine tar formed into a bead
   name: Mantle of Meteors
   range: Self
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -5430,7 +5189,6 @@ mass_cure_wounds:
   level: 5
   name: Mass Cure Wounds
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5446,7 +5204,6 @@ mass_heal:
   level: 9
   name: Mass Heal
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5460,7 +5217,6 @@ mass_healing_word:
   level: 3
   name: Mass Healing Word
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -5480,7 +5236,6 @@ mass_polymorph:
   material: a caterpillar cocoon
   name: Mass Polymorph
   range: 120 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -5504,7 +5259,6 @@ mass_suggestion:
   material: a snake's tongue and either a bit of honeycomb or a drop of sweet oil
   name: Mass Suggestion
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5526,7 +5280,6 @@ meld_into_stone:
   level: 3
   name: Meld into Stone
   range: Touch
-  ritual: true
   sources:
     - PHB
     - TCE
@@ -5534,6 +5287,7 @@ meld_into_stone:
     - cleric
     - druid
     - ranger
+    - ritual
     - transmutation
 mending:
   casting_time: 1 minute
@@ -5547,7 +5301,6 @@ mending:
   material: two lodestones
   name: Mending
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5566,7 +5319,6 @@ mental_prison:
   level: 6
   name: Mental Prison
   range: 60 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -5586,7 +5338,6 @@ message:
   material: a short piece of copper wire
   name: Message
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5606,7 +5357,6 @@ meteor_swarm:
   level: 9
   name: Meteor Swarm
   range: 1 mile
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5633,7 +5383,6 @@ mighty_fortress:
   material: a diamond worth at least 500 gp, which the spell consumes
   name: Mighty Fortress
   range: 1 mile
-  ritual: false
   sources:
     - XGE
   tags:
@@ -5647,7 +5396,6 @@ mind_blank:
   level: 8
   name: Mind Blank
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5665,7 +5413,6 @@ mind_sliver:
   level: 0
   name: Mind Sliver
   range: 60 feet
-  ritual: false
   sources:
     - TCE
   tags:
@@ -5681,7 +5428,6 @@ mind_spike:
   level: 2
   name: Mind Spike
   range: 60 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -5697,7 +5443,6 @@ mind_whip:
   level: 2
   name: Mind Whip
   range: 90 feet
-  ritual: false
   sources:
     - TCE
   tags:
@@ -5720,7 +5465,6 @@ minor_illusion:
   material: a bit of fleece
   name: Minor Illusion
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5744,7 +5488,6 @@ mirage_arcane:
   level: 7
   name: Mirage Arcane
   range: Sight
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5769,7 +5512,6 @@ mirror_image:
   level: 2
   name: Mirror Image
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -5799,7 +5541,6 @@ mirror_mansion:
   material: a miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each item worth at least 5 gp
   name: Mirror Mansion
   range: 300 feet
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -5820,7 +5561,6 @@ mislead:
   level: 5
   name: Mislead
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -5837,7 +5577,6 @@ misty_step:
   level: 2
   name: Misty Step
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5862,7 +5601,6 @@ modify_memory:
   level: 5
   name: Modify Memory
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5884,7 +5622,6 @@ mold_earth:
   level: 0
   name: Mold Earth
   range: 30 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -5909,7 +5646,6 @@ moonbeam:
   material: several seeds of any moonseed plant and a piece of opalescent feldspar
   name: Moonbeam
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5933,7 +5669,6 @@ move_earth:
   material: an iron blade and a small bag containing a mixture of soils—clay, loam, and sand
   name: Move Earth
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5953,7 +5688,6 @@ negative_energy_flood:
   material: a broken bone and a square of black silk
   name: Negative Energy Flood
   range: 60 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -5969,7 +5703,6 @@ nondetection:
   material: a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes
   name: Nondetection
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -5994,7 +5727,6 @@ otherworldly_guise:
   material: an object engraved with a symbol of the Outer Planes, worth at least 500 gp
   name: Otherworldly Guise
   range: Self
-  ritual: false
   sources:
     - TCE
   tags:
@@ -6010,7 +5742,6 @@ otherworldly_tendrils:
   level: 1
   name: Otherworldly Tendrils
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6025,7 +5756,6 @@ pass_without_trace:
   material: ashes from a burned leaf of mistletoe and a sprig of spruce
   name: Pass without Trace
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6044,7 +5774,6 @@ passwall:
   material: a pinch of sesame seeds
   name: Passwall
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6066,7 +5795,6 @@ petrify:
   material: a pinch of lime, water, and earth
   name: Petrify
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -6095,7 +5823,6 @@ phantasmal_force:
   material: a bit of fleece
   name: Phantasmal Force
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6111,7 +5838,6 @@ phantasmal_killer:
   level: 4
   name: Phantasmal Killer
   range: 120 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -6133,7 +5859,6 @@ phantom_hound:
   material: a tiny silver whistle, a piece of bone, and a thread
   name: Phantom Hound
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6151,11 +5876,11 @@ phantom_steed:
   level: 3
   name: Phantom Steed
   range: 30 feet
-  ritual: true
   sources:
     - PHB
   tags:
     - illusion
+    - ritual
     - wizard
 planar_binding:
   casting_time: 1 hour
@@ -6169,7 +5894,6 @@ planar_binding:
   material: a jewel worth at least 1,000 gp, which the spell consumes
   name: Planar Binding
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -6194,7 +5918,6 @@ plane_shift:
   material: a forked, metal rod worth at least 250 gp, attuned to a particular plane of existence
   name: Plane Shift
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6212,7 +5935,6 @@ plant_growth:
   level: 3
   name: Plant Growth
   range: 150 feet
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -6238,7 +5960,6 @@ platinum_shield:
   material: a platinum-plated dragon scale, worth at least 500 gp
   name: Platinum Shield
   range: 60 feet
-  ritual: false
   sources:
     - FTD
   tags:
@@ -6256,7 +5977,6 @@ poison_spray:
   level: 0
   name: Poison Spray
   range: 10 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6277,7 +5997,6 @@ polymorph:
   material: a caterpillar cocoon
   name: Polymorph
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6294,7 +6013,6 @@ power_word_heal:
   level: 9
   name: Power Word Heal
   range: Touch
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -6310,7 +6028,6 @@ power_word_kill:
   level: 9
   name: Power Word Kill
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6330,7 +6047,6 @@ power_word_pain:
   level: 7
   name: Power Word Pain
   range: 60 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -6346,7 +6062,6 @@ power_word_stun:
   level: 8
   name: Power Word Stun
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6363,7 +6078,6 @@ prayer_of_healing:
   level: 2
   name: Prayer of Healing
   range: 30 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -6389,7 +6103,6 @@ prestidigitation:
   level: 0
   name: Prestidigitation
   range: 10 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6410,7 +6123,6 @@ primal_savagery:
   level: 0
   name: Primal Savagery
   range: Self
-  ritual: false
   sources:
     - XGE
   tags:
@@ -6427,7 +6139,6 @@ primordial_ward:
   level: 6
   name: Primordial Ward
   range: Self
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -6459,7 +6170,6 @@ prismatic_spray:
   level: 7
   name: Prismatic Spray
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -6481,7 +6191,6 @@ produce_flame:
   level: 0
   name: Produce Flame
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6503,7 +6212,6 @@ programmed_illusion:
   material: a bit of fleece and jade dust worth at least 25 gp
   name: Programmed Illusion
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6526,7 +6234,6 @@ project_image:
   material: a small replica of you made from materials worth at least 5 gp
   name: Project Image
   range: 500 miles
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6541,7 +6248,6 @@ protection_from_energy:
   level: 3
   name: Protection from Energy
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6564,7 +6270,6 @@ protection_from_evil_and_good:
   material: holy water or powdered silver and iron, which the spell consumes
   name: Protection from Evil and Good
   range: Touch
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -6586,7 +6291,6 @@ protection_from_poison:
   level: 2
   name: Protection from Poison
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6607,7 +6311,6 @@ psychic_lance:
   level: 4
   name: Psychic Lance
   range: 120 feet
-  ritual: false
   sources:
     - FTD
   tags:
@@ -6627,7 +6330,6 @@ psychic_scream:
   level: 9
   name: Psychic Scream
   range: 90 feet
-  ritual: false
   sources:
     - XGE
     - 2D
@@ -6645,7 +6347,6 @@ purify_food_and_drink:
   level: 1
   name: Purify Food and Drink
   range: 10 feet
-  ritual: true
   sources:
     - PHB
   tags:
@@ -6653,6 +6354,7 @@ purify_food_and_drink:
     - cleric
     - druid
     - paladin
+    - ritual
     - transmutation
 pyrotechnics:
   casting_time: 1 standard action
@@ -6667,7 +6369,6 @@ pyrotechnics:
   level: 2
   name: Pyrotechnics
   range: 60 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -6693,7 +6394,6 @@ raise_dead:
   material: a diamond worth at least 500 gp, which the spell consumes
   name: Raise Dead
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6709,7 +6409,6 @@ ray_of_enfeeblement:
   level: 2
   name: Ray of Enfeeblement
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6727,7 +6426,6 @@ ray_of_frost:
   level: 0
   name: Ray of Frost
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6743,7 +6441,6 @@ ray_of_sickness:
   level: 1
   name: Ray of Sickness
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6762,7 +6459,6 @@ regenerate:
   material: a prayer wheel and holy water
   name: Regenerate
   range: Touch
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -6802,7 +6498,6 @@ reincarnate:
   material: rare oils and unguents worth at least 1,000 gp, which the spell consumes
   name: Reincarnate
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6816,7 +6511,6 @@ remove_curse:
   level: 3
   name: Remove Curse
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6833,7 +6527,6 @@ resistance:
   level: 0
   name: Resistance
   range: 10 feet
-  ritual: false
   sources:
     - OneDnD
   tags:
@@ -6857,7 +6550,6 @@ resurrection:
   material: a diamond worth at least 1,000 gp, which the spell consumes
   name: Resurrection
   range: Touch
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -6879,7 +6571,6 @@ reverse_gravity:
   material: a lodestone and iron filings
   name: Reverse Gravity
   range: 100 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6896,7 +6587,6 @@ revivify:
   material: diamonds worth 300 gp, which the spell consumes
   name: Revivify
   range: Touch
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -6923,7 +6613,6 @@ rope_trick:
   material: powdered corn extract and a twisted loop of parchment
   name: Rope Trick
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6941,7 +6630,6 @@ sacred_flame:
   level: 0
   name: Sacred Flame
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6959,7 +6647,6 @@ sanctuary:
   material: a small silver mirror
   name: Sanctuary
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -6987,7 +6674,6 @@ sanctum:
   material: a thin sheet of lead, a piece of opaque glass, a wad of cotton or cloth, and powdered chrysolite
   name: Sanctum
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7002,7 +6688,6 @@ scatter:
   level: 6
   name: Scatter
   range: 30 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -7019,7 +6704,6 @@ scorching_blast:
   material: a red dragon's scale
   name: Scorching Blast
   range: 30 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -7038,7 +6722,6 @@ scorching_ray:
   level: 2
   name: Scorching Ray
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7073,7 +6756,6 @@ scrying:
   material: a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water
   name: Scrying
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7090,7 +6772,6 @@ searing_smite:
   level: 1
   name: Searing Smite
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -7113,13 +6794,13 @@ secret_chest:
   material: a chest, 3 feet by 2 feet by 2 feet, constructed from special materials worth at least 500 gp, and a Tiny replica made from the same materials worth at least 50 gp
   name: Secret Chest
   range: Touch
-  ritual: true
   sources:
     - PHB
     - 2D
   tags:
     - artificer
     - conjuration
+    - ritual
     - wizard
 see_invisibility:
   casting_time: 1 standard action
@@ -7130,7 +6811,6 @@ see_invisibility:
   material: a pinch of talc and a small sprinkling of powdered silver
   name: See Invisibility
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7154,7 +6834,6 @@ seeming:
   level: 5
   name: Seeming
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7176,7 +6855,6 @@ sequester:
   material: a powder composed of diamond, emerald, ruby, and sapphire dust worth at least 5,000 gp, which the spell consumes
   name: Sequester
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7193,7 +6871,6 @@ shadow_blade:
   level: 2
   name: Shadow Blade
   range: Self
-  ritual: false
   sources:
     - XGE
   tags:
@@ -7217,7 +6894,6 @@ shape_water:
   level: 0
   name: Shape Water
   range: 30 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -7244,7 +6920,6 @@ shapechange:
   material: a jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell
   name: Shapechange
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7263,7 +6938,6 @@ shatter:
   material: a chip of mica
   name: Shatter
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7280,7 +6954,6 @@ shield:
   level: 1
   name: Shield
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -7297,7 +6970,6 @@ shield_of_faith:
   material: a small parchment with a bit of holy text written on it
   name: Shield of Faith
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7313,7 +6985,6 @@ shillelagh:
   material: mistletoe, a shamrock leaf, and a club or quarterstaff
   name: Shillelagh
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7330,7 +7001,6 @@ shocking_grasp:
   level: 0
   name: Shocking Grasp
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7349,7 +7019,6 @@ sickening_radiance:
   level: 4
   name: Sickening Radiance
   range: 120 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -7368,7 +7037,6 @@ silence:
   level: 2
   name: Silence
   range: 120 feet
-  ritual: true
   sources:
     - PHB
   tags:
@@ -7376,6 +7044,7 @@ silence:
     - cleric
     - illusion
     - ranger
+    - ritual
 silent_image:
   casting_time: 1 standard action
   components: V, S, M
@@ -7390,7 +7059,6 @@ silent_image:
   material: a bit of fleece
   name: Silent Image
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7414,7 +7082,6 @@ simulacrum:
   material: wood, stone, snow, or other material in quantities sufficient to made a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature's body placed inside the snow or ice; and powdered ruby worth 1,500 gp, sprinkled over the duplicate and consumed by the spell
   name: Simulacrum
   range: Touch
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -7429,7 +7096,6 @@ skywrite:
   level: 2
   name: Skywrite
   range: Sight
-  ritual: true
   sources:
     - EEPC
     - XGE
@@ -7437,6 +7103,7 @@ skywrite:
     - artificer
     - bard
     - druid
+    - ritual
     - transmutation
     - wizard
 sleep:
@@ -7453,7 +7120,6 @@ sleep:
   material: a pinch of fine sand, rose petals, or a cricket
   name: Sleep
   range: 90 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7475,7 +7141,6 @@ sleet_storm:
   material: a pinch of dust and a few drops of water
   name: Sleet Storm
   range: 150 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7497,7 +7162,6 @@ slow:
   material: a drop of molasses
   name: Slow
   range: 120 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -7516,7 +7180,6 @@ snow_flurry:
   material: a piece of ice or a small white rock chip
   name: Snow Flurry
   range: 90 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -7544,7 +7207,6 @@ soul_cage:
   material: a tiny silver cage worth 100 gp
   name: Soul Cage
   range: 60 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -7559,7 +7221,6 @@ spare_the_dying:
   level: 0
   name: Spare the Dying
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7574,7 +7235,6 @@ speak_with_animals:
   level: 1
   name: Speak with Animals
   range: Self
-  ritual: true
   sources:
     - PHB
   tags:
@@ -7582,6 +7242,7 @@ speak_with_animals:
     - divination
     - druid
     - ranger
+    - ritual
 speak_with_dead:
   casting_time: 1 standard action
   components: V, S, M
@@ -7594,7 +7255,6 @@ speak_with_dead:
   material: burning incense
   name: Speak with Dead
   range: 10 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -7620,7 +7280,6 @@ speak_with_plants:
   level: 3
   name: Speak with Plants
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7637,7 +7296,6 @@ spider_climb:
   material: a drop of bitumen and a spider
   name: Spider Climb
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7658,7 +7316,6 @@ spike_growth:
   material: seven sharp thorns or seven small twigs, each sharpened to a point
   name: Spike Growth
   range: 150 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7677,7 +7334,6 @@ spirit_guardians:
   material: a holy symbol
   name: Spirit Guardians
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -7697,7 +7353,6 @@ spiritual_weapon:
   level: 2
   name: Spiritual Weapon
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -7712,7 +7367,6 @@ staggering_smite:
   level: 4
   name: Staggering Smite
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -7731,7 +7385,6 @@ steel_wind_strike:
   material: a melee weapon worth at least 1 sp
   name: Steel Wind Strike
   range: 30 feet
-  ritual: false
   sources:
     - XGE
     - 2D
@@ -7753,7 +7406,6 @@ stinking_cloud:
   material: a rotten egg or several skunk cabbage leaves
   name: Stinking Cloud
   range: 90 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7770,7 +7422,6 @@ stone_shape:
   material: soft clay, to be crudely worked into the desired shape for the stone object
   name: Stone Shape
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7788,7 +7439,6 @@ stoneskin:
   material: a perfectly cut stone worth 100 gp
   name: Stoneskin
   range: Touch
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -7820,7 +7470,6 @@ storm_of_vengeance:
   level: 9
   name: Storm of Vengeance
   range: Sight
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7839,7 +7488,6 @@ storm_sphere:
   level: 4
   name: Storm Sphere
   range: 150 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -7863,7 +7511,6 @@ suggestion:
   material: a snake's tongue and either a bit of honeycomb or a drop of sweet oil
   name: Suggestion
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -7886,7 +7533,6 @@ summon_aberration:
   material: halves of two different humanoid brains, preserved with special fluids worth at least 400 gp
   name: Summon Aberration
   range: 90 feet
-  ritual: false
   sources:
     - TCE
     - 2D
@@ -7906,7 +7552,6 @@ summon_beast:
   material: rare honeys and preserved meat worth at least 200 gp
   name: Summon Beast
   range: 90 feet
-  ritual: false
   sources:
     - TCE
     - 2D
@@ -7929,7 +7574,6 @@ summon_celestial:
   material: a reliquary worth at least 600 gp
   name: Summon Celestial
   range: 90 feet
-  ritual: false
   sources:
     - TCE
     - 2D
@@ -7950,7 +7594,6 @@ summon_construct:
   material: an intricate figurine made of stone, metal, or wood worth at least 400 gp
   name: Summon Construct
   range: 90 feet
-  ritual: false
   sources:
     - TCE
     - 2D
@@ -7973,7 +7616,6 @@ summon_dragon:
   material: an object with the image of a dragon engraved on it, worth at least 500 gp
   name: Summon Dragon
   range: 60 feet
-  ritual: false
   sources:
     - FTD
     - 2D
@@ -7996,7 +7638,6 @@ summon_elemental:
   material: a bottle containing elemental air, earth, fire, or water, which can be prepared in a 1-hour ritual by expending at least 400 gp worth of special materials
   name: Summon Elemental
   range: 90 feet
-  ritual: false
   sources:
     - TCE
     - 2D
@@ -8017,7 +7658,6 @@ summon_fey:
   material: a gilded flower, flask of fine wine, or golden tooth, worth at least 300 gp
   name: Summon Fey
   range: 90 feet
-  ritual: false
   sources:
     - TCE
     - 2D
@@ -8041,7 +7681,6 @@ summon_fiend:
   material: a ruby-hilted dagger worth at least 600 gp
   name: Summon Fiend
   range: 90 feet
-  ritual: false
   sources:
     - TCE
     - 2D
@@ -8061,7 +7700,6 @@ summon_monstrosity:
   material: flesh infused with at least 300 gp worth of preservatives and oils
   name: Summon Monstrosity
   range: 90 feet
-  ritual: false
   sources:
     - TCE
     - 2D
@@ -8083,7 +7721,6 @@ summon_undead:
   material: a gilded skull worth at least 300 gp
   name: Summon Undead
   range: 90 feet
-  ritual: false
   sources:
     - TCE
     - 2D
@@ -8105,7 +7742,6 @@ sunbeam:
   material: a magnifying glass
   name: Sunbeam
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -8127,7 +7763,6 @@ sunburst:
   material: fire and a piece of sunstone
   name: Sunburst
   range: 150 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -8149,7 +7784,6 @@ swift_quiver:
   material: a quiver containing at least one piece of ammunition
   name: Swift Quiver
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8166,7 +7800,6 @@ sword_burst:
   level: 0
   name: Sword Burst
   range: Self (5-foot radius)
-  ritual: false
   sources:
     - TCE
   tags:
@@ -8209,7 +7842,6 @@ symbol:
   material: mercury, phosphorus, and powdered diamond and opal with a total value of at least 1,000 gp, which the spell consumes
   name: Symbol
   range: Touch
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -8230,7 +7862,6 @@ synaptic_static:
   level: 5
   name: Synaptic Static
   range: 120 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -8258,7 +7889,6 @@ telekinesis:
   level: 5
   name: Telekinesis
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8277,13 +7907,13 @@ telepathic_bond:
   material: pieces of eggshell from two different kinds of creatures
   name: Telepathic Bond
   range: 30 feet
-  ritual: true
   sources:
     - PHB
     - TCE
   tags:
     - bard
     - divination
+    - ritual
     - wizard
 telepathy:
   casting_time: 1 standard action
@@ -8297,7 +7927,6 @@ telepathy:
   material: a pair of linked silver rings
   name: Telepathy
   range: Unlimited
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8338,7 +7967,6 @@ teleport:
   level: 7
   name: Teleport
   range: 10 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8360,7 +7988,6 @@ teleportation_circle:
   material: rare chalks and inks infused with precious gems with 50 gp, which the spell consumes
   name: Teleportation Circle
   range: 10 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -8394,7 +8021,6 @@ temple_of_the_gods:
   material: a holy symbol worth at least 5 gp
   name: Temple of the Gods
   range: 120 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -8418,7 +8044,6 @@ thaumaturgy:
   level: 0
   name: Thaumaturgy
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8436,7 +8061,6 @@ thorn_whip:
   material: the stem of a plant with thorns
   name: Thorn Whip
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8454,7 +8078,6 @@ thunder_step:
   level: 3
   name: Thunder Step
   range: 90 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -8473,7 +8096,6 @@ thunderclap:
   level: 0
   name: Thunderclap
   range: 5 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -8493,7 +8115,6 @@ thunderous_smite:
   level: 1
   name: Thunderous Smite
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -8511,7 +8132,6 @@ thunderwave:
   level: 1
   name: Thunderwave
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8529,7 +8149,6 @@ tidal_wave:
   material: a drop of water
   name: Tidal Wave
   range: 120 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -8549,7 +8168,6 @@ time_stop:
   level: 9
   name: Time Stop
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8569,7 +8187,6 @@ tiny_servant:
   level: 3
   name: Tiny Servant
   range: Touch
-  ritual: false
   sources:
     - XGE
   tags:
@@ -8587,7 +8204,6 @@ toll_the_dead:
   level: 0
   name: Toll the Dead
   range: 60 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -8604,7 +8220,6 @@ tongues:
   material: a small clay model of a ziggurat
   name: Tongues
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8632,7 +8247,6 @@ transmute_rock:
   material: clay and water
   name: Transmute Rock
   range: 120 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -8649,7 +8263,6 @@ transport_via_plants:
   level: 6
   name: Transport via Plants
   range: 10 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8666,7 +8279,6 @@ tree_stride:
   level: 5
   name: Tree Stride
   range: Self
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8689,7 +8301,6 @@ true_polymorph:
   material: a drop of mercury, a dollop of gum arabic, and a wisp of smoke
   name: True Polymorph
   range: 30 feet
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -8712,7 +8323,6 @@ true_resurrection:
   material: a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes
   name: True Resurrection
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8728,7 +8338,6 @@ true_seeing:
   material: an ointment for the eyes that costs 25 gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell
   name: True Seeing
   range: Touch
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8746,7 +8355,6 @@ true_strike:
   level: 0
   name: True Strike
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8770,7 +8378,6 @@ tsunami:
   level: 8
   name: Tsunami
   range: Sight
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8790,12 +8397,12 @@ unseen_servant:
   material: a piece of string and a bit of wood
   name: Unseen Servant
   range: 60 feet
-  ritual: true
   sources:
     - PHB
   tags:
     - bard
     - conjuration
+    - ritual
     - warlock
     - wizard
 vampiric_touch:
@@ -8806,7 +8413,6 @@ vampiric_touch:
   level: 3
   name: Vampiric Touch
   range: Self
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -8826,7 +8432,6 @@ vicious_mockery:
   level: 0
   name: Vicious Mockery
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8841,7 +8446,6 @@ vitriolic_sphere:
   material: a drop of a giant slug bile
   name: Vitriolic Sphere
   range: 150 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -8863,7 +8467,6 @@ wall_of_fire:
   material: a small piece of phosphorus
   name: Wall of Fire
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8885,7 +8488,6 @@ wall_of_force:
   material: a pinch of powder made by crushing a clear gemstone
   name: Wall of Force
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8906,7 +8508,6 @@ wall_of_ice:
   material: a small piece of quartz
   name: Wall of Ice
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8928,7 +8529,6 @@ wall_of_light:
   material: a hand mirror
   name: Wall of Light
   range: 120 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -8945,7 +8545,6 @@ wall_of_sand:
   material: a handful of sand
   name: Wall of Sand
   range: 90 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -8972,7 +8571,6 @@ wall_of_stone:
   material: a small block of granite
   name: Wall of Stone
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -8995,7 +8593,6 @@ wall_of_thorns:
   material: a handful of thorns
   name: Wall of Thorns
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -9013,7 +8610,6 @@ wall_of_water:
   material: a drop of water
   name: Wall of Water
   range: 60 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -9034,7 +8630,6 @@ warding_bond:
   material: a platinum ring worth at least 50 gp, which you must wear for the duration
   name: Warding Bond
   range: 60 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -9058,7 +8653,6 @@ warding_wind:
   level: 2
   name: Warding Wind
   range: Self
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -9077,13 +8671,13 @@ water_breathing:
   material: a short reed or piece of straw
   name: Water Breathing
   range: 30 feet
-  ritual: true
   sources:
     - PHB
   tags:
     - artificer
     - druid
     - ranger
+    - ritual
     - sorcerer
     - transmutation
     - wizard
@@ -9098,7 +8692,6 @@ water_walk:
   level: 3
   name: Water Walk
   range: 30 feet
-  ritual: true
   sources:
     - PHB
   tags:
@@ -9106,6 +8699,7 @@ water_walk:
     - cleric
     - druid
     - ranger
+    - ritual
     - sorcerer
     - transmutation
 watery_sphere:
@@ -9126,7 +8720,6 @@ watery_sphere:
   material: a droplet of water
   name: Watery Sphere
   range: 90 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -9153,7 +8746,6 @@ web:
   material: a bit of spiderweb
   name: Web
   range: 60 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -9169,7 +8761,6 @@ weird:
   level: 9
   name: Weird
   range: 120 feet
-  ritual: false
   sources:
     - PHB
     - TCE
@@ -9192,7 +8783,6 @@ whirlwind:
   material: a piece of straw
   name: Whirlwind
   range: 300 feet
-  ritual: false
   sources:
     - EEPC
     - XGE
@@ -9213,7 +8803,6 @@ wind_walk:
   material: fire and holy water
   name: Wind Walk
   range: 30 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -9233,7 +8822,6 @@ wind_wall:
   material: a tiny fan and a feather of exotic origin
   name: Wind Wall
   range: 120 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -9249,7 +8837,6 @@ witch_bolt:
   material: a twig from a tree that has been struck by lightning
   name: Witch Bolt
   range: 30 feet
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -9270,7 +8857,6 @@ word_of_radiance:
   material: a holy symbol
   name: Word of Radiance
   range: 5 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -9287,7 +8873,6 @@ word_of_recall:
   level: 6
   name: Word of Recall
   range: 5 feet
-  ritual: false
   sources:
     - PHB
   tags:
@@ -9310,7 +8895,6 @@ wrath_of_nature:
   level: 5
   name: Wrath of Nature
   range: 120 feet
-  ritual: false
   sources:
     - XGE
   tags:
@@ -9325,7 +8909,6 @@ wrathful_smite:
   level: 1
   name: Wrathful Smite
   range: Self
-  ritual: false
   sources:
     - PHB
     - 2D
@@ -9343,7 +8926,6 @@ zephyr_strike:
   level: 1
   name: Zephyr Strike
   range: Self
-  ritual: false
   sources:
     - XGE
   tags:
