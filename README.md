@@ -12,6 +12,7 @@ The yaml style can be reproduced with `js-yaml` (https://www.npmjs.com/package/j
 ```yml
 name: string
 description: markdown
+higher_level: markdown
 level: int
 range: string
 components: string
