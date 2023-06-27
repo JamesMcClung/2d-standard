@@ -517,6 +517,7 @@ banishing_smite:
   tags:
     - abjuration
     - paladin
+    - smite
 banishment:
   casting_time: 1 standard action
   components: V, S, M
@@ -758,6 +759,7 @@ blinding_smite:
   tags:
     - evocation
     - paladin
+    - smite
 blindness_deafness:
   casting_time: 1 standard action
   components: V
@@ -869,6 +871,7 @@ branding_smite:
   tags:
     - evocation
     - paladin
+    - smite
 burning_hands:
   casting_time: 1 standard action
   components: V, S
@@ -2934,6 +2937,7 @@ ensnaring_strike:
   tags:
     - conjuration
     - ranger
+    - smite
 entangle:
   casting_time: 1 standard action
   components: V, S
@@ -4212,6 +4216,7 @@ hail_of_thorns:
   tags:
     - conjuration
     - ranger
+    - smite
 hallow:
   casting_time: 24 hours
   components: V, S, M
@@ -5185,6 +5190,7 @@ lightning_arrow:
   tags:
     - ranger
     - transmutation
+    - smite
 lightning_bolt:
   casting_time: 1 standard action
   components: V, S, M
@@ -7221,6 +7227,7 @@ searing_smite:
     - evocation
     - paladin
     - ranger
+    - smite
 secret_chest:
   casting_time: 1 standard action
   components: V, S, M
@@ -7872,6 +7879,7 @@ staggering_smite:
   tags:
     - evocation
     - paladin
+    - smite
 steel_wind_strike:
   casting_time: 1 standard action
   components: S, M
@@ -8666,6 +8674,7 @@ thunderous_smite:
   tags:
     - evocation
     - paladin
+    - smite
 thunderwave:
   casting_time: 1 standard action
   components: V, S
@@ -9509,6 +9518,7 @@ wrathful_smite:
   tags:
     - evocation
     - paladin
+    - smite
 zephyr_strike:
   casting_time: 1 minor action
   components: V
