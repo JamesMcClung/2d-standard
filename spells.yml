@@ -895,6 +895,22 @@ blink:
     - sorcerer
     - transmutation
     - wizard
+bloat_burst:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: false
+  description: You cause a decaying corpse within range to burst, destroying the corpse in an explosion of putrid viscera. Each creature within 5 feet of the corpse must make a Dexterity saving throw. A target takes poison damage equal to four rolls of the corpse's size die on a failed save, or half as much on a successful one. A target that fails its save by 5 or more is also poisoned by the foul substance until it uses a minor action to clean it off.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can cause an additional corpse to explode for each slot level above 2nd. A creature in the area of multiple explosions is only affected once, by the largest one.
+  level: 2
+  material: an unclean needle
+  name: Bloat Burst
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 blur:
   casting_time: 1 standard action
   components: V
@@ -913,6 +929,21 @@ blur:
     - magus
     - sorcerer
     - wizard
+bolster_undead:
+  casting_time: 1 standard action
+  components: V
+  concentration: false
+  description: Choose up to three undead within range that you can see. Each target gains a number of temporary hit points equal to your spellcasting ability modifier, which disappear when the spell ends. While a target has these temporary hit points, it has advantage on ability checks.
+  duration: 1 hour
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, each target gains an additional 1d8 temporary hit points for each slot level above 1st.
+  level: 1
+  name: Bolster Undead
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 bones_of_the_earth:
   casting_time: 1 standard action
   components: V, S
@@ -1000,6 +1031,26 @@ burning_hands:
     - magus
     - sorcerer
     - wizard
+cadaverous_puppet:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: |-
+    You wrest control of a Medium or smaller corpse or skeleton within range. You control the body for the duration of the spell.
+
+    When you cast this spell, and as a minor action on subsequent turns, you can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing unless you will otherwise. You can also have the body perform simple tasks as part of this action, such as opening a door or pushing a rock. You can't cause the body to attack in this way, however.
+
+    The body counts as an object. It has 15 hit points, 10 AC, and immunity to necrotic, poison, and psychic damage. It uses the Strength, Dexterity, and Constitution scores it had in life. If the body is reduced to 0 hit points, it is destroyed and the spell ends.
+  duration: Up to 8 hours
+  higher_level: When you cast this spell using a spell slot of 3rd level, you can animate a Large or smaller body. When you cast this spell using a spell slot of 4th level, you can animate a Huge or smaller body. When you cast this spell using a spell slot of 5th level or higher, you can animate a body of any size. The body also has an additional 15 hp for each slot level above 2nd.
+  level: 2
+  name: Cadaverous Puppet
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 call_lightning:
   casting_time: 1 standard action
   components: V, S
@@ -1398,6 +1449,27 @@ cloudkill:
     - conjuration
     - sorcerer
     - wizard
+clutches_of_death:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    Ghastly hands rise from the ground in a 20-foot-radius, 30-foot-high cylinder centered on a point within range, and white mist fills the area. The mist cause the area to be lightly obscured, while the hands cause the ground to be difficult terrain.
+
+    When you cast the spell, and at the start of each of your turns for the spell's duration, you can force each creature of your choice in the area that you can see to make a Strength saving throw. On a failed save, a target is safely pulled to the ground by misty tendrils if it is airborne, and then pulled prone and restrained by the hands. A target can repeat the saving throw as a standard action to attempt to end the restrained condition on itself.
+
+    As a minor action, you can cause each target restrained by the spell to automatically take 1d12 necrotic damage. This damage ignores an undead target's necrotic resistance or immunity.
+  duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, the radius of the cylinder increases by 10 feet for each slot level above 4th.
+  level: 4
+  material: a mummified hand
+  name: Clutches of Death
+  range: 120 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 color_spray:
   casting_time: 1 standard action
   components: V, S, M
@@ -1988,6 +2060,30 @@ create_or_destroy_water:
     - druid
     - transmutation
     - water
+create_phylactery:
+  casting_time: 1 hour
+  components: V, M
+  concentration: false
+  description: |-
+    You affix your soul to the token object used as this spell's material component and endow it with a source of fuel for everlasting unlife. As part of casting this spell, you or another creature must use the ritual dagger used as the spell's material component to kill one or more humanoids within 30 feet of you. The souls of the slain humanoids become bound to the token object, which becomes your phylactery at the end of the spell.
+
+    When you die, your consciousness enters the phylactery as if the phylactery were a _magic jar_, except you have no body to return to. Every 1d100 days while you are in this state, if there are any other souls bound to the phylactery, one of them is destroyed and you form a new body within 10 feet of the phylactery. Your new body is undead, doesn't age, has immunity to poison damage and the poisoned condition, and has resistance to necrotic damage, but otherwise uses your game statistics.
+
+    Nothing short of divine intervention can resurrect you or a creature whose soul is bound to the phylactery. The phylactery can be destroyed, however. It is a magical object with 30 AC and immunity to all damage except force damage and the damage dealt by magical weapons. It is only destroyed if it takes at least 50 damage at once. It is unaffected by spells such as _dispel magic_ and _antimagic field_.
+
+    If the phylactery is destroyed, you die, your soul is destroyed, and any other souls bound to it are freed. Not even divine intervention can resurrect you or another creature whose soul has been destroyed by this spell.
+
+    You can only have one phylactery. Casting this spell again using your phylactery as the token object simply binds more souls to the phylactery.
+  duration: Instantaneous
+  level: 9
+  material: special incense, candles, and chalks worth 10,000 gp, which the spell consumes, a magic ritual dagger worth 5,000 gp, and a small token object such as a locket or crystal worth at least 1 gp
+  name: Create Phylactery
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 creation:
   casting_time: 1 minute
   components: V, S, M
@@ -3385,6 +3481,52 @@ expeditious_retreat:
     - transmutation
     - warlock
     - wizard
+extinguish_life:
+  casting_time: 1 minor action
+  components: S
+  concentration: false
+  description: Choose one dying creature you can see within range. The target dies.
+  duration: Instantaneous
+  level: 1
+  name: Extinguish Life
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
+extract_vitality:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: false
+  description: You siphon remaining life energy from one recently deceased corpse within range. The target must have died in the past hour. The corpse withers away and is destroyed, and you gain a number of hit points equal to three rolls of the target's hit die plus its Constitution modifier from when it was alive (minimum 1 hit point).
+  duration: Instantaneous
+  level: 1
+  name: Extract Vitality
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
+eyes_of_the_dead:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: false
+  description: |-
+    You touch one corpse, skull, or willing undead creature, and its eyes fill with a blood-red mist. For the duration of the spell, you can see through the target's eyes, which have darkvision out to a range of 60 feet. You can't hear through the target, nor can you control where it looks using this spell.
+
+    While looking through the target's eyes, you are blinded to your own surroundings. You can switch between the target's vision and your own vision as a minor action.
+  duration: Up to 1 hour
+  level: 1
+  name: Eyes of the Dead
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
+    - ritual
 fabricate:
   casting_time: 10 minutes
   components: V, S
@@ -6653,6 +6795,24 @@ move_earth:
     - sorcerer
     - transmutation
     - wizard
+necrosis:
+  casting_time: 1 standard action
+  components: V
+  concentration: true
+  description: |-
+    Choose up to three creatures you can see within range that are within 10 feet of each other. Each target takes 3d8 necrotic damage and must succeed on a Constitution saving throw or rot alive for the duration (save ends). While rotting in this way, a target is slowed, takes ongoing 3d8 necrotic damage, and has disadvantage on Constitution saving throws.
+
+    Constructs, undead, and creatures immune to necrotic damage are immune to this spell. The spell ends early on a target if _lesser restoration_ is cast on it.
+  duration: Up to 1 minute
+  higher_level: When you cast this spell using a spell slot of 6th level or higher, the initial and ongoing damage increases by 1d8 for each slot level above 5th.
+  level: 5
+  name: Necrosis
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 negative_energy_flood:
   casting_time: 1 standard action
   components: V, M
@@ -7022,6 +7182,24 @@ polymorph:
     - sorcerer
     - transmutation
     - wizard
+posthumous_punch:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: |-
+    You briefly animate part of a Small or larger corpse or skeleton within range and cause it to lash out. Make a melee spell attack against one creature within 5 feet of the body. On a hit, the target takes bludgeoning, piercing, or slashing damage as appropriate. The damage equals a roll of the body's size die.
+
+    The spell's damage increases by a size die when you reach 5th level (2 dice), 11th level (3 dice), and 17th level (4 dice).
+  duration: Instantaneous
+  level: 0
+  material: a drop of acid
+  name: Posthumous Punch
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 power_word_heal:
   casting_time: 1 standard action
   components: V, S
@@ -7551,6 +7729,25 @@ ray_of_sickness:
     - necromancy
     - sorcerer
     - wizard
+reap:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: |-
+    With a sweeping motion, you harvest the souls of the dying. Each bloodied creature in a 60-foot cube originating from you must make a Charisma saving throw. A target takes 6d10 damage on a failed save, or half as much damage on a success.
+
+    A target reduced to 0 hit points by this spell is killed instantly as you consume its soul. You gain number of temporary hit points equal to the target's hit points before it took this spell's damage, and the target can't be restored to life until you die and its soul is released. The temporary hit points gained from multiple creatures killed in this way don't stack.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d10 for each slot level above 6th.
+  level: 6
+  material: a farmer's scythe
+  name: Reap
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 regenerate:
   casting_time: 1 minute
   components: V, S, M
@@ -7715,6 +7912,20 @@ revivify:
     - necromancy
     - paladin
     - ranger
+rigor_mortis:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: Choose a humanoid or undead you can see within range. The target takes 1d8 necrotic damage and must make on a Constitution saving throw. On a failed save, the target is paralyzed and takes ongoing 1d8 necrotic damage for the duration (save ends), as its limbs seize up and start to rot. Undead have disadvantage on the initial saving throw, and a creature with 0 hit points automatically fails.
+  duration: Up to 1 minute
+  level: 3
+  name: Rigor Mortis
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 rime_blade:
   casting_time: 1 standard action
   components: S, M
@@ -7738,6 +7949,20 @@ rime_blade:
     - sorcerer
     - warlock
     - water
+rot_ward:
+  casting_time: 1 reaction, which you take when you would take necrotic damage
+  components: S
+  concentration: false
+  description: You temporarily kill your own flesh to prevent worse harm. You take 2d12 necrotic damage and then gain immunity to necrotic damage until the start of your next turn. You count as undead in addition to your normal creature type while you have this immunity.
+  duration: 1 round
+  level: 4
+  name: Rot Ward
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 sacred_flame:
   casting_time: 1 standard action
   components: V, S
@@ -8032,6 +8257,28 @@ sequester:
     - arcane
     - transmutation
     - wizard
+sever_the_soul:
+  casting_time: 1 major action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You attempt to pry a creature's soul from its body. One creature you can see within range takes 10d4 psychic damage and must make a Wisdom saving throw. On a failed save, the target enters a death-like state (save ends). In this state, the target experiences all the effects of the unconscious condition (though this does not count as being unconscious). The target also has immunity to psychic damage and any effect that can't target an object, as the target's mind is physically elsewhere.
+
+    If the _revivify_ spell is cast on the target, its material components are not consumed and this spell ends.
+
+    If you maintain concentration on this spell for the full duration and you are within 5 feet of the target when it ends, you can slash out with the dagger used as the spell's material component and sever the target's soul. This kills the target.
+
+    Constructs and undead are immune to this spell.
+  duration: Up to 1 minute
+  level: 7
+  material: a silver ritual dagger worth at least 500 gp
+  name: Sever the Soul
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 shadow_blade:
   casting_time: 1 minor action
   components: V, S
@@ -8979,6 +9226,27 @@ summon_fiend:
     - conjuration
     - warlock
     - wizard
+summon_greater_undead:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You summon a greater undead of your choice: a ghoul, wight, or wraith. It appears in an unoccupied space that you can see within range. The creature has the Companion trait in addition to its usual traits.
+
+    The creature disappears when it drops to 0 hit points or when the spell ends.
+
+    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a ghoul, wight, or wraith if cast on a corpse, or a wight or wraith if cast on a skeleton.  The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 7th level or higher, use the higher level wherever the spell's level appears in the stat block.
+  level: 6
+  material: a gem-encrusted skull worth at least 600 gp
+  name: Summon Greater Undead
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 summon_monstrosity:
   casting_time: 1 standard action
   components: V, S, M
@@ -9778,6 +10046,51 @@ tsunami:
     - druid
     - primal
     - water
+undead_horde:
+  casting_time: 8 hours
+  components: V, S, M
+  concentration: false
+  description: |-
+    An army of undead rises from the ground around you. Up to 100 zombie minions appear in unoccupied spaces you can see within range. Alternatively, you can create skeleton minions, each of which counts as 5 zombie minions. An undead created by this spell crumbles to dust when reduced to 0 hit points.
+
+    The skull scepter used as the spell's material component becomes magical for the duration and can be used to command the undead. As a standard action, any creature wielding the scepter can magically command any number of undead created by this casting of the spell within range. The command must be straightforward and 10 words or less, such as "kill the dragon in the mountain" or "bring me the pearl necklace." If you issue a command to an undead that already has a command, the undead forgets its previous command and begins carrying out the new one.
+
+    The undead interpret commands literally and may act contrary to their intent. For example, if you issued the command "find the pearl necklace," your minions may uselessly gather at the bottom of the river where the necklace lies.
+
+    This spell can only be cast at night. If the skull scepter is dispelled or used to cast this spell again, any preexisting undead crumble to dust.
+  duration: Until dispelled
+  level: 8
+  material: a skull scepter worth at least 1,000 gp
+  name: Undead Horde
+  range: 300 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
+undead_transformation:
+  casting_time: 1 action
+  components: V, S
+  concentration: false
+  description: |-
+    One willing creature you touch is cursed with undeath. While cursed in this way, the target experiences the following effects:
+
+    - The target is undead in addition to its normal creature type.
+    - The target has resistance to necrotic damage and immunity to poison damage and the poisoned condition.
+    - The target has darkvision out to a range of 60 feet. If the target already had darkvision, its range is increased by 30 feet instead.
+    - At the end of every hour, the target's hit point maximum decreases by 1. This reduction can't be prevented in any way, and is removed only when the curse is lifted.
+
+    A _remove curse_ spell cast on the target ends this effect.
+  duration: Instantaneous
+  level: 4
+  name: Undead Transformation
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - curse
+    - necromancy
 unseen_servant:
   casting_time: 1 standard action
   components: V, S, M
