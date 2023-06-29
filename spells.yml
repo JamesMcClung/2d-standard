@@ -2638,13 +2638,14 @@ disguise_self:
 
     The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.
 
-    To discern that you are disguised, a creature can use a standard action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.
+    A creature can also use the Study action to inspect you from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers which aspects of your appearance are illusory.
   duration: 1 hour
   level: 1
   name: Disguise Self
   range: Self
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - artificer
@@ -4648,7 +4649,7 @@ glyph_of_warding:
   description: |-
     When you cast this spell, you inscribe a glyph that potentially harms other creatures, either upon a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.
 
-    The glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found.
+    The glyph is nearly invisible, requiring a successful Investigation check against your spell save DC to find it.
 
     You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends.
 
@@ -4667,6 +4668,7 @@ glyph_of_warding:
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - abjuration
     - arcane
@@ -5072,7 +5074,7 @@ hallucinatory_terrain:
   description: |-
     You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed in appearance.
 
-    The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is sees it as a vague image superimposed on the terrain.
+    The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature can use the Study action to inspect the terrain, making an Investigation check against your spell save DC. On a success, the creature discovers that the terrain is illusory. A creature who discerns the illusion for what it is sees it as a vague image superimposed on the terrain.
   duration: 24 hours
   level: 4
   material: a stone, a twig, and a bit of green plant
@@ -5080,6 +5082,7 @@ hallucinatory_terrain:
   range: 300 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -6448,7 +6451,7 @@ major_image:
 
     As long as you are within range of the illusion, you can use a standard action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.
 
-    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses a standard action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
+    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
   duration: Up to 10 minutes
   higher_level: When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.
   level: 3
@@ -6457,6 +6460,7 @@ major_image:
   range: 120 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -6813,7 +6817,7 @@ minor_illusion:
 
     If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.
 
-    If a creature uses a standard action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.
+    A creature can use the Study action to inspect the sound or image, making an Investigation check against your spell save DC. On a success, the creature discovers that the sound or image is illusory. If a creature discerns the illusion for what it is, the illusion becomes faint to that creature.
   duration: 1 minute
   level: 0
   material: a bit of fleece
@@ -6821,6 +6825,7 @@ minor_illusion:
   range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -6858,11 +6863,9 @@ mirror_image:
   components: V, S
   concentration: false
   description: |-
-    Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use a standard action to dismiss the illusory duplicates.
+    Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use a standard Magic action to dismiss the illusory duplicates.
 
-    Each time a creature targets you with an attack during the spell's duration, roll a d20 to determine whether the attack instead targets one of your duplicates.
-
-    If you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.
+    Each time a creature targets you with an attack during the spell's duration, randomly determine whether the attack instead targets one of your duplicates. You and each duplicate have equal chances of being hit. For example, if you have three duplicates, there is a 25% chance the attack targets you and a 75% chance that it targets one of your duplicates.
 
     A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.
 
@@ -6874,6 +6877,7 @@ mirror_image:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - arcane
     - bard
@@ -7231,7 +7235,7 @@ phantasmal_force:
 
     The phantasm includes sound, temperature, and other stimuli, also evident only to the creature.
 
-    The target can use a standard action to examine the phantasm with an Intelligence (Investigation) check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.
+    The target can use the Study action to inspect the phantasm, making an Investigation check against your spell save DC. On a success, the target realizes that the phantasm is an illusion, and the spell ends.
 
     While a target is affected by the spell, the target treats the phantasm as if it were real. The target rationalizes any illogical outcomes from interacting with the phantasm. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall—it was pushed, it slipped, or a strong wind might have knocked it off.
 
@@ -7243,6 +7247,7 @@ phantasmal_force:
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -7714,7 +7719,7 @@ programmed_illusion:
 
     The triggering condition can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door, or you could set the illusion to trigger only when a creature says the correct word or phrase.
 
-    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses a standard action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
+    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
   duration: Until dispelled
   level: 6
   material: a bit of fleece and jade dust worth at least 25 gp
@@ -7722,6 +7727,7 @@ programmed_illusion:
   range: 120 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -7738,7 +7744,7 @@ project_image:
 
     You can see through its eyes and hear through its ears as if you were in its space. On your turn as a minor action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.
 
-    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses a standard action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
+    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
   duration: Up to 24 hours
   level: 7
   material: a small replica of you made from materials worth at least 5 gp
@@ -7746,6 +7752,7 @@ project_image:
   range: 500 miles
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -8508,13 +8515,14 @@ seeming:
 
     The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to a creature's outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel the creature's head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.
 
-    A creature can use a standard action to inspect a target and make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.
+    A creature can also use the Study action to inspect a target from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers which aspects of the target's appearance are illusory.
   duration: 8 hours
   level: 5
   name: Seeming
   range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -8786,7 +8794,7 @@ silent_image:
 
     You can use a standard action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.
 
-    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses a standard action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.
+    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the creature can see through the image.
   duration: Up to 10 minutes
   level: 1
   material: a bit of fleece
@@ -8794,6 +8802,7 @@ silent_image:
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -9674,7 +9683,7 @@ symbol:
   description: |-
     When you cast this spell, you inscribe a harmful glyph either on a surface (such as a section of floor, a wall, or a table) or within an object that can be closed to conceal the glyph (such as a book, a scroll, or a treasure chest). If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place; if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.
 
-    The glyph is nearly invisible, requiring an Intelligence (Investigation) check against your spell save DC to find it.
+    The glyph is nearly invisible, requiring a successful Investigation check against your spell save DC to find it.
 
     You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or stepping on the glyph, removing another object covering it, approaching within a certain distance of it, or manipulating the object that holds it. For glyphs inscribed within an object, the most common triggers are opening the object, approaching within a certain distance of it, or seeing or reading the glyph.
 
@@ -9705,6 +9714,7 @@ symbol:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - abjuration
     - bard
