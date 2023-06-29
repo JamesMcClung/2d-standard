@@ -8807,7 +8807,7 @@ telekinetic_grip:
 
     If the target is willing, they may forgo the saving throw and not be subjected to the slowed condition.
   duration: Up to 1 round
-  level: 1
+  level: 2
   name: Telekinetic Grip
   range: Self
   sources:
