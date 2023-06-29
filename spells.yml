@@ -951,6 +951,7 @@ booming_blade:
   range: Self (5-foot radius)
   sources:
     - TCE
+    - 2D
   tags:
     - air
     - arcane
@@ -959,7 +960,6 @@ booming_blade:
     - magus
     - sorcerer
     - warlock
-    - wizard
 branding_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
@@ -3827,12 +3827,12 @@ fireball:
   range: 150 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - evocation
     - fire
     - sorcerer
-    - wizard
 flame_arrows:
   casting_time: 1 standard action
   components: V, S
@@ -4481,6 +4481,7 @@ green_flame_blade:
   range: Self (5-foot radius)
   sources:
     - TCE
+    - 2D
   tags:
     - arcane
     - artificer
@@ -4489,7 +4490,6 @@ green_flame_blade:
     - magus
     - sorcerer
     - warlock
-    - wizard
 grim_apparitions:
   casting_time: 1 minor action
   components: V, S
@@ -8047,13 +8047,13 @@ shadow_blade:
   range: Self
   sources:
     - XGE
+    - 2D
   tags:
     - arcane
     - illusion
     - magus
     - sorcerer
     - warlock
-    - wizard
 shape_water:
   casting_time: 1 standard action
   components: S
@@ -10331,7 +10331,6 @@ witch_bolt:
     - fire
     - sorcerer
     - warlock
-    - wizard
 wizards_strike:
   casting_time: 1 standard action
   components: S, M
