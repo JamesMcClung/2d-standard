@@ -13,10 +13,15 @@ absorb_elements:
     - XGE
   tags:
     - abjuration
+    - air
     - artificer
     - druid
+    - earth
+    - fire
+    - magus
     - ranger
     - sorcerer
+    - water
     - wizard
 acid_arrow:
   casting_time: 1 standard action
@@ -51,6 +56,7 @@ acid_splash:
   tags:
     - artificer
     - conjuration
+    - magus
     - sorcerer
     - wizard
 aid:
@@ -71,6 +77,7 @@ aid:
     - artificer
     - bard
     - cleric
+    - magus
     - paladin
     - ranger
 alarm:
@@ -116,6 +123,7 @@ alter_self:
     - PHB
   tags:
     - artificer
+    - magus
     - sorcerer
     - transmutation
     - wizard
@@ -198,6 +206,7 @@ antilife_shell:
   tags:
     - abjuration
     - druid
+    - water
 antimagic_field:
   casting_time: 1 standard action
   components: V, S, M
@@ -322,6 +331,27 @@ arcane_lock:
     - abjuration
     - artificer
     - wizard
+arcane_weapon:
+  casting_time: 1 minor action
+  components: V, S, M
+  concentration: true
+  description: 'You channel arcane energy into one weapon you''re holding, and choose one damage type: acid, cold, fire, lightning, poison, or thunder. Until the spell ends, you deal an extra 1d4 damage of the chosen type to any target you hit with the weapon.'
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can maintain your concentration on the spell for up to 8 hours.
+  level: 1
+  material: a weapon
+  name: Arcane Weapon
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - air
+    - artificer
+    - earth
+    - fire
+    - magus
+    - transmutation
+    - water
 armor_of_ice:
   casting_time: 1 standard action
   components: V, S, M
@@ -337,7 +367,9 @@ armor_of_ice:
     - PHB
   tags:
     - abjuration
+    - magus
     - warlock
+    - water
 astral_projection:
   casting_time: 1 hour
   components: V, S, M
@@ -516,6 +548,7 @@ banishing_smite:
     - 2D
   tags:
     - abjuration
+    - magus
     - paladin
     - smite
 banishment:
@@ -539,6 +572,7 @@ banishment:
   tags:
     - abjuration
     - cleric
+    - magus
     - paladin
     - sorcerer
     - warlock
@@ -647,7 +681,9 @@ binding_ice:
     - FTD
   tags:
     - evocation
+    - magus
     - sorcerer
+    - water
     - wizard
 blade_barrier:
   casting_time: 1 standard action
@@ -701,9 +737,27 @@ blade_ward:
   tags:
     - abjuration
     - bard
+    - magus
     - sorcerer
     - warlock
     - wizard
+blazing_strike:
+  casting_time: 1 free action, which you take when you hit with a melee weapon attack
+  components: V
+  concentration: false
+  description: Fire erupts from your weapon. The target, as well as each other creature of your choice within 10 feet of it, takes 1d6 fire damage.
+  duration: Instantaneous
+  higher_level: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
+  level: 1
+  name: Blazing Strike
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - evocation
+    - fire
+    - magus
+    - smite
 bless:
   casting_time: 1 standard action
   components: V, S, M
@@ -794,6 +848,7 @@ blink:
     - PHB
   tags:
     - artificer
+    - magus
     - sorcerer
     - transmutation
     - wizard
@@ -811,6 +866,7 @@ blur:
   tags:
     - artificer
     - illusion
+    - magus
     - sorcerer
     - wizard
 bones_of_the_earth:
@@ -833,6 +889,7 @@ bones_of_the_earth:
     - XGE
   tags:
     - druid
+    - earth
     - transmutation
 booming_blade:
   casting_time: 1 standard action
@@ -850,8 +907,10 @@ booming_blade:
   sources:
     - TCE
   tags:
+    - air
     - artificer
     - evocation
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -889,6 +948,8 @@ burning_hands:
     - PHB
   tags:
     - evocation
+    - fire
+    - magus
     - sorcerer
     - wizard
 call_lightning:
@@ -908,8 +969,10 @@ call_lightning:
     - PHB (Errata 2.0)
     - 2D
   tags:
+    - air
     - conjuration
     - druid
+    - fire
 calm_emotions:
   casting_time: 1 standard action
   components: V, S
@@ -943,6 +1006,7 @@ catapult:
     - XGE
   tags:
     - artificer
+    - magus
     - sorcerer
     - transmutation
     - wizard
@@ -997,6 +1061,7 @@ caustic_spray:
   tags:
     - artificer
     - evocation
+    - magus
     - sorcerer
     - wizard
 chain_lightning:
@@ -1016,7 +1081,9 @@ chain_lightning:
   sources:
     - PHB
   tags:
+    - air
     - evocation
+    - fire
     - sorcerer
     - wizard
 chaos_bolt:
@@ -1123,8 +1190,13 @@ chromatic_orb:
   sources:
     - PHB
   tags:
+    - air
+    - earth
     - evocation
+    - fire
+    - magus
     - sorcerer
+    - water
     - wizard
 circle_of_death:
   casting_time: 1 standard action
@@ -1197,6 +1269,7 @@ cloak_of_shadow:
   sources:
     - XGE
   tags:
+    - magus
     - necromancy
     - warlock
 clone:
@@ -1233,6 +1306,7 @@ cloud_of_daggers:
   tags:
     - bard
     - conjuration
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -1277,6 +1351,7 @@ color_spray:
   tags:
     - bard
     - illusion
+    - magus
     - sorcerer
     - wizard
 command:
@@ -1432,8 +1507,10 @@ cone_of_cold:
     - PHB
     - TCE
   tags:
+    - air
     - druid
     - evocation
+    - magus
     - sorcerer
     - wizard
 confusion:
@@ -1609,6 +1686,7 @@ control_flames:
     - XGE
   tags:
     - druid
+    - fire
     - sorcerer
     - transmutation
     - wizard
@@ -1639,6 +1717,7 @@ control_water:
     - cleric
     - druid
     - transmutation
+    - water
     - wizard
 control_weather:
   casting_time: 10 minutes
@@ -1686,9 +1765,11 @@ control_weather:
   sources:
     - PHB
   tags:
+    - air
     - cleric
     - druid
     - transmutation
+    - water
     - wizard
 control_winds:
   casting_time: 1 standard action
@@ -1710,6 +1791,7 @@ control_winds:
     - EEPC
     - XGE
   tags:
+    - air
     - druid
     - sorcerer
     - transmutation
@@ -1771,6 +1853,8 @@ create_bonfire:
     - artificer
     - conjuration
     - druid
+    - fire
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -1812,6 +1896,7 @@ create_or_destroy_water:
     - cleric
     - druid
     - transmutation
+    - water
 creation:
   casting_time: 1 minute
   components: V, S, M
@@ -1841,6 +1926,7 @@ creation:
   tags:
     - artificer
     - illusion
+    - magus
     - sorcerer
     - wizard
 crown_of_madness:
@@ -1940,6 +2026,7 @@ dancing_lights:
     - artificer
     - bard
     - evocation
+    - magus
     - sorcerer
     - wizard
 danse_macabre:
@@ -1982,6 +2069,7 @@ darkness:
     - PHB
   tags:
     - evocation
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -2000,6 +2088,7 @@ darkvision:
   tags:
     - artificer
     - druid
+    - magus
     - ranger
     - sorcerer
     - transmutation
@@ -2045,6 +2134,7 @@ daylight:
     - cleric
     - druid
     - evocation
+    - magus
     - paladin
     - ranger
     - sorcerer
@@ -2090,6 +2180,7 @@ delayed_blast_fireball:
     - PHB
   tags:
     - evocation
+    - fire
     - sorcerer
     - wizard
 demiplane:
@@ -2185,6 +2276,7 @@ detect_magic:
     - cleric
     - divination
     - druid
+    - magus
     - paladin
     - ranger
     - ritual
@@ -2236,6 +2328,7 @@ detect_thoughts:
   tags:
     - bard
     - divination
+    - magus
     - sorcerer
     - wizard
 dimension_door:
@@ -2257,6 +2350,7 @@ dimension_door:
   tags:
     - bard
     - conjuration
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -2280,6 +2374,7 @@ disguise_self:
     - artificer
     - bard
     - illusion
+    - magus
     - sorcerer
     - wizard
 disintegrate:
@@ -2347,6 +2442,7 @@ dispel_magic:
     - bard
     - cleric
     - druid
+    - magus
     - paladin
     - sorcerer
     - warlock
@@ -2426,6 +2522,22 @@ divine_favor:
   tags:
     - evocation
     - paladin
+divine_smite:
+  casting_time: 1 free action, which you take when you hit with a melee weapon attack
+  components: V
+  concentration: false
+  description: Your weapon shines with divine energy as you strike. The target takes 2d8 radiant damage, or 3d8 if it is a Fiend or Undead.
+  duration: Instantaneous
+  higher_level: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+  level: 1
+  name: Divine Smite
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - evocation
+    - paladin
+    - smite
 divine_word:
   casting_time: 1 minor action
   components: V
@@ -2661,8 +2773,10 @@ dust_devil:
     - EEPC
     - XGE
   tags:
+    - air
     - conjuration
     - druid
+    - earth
     - sorcerer
     - wizard
 earth_tremor:
@@ -2681,7 +2795,9 @@ earth_tremor:
   tags:
     - bard
     - druid
+    - earth
     - evocation
+    - magus
     - sorcerer
     - wizard
 earthbind:
@@ -2700,6 +2816,7 @@ earthbind:
     - 2D
   tags:
     - druid
+    - magus
     - sorcerer
     - transmutation
     - warlock
@@ -2725,8 +2842,10 @@ earthen_grasp:
     - EEPC
     - XGE
   tags:
+    - magus
     - sorcerer
     - transmutation
+    - water
     - wizard
 earthquake:
   casting_time: 1 standard action
@@ -2756,6 +2875,7 @@ earthquake:
   tags:
     - cleric
     - druid
+    - earth
     - evocation
     - sorcerer
 eldritch_blast:
@@ -2775,6 +2895,22 @@ eldritch_blast:
   tags:
     - evocation
     - warlock
+eldritch_smite:
+  casting_time: 1 free action, which you take when you hit with a weapon attack
+  components: V
+  concentration: false
+  description: Your weapon hums with eldritch power, and the target takes 4d8 force damage. If it is Huge or smaller, you may also knock it prone.
+  duration: Instantaneous
+  higher_level: If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 1st.
+  level: 3
+  name: Eldritch Smite
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - evocation
+    - smite
+    - warlock
 elemental_bane:
   casting_time: 1 standard action
   components: V, S
@@ -2789,10 +2925,15 @@ elemental_bane:
     - EEPC
     - XGE
   tags:
+    - air
     - artificer
     - druid
+    - earth
+    - fire
+    - magus
     - transmutation
     - warlock
+    - water
     - wizard
 elemental_weapon:
   casting_time: 1 standard action
@@ -2809,11 +2950,16 @@ elemental_weapon:
     - TCE
     - 2D
   tags:
+    - air
     - artificer
     - druid
+    - earth
+    - fire
+    - magus
     - paladin
     - ranger
     - transmutation
+    - water
 enemies_abound:
   casting_time: 1 standard action
   components: V, S
@@ -2887,6 +3033,7 @@ enhance_ability:
     - bard
     - cleric
     - druid
+    - magus
     - ranger
     - sorcerer
     - transmutation
@@ -2915,6 +3062,7 @@ enlarge_reduce:
     - artificer
     - bard
     - druid
+    - magus
     - sorcerer
     - transmutation
     - wizard
@@ -2990,9 +3138,29 @@ erupting_earth:
     - XGE
   tags:
     - druid
+    - earth
     - sorcerer
     - transmutation
     - wizard
+ethereal_strike:
+  casting_time: 1 free action, which you take when you make a melee weapon attack
+  components: V
+  concentration: false
+  description: |-
+    You temporarily transform one weapon you're holding or an unarmed strike into pure psionic energy. Instead of rolling to attack, your weapon phases through their armor. The target instead must make a Dexterity saving throw or take the damage from the attack and an additional 2d8 force damage and suffer all other effects associated with being hit by the attack. If they succeed, they take half damage from the attack, and suffer no other effects from being hit by the attack.
+
+    When you deal damage with this spell, your weapon's damage is converted to force damage.
+  duration: Instantaneous
+  higher_level: If you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
+  level: 2
+  name: Ethereal Strike
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - magus
+    - smite
+    - transmutation
 etherealness:
   casting_time: 1 standard action
   components: V, S
@@ -3061,6 +3229,7 @@ expeditious_retreat:
     - PHB
   tags:
     - artificer
+    - magus
     - sorcerer
     - transmutation
     - warlock
@@ -3104,6 +3273,7 @@ faerie_fire:
     - bard
     - druid
     - evocation
+    - magus
 false_life:
   casting_time: 1 standard action
   components: V, S, M
@@ -3119,6 +3289,7 @@ false_life:
     - PHB
   tags:
     - artificer
+    - magus
     - necromancy
     - sorcerer
     - wizard
@@ -3154,6 +3325,7 @@ far_step:
     - 2D
   tags:
     - conjuration
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -3175,6 +3347,7 @@ fear:
   tags:
     - bard
     - illusion
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -3193,6 +3366,7 @@ feather_fall:
   tags:
     - artificer
     - bard
+    - magus
     - sorcerer
     - transmutation
     - wizard
@@ -3371,6 +3545,8 @@ fire_bolt:
   tags:
     - artificer
     - evocation
+    - fire
+    - magus
     - sorcerer
     - wizard
 fire_shield:
@@ -3394,7 +3570,10 @@ fire_shield:
   tags:
     - druid
     - evocation
+    - fire
+    - magus
     - sorcerer
+    - water
     - wizard
 fire_storm:
   casting_time: 1 standard action
@@ -3414,6 +3593,7 @@ fire_storm:
     - cleric
     - druid
     - evocation
+    - fire
     - sorcerer
 fireball:
   casting_time: 1 standard action
@@ -3433,6 +3613,7 @@ fireball:
     - PHB
   tags:
     - evocation
+    - fire
     - sorcerer
     - wizard
 flame_arrows:
@@ -3451,6 +3632,7 @@ flame_arrows:
   tags:
     - artificer
     - druid
+    - fire
     - ranger
     - sorcerer
     - transmutation
@@ -3477,6 +3659,8 @@ flame_blade:
   tags:
     - druid
     - evocation
+    - fire
+    - magus
     - sorcerer
 flame_strike:
   casting_time: 1 standard action
@@ -3517,6 +3701,7 @@ flaming_sphere:
   tags:
     - conjuration
     - druid
+    - fire
     - sorcerer
     - wizard
 flaming_stride:
@@ -3536,6 +3721,8 @@ flaming_stride:
     - FTD
   tags:
     - artificer
+    - fire
+    - magus
     - ranger
     - sorcerer
     - transmutation
@@ -3576,6 +3763,7 @@ fly:
     - PHB
   tags:
     - artificer
+    - magus
     - sorcerer
     - transmutation
     - warlock
@@ -3593,10 +3781,13 @@ fog_cloud:
   sources:
     - PHB
   tags:
+    - air
     - conjuration
     - druid
+    - magus
     - ranger
     - sorcerer
+    - water
     - wizard
 forbiddance:
   casting_time: 10 minutes
@@ -3663,6 +3854,7 @@ freedom_of_movement:
     - bard
     - cleric
     - druid
+    - magus
     - ranger
 freezing_sphere:
   casting_time: 1 standard action
@@ -3686,6 +3878,7 @@ freezing_sphere:
   tags:
     - evocation
     - sorcerer
+    - water
     - wizard
 friends:
   casting_time: 1 standard action
@@ -3705,6 +3898,23 @@ friends:
     - sorcerer
     - warlock
     - wizard
+frost_strike:
+  casting_time: 1 free action, which you take when you hit with a melee weapon attack
+  components: V
+  concentration: false
+  description: The air chills around your weapon. The target takes 1d6 cold damage, and you gain temporary hit points equal to the cold damage rolled for the duration of the spell.
+  duration: Up to 1 minute
+  higher_level: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
+  level: 1
+  name: Frost Strike
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - abjuration
+    - magus
+    - smite
+    - water
 frostbite:
   casting_time: 1 standard action
   components: V, S
@@ -3724,8 +3934,10 @@ frostbite:
     - artificer
     - druid
     - evocation
+    - magus
     - sorcerer
     - warlock
+    - water
     - wizard
 gaseous_form:
   casting_time: 1 standard action
@@ -3987,6 +4199,7 @@ grease:
   tags:
     - artificer
     - conjuration
+    - magus
     - sorcerer
     - wizard
 greater_invisibility:
@@ -4003,6 +4216,7 @@ greater_invisibility:
   tags:
     - bard
     - illusion
+    - magus
     - sorcerer
     - wizard
 greater_restoration:
@@ -4049,7 +4263,31 @@ green_flame_blade:
   tags:
     - artificer
     - evocation
+    - fire
+    - magus
     - sorcerer
+    - warlock
+    - wizard
+grim_apparitions:
+  casting_time: 1 minor action
+  components: V, S
+  concentration: true
+  description: |-
+    You call forth spirits of the dead, which flit around you to a distance of 10 feet for the spell's duration. The spirits are intangible and invulnerable.
+
+    When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature can't regain hit points while in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, it loses all of its temporary hit points.
+  duration: Up to 1 minute
+  level: 3
+  name: Grim Apparitions
+  range: Self
+  sources:
+    - TCE
+    - 2D
+  tags:
+    - cleric
+    - magus
+    - necromancy
+    - paladin
     - warlock
     - wizard
 guardian_of_nature:
@@ -4170,6 +4408,7 @@ gust:
     - EEPC
     - XGE
   tags:
+    - air
     - druid
     - sorcerer
     - transmutation
@@ -4195,6 +4434,7 @@ gust_of_wind:
     - PHB
     - TCE
   tags:
+    - air
     - druid
     - evocation
     - ranger
@@ -4341,6 +4581,7 @@ haste:
     - PHB
   tags:
     - artificer
+    - magus
     - sorcerer
     - transmutation
     - wizard
@@ -4418,6 +4659,7 @@ heat_metal:
     - artificer
     - bard
     - druid
+    - earth
     - transmutation
 hellish_rebuke:
   casting_time: 1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see
@@ -4623,7 +4865,9 @@ ice_knife:
   tags:
     - conjuration
     - druid
+    - magus
     - sorcerer
+    - water
     - wizard
 ice_storm:
   casting_time: 1 standard action
@@ -4645,6 +4889,7 @@ ice_storm:
     - druid
     - evocation
     - sorcerer
+    - water
     - wizard
 identify:
   casting_time: 1 minute
@@ -4711,6 +4956,8 @@ immolation:
     - 2D
   tags:
     - evocation
+    - fire
+    - magus
     - sorcerer
     - wizard
 imprisonment:
@@ -4776,8 +5023,10 @@ incendiary_cloud:
     - PHB
     - TCE
   tags:
+    - air
     - conjuration
     - druid
+    - fire
     - sorcerer
     - wizard
 indestructible_sphere:
@@ -4838,6 +5087,7 @@ inflict_wounds:
     - PHB
   tags:
     - cleric
+    - magus
     - necromancy
 insect_plague:
   casting_time: 1 standard action
@@ -4900,6 +5150,7 @@ investiture_of_flame:
     - XGE
   tags:
     - druid
+    - fire
     - sorcerer
     - transmutation
     - warlock
@@ -4927,6 +5178,7 @@ investiture_of_ice:
     - sorcerer
     - transmutation
     - warlock
+    - water
     - wizard
 investiture_of_stone:
   casting_time: 1 standard action
@@ -4947,6 +5199,7 @@ investiture_of_stone:
     - XGE
   tags:
     - druid
+    - earth
     - sorcerer
     - transmutation
     - warlock
@@ -4969,6 +5222,7 @@ investiture_of_wind:
     - EEPC
     - XGE
   tags:
+    - air
     - druid
     - sorcerer
     - transmutation
@@ -4991,6 +5245,7 @@ invisibility:
     - artificer
     - bard
     - illusion
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -5043,6 +5298,7 @@ jump:
   tags:
     - artificer
     - druid
+    - magus
     - ranger
     - sorcerer
     - transmutation
@@ -5128,6 +5384,7 @@ levitate:
     - PHB
   tags:
     - artificer
+    - magus
     - sorcerer
     - transmutation
     - wizard
@@ -5167,6 +5424,7 @@ light:
     - bard
     - cleric
     - evocation
+    - magus
     - sorcerer
     - wizard
 lightning_arrow:
@@ -5188,9 +5446,11 @@ lightning_arrow:
     - PHB
     - 2D
   tags:
+    - air
+    - fire
     - ranger
-    - transmutation
     - smite
+    - transmutation
 lightning_bolt:
   casting_time: 1 standard action
   components: V, S, M
@@ -5208,7 +5468,10 @@ lightning_bolt:
   sources:
     - PHB
   tags:
+    - air
     - evocation
+    - fire
+    - magus
     - sorcerer
     - wizard
 lightning_lure:
@@ -5226,8 +5489,11 @@ lightning_lure:
   sources:
     - TCE
   tags:
+    - air
     - artificer
     - evocation
+    - fire
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -5274,6 +5540,7 @@ longstrider:
     - artificer
     - bard
     - druid
+    - magus
     - ranger
     - transmutation
     - wizard
@@ -5312,6 +5579,7 @@ maelstrom:
   tags:
     - druid
     - evocation
+    - water
 mage_armor:
   casting_time: 1 standard action
   components: V, S, M
@@ -5326,6 +5594,7 @@ mage_armor:
     - PHB
   tags:
     - abjuration
+    - magus
     - sorcerer
     - wizard
 mage_hand:
@@ -5348,6 +5617,7 @@ mage_hand:
     - artificer
     - bard
     - conjuration
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -5481,6 +5751,7 @@ magic_weapon:
     - TCE
   tags:
     - artificer
+    - magus
     - paladin
     - ranger
     - sorcerer
@@ -5507,6 +5778,7 @@ major_image:
   tags:
     - bard
     - illusion
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -5525,6 +5797,7 @@ mantle_of_meteors:
     - EEPC
     - XGE
   tags:
+    - fire
     - sorcerer
     - transmutation
     - wizard
@@ -5838,6 +6111,7 @@ minor_illusion:
   tags:
     - bard
     - illusion
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -5888,6 +6162,7 @@ mirror_image:
   tags:
     - bard
     - illusion
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -5955,6 +6230,7 @@ misty_step:
     - PHB
   tags:
     - conjuration
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -6004,6 +6280,7 @@ mold_earth:
     - XGE
   tags:
     - druid
+    - earth
     - sorcerer
     - transmutation
     - wizard
@@ -6053,6 +6330,7 @@ move_earth:
     - PHB
   tags:
     - druid
+    - earth
     - sorcerer
     - transmutation
     - wizard
@@ -6090,6 +6368,7 @@ nondetection:
   tags:
     - abjuration
     - bard
+    - magus
     - ranger
     - wizard
 otherworldly_guise:
@@ -6382,6 +6661,7 @@ poison_spray:
   tags:
     - artificer
     - conjuration
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -6516,6 +6796,7 @@ prestidigitation:
   tags:
     - artificer
     - bard
+    - magus
     - sorcerer
     - transmutation
     - warlock
@@ -6554,7 +6835,11 @@ primordial_ward:
     - XGE
   tags:
     - abjuration
+    - air
     - druid
+    - earth
+    - fire
+    - water
 prismatic_spray:
   casting_time: 1 standard action
   components: V, S
@@ -6608,6 +6893,7 @@ produce_flame:
   tags:
     - conjuration
     - druid
+    - fire
 programmed_illusion:
   casting_time: 1 standard action
   components: V, S, M
@@ -6667,11 +6953,16 @@ protection_from_energy:
     - PHB
   tags:
     - abjuration
+    - air
     - artificer
     - cleric
     - druid
+    - earth
+    - fire
+    - magus
     - ranger
     - sorcerer
+    - water
     - wizard
 protection_from_evil_and_good:
   casting_time: 1 standard action
@@ -6797,9 +7088,32 @@ pyrotechnics:
   tags:
     - artificer
     - bard
+    - fire
     - sorcerer
     - transmutation
     - wizard
+quaking_blow:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: |-
+    You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within reach. On a hit, the target suffers the weapon attack's normal effects and the ground beneath them shakes. The ground within 5 feet of the target becomes difficult terrain for 1 minute.
+
+    This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 bludgeoning damage to the target on a hit. The damage increases by 1d8 at 11th level (2d8) and again at 17th level (3d8).
+  duration: Instantaneous
+  level: 0
+  material: a weapon
+  name: Quaking Blow
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - artificer
+    - earth
+    - evocation
+    - magus
+    - sorcerer
+    - warlock
 raise_dead:
   casting_time: 1 hour
   components: V, S, M
@@ -6856,7 +7170,9 @@ ray_of_frost:
   tags:
     - artificer
     - evocation
+    - magus
     - sorcerer
+    - water
     - wizard
 ray_of_sickness:
   casting_time: 1 standard action
@@ -7031,6 +7347,28 @@ revivify:
     - necromancy
     - paladin
     - ranger
+rime_blade:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: |-
+    You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within reach. On a hit, the target suffers the weapon attack's normal effects and then becomes chilled by the icy blow. The creature's movement speed is reduced by 10 feet until the end of your next turn. This chill can spread to one creature of your choice within 5 feet of the target, also reducing their movement speed in the same way.
+
+    This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 cold damage to the target on a hit. The damage increases by 1d8 at 11th level (2d8) and again at 17th level (3d8).
+  duration: Up to 1 round
+  level: 0
+  material: a weapon
+  name: Rime Blade
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - artificer
+    - evocation
+    - magus
+    - sorcerer
+    - warlock
+    - water
 rope_trick:
   casting_time: 1 standard action
   components: V, S, M
@@ -7119,6 +7457,22 @@ sanctum:
     - abjuration
     - artificer
     - wizard
+sapping_strike:
+  casting_time: 1 free action, which you take when you hit with a melee weapon attack
+  components: V
+  concentration: false
+  description: You wreath your weapon in necrotic energy. The target takes 1d6 necrotic damage and must then make a Constitution saving throw. On a failure, the target is slowed until the end of your next turn. Constructs and Undead are immune to the slowed condition inflicted by this spell.
+  duration: Up to 1 round
+  higher_level: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
+  level: 1
+  name: Sapping Strike
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - magus
+    - necromancy
+    - smite
 scatter:
   casting_time: 1 standard action
   components: V
@@ -7151,6 +7505,8 @@ scorching_blast:
     - XGE
   tags:
     - evocation
+    - fire
+    - magus
     - sorcerer
     - wizard
 scorching_ray:
@@ -7170,6 +7526,8 @@ scorching_ray:
     - PHB
   tags:
     - evocation
+    - fire
+    - magus
     - sorcerer
     - wizard
 scrying:
@@ -7214,7 +7572,7 @@ searing_smite:
   components: V
   concentration: false
   description: Your weapon flares with white-hot intensity, and the triggering attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. The flames deal ongoing_damage 1d6 fire damage (Constitution save ends). If the target or a creature within 5 feet of it uses a standard action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends.
-  duration: 1 minute
+  duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot level above 1st.
   level: 1
   name: Searing Smite
@@ -7225,6 +7583,8 @@ searing_smite:
     - 2D
   tags:
     - evocation
+    - fire
+    - magus
     - paladin
     - ranger
     - smite
@@ -7267,6 +7627,7 @@ see_invisibility:
     - artificer
     - bard
     - divination
+    - magus
     - sorcerer
     - wizard
 seeming:
@@ -7329,6 +7690,7 @@ shadow_blade:
     - XGE
   tags:
     - illusion
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -7356,6 +7718,7 @@ shape_water:
     - druid
     - sorcerer
     - transmutation
+    - water
     - wizard
 shapechange:
   casting_time: 1 standard action
@@ -7418,6 +7781,7 @@ shield:
     - 2D
   tags:
     - abjuration
+    - magus
     - sorcerer
     - wizard
 shield_of_faith:
@@ -7466,8 +7830,11 @@ shocking_grasp:
   sources:
     - PHB
   tags:
+    - air
     - artificer
     - evocation
+    - fire
+    - magus
     - sorcerer
     - wizard
 sickening_radiance:
@@ -7529,6 +7896,7 @@ silent_image:
   tags:
     - bard
     - illusion
+    - magus
     - sorcerer
     - wizard
 simulacrum:
@@ -7617,6 +7985,7 @@ sleet_storm:
     - conjuration
     - druid
     - sorcerer
+    - water
     - wizard
 slow:
   casting_time: 1 standard action
@@ -7639,6 +8008,7 @@ slow:
     - 4C
   tags:
     - bard
+    - magus
     - sorcerer
     - transmutation
     - wizard
@@ -7659,6 +8029,7 @@ snow_flurry:
   tags:
     - evocation
     - sorcerer
+    - water
     - wizard
 soul_cage:
   casting_time: 1 reaction, which you take when a humanoid you can see within 60 feet of you dies
@@ -7779,6 +8150,7 @@ spider_climb:
     - PHB
   tags:
     - artificer
+    - magus
     - sorcerer
     - transmutation
     - warlock
@@ -7822,27 +8194,6 @@ spirit_guardians:
   tags:
     - conjuration
     - paladin
-spirit_shroud:
-  casting_time: 1 minor action
-  components: V, S
-  concentration: true
-  description: |-
-    You call forth spirits of the dead, which flit around you to a distance of 10 feet for the spell's duration. The spirits are intangible and invulnerable.
-
-    When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature can't regain hit points while in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, it loses all of its temporary hit points.
-  duration: Up to 1 minute
-  level: 3
-  name: Spirit Shroud
-  range: Self
-  sources:
-    - TCE
-    - 2D
-  tags:
-    - cleric
-    - necromancy
-    - paladin
-    - warlock
-    - wizard
 spiritual_weapon:
   casting_time: 1 minor action
   components: V, S
@@ -7878,6 +8229,7 @@ staggering_smite:
     - 2D
   tags:
     - evocation
+    - magus
     - paladin
     - smite
 steel_wind_strike:
@@ -7898,6 +8250,7 @@ steel_wind_strike:
     - 2D
   tags:
     - conjuration
+    - magus
     - ranger
     - wizard
 stinking_cloud:
@@ -7957,6 +8310,7 @@ stoneskin:
     - abjuration
     - artificer
     - druid
+    - magus
     - ranger
     - sorcerer
     - wizard
@@ -7985,8 +8339,11 @@ storm_of_vengeance:
   sources:
     - PHB
   tags:
+    - air
     - conjuration
     - druid
+    - fire
+    - water
 storm_sphere:
   casting_time: 1 standard action
   components: V, S
@@ -8006,7 +8363,9 @@ storm_sphere:
     - EEPC
     - XGE
   tags:
+    - air
     - evocation
+    - fire
     - sorcerer
     - wizard
 suggestion:
@@ -8344,6 +8703,7 @@ sword_burst:
   tags:
     - artificer
     - conjuration
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -8434,9 +8794,27 @@ telekinesis:
   sources:
     - PHB
   tags:
+    - magus
     - sorcerer
     - transmutation
     - wizard
+telekinetic_grip:
+  casting_time: foo
+  components: V, S
+  concentration: false
+  description: |-
+    You attempt to bind a creature with telekinetic force. The target must succeed on a Strength saving throw or be pulled to an unoccupied space within 5 feet of you and be slowed until the start of your next turn.
+
+    If the target is willing, they may forgo the saving throw and not be subjected to the slowed condition.
+  duration: Up to 1 round
+  level: 1
+  name: Telekinetic Grip
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - magus
+    - transmutation
 telepathic_bond:
   casting_time: 1 standard action
   components: V, S, M
@@ -8633,6 +9011,7 @@ thunder_step:
     - XGE
   tags:
     - conjuration
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -8652,10 +9031,12 @@ thunderclap:
     - EEPC
     - XGE
   tags:
+    - air
     - artificer
     - bard
     - druid
     - evocation
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -8672,7 +9053,9 @@ thunderous_smite:
     - PHB
     - 2D
   tags:
+    - air
     - evocation
+    - magus
     - paladin
     - smite
 thunderwave:
@@ -8691,9 +9074,11 @@ thunderwave:
   sources:
     - PHB
   tags:
+    - air
     - bard
     - druid
     - evocation
+    - magus
     - sorcerer
     - wizard
 tidal_wave:
@@ -8713,6 +9098,7 @@ tidal_wave:
     - conjuration
     - druid
     - sorcerer
+    - water
     - wizard
 time_stop:
   casting_time: 1 standard action
@@ -8815,7 +9201,9 @@ transmute_rock:
   tags:
     - artificer
     - druid
+    - earth
     - transmutation
+    - water
     - wizard
 transport_via_plants:
   casting_time: 1 standard action
@@ -8928,6 +9316,7 @@ true_strike:
   tags:
     - bard
     - divination
+    - magus
     - sorcerer
     - warlock
     - wizard
@@ -8952,6 +9341,7 @@ tsunami:
   tags:
     - conjuration
     - druid
+    - water
 unseen_servant:
   casting_time: 1 standard action
   components: V, S, M
@@ -9049,6 +9439,7 @@ wall_of_fire:
   tags:
     - druid
     - evocation
+    - fire
     - sorcerer
     - wizard
 wall_of_force:
@@ -9092,6 +9483,7 @@ wall_of_ice:
     - PHB
   tags:
     - evocation
+    - water
     - wizard
 wall_of_light:
   casting_time: 1 standard action
@@ -9132,6 +9524,7 @@ wall_of_sand:
     - EEPC
     - XGE
   tags:
+    - earth
     - evocation
     - wizard
 wall_of_stone:
@@ -9160,6 +9553,7 @@ wall_of_stone:
   tags:
     - artificer
     - druid
+    - earth
     - evocation
     - sorcerer
     - wizard
@@ -9204,6 +9598,7 @@ wall_of_water:
     - druid
     - evocation
     - sorcerer
+    - water
     - wizard
 warding_bond:
   casting_time: 1 standard action
@@ -9246,9 +9641,11 @@ warding_wind:
     - EEPC
     - XGE
   tags:
+    - air
     - bard
     - druid
     - evocation
+    - magus
     - sorcerer
     - wizard
 water_breathing:
@@ -9319,6 +9716,7 @@ watery_sphere:
     - conjuration
     - druid
     - sorcerer
+    - water
     - wizard
 web:
   casting_time: 1 standard action
@@ -9344,6 +9742,7 @@ web:
   tags:
     - artificer
     - conjuration
+    - magus
     - sorcerer
     - wizard
 weird:
@@ -9382,6 +9781,7 @@ whirlwind:
     - EEPC
     - XGE
   tags:
+    - air
     - druid
     - evocation
     - sorcerer
@@ -9422,6 +9822,7 @@ wind_wall:
   sources:
     - PHB
   tags:
+    - air
     - druid
     - evocation
     - ranger
@@ -9440,7 +9841,9 @@ witch_bolt:
     - PHB
     - 2D
   tags:
+    - air
     - evocation
+    - fire
     - sorcerer
     - warlock
     - wizard
@@ -9519,6 +9922,27 @@ wrathful_smite:
     - evocation
     - paladin
     - smite
+zapping_strike:
+  casting_time: 1 free action, which you take when you hit with a melee weapon attack
+  components: V
+  concentration: false
+  description: |-
+    Electricity crackles about your weapon. The target, as well as one other creature of your choice within 15 feet of the initial target, take 1d6 lightning damage.
+
+    Immediately after the attack, you may choose to teleport to an unoccupied space within 5 feet of the target of the lightning bounce.
+  duration: Instantaneous
+  higher_level: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
+  level: 1
+  name: Zapping Strike
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - air
+    - conjuration
+    - fire
+    - magus
+    - smite
 zephyr_strike:
   casting_time: 1 minor action
   components: V
@@ -9534,5 +9958,7 @@ zephyr_strike:
   sources:
     - XGE
   tags:
+    - air
+    - magus
     - ranger
     - transmutation
