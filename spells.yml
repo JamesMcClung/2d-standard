@@ -696,6 +696,7 @@ bestow_curse:
     - arcane
     - bard
     - cleric
+    - curse
     - necromancy
     - wizard
 binding_ice:
@@ -4193,6 +4194,7 @@ geas:
     - arcane
     - bard
     - cleric
+    - curse
     - druid
     - enchantment
     - paladin
@@ -4950,6 +4952,7 @@ hex:
     - PHB
   tags:
     - arcane
+    - curse
     - enchantment
     - warlock
 hold_monster:
@@ -6546,6 +6549,7 @@ modify_memory:
     - PHB
   tags:
     - bard
+    - curse
     - enchantment
     - psionic
     - wizard
