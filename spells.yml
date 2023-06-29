@@ -236,7 +236,7 @@ antimagic_field:
 
     A magic weapon's properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If a magic weapon or a piece of magic ammunition fully leaves the sphere (for example, if you fire a magic arrow or throw a magic spear at a target outside the sphere), the magic of the item ceases to be suppressed as soon as it exits.
 
-    **Magical Travel.** Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the _rope trick_ spell, temporarily closes while in the sphere.
+    **Magical Travel.** Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the _mirror mansion_ spell, temporarily closes while in the sphere.
 
     **Creatures and Objects.** A creature or object summoned or created by magic temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere.
 
@@ -7715,30 +7715,6 @@ rime_blade:
     - sorcerer
     - warlock
     - water
-rope_trick:
-  casting_time: 1 standard action
-  components: V, S, M
-  concentration: false
-  description: |-
-    You touch a length of rope that is up to 60 feet long. One end of the rope then rises into the air until the whole rope hangs perpendicular to the ground. At the upper end of the rope, an invisible entrance opens to an extradimensional space that lasts until the spell ends.
-
-    The extradimensional space can be reached by climbing to the top of the rope. The space can hold as many as eight Medium or smaller creatures. The rope can be pulled into the space, making the rope disappear from view outside the space.
-
-    Attacks and spells can't cross through the entrance into or out of the extradimensional space, but those inside can see out of it as if through a 3-foot-by-5-foot window centered on the rope.
-
-    Anything inside the extradimensional space drops out when the spell ends.
-  duration: 1 hour
-  level: 2
-  material: powdered corn extract and a twisted loop of parchment
-  name: Rope Trick
-  range: Touch
-  sources:
-    - PHB
-  tags:
-    - arcane
-    - artificer
-    - transmutation
-    - wizard
 sacred_flame:
   casting_time: 1 standard action
   components: V, S
