@@ -19,6 +19,7 @@ absorb_elements:
     - earth
     - fire
     - magus
+    - primal
     - ranger
     - sorcerer
     - water
@@ -37,6 +38,7 @@ acid_arrow:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - wizard
 acid_splash:
@@ -54,6 +56,7 @@ acid_splash:
   sources:
     - PHB (Errata 2.0)
   tags:
+    - arcane
     - artificer
     - conjuration
     - magus
@@ -77,6 +80,7 @@ aid:
     - artificer
     - bard
     - cleric
+    - divine
     - magus
     - paladin
     - ranger
@@ -99,6 +103,7 @@ alarm:
     - PHB
   tags:
     - abjuration
+    - arcane
     - artificer
     - ranger
     - ritual
@@ -122,6 +127,7 @@ alter_self:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - magus
     - sorcerer
@@ -144,6 +150,7 @@ animal_friendship:
     - bard
     - druid
     - enchantment
+    - primal
     - ranger
 animal_messenger:
   casting_time: 1 standard action
@@ -165,6 +172,7 @@ animal_messenger:
     - bard
     - druid
     - enchantment
+    - primal
     - ranger
     - ritual
 animal_shapes:
@@ -186,6 +194,7 @@ animal_shapes:
     - 2D
   tags:
     - druid
+    - primal
     - transmutation
 antilife_shell:
   casting_time: 1 standard action
@@ -206,6 +215,7 @@ antilife_shell:
   tags:
     - abjuration
     - druid
+    - primal
     - water
 antimagic_field:
   casting_time: 1 standard action
@@ -240,6 +250,7 @@ antimagic_field:
     - PHB
   tags:
     - abjuration
+    - arcane
     - cleric
     - wizard
 antipathy_sympathy:
@@ -265,6 +276,7 @@ antipathy_sympathy:
     - PHB
     - TCE
   tags:
+    - arcane
     - bard
     - druid
     - enchantment
@@ -287,6 +299,7 @@ arcane_eye:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - divination
     - wizard
@@ -308,6 +321,7 @@ arcane_gate:
     - PHB
     - 2D
   tags:
+    - arcane
     - conjuration
     - sorcerer
     - warlock
@@ -329,6 +343,7 @@ arcane_lock:
     - PHB
   tags:
     - abjuration
+    - arcane
     - artificer
     - wizard
 arcane_weapon:
@@ -346,6 +361,7 @@ arcane_weapon:
     - 2D
   tags:
     - air
+    - arcane
     - artificer
     - earth
     - fire
@@ -367,6 +383,7 @@ armor_of_ice:
     - PHB
   tags:
     - abjuration
+    - arcane
     - magus
     - warlock
     - water
@@ -394,6 +411,7 @@ astral_projection:
   sources:
     - PHB
   tags:
+    - arcane
     - cleric
     - necromancy
     - warlock
@@ -417,6 +435,7 @@ attendant_item:
     - PHB
     - 2D
   tags:
+    - arcane
     - conjuration
     - ritual
     - wizard
@@ -446,6 +465,7 @@ augury:
   tags:
     - cleric
     - divination
+    - divine
     - druid
     - ritual
     - wizard
@@ -464,6 +484,7 @@ aura_of_life:
   tags:
     - abjuration
     - cleric
+    - divine
     - paladin
 aura_of_purity:
   casting_time: 1 standard action
@@ -480,6 +501,7 @@ aura_of_purity:
   tags:
     - abjuration
     - cleric
+    - divine
     - paladin
 aura_of_vitality:
   casting_time: 1 standard action
@@ -495,6 +517,7 @@ aura_of_vitality:
     - TCE
   tags:
     - cleric
+    - divine
     - druid
     - evocation
     - paladin
@@ -516,6 +539,7 @@ awaken:
   tags:
     - bard
     - druid
+    - primal
     - transmutation
 bane:
   casting_time: 1 standard action
@@ -533,6 +557,7 @@ bane:
   tags:
     - bard
     - cleric
+    - divine
     - enchantment
 banishing_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
@@ -548,6 +573,7 @@ banishing_smite:
     - 2D
   tags:
     - abjuration
+    - divine
     - magus
     - paladin
     - smite
@@ -571,6 +597,7 @@ banishment:
     - PHB
   tags:
     - abjuration
+    - arcane
     - cleric
     - magus
     - paladin
@@ -592,6 +619,7 @@ barkskin:
     - OneDnD
   tags:
     - druid
+    - primal
     - ranger
     - transmutation
 beacon_of_hope:
@@ -608,6 +636,7 @@ beacon_of_hope:
   tags:
     - abjuration
     - cleric
+    - divine
 beast_bond:
   casting_time: 1 standard action
   components: V, S, M
@@ -624,6 +653,7 @@ beast_bond:
   tags:
     - divination
     - druid
+    - primal
     - ranger
 beast_sense:
   casting_time: 1 standard action
@@ -639,6 +669,7 @@ beast_sense:
   tags:
     - divination
     - druid
+    - primal
     - ranger
     - ritual
 bestow_curse:
@@ -662,6 +693,7 @@ bestow_curse:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - cleric
     - necromancy
@@ -680,6 +712,7 @@ binding_ice:
   sources:
     - FTD
   tags:
+    - arcane
     - evocation
     - magus
     - sorcerer
@@ -700,6 +733,7 @@ blade_barrier:
   sources:
     - PHB
   tags:
+    - arcane
     - cleric
     - evocation
 blade_of_disaster:
@@ -719,6 +753,7 @@ blade_of_disaster:
   sources:
     - TCE
   tags:
+    - arcane
     - conjuration
     - sorcerer
     - warlock
@@ -736,6 +771,7 @@ blade_ward:
     - PHB
   tags:
     - abjuration
+    - arcane
     - bard
     - magus
     - sorcerer
@@ -754,6 +790,7 @@ blazing_strike:
   sources:
     - 2D
   tags:
+    - arcane
     - evocation
     - fire
     - magus
@@ -773,6 +810,7 @@ bless:
     - PHB
   tags:
     - cleric
+    - divine
     - enchantment
     - paladin
 blight:
@@ -795,6 +833,7 @@ blight:
   tags:
     - druid
     - necromancy
+    - primal
     - sorcerer
     - warlock
     - wizard
@@ -811,6 +850,7 @@ blinding_smite:
     - PHB
     - 2D
   tags:
+    - divine
     - evocation
     - paladin
     - smite
@@ -827,6 +867,7 @@ blindness_deafness:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - cleric
     - necromancy
@@ -847,6 +888,7 @@ blink:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - magus
     - sorcerer
@@ -864,6 +906,7 @@ blur:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - illusion
     - magus
@@ -890,6 +933,7 @@ bones_of_the_earth:
   tags:
     - druid
     - earth
+    - primal
     - transmutation
 booming_blade:
   casting_time: 1 standard action
@@ -908,6 +952,7 @@ booming_blade:
     - TCE
   tags:
     - air
+    - arcane
     - artificer
     - evocation
     - magus
@@ -928,6 +973,7 @@ branding_smite:
     - PHB
     - 2D
   tags:
+    - divine
     - evocation
     - paladin
     - smite
@@ -947,6 +993,7 @@ burning_hands:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - fire
     - magus
@@ -973,6 +1020,7 @@ call_lightning:
     - conjuration
     - druid
     - fire
+    - primal
 calm_emotions:
   casting_time: 1 standard action
   components: V, S
@@ -988,6 +1036,7 @@ calm_emotions:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - cleric
     - enchantment
@@ -1005,6 +1054,7 @@ catapult:
     - EEPC
     - XGE
   tags:
+    - arcane
     - artificer
     - magus
     - sorcerer
@@ -1024,6 +1074,7 @@ catnap:
   sources:
     - XGE
   tags:
+    - arcane
     - artificer
     - bard
     - enchantment
@@ -1042,6 +1093,7 @@ cause_fear:
   sources:
     - XGE
   tags:
+    - arcane
     - necromancy
     - warlock
     - wizard
@@ -1059,6 +1111,7 @@ caustic_spray:
   sources:
     - TCE
   tags:
+    - arcane
     - artificer
     - evocation
     - magus
@@ -1082,6 +1135,7 @@ chain_lightning:
     - PHB
   tags:
     - air
+    - arcane
     - evocation
     - fire
     - sorcerer
@@ -1115,6 +1169,7 @@ chaos_bolt:
   sources:
     - XGE
   tags:
+    - arcane
     - evocation
     - sorcerer
 charm_monster:
@@ -1130,6 +1185,7 @@ charm_monster:
   sources:
     - XGE
   tags:
+    - arcane
     - bard
     - druid
     - enchantment
@@ -1149,6 +1205,7 @@ charm_person:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - druid
     - enchantment
@@ -1172,6 +1229,7 @@ chill_touch:
   sources:
     - PHB
   tags:
+    - arcane
     - necromancy
     - sorcerer
     - warlock
@@ -1191,6 +1249,7 @@ chromatic_orb:
     - PHB
   tags:
     - air
+    - arcane
     - earth
     - evocation
     - fire
@@ -1212,6 +1271,7 @@ circle_of_death:
   sources:
     - PHB
   tags:
+    - arcane
     - necromancy
     - sorcerer
     - warlock
@@ -1229,6 +1289,7 @@ circle_of_power:
     - PHB
   tags:
     - abjuration
+    - divine
     - paladin
 clairvoyance:
   casting_time: 10 minutes
@@ -1248,6 +1309,7 @@ clairvoyance:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - cleric
     - divination
@@ -1269,6 +1331,7 @@ cloak_of_shadow:
   sources:
     - XGE
   tags:
+    - arcane
     - magus
     - necromancy
     - warlock
@@ -1288,6 +1351,7 @@ clone:
   sources:
     - PHB
   tags:
+    - arcane
     - necromancy
     - wizard
 cloud_of_daggers:
@@ -1304,6 +1368,7 @@ cloud_of_daggers:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - conjuration
     - magus
@@ -1328,6 +1393,7 @@ cloudkill:
   sources:
     - PHB
   tags:
+    - arcane
     - conjuration
     - sorcerer
     - wizard
@@ -1349,6 +1415,7 @@ color_spray:
     - PHB (Errata 2.0)
     - TCE
   tags:
+    - arcane
     - bard
     - illusion
     - magus
@@ -1383,6 +1450,7 @@ command:
   tags:
     - bard
     - cleric
+    - divine
     - enchantment
     - paladin
 commune:
@@ -1405,6 +1473,7 @@ commune:
   tags:
     - cleric
     - divination
+    - divine
     - ritual
 commune_with_nature:
   casting_time: 1 minute
@@ -1431,6 +1500,7 @@ commune_with_nature:
   tags:
     - divination
     - druid
+    - primal
     - ranger
     - ritual
 compelled_duel:
@@ -1448,6 +1518,7 @@ compelled_duel:
   sources:
     - PHB
   tags:
+    - divine
     - enchantment
     - paladin
 comprehend_languages:
@@ -1466,6 +1537,7 @@ comprehend_languages:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - divination
     - ritual
@@ -1487,6 +1559,7 @@ compulsion:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
 cone_of_cold:
@@ -1508,6 +1581,7 @@ cone_of_cold:
     - TCE
   tags:
     - air
+    - arcane
     - druid
     - evocation
     - magus
@@ -1537,6 +1611,7 @@ confusion:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - druid
     - enchantment
@@ -1557,6 +1632,7 @@ conjure_barrage:
     - PHB
     - 2D
   tags:
+    - arcane
     - conjuration
     - ranger
 conjure_volley:
@@ -1572,6 +1648,7 @@ conjure_volley:
   sources:
     - PHB
   tags:
+    - arcane
     - conjuration
     - ranger
 contact_other_plane:
@@ -1589,6 +1666,7 @@ contact_other_plane:
   sources:
     - PHB
   tags:
+    - arcane
     - divination
     - ritual
     - warlock
@@ -1623,6 +1701,7 @@ contagion:
     - PHB (Errata 2.0)
   tags:
     - cleric
+    - divine
     - druid
     - necromancy
 contingency:
@@ -1643,6 +1722,7 @@ contingency:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - wizard
 continual_flame:
@@ -1659,6 +1739,7 @@ continual_flame:
     - PHB
     - TCE
   tags:
+    - arcane
     - artificer
     - cleric
     - druid
@@ -1687,6 +1768,7 @@ control_flames:
   tags:
     - druid
     - fire
+    - primal
     - sorcerer
     - transmutation
     - wizard
@@ -1716,6 +1798,7 @@ control_water:
   tags:
     - cleric
     - druid
+    - primal
     - transmutation
     - water
     - wizard
@@ -1768,6 +1851,7 @@ control_weather:
     - air
     - cleric
     - druid
+    - primal
     - transmutation
     - water
     - wizard
@@ -1793,6 +1877,7 @@ control_winds:
   tags:
     - air
     - druid
+    - primal
     - sorcerer
     - transmutation
     - wizard
@@ -1813,6 +1898,7 @@ cordon_of_arrows:
   sources:
     - PHB
   tags:
+    - arcane
     - ranger
     - transmutation
 counterspell:
@@ -1829,6 +1915,7 @@ counterspell:
     - PHB
   tags:
     - abjuration
+    - arcane
     - sorcerer
     - warlock
     - wizard
@@ -1855,6 +1942,7 @@ create_bonfire:
     - druid
     - fire
     - magus
+    - primal
     - sorcerer
     - warlock
     - wizard
@@ -1873,6 +1961,7 @@ create_food_and_water:
     - artificer
     - cleric
     - conjuration
+    - divine
     - paladin
 create_or_destroy_water:
   casting_time: 1 standard action
@@ -1894,6 +1983,7 @@ create_or_destroy_water:
     - PHB
   tags:
     - cleric
+    - divine
     - druid
     - transmutation
     - water
@@ -1924,6 +2014,7 @@ creation:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - illusion
     - magus
@@ -1948,6 +2039,7 @@ crown_of_madness:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
     - sorcerer
@@ -1969,6 +2061,7 @@ crown_of_stars:
   sources:
     - XGE
   tags:
+    - arcane
     - evocation
     - sorcerer
     - warlock
@@ -1985,6 +2078,7 @@ crusaders_mantle:
   sources:
     - PHB
   tags:
+    - divine
     - evocation
     - paladin
 cure_wounds:
@@ -2003,6 +2097,7 @@ cure_wounds:
     - artificer
     - bard
     - cleric
+    - divine
     - druid
     - evocation
     - paladin
@@ -2023,6 +2118,7 @@ dancing_lights:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - evocation
@@ -2047,6 +2143,7 @@ danse_macabre:
   sources:
     - XGE
   tags:
+    - arcane
     - necromancy
     - warlock
     - wizard
@@ -2068,6 +2165,7 @@ darkness:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - magus
     - sorcerer
@@ -2086,6 +2184,7 @@ darkvision:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - druid
     - magus
@@ -2112,6 +2211,7 @@ dawn:
     - XGE
   tags:
     - cleric
+    - divine
     - evocation
     - wizard
 daylight:
@@ -2132,6 +2232,7 @@ daylight:
     - PHB
   tags:
     - cleric
+    - divine
     - druid
     - evocation
     - magus
@@ -2157,6 +2258,7 @@ death_ward:
   tags:
     - abjuration
     - cleric
+    - divine
     - paladin
 delayed_blast_fireball:
   casting_time: 1 standard action
@@ -2179,6 +2281,7 @@ delayed_blast_fireball:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - fire
     - sorcerer
@@ -2199,6 +2302,7 @@ demiplane:
     - PHB
     - TCE
   tags:
+    - arcane
     - conjuration
     - sorcerer
     - warlock
@@ -2220,6 +2324,7 @@ desiccation:
     - EEPC
     - XGE
   tags:
+    - arcane
     - necromancy
     - sorcerer
     - warlock
@@ -2236,6 +2341,7 @@ destructive_wave:
   sources:
     - PHB
   tags:
+    - divine
     - evocation
     - paladin
 detect_evil_and_good:
@@ -2255,6 +2361,7 @@ detect_evil_and_good:
   tags:
     - cleric
     - divination
+    - divine
     - paladin
 detect_magic:
   casting_time: 1 standard action
@@ -2271,6 +2378,7 @@ detect_magic:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - cleric
@@ -2302,6 +2410,7 @@ detect_poison_and_disease:
     - divination
     - druid
     - paladin
+    - primal
     - ranger
     - ritual
 detect_thoughts:
@@ -2326,6 +2435,7 @@ detect_thoughts:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - divination
     - magus
@@ -2348,6 +2458,7 @@ dimension_door:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - conjuration
     - magus
@@ -2371,6 +2482,7 @@ disguise_self:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - illusion
@@ -2398,6 +2510,7 @@ disintegrate:
   sources:
     - PHB
   tags:
+    - arcane
     - sorcerer
     - transmutation
     - wizard
@@ -2423,6 +2536,7 @@ dispel_evil_and_good:
   tags:
     - abjuration
     - cleric
+    - divine
     - paladin
 dispel_magic:
   casting_time: 1 standard action
@@ -2438,6 +2552,7 @@ dispel_magic:
     - PHB
   tags:
     - abjuration
+    - arcane
     - artificer
     - bard
     - cleric
@@ -2460,6 +2575,7 @@ dissonant_whispers:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
 distort_magic:
@@ -2482,6 +2598,7 @@ distort_magic:
   sources:
     - PHB
   tags:
+    - arcane
     - illusion
     - wizard
 divination:
@@ -2505,6 +2622,7 @@ divination:
   tags:
     - cleric
     - divination
+    - divine
     - druid
     - ritual
     - wizard
@@ -2520,6 +2638,7 @@ divine_favor:
   sources:
     - PHB
   tags:
+    - divine
     - evocation
     - paladin
 divine_smite:
@@ -2535,6 +2654,7 @@ divine_smite:
   sources:
     - 2D
   tags:
+    - divine
     - evocation
     - paladin
     - smite
@@ -2559,6 +2679,7 @@ divine_word:
     - PHB
   tags:
     - cleric
+    - divine
     - evocation
 dominate_beast:
   casting_time: 1 standard action
@@ -2583,6 +2704,7 @@ dominate_beast:
   tags:
     - druid
     - enchantment
+    - primal
     - ranger
     - sorcerer
 dominate_monster:
@@ -2605,6 +2727,7 @@ dominate_monster:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
     - sorcerer
@@ -2630,6 +2753,7 @@ dominate_person:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
     - sorcerer
@@ -2652,6 +2776,7 @@ draconic_transformation:
   sources:
     - FTD
   tags:
+    - arcane
     - druid
     - sorcerer
     - transmutation
@@ -2670,6 +2795,7 @@ dragons_breath:
   sources:
     - XGE
   tags:
+    - arcane
     - sorcerer
     - transmutation
     - wizard
@@ -2695,6 +2821,7 @@ dream:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - illusion
     - warlock
@@ -2733,6 +2860,7 @@ druid_grove:
   tags:
     - abjuration
     - druid
+    - primal
 druidcraft:
   casting_time: 1 standard action
   components: V, S
@@ -2752,6 +2880,7 @@ druidcraft:
     - PHB
   tags:
     - druid
+    - primal
     - transmutation
 dust_devil:
   casting_time: 1 standard action
@@ -2777,6 +2906,7 @@ dust_devil:
     - conjuration
     - druid
     - earth
+    - primal
     - sorcerer
     - wizard
 earth_tremor:
@@ -2798,6 +2928,7 @@ earth_tremor:
     - earth
     - evocation
     - magus
+    - primal
     - sorcerer
     - wizard
 earthbind:
@@ -2817,6 +2948,7 @@ earthbind:
   tags:
     - druid
     - magus
+    - primal
     - sorcerer
     - transmutation
     - warlock
@@ -2844,6 +2976,7 @@ earthen_grasp:
   tags:
     - earth
     - magus
+    - primal
     - sorcerer
     - transmutation
     - wizard
@@ -2877,6 +3010,7 @@ earthquake:
     - druid
     - earth
     - evocation
+    - primal
     - sorcerer
 eldritch_blast:
   casting_time: 1 standard action
@@ -2893,6 +3027,7 @@ eldritch_blast:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - warlock
 eldritch_smite:
@@ -2908,6 +3043,7 @@ eldritch_smite:
   sources:
     - 2D
   tags:
+    - arcane
     - evocation
     - smite
     - warlock
@@ -2931,6 +3067,7 @@ elemental_bane:
     - earth
     - fire
     - magus
+    - primal
     - transmutation
     - warlock
     - water
@@ -2957,6 +3094,7 @@ elemental_weapon:
     - fire
     - magus
     - paladin
+    - primal
     - ranger
     - transmutation
     - water
@@ -2975,6 +3113,7 @@ enemies_abound:
   sources:
     - XGE
   tags:
+    - arcane
     - bard
     - enchantment
     - sorcerer
@@ -2997,6 +3136,7 @@ enervation:
     - XGE
     - 2D
   tags:
+    - arcane
     - necromancy
     - sorcerer
     - warlock
@@ -3032,6 +3172,7 @@ enhance_ability:
     - artificer
     - bard
     - cleric
+    - divine
     - druid
     - magus
     - ranger
@@ -3059,6 +3200,7 @@ enlarge_reduce:
     - PHB
     - TCE
   tags:
+    - arcane
     - artificer
     - bard
     - druid
@@ -3084,6 +3226,7 @@ ensnaring_strike:
     - 2D
   tags:
     - conjuration
+    - primal
     - ranger
     - smite
 entangle:
@@ -3106,6 +3249,7 @@ entangle:
   tags:
     - conjuration
     - druid
+    - primal
     - ranger
 enthrall:
   casting_time: 1 standard action
@@ -3119,6 +3263,7 @@ enthrall:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
     - warlock
@@ -3139,6 +3284,7 @@ erupting_earth:
   tags:
     - druid
     - earth
+    - primal
     - sorcerer
     - transmutation
     - wizard
@@ -3158,6 +3304,7 @@ ethereal_strike:
   sources:
     - 2D
   tags:
+    - arcane
     - magus
     - smite
     - transmutation
@@ -3183,6 +3330,7 @@ etherealness:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - cleric
     - sorcerer
@@ -3211,6 +3359,7 @@ evil_eye:
     - PHB
     - 2D
   tags:
+    - arcane
     - bard
     - necromancy
     - sorcerer
@@ -3228,6 +3377,7 @@ expeditious_retreat:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - magus
     - sorcerer
@@ -3251,6 +3401,7 @@ fabricate:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - transmutation
     - wizard
@@ -3269,6 +3420,7 @@ faerie_fire:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - druid
@@ -3288,6 +3440,7 @@ false_life:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - magus
     - necromancy
@@ -3309,6 +3462,7 @@ far_sense:
     - bard
     - divination
     - druid
+    - primal
     - ranger
     - ritual
 far_step:
@@ -3324,6 +3478,7 @@ far_step:
     - XGE
     - 2D
   tags:
+    - arcane
     - conjuration
     - magus
     - sorcerer
@@ -3345,6 +3500,7 @@ fear:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - illusion
     - magus
@@ -3364,6 +3520,7 @@ feather_fall:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - magus
@@ -3390,6 +3547,7 @@ feeblemind:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - druid
     - enchantment
@@ -3411,6 +3569,7 @@ feign_death:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - cleric
     - druid
@@ -3439,6 +3598,7 @@ fey_mischief:
   sources:
     - FTD
   tags:
+    - arcane
     - bard
     - illusion
     - sorcerer
@@ -3467,6 +3627,7 @@ find_familiar:
   sources:
     - PHB
   tags:
+    - arcane
     - conjuration
     - ritual
     - wizard
@@ -3486,6 +3647,7 @@ find_the_path:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - cleric
     - divination
@@ -3508,6 +3670,7 @@ find_traps:
     - cleric
     - divination
     - druid
+    - primal
     - ranger
 finger_of_death:
   casting_time: 1 major action
@@ -3524,6 +3687,7 @@ finger_of_death:
   sources:
     - PHB
   tags:
+    - arcane
     - necromancy
     - sorcerer
     - warlock
@@ -3543,6 +3707,7 @@ fire_bolt:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - evocation
     - fire
@@ -3568,6 +3733,7 @@ fire_shield:
     - PHB
     - TCE
   tags:
+    - arcane
     - druid
     - evocation
     - fire
@@ -3594,6 +3760,7 @@ fire_storm:
     - druid
     - evocation
     - fire
+    - primal
     - sorcerer
 fireball:
   casting_time: 1 standard action
@@ -3612,6 +3779,7 @@ fireball:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - fire
     - sorcerer
@@ -3630,6 +3798,7 @@ flame_arrows:
     - EEPC
     - XGE
   tags:
+    - arcane
     - artificer
     - druid
     - fire
@@ -3657,6 +3826,7 @@ flame_blade:
     - PHB
     - TCE
   tags:
+    - arcane
     - druid
     - evocation
     - fire
@@ -3678,6 +3848,7 @@ flame_strike:
     - 2D
   tags:
     - cleric
+    - divine
     - evocation
 flaming_sphere:
   casting_time: 1 standard action
@@ -3699,6 +3870,7 @@ flaming_sphere:
     - PHB
     - TCE
   tags:
+    - arcane
     - conjuration
     - druid
     - fire
@@ -3720,6 +3892,7 @@ flaming_stride:
   sources:
     - FTD
   tags:
+    - arcane
     - artificer
     - fire
     - magus
@@ -3745,6 +3918,7 @@ floating_disk:
   sources:
     - PHB
   tags:
+    - arcane
     - conjuration
     - ritual
     - wizard
@@ -3762,6 +3936,7 @@ fly:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - magus
     - sorcerer
@@ -3785,6 +3960,7 @@ fog_cloud:
     - conjuration
     - druid
     - magus
+    - primal
     - ranger
     - sorcerer
     - water
@@ -3811,6 +3987,7 @@ forbiddance:
   tags:
     - abjuration
     - cleric
+    - divine
     - ritual
 foresight:
   casting_time: 1 minute
@@ -3828,6 +4005,7 @@ foresight:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - divination
     - druid
@@ -3853,6 +4031,7 @@ freedom_of_movement:
     - artificer
     - bard
     - cleric
+    - divine
     - druid
     - magus
     - ranger
@@ -3876,6 +4055,7 @@ freezing_sphere:
     - PHB
     - TCE
   tags:
+    - arcane
     - evocation
     - sorcerer
     - water
@@ -3893,6 +4073,7 @@ friends:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
     - sorcerer
@@ -3912,6 +4093,7 @@ frost_strike:
     - 2D
   tags:
     - abjuration
+    - arcane
     - magus
     - smite
     - water
@@ -3935,6 +4117,7 @@ frostbite:
     - druid
     - evocation
     - magus
+    - primal
     - sorcerer
     - warlock
     - water
@@ -3957,6 +4140,7 @@ gaseous_form:
   sources:
     - PHB
   tags:
+    - arcane
     - sorcerer
     - transmutation
     - warlock
@@ -3982,6 +4166,7 @@ gate:
     - PHB
     - TCE
   tags:
+    - arcane
     - cleric
     - conjuration
     - sorcerer
@@ -4005,6 +4190,7 @@ geas:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - cleric
     - druid
@@ -4029,6 +4215,7 @@ gentle_repose:
     - TCE
   tags:
     - cleric
+    - divine
     - necromancy
     - paladin
     - ritual
@@ -4053,6 +4240,7 @@ giant_insect:
     - PHB
   tags:
     - druid
+    - primal
     - transmutation
 glibness:
   casting_time: 1 standard action
@@ -4067,6 +4255,7 @@ glibness:
     - PHB
     - 2D
   tags:
+    - arcane
     - bard
     - enchantment
     - warlock
@@ -4088,6 +4277,7 @@ globe_of_invulnerability:
     - PHB
   tags:
     - abjuration
+    - arcane
     - sorcerer
     - wizard
 glyph_of_warding:
@@ -4118,6 +4308,7 @@ glyph_of_warding:
     - PHB
   tags:
     - abjuration
+    - arcane
     - artificer
     - bard
     - cleric
@@ -4140,6 +4331,7 @@ goodberry:
     - 2D
   tags:
     - druid
+    - primal
     - ranger
     - transmutation
 grasping_tentacles:
@@ -4160,6 +4352,7 @@ grasping_tentacles:
   sources:
     - PHB
   tags:
+    - arcane
     - conjuration
     - wizard
 grasping_vine:
@@ -4179,6 +4372,7 @@ grasping_vine:
   tags:
     - conjuration
     - druid
+    - primal
     - ranger
 grease:
   casting_time: 1 standard action
@@ -4197,6 +4391,7 @@ grease:
     - PHB
     - TCE
   tags:
+    - arcane
     - artificer
     - conjuration
     - magus
@@ -4214,6 +4409,7 @@ greater_invisibility:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - illusion
     - magus
@@ -4243,6 +4439,7 @@ greater_restoration:
     - artificer
     - bard
     - cleric
+    - divine
     - druid
     - ranger
 green_flame_blade:
@@ -4261,6 +4458,7 @@ green_flame_blade:
   sources:
     - TCE
   tags:
+    - arcane
     - artificer
     - evocation
     - fire
@@ -4284,6 +4482,7 @@ grim_apparitions:
     - TCE
     - 2D
   tags:
+    - arcane
     - cleric
     - magus
     - necromancy
@@ -4318,6 +4517,7 @@ guardian_of_nature:
     - XGE
   tags:
     - druid
+    - primal
     - ranger
     - transmutation
 guards_and_wards:
@@ -4357,6 +4557,7 @@ guards_and_wards:
     - PHB
   tags:
     - abjuration
+    - arcane
     - bard
     - wizard
 guidance:
@@ -4374,6 +4575,7 @@ guidance:
     - artificer
     - cleric
     - divination
+    - divine
     - druid
 guiding_bolt:
   casting_time: 1 standard action
@@ -4389,6 +4591,7 @@ guiding_bolt:
     - PHB
   tags:
     - cleric
+    - divine
     - evocation
 gust:
   casting_time: 1 standard action
@@ -4410,6 +4613,7 @@ gust:
   tags:
     - air
     - druid
+    - primal
     - sorcerer
     - transmutation
     - wizard
@@ -4437,6 +4641,7 @@ gust_of_wind:
     - air
     - druid
     - evocation
+    - primal
     - ranger
     - sorcerer
     - wizard
@@ -4455,6 +4660,7 @@ hail_of_thorns:
     - 2D
   tags:
     - conjuration
+    - primal
     - ranger
     - smite
 hallow:
@@ -4496,6 +4702,7 @@ hallow:
     - PHB
   tags:
     - cleric
+    - divine
     - evocation
 hallucinatory_terrain:
   casting_time: 10 minutes
@@ -4513,6 +4720,7 @@ hallucinatory_terrain:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - druid
     - illusion
@@ -4546,6 +4754,7 @@ hand_of_force:
     - PHB
     - TCE
   tags:
+    - arcane
     - artificer
     - evocation
     - sorcerer
@@ -4563,6 +4772,7 @@ harm:
     - PHB
   tags:
     - cleric
+    - divine
     - necromancy
 haste:
   casting_time: 1 standard action
@@ -4580,6 +4790,7 @@ haste:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - magus
     - sorcerer
@@ -4599,6 +4810,7 @@ heal:
     - PHB
   tags:
     - cleric
+    - divine
     - druid
     - evocation
 healing_spirit:
@@ -4621,6 +4833,7 @@ healing_spirit:
   tags:
     - conjuration
     - druid
+    - primal
     - ranger
 healing_word:
   casting_time: 1 minor action
@@ -4637,6 +4850,7 @@ healing_word:
   tags:
     - bard
     - cleric
+    - divine
     - druid
     - evocation
 heat_metal:
@@ -4656,6 +4870,7 @@ heat_metal:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - druid
@@ -4674,6 +4889,7 @@ hellish_rebuke:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - warlock
 heroes_feast:
@@ -4696,6 +4912,7 @@ heroes_feast:
     - bard
     - cleric
     - conjuration
+    - divine
     - druid
 heroism:
   casting_time: 1 standard action
@@ -4710,6 +4927,7 @@ heroism:
     - PHB
   tags:
     - bard
+    - divine
     - enchantment
     - paladin
 hex:
@@ -4731,6 +4949,7 @@ hex:
   sources:
     - PHB
   tags:
+    - arcane
     - enchantment
     - warlock
 hold_monster:
@@ -4747,6 +4966,7 @@ hold_monster:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
     - sorcerer
@@ -4766,6 +4986,7 @@ hold_person:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - cleric
     - druid
@@ -4788,6 +5009,7 @@ holy_aura:
   tags:
     - abjuration
     - cleric
+    - divine
 holy_weapon:
   casting_time: 1 minor action
   components: V, S
@@ -4806,6 +5028,7 @@ holy_weapon:
     - XGE
     - 2D
   tags:
+    - divine
     - evocation
     - paladin
 hunger_of_the_void:
@@ -4824,6 +5047,7 @@ hunger_of_the_void:
   sources:
     - PHB
   tags:
+    - arcane
     - conjuration
     - warlock
 hypnotic_pattern:
@@ -4843,6 +5067,7 @@ hypnotic_pattern:
     - PHB
     - 2D
   tags:
+    - arcane
     - bard
     - illusion
     - sorcerer
@@ -4863,6 +5088,7 @@ ice_knife:
     - EEPC
     - XGE
   tags:
+    - arcane
     - conjuration
     - druid
     - magus
@@ -4888,6 +5114,7 @@ ice_storm:
   tags:
     - druid
     - evocation
+    - primal
     - sorcerer
     - water
     - wizard
@@ -4907,6 +5134,7 @@ identify:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - divination
@@ -4932,6 +5160,7 @@ illusory_script:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - illusion
     - ritual
@@ -4955,6 +5184,7 @@ immolation:
     - XGE
     - 2D
   tags:
+    - arcane
     - evocation
     - fire
     - magus
@@ -5003,6 +5233,7 @@ imprisonment:
     - PHB
   tags:
     - abjuration
+    - arcane
     - warlock
     - wizard
 incendiary_cloud:
@@ -5027,6 +5258,7 @@ incendiary_cloud:
     - conjuration
     - druid
     - fire
+    - primal
     - sorcerer
     - wizard
 indestructible_sphere:
@@ -5049,6 +5281,7 @@ indestructible_sphere:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - evocation
     - wizard
@@ -5070,6 +5303,7 @@ infestation:
   tags:
     - conjuration
     - druid
+    - primal
     - sorcerer
     - warlock
     - wizard
@@ -5087,6 +5321,7 @@ inflict_wounds:
     - PHB
   tags:
     - cleric
+    - divine
     - magus
     - necromancy
 insect_plague:
@@ -5108,6 +5343,7 @@ insect_plague:
   tags:
     - cleric
     - conjuration
+    - divine
     - druid
     - sorcerer
 intellect_fortress:
@@ -5128,6 +5364,7 @@ intellect_fortress:
     - abjuration
     - artificer
     - bard
+    - psionic
     - sorcerer
     - warlock
     - wizard
@@ -5151,6 +5388,7 @@ investiture_of_flame:
   tags:
     - druid
     - fire
+    - primal
     - sorcerer
     - transmutation
     - warlock
@@ -5175,6 +5413,7 @@ investiture_of_ice:
     - XGE
   tags:
     - druid
+    - primal
     - sorcerer
     - transmutation
     - warlock
@@ -5200,6 +5439,7 @@ investiture_of_stone:
   tags:
     - druid
     - earth
+    - primal
     - sorcerer
     - transmutation
     - warlock
@@ -5224,6 +5464,7 @@ investiture_of_wind:
   tags:
     - air
     - druid
+    - primal
     - sorcerer
     - transmutation
     - warlock
@@ -5242,6 +5483,7 @@ invisibility:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - illusion
@@ -5264,6 +5506,7 @@ invulnerability:
     - 2D
   tags:
     - abjuration
+    - arcane
     - wizard
 irresistible_dance:
   casting_time: 1 standard action
@@ -5280,6 +5523,7 @@ irresistible_dance:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
     - wizard
@@ -5296,6 +5540,7 @@ jump:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - druid
     - magus
@@ -5322,6 +5567,7 @@ knock:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - sorcerer
     - transmutation
@@ -5342,6 +5588,7 @@ legend_lore:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - cleric
     - divination
@@ -5362,6 +5609,7 @@ lesser_restoration:
     - artificer
     - bard
     - cleric
+    - divine
     - druid
     - paladin
     - ranger
@@ -5383,6 +5631,7 @@ levitate:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - magus
     - sorcerer
@@ -5401,6 +5650,7 @@ life_transference:
   sources:
     - XGE
   tags:
+    - arcane
     - cleric
     - necromancy
     - wizard
@@ -5423,6 +5673,7 @@ light:
     - artificer
     - bard
     - cleric
+    - divine
     - evocation
     - magus
     - sorcerer
@@ -5447,6 +5698,7 @@ lightning_arrow:
     - 2D
   tags:
     - air
+    - arcane
     - fire
     - ranger
     - smite
@@ -5469,6 +5721,7 @@ lightning_bolt:
     - PHB
   tags:
     - air
+    - arcane
     - evocation
     - fire
     - magus
@@ -5490,6 +5743,7 @@ lightning_lure:
     - TCE
   tags:
     - air
+    - arcane
     - artificer
     - evocation
     - fire
@@ -5521,6 +5775,7 @@ locate:
     - divination
     - druid
     - paladin
+    - primal
     - ranger
     - wizard
 longstrider:
@@ -5537,6 +5792,7 @@ longstrider:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - druid
@@ -5560,6 +5816,7 @@ maddening_darkness:
   sources:
     - XGE
   tags:
+    - arcane
     - evocation
     - warlock
     - wizard
@@ -5579,6 +5836,7 @@ maelstrom:
   tags:
     - druid
     - evocation
+    - primal
     - water
 mage_armor:
   casting_time: 1 standard action
@@ -5594,6 +5852,7 @@ mage_armor:
     - PHB
   tags:
     - abjuration
+    - arcane
     - magus
     - sorcerer
     - wizard
@@ -5614,6 +5873,7 @@ mage_hand:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - conjuration
@@ -5645,6 +5905,7 @@ magic_circle:
     - PHB
   tags:
     - abjuration
+    - arcane
     - cleric
     - paladin
     - warlock
@@ -5675,6 +5936,7 @@ magic_jar:
   sources:
     - PHB
   tags:
+    - arcane
     - necromancy
     - wizard
 magic_missile:
@@ -5690,6 +5952,7 @@ magic_missile:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - sorcerer
     - wizard
@@ -5711,6 +5974,7 @@ magic_mouth:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - illusion
@@ -5734,6 +5998,7 @@ magic_stone:
   tags:
     - artificer
     - druid
+    - primal
     - transmutation
     - warlock
 magic_weapon:
@@ -5750,6 +6015,7 @@ magic_weapon:
     - PHB
     - TCE
   tags:
+    - arcane
     - artificer
     - magus
     - paladin
@@ -5776,6 +6042,7 @@ major_image:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - illusion
     - magus
@@ -5797,6 +6064,7 @@ mantle_of_meteors:
     - EEPC
     - XGE
   tags:
+    - arcane
     - fire
     - sorcerer
     - transmutation
@@ -5816,6 +6084,7 @@ mass_cure_wounds:
   tags:
     - bard
     - cleric
+    - divine
     - druid
     - evocation
 mass_heal:
@@ -5831,6 +6100,7 @@ mass_heal:
     - PHB
   tags:
     - cleric
+    - divine
     - evocation
 mass_healing_word:
   casting_time: 1 minor action
@@ -5848,6 +6118,7 @@ mass_healing_word:
   tags:
     - bard
     - cleric
+    - divine
     - evocation
 mass_polymorph:
   casting_time: 1 standard action
@@ -5865,6 +6136,7 @@ mass_polymorph:
   sources:
     - XGE
   tags:
+    - arcane
     - bard
     - sorcerer
     - transmutation
@@ -5890,6 +6162,7 @@ mass_suggestion:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
     - sorcerer
@@ -5913,6 +6186,7 @@ meld_into_stone:
     - PHB
     - TCE
   tags:
+    - arcane
     - cleric
     - druid
     - ranger
@@ -5934,6 +6208,7 @@ mending:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - cleric
@@ -5954,6 +6229,7 @@ mental_prison:
     - XGE
   tags:
     - illusion
+    - psionic
     - sorcerer
     - warlock
     - wizard
@@ -5973,6 +6249,7 @@ message:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - sorcerer
@@ -5993,6 +6270,7 @@ meteor_swarm:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - sorcerer
     - wizard
@@ -6020,6 +6298,7 @@ mighty_fortress:
   sources:
     - XGE
   tags:
+    - arcane
     - conjuration
     - wizard
 mind_blank:
@@ -6035,6 +6314,7 @@ mind_blank:
     - PHB
   tags:
     - abjuration
+    - arcane
     - bard
     - wizard
 mind_sliver:
@@ -6053,6 +6333,7 @@ mind_sliver:
     - TCE
   tags:
     - enchantment
+    - psionic
     - sorcerer
     - warlock
     - wizard
@@ -6070,6 +6351,7 @@ mind_spike:
     - XGE
   tags:
     - divination
+    - psionic
     - sorcerer
     - warlock
     - wizard
@@ -6087,6 +6369,7 @@ mind_whip:
     - TCE
   tags:
     - enchantment
+    - psionic
     - sorcerer
     - wizard
 minor_illusion:
@@ -6109,6 +6392,7 @@ minor_illusion:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - illusion
     - magus
@@ -6134,6 +6418,7 @@ mirage_arcane:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - druid
     - illusion
@@ -6160,6 +6445,7 @@ mirror_image:
     - PHB
     - TCE
   tags:
+    - arcane
     - bard
     - illusion
     - magus
@@ -6192,6 +6478,7 @@ mirror_mansion:
     - PHB
     - 2D
   tags:
+    - arcane
     - bard
     - conjuration
     - wizard
@@ -6213,6 +6500,7 @@ mislead:
     - PHB
     - TCE
   tags:
+    - arcane
     - bard
     - illusion
     - warlock
@@ -6229,6 +6517,7 @@ misty_step:
   sources:
     - PHB
   tags:
+    - arcane
     - conjuration
     - magus
     - sorcerer
@@ -6258,6 +6547,7 @@ modify_memory:
   tags:
     - bard
     - enchantment
+    - psionic
     - wizard
 mold_earth:
   casting_time: 1 standard action
@@ -6281,6 +6571,7 @@ mold_earth:
   tags:
     - druid
     - earth
+    - primal
     - sorcerer
     - transmutation
     - wizard
@@ -6307,6 +6598,7 @@ moonbeam:
   tags:
     - druid
     - evocation
+    - primal
 move_earth:
   casting_time: 1 standard action
   components: V, S, M
@@ -6331,6 +6623,7 @@ move_earth:
   tags:
     - druid
     - earth
+    - primal
     - sorcerer
     - transmutation
     - wizard
@@ -6350,6 +6643,7 @@ negative_energy_flood:
   sources:
     - XGE
   tags:
+    - arcane
     - necromancy
     - warlock
     - wizard
@@ -6367,6 +6661,7 @@ nondetection:
     - PHB
   tags:
     - abjuration
+    - arcane
     - bard
     - magus
     - ranger
@@ -6392,6 +6687,7 @@ otherworldly_guise:
   sources:
     - TCE
   tags:
+    - divine
     - sorcerer
     - transmutation
     - warlock
@@ -6409,6 +6705,7 @@ otherworldly_tendrils:
   sources:
     - PHB
   tags:
+    - arcane
     - conjuration
     - warlock
 pass_without_trace:
@@ -6426,6 +6723,7 @@ pass_without_trace:
   tags:
     - abjuration
     - druid
+    - primal
     - ranger
 passwall:
   casting_time: 1 standard action
@@ -6443,6 +6741,7 @@ passwall:
   sources:
     - PHB
   tags:
+    - arcane
     - transmutation
     - wizard
 petrify:
@@ -6468,6 +6767,7 @@ petrify:
     - TCE
     - 2D
   tags:
+    - arcane
     - druid
     - sorcerer
     - transmutation
@@ -6495,6 +6795,7 @@ phantasmal_force:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - illusion
     - sorcerer
@@ -6513,6 +6814,7 @@ phantasmal_killer:
     - PHB
     - TCE
   tags:
+    - arcane
     - bard
     - illusion
     - wizard
@@ -6534,6 +6836,7 @@ phantom_hound:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - conjuration
     - wizard
@@ -6552,6 +6855,7 @@ phantom_steed:
   sources:
     - PHB
   tags:
+    - arcane
     - illusion
     - ritual
     - wizard
@@ -6574,6 +6878,7 @@ planar_binding:
     - TCE
   tags:
     - abjuration
+    - arcane
     - bard
     - cleric
     - druid
@@ -6597,6 +6902,7 @@ plane_shift:
   sources:
     - PHB
   tags:
+    - arcane
     - cleric
     - conjuration
     - druid
@@ -6618,6 +6924,7 @@ plant_growth:
   tags:
     - bard
     - druid
+    - primal
     - ranger
     - transmutation
 platinum_shield:
@@ -6642,6 +6949,7 @@ platinum_shield:
     - FTD
   tags:
     - abjuration
+    - arcane
     - sorcerer
     - wizard
 poison_spray:
@@ -6662,6 +6970,7 @@ poison_spray:
     - artificer
     - conjuration
     - magus
+    - primal
     - sorcerer
     - warlock
     - wizard
@@ -6683,6 +6992,7 @@ polymorph:
   tags:
     - bard
     - druid
+    - primal
     - sorcerer
     - transmutation
     - wizard
@@ -6701,6 +7011,7 @@ power_word_heal:
   tags:
     - bard
     - cleric
+    - divine
     - evocation
 power_word_kill:
   casting_time: 1 standard action
@@ -6715,6 +7026,7 @@ power_word_kill:
     - PHB
   tags:
     - bard
+    - divine
     - enchantment
     - sorcerer
     - warlock
@@ -6734,6 +7046,7 @@ power_word_pain:
   sources:
     - XGE
   tags:
+    - divine
     - enchantment
     - sorcerer
     - warlock
@@ -6751,6 +7064,7 @@ power_word_stun:
     - PHB
   tags:
     - bard
+    - divine
     - enchantment
     - sorcerer
     - warlock
@@ -6770,6 +7084,7 @@ prayer_of_healing:
     - TCE
   tags:
     - cleric
+    - divine
     - evocation
     - paladin
 prestidigitation:
@@ -6794,6 +7109,7 @@ prestidigitation:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - magus
@@ -6817,6 +7133,7 @@ primal_savagery:
     - XGE
   tags:
     - druid
+    - primal
     - transmutation
 primordial_ward:
   casting_time: 1 standard action
@@ -6839,6 +7156,7 @@ primordial_ward:
     - druid
     - earth
     - fire
+    - primal
     - water
 prismatic_spray:
   casting_time: 1 standard action
@@ -6870,6 +7188,7 @@ prismatic_spray:
     - PHB
     - TCE
   tags:
+    - arcane
     - bard
     - evocation
     - sorcerer
@@ -6894,6 +7213,7 @@ produce_flame:
     - conjuration
     - druid
     - fire
+    - primal
 programmed_illusion:
   casting_time: 1 standard action
   components: V, S, M
@@ -6914,6 +7234,7 @@ programmed_illusion:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - illusion
     - wizard
@@ -6937,6 +7258,7 @@ project_image:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - illusion
     - wizard
@@ -6954,6 +7276,7 @@ protection_from_energy:
   tags:
     - abjuration
     - air
+    - arcane
     - artificer
     - cleric
     - druid
@@ -6983,6 +7306,7 @@ protection_from_evil_and_good:
   tags:
     - abjuration
     - cleric
+    - divine
     - druid
     - paladin
     - warlock
@@ -7007,6 +7331,7 @@ protection_from_poison:
     - cleric
     - druid
     - paladin
+    - primal
     - ranger
 psychic_lance:
   casting_time: 1 standard action
@@ -7026,6 +7351,7 @@ psychic_lance:
   tags:
     - bard
     - enchantment
+    - psionic
     - sorcerer
     - warlock
     - wizard
@@ -7047,6 +7373,7 @@ psychic_scream:
   tags:
     - bard
     - enchantment
+    - psionic
     - sorcerer
     - warlock
     - wizard
@@ -7064,6 +7391,7 @@ purify_food_and_drink:
   tags:
     - artificer
     - cleric
+    - divine
     - druid
     - paladin
     - ritual
@@ -7086,6 +7414,7 @@ pyrotechnics:
     - EEPC
     - XGE
   tags:
+    - arcane
     - artificer
     - bard
     - fire
@@ -7108,6 +7437,7 @@ quaking_blow:
   sources:
     - 2D
   tags:
+    - arcane
     - artificer
     - earth
     - evocation
@@ -7136,6 +7466,7 @@ raise_dead:
   tags:
     - bard
     - cleric
+    - divine
     - necromancy
     - paladin
 ray_of_enfeeblement:
@@ -7150,6 +7481,7 @@ ray_of_enfeeblement:
   sources:
     - PHB
   tags:
+    - arcane
     - necromancy
     - warlock
     - wizard
@@ -7168,6 +7500,7 @@ ray_of_frost:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - evocation
     - magus
@@ -7187,6 +7520,7 @@ ray_of_sickness:
   sources:
     - PHB
   tags:
+    - arcane
     - necromancy
     - sorcerer
     - wizard
@@ -7210,6 +7544,7 @@ regenerate:
     - bard
     - cleric
     - druid
+    - primal
     - transmutation
 reincarnate:
   casting_time: 1 hour
@@ -7247,6 +7582,7 @@ reincarnate:
     - PHB
   tags:
     - druid
+    - primal
     - transmutation
 remove_curse:
   casting_time: 1 standard action
@@ -7261,6 +7597,7 @@ remove_curse:
     - PHB
   tags:
     - abjuration
+    - arcane
     - cleric
     - paladin
     - warlock
@@ -7280,6 +7617,7 @@ resistance:
     - abjuration
     - artificer
     - cleric
+    - divine
     - druid
 resurrection:
   casting_time: 1 hour
@@ -7304,6 +7642,7 @@ resurrection:
   tags:
     - bard
     - cleric
+    - divine
     - necromancy
 reverse_gravity:
   casting_time: 1 standard action
@@ -7323,6 +7662,7 @@ reverse_gravity:
   sources:
     - PHB
   tags:
+    - arcane
     - druid
     - sorcerer
     - transmutation
@@ -7343,6 +7683,7 @@ revivify:
   tags:
     - artificer
     - cleric
+    - divine
     - druid
     - necromancy
     - paladin
@@ -7363,6 +7704,7 @@ rime_blade:
   sources:
     - 2D
   tags:
+    - arcane
     - artificer
     - evocation
     - magus
@@ -7389,6 +7731,7 @@ rope_trick:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - transmutation
     - wizard
@@ -7408,6 +7751,7 @@ sacred_flame:
     - PHB
   tags:
     - cleric
+    - divine
     - evocation
 sanctuary:
   casting_time: 1 minor action
@@ -7428,6 +7772,7 @@ sanctuary:
     - abjuration
     - artificer
     - cleric
+    - divine
 sanctum:
   casting_time: 10 minutes
   components: V, S, M
@@ -7455,6 +7800,7 @@ sanctum:
     - PHB
   tags:
     - abjuration
+    - arcane
     - artificer
     - wizard
 sapping_strike:
@@ -7470,6 +7816,7 @@ sapping_strike:
   sources:
     - 2D
   tags:
+    - arcane
     - magus
     - necromancy
     - smite
@@ -7485,6 +7832,7 @@ scatter:
   sources:
     - XGE
   tags:
+    - arcane
     - conjuration
     - sorcerer
     - warlock
@@ -7504,6 +7852,7 @@ scorching_blast:
     - EEPC
     - XGE
   tags:
+    - arcane
     - evocation
     - fire
     - magus
@@ -7525,6 +7874,7 @@ scorching_ray:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - fire
     - magus
@@ -7562,6 +7912,7 @@ scrying:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - cleric
     - divination
@@ -7582,6 +7933,7 @@ searing_smite:
     - TCE
     - 2D
   tags:
+    - divine
     - evocation
     - fire
     - magus
@@ -7607,6 +7959,7 @@ secret_chest:
     - PHB
     - 2D
   tags:
+    - arcane
     - artificer
     - conjuration
     - ritual
@@ -7624,6 +7977,7 @@ see_invisibility:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - bard
     - divination
@@ -7649,6 +8003,7 @@ seeming:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - illusion
     - sorcerer
@@ -7671,6 +8026,7 @@ sequester:
   sources:
     - PHB
   tags:
+    - arcane
     - transmutation
     - wizard
 shadow_blade:
@@ -7689,6 +8045,7 @@ shadow_blade:
   sources:
     - XGE
   tags:
+    - arcane
     - illusion
     - magus
     - sorcerer
@@ -7716,6 +8073,7 @@ shape_water:
     - XGE
   tags:
     - druid
+    - primal
     - sorcerer
     - transmutation
     - water
@@ -7742,6 +8100,7 @@ shapechange:
   sources:
     - PHB
   tags:
+    - arcane
     - druid
     - transmutation
     - wizard
@@ -7762,6 +8121,7 @@ shatter:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - evocation
     - sorcerer
@@ -7781,6 +8141,7 @@ shield:
     - 2D
   tags:
     - abjuration
+    - arcane
     - magus
     - sorcerer
     - wizard
@@ -7799,6 +8160,7 @@ shield_of_faith:
   tags:
     - abjuration
     - cleric
+    - divine
     - paladin
 shillelagh:
   casting_time: 1 minor action
@@ -7814,6 +8176,7 @@ shillelagh:
     - PHB
   tags:
     - druid
+    - primal
     - transmutation
 shocking_grasp:
   casting_time: 1 standard action
@@ -7831,6 +8194,7 @@ shocking_grasp:
     - PHB
   tags:
     - air
+    - arcane
     - artificer
     - evocation
     - fire
@@ -7852,6 +8216,7 @@ sickening_radiance:
   sources:
     - XGE
   tags:
+    - arcane
     - evocation
     - sorcerer
     - warlock
@@ -7873,6 +8238,7 @@ silence:
   tags:
     - bard
     - cleric
+    - divine
     - illusion
     - ranger
     - ritual
@@ -7894,6 +8260,7 @@ silent_image:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - illusion
     - magus
@@ -7920,6 +8287,7 @@ simulacrum:
     - PHB
     - 2D
   tags:
+    - arcane
     - illusion
     - wizard
 skywrite:
@@ -7938,6 +8306,7 @@ skywrite:
     - artificer
     - bard
     - druid
+    - primal
     - ritual
     - transmutation
     - wizard
@@ -7960,6 +8329,7 @@ sleep:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
     - sorcerer
@@ -7984,6 +8354,7 @@ sleet_storm:
   tags:
     - conjuration
     - druid
+    - primal
     - sorcerer
     - water
     - wizard
@@ -8007,6 +8378,7 @@ slow:
     - TCE
     - 4C
   tags:
+    - arcane
     - bard
     - magus
     - sorcerer
@@ -8027,6 +8399,7 @@ snow_flurry:
     - EEPC
     - XGE
   tags:
+    - arcane
     - evocation
     - sorcerer
     - water
@@ -8055,6 +8428,7 @@ soul_cage:
   sources:
     - XGE
   tags:
+    - arcane
     - necromancy
     - warlock
     - wizard
@@ -8072,6 +8446,7 @@ spare_the_dying:
   tags:
     - artificer
     - cleric
+    - divine
     - necromancy
 speak_with_animals:
   casting_time: 1 standard action
@@ -8088,6 +8463,7 @@ speak_with_animals:
     - bard
     - divination
     - druid
+    - primal
     - ranger
     - ritual
 speak_with_dead:
@@ -8107,6 +8483,7 @@ speak_with_dead:
     - PHB
     - TCE
   tags:
+    - arcane
     - bard
     - cleric
     - necromancy
@@ -8134,6 +8511,7 @@ speak_with_plants:
   tags:
     - bard
     - druid
+    - primal
     - ranger
     - transmutation
 spider_climb:
@@ -8149,6 +8527,7 @@ spider_climb:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - magus
     - sorcerer
@@ -8172,6 +8551,7 @@ spike_growth:
     - PHB
   tags:
     - druid
+    - primal
     - ranger
     - transmutation
 spirit_guardians:
@@ -8193,6 +8573,7 @@ spirit_guardians:
     - 2D
   tags:
     - conjuration
+    - divine
     - paladin
 spiritual_weapon:
   casting_time: 1 minor action
@@ -8214,6 +8595,7 @@ spiritual_weapon:
     - 2D
   tags:
     - cleric
+    - divine
     - evocation
 staggering_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
@@ -8228,6 +8610,7 @@ staggering_smite:
     - PHB
     - 2D
   tags:
+    - divine
     - evocation
     - magus
     - paladin
@@ -8249,6 +8632,7 @@ steel_wind_strike:
     - XGE
     - 2D
   tags:
+    - arcane
     - conjuration
     - magus
     - ranger
@@ -8271,6 +8655,7 @@ stinking_cloud:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - conjuration
     - sorcerer
@@ -8288,6 +8673,7 @@ stone_shape:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - cleric
     - druid
@@ -8308,6 +8694,7 @@ stoneskin:
     - 2D
   tags:
     - abjuration
+    - arcane
     - artificer
     - druid
     - magus
@@ -8343,6 +8730,7 @@ storm_of_vengeance:
     - conjuration
     - druid
     - fire
+    - primal
     - water
 storm_sphere:
   casting_time: 1 standard action
@@ -8366,6 +8754,7 @@ storm_sphere:
     - air
     - evocation
     - fire
+    - primal
     - sorcerer
     - wizard
 suggestion:
@@ -8388,6 +8777,7 @@ suggestion:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
     - sorcerer
@@ -8413,6 +8803,7 @@ summon_aberration:
     - TCE
     - 2D
   tags:
+    - arcane
     - conjuration
     - warlock
     - wizard
@@ -8436,6 +8827,7 @@ summon_beast:
   tags:
     - conjuration
     - druid
+    - primal
     - ranger
 summon_celestial:
   casting_time: 1 standard action
@@ -8460,6 +8852,7 @@ summon_celestial:
   tags:
     - cleric
     - conjuration
+    - divine
 summon_construct:
   casting_time: 1 standard action
   components: V, S, M
@@ -8480,6 +8873,7 @@ summon_construct:
     - TCE
     - 2D
   tags:
+    - arcane
     - artificer
     - conjuration
     - wizard
@@ -8504,6 +8898,7 @@ summon_dragon:
     - FTD
     - 2D
   tags:
+    - arcane
     - conjuration
     - druid
     - sorcerer
@@ -8528,6 +8923,7 @@ summon_elemental:
     - TCE
     - 2D
   tags:
+    - arcane
     - conjuration
     - druid
     - ranger
@@ -8550,6 +8946,7 @@ summon_fey:
     - TCE
     - 2D
   tags:
+    - arcane
     - conjuration
     - druid
     - ranger
@@ -8575,6 +8972,7 @@ summon_fiend:
     - TCE
     - 2D
   tags:
+    - arcane
     - conjuration
     - warlock
     - wizard
@@ -8596,6 +8994,7 @@ summon_monstrosity:
     - TCE
     - 2D
   tags:
+    - arcane
     - conjuration
     - warlock
     - wizard
@@ -8619,6 +9018,7 @@ summon_undead:
     - TCE
     - 2D
   tags:
+    - arcane
     - necromancy
     - warlock
     - wizard
@@ -8642,6 +9042,7 @@ sunbeam:
     - TCE
   tags:
     - cleric
+    - divine
     - druid
     - evocation
     - sorcerer
@@ -8664,6 +9065,7 @@ sunburst:
     - TCE
   tags:
     - cleric
+    - divine
     - druid
     - evocation
     - sorcerer
@@ -8684,6 +9086,7 @@ swift_quiver:
   sources:
     - PHB
   tags:
+    - arcane
     - ranger
     - transmutation
 sword_burst:
@@ -8701,6 +9104,7 @@ sword_burst:
   sources:
     - TCE
   tags:
+    - arcane
     - artificer
     - conjuration
     - magus
@@ -8749,6 +9153,7 @@ symbol:
     - abjuration
     - bard
     - cleric
+    - divine
     - druid
     - wizard
 synaptic_static:
@@ -8768,6 +9173,7 @@ synaptic_static:
   tags:
     - bard
     - enchantment
+    - psionic
     - sorcerer
     - warlock
     - wizard
@@ -8795,6 +9201,7 @@ telekinesis:
     - PHB
   tags:
     - magus
+    - psionic
     - sorcerer
     - transmutation
     - wizard
@@ -8814,6 +9221,7 @@ telekinetic_grip:
     - 2D
   tags:
     - magus
+    - psionic
     - transmutation
 telepathic_bond:
   casting_time: 1 standard action
@@ -8832,6 +9240,7 @@ telepathic_bond:
     - PHB
     - TCE
   tags:
+    - arcane
     - bard
     - divination
     - ritual
@@ -8852,6 +9261,7 @@ telepathy:
   sources:
     - PHB
   tags:
+    - arcane
     - evocation
     - wizard
 teleport:
@@ -8893,6 +9303,7 @@ teleport:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - conjuration
     - sorcerer
@@ -8916,6 +9327,7 @@ teleportation_circle:
     - PHB
     - TCE
   tags:
+    - arcane
     - bard
     - conjuration
     - sorcerer
@@ -8951,6 +9363,7 @@ temple_of_the_gods:
   tags:
     - cleric
     - conjuration
+    - divine
 thaumaturgy:
   casting_time: 1 standard action
   components: V
@@ -8974,6 +9387,7 @@ thaumaturgy:
     - PHB
   tags:
     - cleric
+    - divine
     - transmutation
 thorn_whip:
   casting_time: 1 standard action
@@ -8993,6 +9407,7 @@ thorn_whip:
   tags:
     - artificer
     - druid
+    - primal
     - transmutation
 thunder_step:
   casting_time: 1 standard action
@@ -9010,6 +9425,7 @@ thunder_step:
   sources:
     - XGE
   tags:
+    - arcane
     - conjuration
     - magus
     - sorcerer
@@ -9037,6 +9453,7 @@ thunderclap:
     - druid
     - evocation
     - magus
+    - primal
     - sorcerer
     - warlock
     - wizard
@@ -9054,6 +9471,7 @@ thunderous_smite:
     - 2D
   tags:
     - air
+    - divine
     - evocation
     - magus
     - paladin
@@ -9079,6 +9497,7 @@ thunderwave:
     - druid
     - evocation
     - magus
+    - primal
     - sorcerer
     - wizard
 tidal_wave:
@@ -9097,6 +9516,7 @@ tidal_wave:
   tags:
     - conjuration
     - druid
+    - primal
     - sorcerer
     - water
     - wizard
@@ -9115,6 +9535,7 @@ time_stop:
   sources:
     - PHB
   tags:
+    - arcane
     - sorcerer
     - transmutation
     - wizard
@@ -9135,6 +9556,7 @@ tiny_servant:
   sources:
     - XGE
   tags:
+    - arcane
     - artificer
     - transmutation
     - wizard
@@ -9154,6 +9576,7 @@ toll_the_dead:
     - XGE
   tags:
     - cleric
+    - divine
     - necromancy
     - warlock
     - wizard
@@ -9173,6 +9596,7 @@ tongues:
     - bard
     - cleric
     - divination
+    - divine
     - sorcerer
     - warlock
     - wizard
@@ -9202,6 +9626,7 @@ transmute_rock:
     - artificer
     - druid
     - earth
+    - primal
     - transmutation
     - water
     - wizard
@@ -9219,6 +9644,7 @@ transport_via_plants:
   tags:
     - conjuration
     - druid
+    - primal
 tree_stride:
   casting_time: 1 standard action
   components: V, S
@@ -9236,6 +9662,7 @@ tree_stride:
   tags:
     - conjuration
     - druid
+    - primal
     - ranger
 true_polymorph:
   casting_time: 1 standard action
@@ -9258,6 +9685,7 @@ true_polymorph:
     - PHB
     - 2D
   tags:
+    - arcane
     - bard
     - transmutation
     - warlock
@@ -9281,6 +9709,7 @@ true_resurrection:
     - PHB
   tags:
     - cleric
+    - divine
     - druid
     - necromancy
 true_seeing:
@@ -9299,6 +9728,7 @@ true_seeing:
     - bard
     - cleric
     - divination
+    - divine
     - sorcerer
     - warlock
     - wizard
@@ -9316,6 +9746,7 @@ true_strike:
   tags:
     - bard
     - divination
+    - divine
     - magus
     - sorcerer
     - warlock
@@ -9341,6 +9772,7 @@ tsunami:
   tags:
     - conjuration
     - druid
+    - primal
     - water
 unseen_servant:
   casting_time: 1 standard action
@@ -9360,6 +9792,7 @@ unseen_servant:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - conjuration
     - ritual
@@ -9379,6 +9812,7 @@ vampiric_touch:
     - PHB
     - TCE
   tags:
+    - arcane
     - necromancy
     - sorcerer
     - warlock
@@ -9398,6 +9832,7 @@ vicious_mockery:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - enchantment
 vitriolic_sphere:
@@ -9415,6 +9850,7 @@ vitriolic_sphere:
     - EEPC
     - XGE
   tags:
+    - arcane
     - evocation
     - sorcerer
     - wizard
@@ -9437,6 +9873,7 @@ wall_of_fire:
   sources:
     - PHB
   tags:
+    - arcane
     - druid
     - evocation
     - fire
@@ -9461,6 +9898,7 @@ wall_of_force:
     - PHB
   tags:
     - 2D
+    - arcane
     - evocation
     - wizard
 wall_of_ice:
@@ -9483,6 +9921,7 @@ wall_of_ice:
     - PHB
   tags:
     - evocation
+    - primal
     - water
     - wizard
 wall_of_light:
@@ -9506,6 +9945,7 @@ wall_of_light:
   sources:
     - XGE
   tags:
+    - divine
     - evocation
     - sorcerer
     - warlock
@@ -9526,6 +9966,7 @@ wall_of_sand:
   tags:
     - earth
     - evocation
+    - primal
     - wizard
 wall_of_stone:
   casting_time: 1 standard action
@@ -9555,6 +9996,7 @@ wall_of_stone:
     - druid
     - earth
     - evocation
+    - primal
     - sorcerer
     - wizard
 wall_of_thorns:
@@ -9578,6 +10020,7 @@ wall_of_thorns:
   tags:
     - conjuration
     - druid
+    - primal
 wall_of_water:
   casting_time: 1 standard action
   components: V, S, M
@@ -9597,6 +10040,7 @@ wall_of_water:
   tags:
     - druid
     - evocation
+    - primal
     - sorcerer
     - water
     - wizard
@@ -9620,6 +10064,7 @@ warding_bond:
   tags:
     - abjuration
     - cleric
+    - divine
     - paladin
 warding_wind:
   casting_time: 1 standard action
@@ -9646,6 +10091,7 @@ warding_wind:
     - druid
     - evocation
     - magus
+    - primal
     - sorcerer
     - wizard
 water_breathing:
@@ -9661,6 +10107,7 @@ water_breathing:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - druid
     - ranger
@@ -9685,6 +10132,7 @@ water_walk:
   tags:
     - artificer
     - cleric
+    - divine
     - druid
     - ranger
     - ritual
@@ -9715,6 +10163,7 @@ watery_sphere:
   tags:
     - conjuration
     - druid
+    - primal
     - sorcerer
     - water
     - wizard
@@ -9740,6 +10189,7 @@ web:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - conjuration
     - magus
@@ -9759,6 +10209,7 @@ weird:
     - TCE
     - 2D
   tags:
+    - arcane
     - illusion
     - warlock
     - wizard
@@ -9784,6 +10235,7 @@ whirlwind:
     - air
     - druid
     - evocation
+    - primal
     - sorcerer
     - wizard
 wind_walk:
@@ -9802,6 +10254,7 @@ wind_walk:
   sources:
     - PHB
   tags:
+    - arcane
     - druid
     - transmutation
 wind_wall:
@@ -9825,6 +10278,7 @@ wind_wall:
     - air
     - druid
     - evocation
+    - primal
     - ranger
 witch_bolt:
   casting_time: 1 standard action
@@ -9842,6 +10296,7 @@ witch_bolt:
     - 2D
   tags:
     - air
+    - arcane
     - evocation
     - fire
     - sorcerer
@@ -9864,6 +10319,7 @@ word_of_radiance:
     - XGE
   tags:
     - cleric
+    - divine
     - evocation
 word_of_recall:
   casting_time: 1 standard action
@@ -9882,6 +10338,7 @@ word_of_recall:
   tags:
     - cleric
     - conjuration
+    - divine
 wrath_of_nature:
   casting_time: 1 standard action
   components: V, S
@@ -9905,6 +10362,7 @@ wrath_of_nature:
   tags:
     - druid
     - evocation
+    - primal
     - ranger
 wrathful_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
@@ -9919,6 +10377,7 @@ wrathful_smite:
     - PHB
     - 2D
   tags:
+    - divine
     - evocation
     - paladin
     - smite
@@ -9939,6 +10398,7 @@ zapping_strike:
     - 2D
   tags:
     - air
+    - arcane
     - conjuration
     - fire
     - magus
@@ -9960,5 +10420,6 @@ zephyr_strike:
   tags:
     - air
     - magus
+    - primal
     - ranger
     - transmutation
