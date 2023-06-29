@@ -3604,6 +3604,32 @@ fey_mischief:
     - illusion
     - sorcerer
     - wizard
+fiery_whip:
+  casting_time: 1 minor action
+  components: V, S
+  concentration: true
+  description: |-
+    A whip of fire appears in your free hand. The whip is a weapon with the finesse, light, and reach 15 properties. On a hit, the whip deals 2d4 fire damage, and if the target is no more than one size larger than you, you can pull it up to 10 feet towards you.
+
+    The whip sheds bright light in a 15-foot radius and dim light for an additional 15 feet.
+
+    If you let go of the whip, it disappears, but you can resummon it as a minor Magic action.
+  duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d4 for each slot level above 2nd.
+  level: 2
+  name: Fiery Whip
+  range: Self
+  sources:
+    - PHB
+    - TCE
+    - 2D
+  tags:
+    - arcane
+    - druid
+    - evocation
+    - fire
+    - magus
+    - sorcerer
 find_familiar:
   casting_time: 1 hour
   components: V, S, M
@@ -3807,32 +3833,6 @@ flame_arrows:
     - sorcerer
     - transmutation
     - wizard
-flame_blade:
-  casting_time: 1 minor action
-  components: V, S, M
-  concentration: true
-  description: |-
-    You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a minor action.
-
-    You can use a standard action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage.
-
-    The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-  duration: Up to 10 minutes
-  higher_level: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.
-  level: 2
-  material: leaf of sumac
-  name: Flame Blade
-  range: Self
-  sources:
-    - PHB
-    - TCE
-  tags:
-    - arcane
-    - druid
-    - evocation
-    - fire
-    - magus
-    - sorcerer
 flame_strike:
   casting_time: 1 standard action
   components: V, S, M
