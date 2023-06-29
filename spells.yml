@@ -5915,7 +5915,7 @@ magic_jar:
   components: V, S, M
   concentration: false
   description: |-
-    Your body falls into a catatonic state as your soul leaves it and enters the container you used for the spell's material component. While your soul inhabits the container, you are aware of your surroundings as if you were in the container's space. You can't use reactions. The only action you can take is to project your soul up to 100 feet out of the container as a standard action, either returning to your living body (and ending the spell) or attempting to possess a humanoids body.
+    Your body falls into a catatonic state as your soul leaves it and enters the container you used for the spell's material component. While your soul inhabits the container, you are aware of your surroundings as if you were in the container's space. You can't use reactions. The only action you can take is to project your soul up to 100 feet out of the container as a standard action, either returning to your living body (and ending the spell) or attempting to possess a humanoid's body.
 
     You can attempt to possess any humanoid within 100 feet of you that you can see (creatures warded by a _protection from evil and good_ or _magic circle_ spell can't be possessed). The target must make a Charisma saving throw. On a failure, your soul moves into the target's body, and the target's soul becomes trapped in the container. On a success, the target resists your efforts to possess it, and you can't attempt to possess it again for 24 hours.
 
@@ -7696,7 +7696,7 @@ rime_blade:
     You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within reach. On a hit, the target suffers the weapon attack's normal effects and then becomes chilled by the icy blow. The creature's movement speed is reduced by 10 feet until the end of your next turn. This chill can spread to one creature of your choice within 5 feet of the target, also reducing their movement speed in the same way.
 
     This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 cold damage to the target on a hit. The damage increases by 1d8 at 11th level (2d8) and again at 17th level (3d8).
-  duration: Up to 1 round
+  duration: 1 round
   level: 0
   material: a weapon
   name: Rime Blade
@@ -7808,7 +7808,7 @@ sapping_strike:
   components: V
   concentration: false
   description: You wreath your weapon in necrotic energy. The target takes 1d6 necrotic damage and must then make a Constitution saving throw. On a failure, the target is slowed until the end of your next turn. Constructs and Undead are immune to the slowed condition inflicted by this spell.
-  duration: Up to 1 round
+  duration: 1 round
   higher_level: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
   level: 1
   name: Sapping Strike
@@ -7923,7 +7923,7 @@ searing_smite:
   components: V
   concentration: false
   description: Your weapon flares with white-hot intensity, and the triggering attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. The flames deal ongoing_damage 1d6 fire damage (Constitution save ends). If the target or a creature within 5 feet of it uses a standard action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends.
-  duration: Up to 1 minute
+  duration: 1 minute
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot level above 1st.
   level: 1
   name: Searing Smite
@@ -8858,7 +8858,7 @@ summon_construct:
   components: V, S, M
   concentration: true
   description: |-
-    You summon a construct based on the material component used to cast this spell: a stone construct for stone, a metal construct for metal, or a wood construct for wood. It appears in an unoccupied space that you can see within range. The creature has the Companion trait in addition to its usual traits.
+    You summon a construct based on the material component used to cast this spell: a stone construct for stone, a metal construct for metal, or a wooden construct for wood. It appears in an unoccupied space that you can see within range. The creature has the Companion trait in addition to its usual traits.
 
     The construct disappears when it drops to 0 hit points or when the spell ends.
 
@@ -9206,17 +9206,17 @@ telekinesis:
     - transmutation
     - wizard
 telekinetic_grip:
-  casting_time: foo
+  casting_time: 1 minor action
   components: V, S
   concentration: false
   description: |-
     You attempt to bind a creature with telekinetic force. The target must succeed on a Strength saving throw or be pulled to an unoccupied space within 5 feet of you and be slowed until the start of your next turn.
 
     If the target is willing, they may forgo the saving throw and not be subjected to the slowed condition.
-  duration: Up to 1 round
+  duration: 1 round
   level: 2
   name: Telekinetic Grip
-  range: Self
+  range: 30 feet
   sources:
     - 2D
   tags:
@@ -9896,8 +9896,8 @@ wall_of_force:
   range: 120 feet
   sources:
     - PHB
-  tags:
     - 2D
+  tags:
     - arcane
     - evocation
     - wizard
@@ -10284,7 +10284,7 @@ witch_bolt:
   casting_time: 1 standard action
   components: V, S, M
   concentration: true
-  description: A  beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes 2d6 lightning damage, and on each of your turns for the duration, you can use a standard action to deal 2d6 lightning damage to the target automatically. You can't use this action if the target is outside of the spell's range or has total cover from you.
+  description: A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes 2d6 lightning damage, and on each of your turns for the duration, you can use a standard action to deal 2d6 lightning damage to the target automatically. You can't use this action if the target is outside of the spell's range or has total cover from you.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
   level: 1
