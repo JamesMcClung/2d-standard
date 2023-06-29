@@ -337,7 +337,7 @@ arcane_weapon:
   concentration: true
   description: |-
     You channel arcane energy into one weapon you're holding, and choose one damage type: acid, cold, fire, lightning, poison, or thunder. Until the spell ends, you deal an extra 1d4 damage of the chosen type to any target you hit with the weapon.
-  duration: up to 1 hour
+  duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can maintain your concentration on the spell for up to 8 hours.
   level: 1
   material: a weapon
@@ -2524,6 +2524,23 @@ divine_favor:
   tags:
     - evocation
     - paladin
+divine_smite:
+  casting_time: 1 free action, which you take when you hit with a melee weapon attack
+  components: V
+  concentration: false
+  description: |-
+    Your weapon shines with divine energy as you strike. The target takes 2d8 radiant damage, or 3d8 if it is a Fiend or Undead.
+  duration: Instantaneous
+  higher_level: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+  level: 1
+  name: Divine Smite
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - evocation
+    - paladin
+    - smite
 divine_word:
   casting_time: 1 minor action
   components: V
@@ -2881,6 +2898,23 @@ eldritch_blast:
   tags:
     - evocation
     - warlock
+eldritch_smite:
+  casting_time: 1 free action, which you take when you hit with a weapon attack
+  components: V
+  concentration: false
+  description: |-
+    Your weapon hums with eldritch power, and the target takes 4d8 force damage. If it is Huge or smaller, you may also knock it prone.
+  duration: Instantaneous
+  higher_level: If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 1st.
+  level: 3
+  name: Eldritch Smite
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - evocation
+    - warlock
+    - smite
 elemental_bane:
   casting_time: 1 standard action
   components: V, S
@@ -3874,7 +3908,7 @@ frost_strike:
   concentration: false
   description: |-
     The air chills around your weapon. The target takes 1d6 cold damage, and you gain temporary hit points equal to the cold damage rolled for the duration of the spell.
-  duration: up to 1 minute
+  duration: Up to 1 minute
   higher_level: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
   level: 1
   name: Frost Strike
@@ -4249,7 +4283,7 @@ grim_apparitions:
     When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature can't regain hit points while in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, it loses all of its temporary hit points.
   duration: Up to 1 minute
   level: 3
-  name: Spirit Shroud
+  name: Grim Apparitions
   range: Self
   sources:
     - TCE
@@ -7326,7 +7360,7 @@ rime_blade:
     You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within reach. On a hit, the target suffers the weapon attack's normal effects and then becomes chilled by the icy blow. The creature's movement speed is reduced by 10 feet until the end of your next turn. This chill can spread to one creature of your choice within 5 feet of the target, also reducing their movement speed in the same way.
 
     This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 cold damage to the target on a hit. The damage increases by 1d8 at 11th level (2d8) and again at 17th level (3d8).
-  duration: up to 1 round
+  duration: Up to 1 round
   level: 0
   material: a weapon
   name: Rime Blade
@@ -7434,7 +7468,7 @@ sapping_strike:
   concentration: false
   description: |-
     You wreath your weapon in necrotic energy. The target takes 1d6 necrotic damage and must then make a Constitution saving throw. On a failure, the target is slowed until the end of your next turn. Constructs and Undead are immune to the slowed condition inflicted by this spell.
-  duration: up to 1 round
+  duration: Up to 1 round
   higher_level: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
   level: 1
   name: Sapping Strike
@@ -8778,7 +8812,7 @@ telekinetic_grip:
     You attempt to bind a creature with telekinetic force. The target must succeed on a Strength saving throw or be pulled to an unoccupied space within 5 feet of you and be slowed until the start of your next turn.
 
     If the target is willing, they may forgo the saving throw and not be subjected to the slowed condition.
-  duration: up to 1 round
+  duration: Up to 1 round
   level: 1
   name: Telekinetic Grip
   range: Self
