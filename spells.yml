@@ -127,9 +127,9 @@ alter_self:
   sources:
     - PHB
   tags:
+    - arcane
     - artificer
     - magus
-    - primal
     - sorcerer
     - transmutation
     - wizard
@@ -1271,7 +1271,7 @@ circle_of_death:
   sources:
     - PHB
   tags:
-    - divine
+    - arcane
     - necromancy
     - sorcerer
     - warlock
@@ -1700,8 +1700,8 @@ contagion:
   sources:
     - PHB (Errata 2.0)
   tags:
-    - arcane
     - cleric
+    - divine
     - druid
     - necromancy
 contingency:
@@ -3062,12 +3062,12 @@ elemental_bane:
     - XGE
   tags:
     - air
-    - arcane
     - artificer
     - druid
     - earth
     - fire
     - magus
+    - primal
     - transmutation
     - warlock
     - water
@@ -3986,8 +3986,8 @@ forbiddance:
     - PHB
   tags:
     - abjuration
-    - arcane
     - cleric
+    - divine
     - ritual
 foresight:
   casting_time: 1 minute
@@ -4005,9 +4005,9 @@ foresight:
   sources:
     - PHB
   tags:
+    - arcane
     - bard
     - divination
-    - divine
     - druid
     - warlock
     - wizard
@@ -7025,8 +7025,8 @@ power_word_kill:
   sources:
     - PHB
   tags:
-    - arcane
     - bard
+    - divine
     - enchantment
     - sorcerer
     - warlock
@@ -7046,7 +7046,7 @@ power_word_pain:
   sources:
     - XGE
   tags:
-    - arcane
+    - divine
     - enchantment
     - sorcerer
     - warlock
@@ -7063,8 +7063,8 @@ power_word_stun:
   sources:
     - PHB
   tags:
-    - arcane
     - bard
+    - divine
     - enchantment
     - sorcerer
     - warlock
