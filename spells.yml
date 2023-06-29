@@ -838,6 +838,20 @@ blight:
     - sorcerer
     - warlock
     - wizard
+blind_spot:
+  casting_time: 1 standard action
+  components: S
+  concentration: true
+  description: Choose a creature and a 10-foot cube within range. Each creature or object in the cube and not within 10 feet of the target is invisible to the target for the duration.
+  duration: Up to 10 minutes
+  level: 4
+  name: Blind Spot
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 blinding_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
@@ -1031,6 +1045,24 @@ burning_hands:
     - magus
     - sorcerer
     - wizard
+cacaphony:
+  casting_time: 1 standard action
+  components: V
+  concentration: true
+  description: |-
+    Painfully loud sounds of your choice fill a 30-foot radius sphere centered on a point within range for the duration. A creature is deafened while in the area.
+
+    As a minor action, you can make an exceptionally loud burst of noise in the area. Each creature in the area must succeed on a Constitution saving throw or take 1d8 thunder damage, or half as much damage on a success.
+  duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, the thunder damage increases by 1d8 for each slot level above 2nd.
+  level: 2
+  name: Cacaphony
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 cadaverous_puppet:
   casting_time: 1 standard action
   components: V, S
@@ -1974,6 +2006,26 @@ cordon_of_arrows:
     - arcane
     - ranger
     - transmutation
+counterclairvoyance:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: false
+  description: |-
+    Choose a 100-foot cube within range. For the duration, the area appears different to divination spells and other effects that allow remote perception. You determine how the area appears when you cast the spell. It can include arbitrary sensory effects.
+
+    The illusion even foils truesight. Only a creature's natural senses can perceive the area as it truly is.
+
+    If you cast this spell on the same spot with the same appearance every day for a year, the spell lasts until dispelled.
+  duration: 24 hours
+  level: 8
+  material: a small red fish
+  name: Counterclairvoyance
+  range: 300 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 counterspell:
   casting_time: 1 reaction, which you take when you see a creature within range casting a spell
   components: S
@@ -2538,6 +2590,21 @@ detect_thoughts:
     - magus
     - sorcerer
     - wizard
+dim:
+  casting_time: 1 standard action
+  components: V, M
+  concentration: true
+  description: Choose a 100-foot cube within range. For the duration, bright light in the cube becomes dim light light, and creatures in the cube take half damage from radiant damage.
+  duration: Up to 1 hour
+  level: 4
+  material: a piece of tinted glass
+  name: Dim
+  range: 300 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 dimension_door:
   casting_time: 1 standard action
   components: V
@@ -2586,6 +2653,21 @@ disguise_self:
     - magus
     - sorcerer
     - wizard
+disillusion:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: You fight illusion with illusion, making reality appear as it should. All illusions and illusion spells cast at 3rd level or lower within range are suppressed for the duration, except for those you choose not to suppress.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 4th level or higher, you can suppress illusion spells cast at a level equal to or less than the level of the spell slot you expend.
+  level: 3
+  name: Disillusion
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 disintegrate:
   casting_time: 1 standard action
   components: V, S, M
@@ -2698,6 +2780,20 @@ distort_magic:
     - arcane
     - illusion
     - wizard
+distraction:
+  casting_time: 1 reaction, which you take when you would be hit by an attack that you can see
+  components: V, S
+  concentration: false
+  description: You quickly weave an illusory distraction to prevent an attack from hitting you, such as creating a blinding flash, disguising yourself as the attacker's ally, or making yourself appear in a different location. Whatever the nature of the distraction, the triggering attack misses.
+  duration: Instantaneous
+  level: 1
+  name: Distraction
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 divination:
   casting_time: 1 standard action
   components: V, S, M
@@ -2979,6 +3075,26 @@ druidcraft:
     - druid
     - primal
     - transmutation
+duplicate_self:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: |-
+    An illusory duplicate of yourself appears in an unoccupied space within range. The illusion looks, sounds, and acts just like you. You can use a free action to cause it to move up to your speed to a space you can see, but it can't talk or imitate any other actions.
+
+    Physical interaction with the duplicate reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the duplicate from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the duplicate is illusory.
+
+    As a minor action, if the duplicate's space is within range and unoccupied, you can switch places with the duplicate by teleporting to its space. This transposition is visually and audibly undetectable, so a creature that previously identified your duplicate as illusory may now believe that you are the fake and the duplicate is real.
+  duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 7th level or higher, you can create an additional duplicate for each slot level above 6th. You can move each of them at once with the same free action, and you can swap places with any of them.
+  level: 6
+  name: Duplicate Self
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 dust_devil:
   casting_time: 1 standard action
   components: V, S, M
@@ -3548,6 +3664,23 @@ fabricate:
     - artificer
     - transmutation
     - wizard
+face_swap:
+  casting_time: 1 standard action
+  components: S
+  concentration: false
+  description: |-
+    Make a melee spell attack against a creature within 5 feet of you that's the same size as you. On a hit, you become disguised as the target as if by _disguise self_ and vice versa.
+
+    The disguises created by this spell are based on how the other creature appears, including any illusory changes. Thus, if you cast _disguise self_ to look like an orc and then cast _face swap_ on an elf, you will look like the elf and the elf will look like an orc.
+  duration: 1 hour
+  level: 2
+  name: Face Swap
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 faerie_fire:
   casting_time: 1 standard action
   components: V
@@ -3589,6 +3722,26 @@ false_life:
     - necromancy
     - sorcerer
     - wizard
+false_portal:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You create an illusory window in a flat plane within range. The window must fit in ten contiguous 10-by-10 foot squares.
+
+    The appearance of the window and what lies beyond it are up to you, chosen when you cast the spell. The illusion is only visible from one direction, can only include visual and auditory aspects, can't emit or block light, and can't block noise. For example, you could make a doorway leading to a nonexistent room, a magma-filled crevasse in the floor, or the image of an empty room that you can hide behind. 
+
+    A creature can use the Study action to inspect the illusion, making an Investigation check against your spell save DC. On a success, the creature discovers that the illusion is fake.
+  duration: Up to 10 minutes
+  level: 2
+  material: a piece of glass
+  name: False Portal
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 far_sense:
   casting_time: 1 standard action
   components: V, S, M
@@ -4065,6 +4218,23 @@ flaming_stride:
     - sorcerer
     - transmutation
     - wizard
+fleeting_mask:
+  casting_time: 1 minor action
+  components: S
+  concentration: false
+  description: |-
+    You make an image of an object or disguise in your space that lasts until the start of your next turn. The image can't be longer than half your height in any dimension. You control the image's motion, which must remain in your space at all times. You can interact with the image as if it were a real item. For example, you could make a sword in your hand, put a halo behind your head, or give yourself pointy ears.
+
+    A creature can use the Study action to inspect you from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers which aspects of your appearance are illusory.
+  duration: 1 round
+  level: 0
+  name: Fleeting Mask
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 floating_disk:
   casting_time: 1 standard action
   components: V, S, M
@@ -4408,6 +4578,31 @@ giant_insect:
     - druid
     - primal
     - transmutation
+glamour:
+  casting_time: 1 standard action
+  components: V
+  concentration: true
+  description: |-
+    When you cast this spell, choose Beauty or Dread. You gain the benefits of that effect for the duration.
+
+    **Beauty.** Your face becomes impossibly beautiful and your entire presence seems to glow. You gain the following effects:
+    - You have advantage on Persuasion checks.
+    - You can use your spellcasting ability instead of Charisma for Persuasion checks.
+    - When a creature starts its turn within 5 feet of you and can see you, it must succeed on a Wisdom saving throw or be charmed by you until the start of its next turn.
+
+    **Dread.** Your face becomes masked in shadow and the lights around you dim. You gain the following effects:
+    - You have advantage on Intimidation checks.
+    - You can use your spellcasting ability instead of Charisma for Intimidation checks.
+    - When a creature starts its turn within 5 feet of you and can see you, it must succeed on a Wisdom saving throw or be frightened by you until the start of its next turn.
+  duration: Up to 1 minute
+  level: 2
+  name: Glamour
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 glibness:
   casting_time: 1 standard action
   components: V
@@ -5307,6 +5502,29 @@ identify:
     - divination
     - ritual
     - wizard
+illusify:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: |-
+    By inverting the usual techniques of illusion magic, you can turn reality to illusion. Choose one creature or unattended object within range. If the target is a creature, it can make a Charisma saving throw to resist this spell's effect.
+
+    The target becomes illusory for the duration. It remains visually and audibly unchanged. This spell gives you no special control over the creature's appearance or behavior. The creature counts as an illusion, not a creature, and thus can't be targeted by spells such as _mind sliver_.
+
+    The target can still take actions, although anything it does is also illusory and has no effect on the real world. It can't do anything as an illusion that it couldn't do in reality. For example, it can't fly or walk through walls unless it has a means to do so.
+
+    The target can use a standard action to make a Charisma saving throw. On a success, the spell ends on it. If the spell is dispelled, such as by _dispel magic_ or _disillusion_, the target safely returns to corporeality.
+
+    Physical interaction with the target reveals it to be illusory, because things can pass through it. A creature can also use the Study action to inspect the target from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory.
+  duration: Up to 1 minute
+  level: 7
+  name: Illusify
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 illusory_script:
   casting_time: 1 minute
   components: S, M
@@ -5658,6 +5876,20 @@ invisibility:
     - sorcerer
     - warlock
     - wizard
+invisible_item:
+  casting_time: 1 minor action
+  components: S
+  concentration: false
+  description: You touch a Medium or smaller item and make it turn invisible for 1 hour. You can end the spell early by using another minor action to touch the object and make it reappear. If the item is held or worn by a creature, that creature can make a Dexterity saving throw to pull the item away from your touch, causing the spell to fail.
+  duration: 1 round
+  level: 1
+  name: Invisible Item
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 invulnerability:
   casting_time: 1 standard action
   components: V, S, M
@@ -6106,6 +6338,23 @@ magic_jar:
     - arcane
     - necromancy
     - wizard
+magic_mirrors:
+  casting_time: 10 minutes
+  components: V, M
+  concentration: false
+  description: The mirrors used as the spell's material component become magically linked. Their reflections are swapped for the duration, so looking into one mirror gives a view through the other and vice versa.
+  duration: 8 hours
+  higher_level: When you cast this spell using a spell slot of 3rd, 4th, or 5th level, the mirrors must cost at least 10 gp each and the duration is 1 week. When you cast this spell using a spell slot of 6th, 7th, or 8th level, the mirrors must cost at least 100 gp each and the duration is 1 year. When you cast this spell using a spell slot of 9th level, the mirrors must cost at least 500 gp each and the spell lasts until dispelled.
+  level: 2
+  material: two identical mirrors worth at least 1 gp each
+  name: Magic Mirrors
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
+    - ritual
 magic_missile:
   casting_time: 1 standard action
   components: V, S
@@ -6287,6 +6536,20 @@ mass_healing_word:
     - cleric
     - divine
     - evocation
+mass_invisibility:
+  casting_time: 1 standard action
+  components: S
+  concentration: true
+  description: Choose a point within range. Any number of willing creatures in a 20-foot radius sphere centered at that point become invisible for the duration. Anything a target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.
+  duration: Up to 8 hours
+  level: 5
+  name: Mass Invisibility
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 mass_polymorph:
   casting_time: 1 standard action
   components: V, S, M
@@ -7045,6 +7308,28 @@ phantom_steed:
     - illusion
     - ritual
     - wizard
+phantom_warriors:
+  casting_time: 1 standard action
+  components: V
+  concentration: true
+  description: |-
+    Up to four illusory, Medium- or Small-sized phantom warriors appear in unoccupied spaces within range. Each creature's appearance and behavior is up to you. They appear real, visually and audibly, but are incorporeal.
+
+    If a phantom warrior is attacked, the attack appears to miss. If one would be harmed anyways, such as from a _fireball_ spell, it appears harmed, bloodied, or even killed at your discretion.
+
+    You can use a standard action to control the phantom warriors. Each warrior moves up to 40 feet and can pantomime an attack, though they can do no damage and appear to miss their targets. You can also cause one of them to use the Taunt, Frighten, or Help (aid an ally's attack only) action, using your own ability scores and skill proficiencies for any ability checks. The warriors can also engage in flanks.
+
+    A creature can use the Study action to inspect a phantom warrior, making an Investigation check against your spell save DC. On a success, the creature discovers that the warriors are illusory. A creature that knows the warriors are illusory can't be flanked by them, but can still be taunted, frightened, or affected by the Help action.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 4th level or higher, you can create two additional phantom warriors for each slot level above 3rd.
+  level: 3
+  name: Phantom Warriors
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 planar_binding:
   casting_time: 1 hour
   components: V, S, M
@@ -10091,6 +10376,35 @@ undead_transformation:
     - arcane
     - curse
     - necromancy
+unreality:
+  casting_time: 1 major action
+  components: V
+  concentration: true
+  description: |-
+    You alter reality on a massive scale. This spell creates a 1,000-foot-radius sphere centered on you and remaining fixed in place for the duration. If you leave the area, the spell ends.
+
+    When you cast the spell, and as a major action on subsequent turns, you can reshape the appearance of reality within the sphere in each the following ways:
+    - All illusions and illusion spells in the area are suppressed, except for those you choose not to suppress.
+    - You can create illusory terrain, objects, and environmental details, but not creatures. The illusions can include visual, audible, and even olfactory elements. For example, you could make a burning forest with the smell of smoke in the air, but not a dragon flying through the sky.
+    - You can cause real terrain, unattended objects, and environmental details to become invisible, inaudible, and unsmellable.
+    - You can change the perceived temperature, but not enough to cause or prevent damage.
+    - You can change the light and to what degree the area is obscured.
+    - From within the sphere, you can cause the outside to appear however you wish, and vice versa. For example, you could make a small town disappear to the outside world, while the town inhabitants experience a solar eclipse.
+
+    These changes last until the spell ends or until you change them again. You can be as specific or as general as you want when making these changes; the spell automatically fills in missing details to match your proscribed reality.
+
+    If the spheres of two or more castings of _unreality_ would overlap, each point in space is controlled by the sphere whose center is closest to that point.
+
+    As a standard action, you or another creature you permit can create a damaging effect. The effect can deal any damage type of your choice. It can be inflicted with a melee spell attack for 8d10 damage, a ranged spell attack with infinite range for 6d10 damage, or a saving throw of your choice targeting up to 10 creatures for 4d10 damage (dealing half damage on a successful save). The nature of the effect is up to you, but the damage must be dealt before the start of your next turn. For example, you could let an archer shoot a beam of light, or force the next 10 creatures that get too close to lava to make a saving throw against fire damage. Once this standard action is used, it can't be used again until the start of your next turn.
+  duration: Up to 24 hours
+  level: 9
+  name: Unreality
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 unseen_servant:
   casting_time: 1 standard action
   components: V, S, M
@@ -10134,6 +10448,20 @@ vampiric_touch:
     - sorcerer
     - warlock
     - wizard
+vanish:
+  casting_time: 1 standard action
+  components: S
+  concentration: true
+  description: You become invisible and hidden for the duration, as this spell hides even your footsteps and sounds. Your Hide DC equals your spell save DC and you don't reroll it while the spell persists. Additionally, when you cast this spell, you can teleport up to 30 feet to an unoccupied space you can see.
+  duration: Up to 1 minute
+  level: 3
+  name: Vanish
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 vicious_mockery:
   casting_time: 1 standard action
   components: V
@@ -10152,6 +10480,24 @@ vicious_mockery:
     - arcane
     - bard
     - enchantment
+vile_ventriloquy:
+  casting_time: 1 standard action
+  components: V
+  concentration: false
+  description: |-
+    Choose one creature you can see within range. You cause vile accusations and profanities to emanate from that creature's space as if it had said them. One other creature of your choice must succeed on an Intelligence saving throw or be taunted by the first creature (save ends).
+
+    This spell does not force the taunted creature to attack the first creature.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can choose another creature to be taunted for each slot level above 2nd.
+  level: 2
+  name: Vile Ventriloquy
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 vitriolic_sphere:
   casting_time: 1 standard action
   components: V, S, M
