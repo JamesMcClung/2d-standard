@@ -3577,6 +3577,28 @@ feign_death:
     - necromancy
     - ritual
     - wizard
+feral_frenzy:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You summon a frenzied squirrel, rat, or other Tiny beast in the space of one Small or larger creature within range. The summoned beast uses the frenzied critter statblock and acts at the start of each of your turns.
+
+    The critter climbs onto the target, repeatedly clawing and biting it. The critter acts at the start of each of your turns and automatically hits with its Bite attack. While the critter remains on the target, the target has disadvantage on Constitution saving throws made to maintain concentration.
+
+    The critter can be attacked and targeted by effects as normal, but it has half cover against all sources other than the target. The critter disappears if it is reduced to 0 hit points, the spell ends, or it stops being in the target's space.
+  duration: Up to 1 minute
+  higher_level: When cast with a spell slot of 2nd level or higher, you summon an additional frenzied critter in the target's space for each slot level above 1st.
+  level: 1
+  material: an acorn
+  name: Feral Frenzy
+  range: 10 feet
+  sources:
+    - 2D
+  tags:
+    - conjuration
+    - druid
+    - primal
 fey_mischief:
   casting_time: 1 standard action
   components: S, M
