@@ -236,7 +236,7 @@ antimagic_field:
 
     A magic weapon's properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If a magic weapon or a piece of magic ammunition fully leaves the sphere (for example, if you fire a magic arrow or throw a magic spear at a target outside the sphere), the magic of the item ceases to be suppressed as soon as it exits.
 
-    **Magical Travel.** Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the _rope trick_ spell, temporarily closes while in the sphere.
+    **Magical Travel.** Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the _mirror mansion_ spell, temporarily closes while in the sphere.
 
     **Creatures and Objects.** A creature or object summoned or created by magic temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere.
 
@@ -3604,6 +3604,32 @@ fey_mischief:
     - illusion
     - sorcerer
     - wizard
+fiery_whip:
+  casting_time: 1 minor action
+  components: V, S
+  concentration: true
+  description: |-
+    A whip of fire appears in your free hand. The whip is a weapon with the finesse, light, and reach 15 properties. On a hit, the whip deals 2d4 fire damage, and if the target is no more than one size larger than you, you can pull it up to 10 feet towards you.
+
+    The whip sheds bright light in a 15-foot radius and dim light for an additional 15 feet.
+
+    If you let go of the whip, it disappears, but you can resummon it as a minor Magic action.
+  duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d4 for each slot level above 2nd.
+  level: 2
+  name: Fiery Whip
+  range: Self
+  sources:
+    - PHB
+    - TCE
+    - 2D
+  tags:
+    - arcane
+    - druid
+    - evocation
+    - fire
+    - magus
+    - sorcerer
 find_familiar:
   casting_time: 1 hour
   components: V, S, M
@@ -3807,32 +3833,6 @@ flame_arrows:
     - sorcerer
     - transmutation
     - wizard
-flame_blade:
-  casting_time: 1 minor action
-  components: V, S, M
-  concentration: true
-  description: |-
-    You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a minor action.
-
-    You can use a standard action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage.
-
-    The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
-  duration: Up to 10 minutes
-  higher_level: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.
-  level: 2
-  material: leaf of sumac
-  name: Flame Blade
-  range: Self
-  sources:
-    - PHB
-    - TCE
-  tags:
-    - arcane
-    - druid
-    - evocation
-    - fire
-    - magus
-    - sorcerer
 flame_strike:
   casting_time: 1 standard action
   components: V, S, M
@@ -7515,7 +7515,7 @@ ray_of_sickness:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.
+  description: A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and is poisoned until the end of your next turn.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
   level: 1
@@ -7523,6 +7523,7 @@ ray_of_sickness:
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - necromancy
@@ -7715,30 +7716,6 @@ rime_blade:
     - sorcerer
     - warlock
     - water
-rope_trick:
-  casting_time: 1 standard action
-  components: V, S, M
-  concentration: false
-  description: |-
-    You touch a length of rope that is up to 60 feet long. One end of the rope then rises into the air until the whole rope hangs perpendicular to the ground. At the upper end of the rope, an invisible entrance opens to an extradimensional space that lasts until the spell ends.
-
-    The extradimensional space can be reached by climbing to the top of the rope. The space can hold as many as eight Medium or smaller creatures. The rope can be pulled into the space, making the rope disappear from view outside the space.
-
-    Attacks and spells can't cross through the entrance into or out of the extradimensional space, but those inside can see out of it as if through a 3-foot-by-5-foot window centered on the rope.
-
-    Anything inside the extradimensional space drops out when the spell ends.
-  duration: 1 hour
-  level: 2
-  material: powdered corn extract and a twisted loop of parchment
-  name: Rope Trick
-  range: Touch
-  sources:
-    - PHB
-  tags:
-    - arcane
-    - artificer
-    - transmutation
-    - wizard
 sacred_flame:
   casting_time: 1 standard action
   components: V, S
