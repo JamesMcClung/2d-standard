@@ -8695,7 +8695,7 @@ storm_of_vengeance:
 
     **Torrential Rain.** A deluge of water pours from the sky. Any open fires in the area are extinguished, the ground becomes difficult terrain for 1 minute, and any holes less than 10 feet deep are filled with water. The area is heavily obscured by the driving rain until the start of your next turn.
 
-    **Crashing Lightning.** Tremendous bolts of lightning strike up to six points beneath the cloud of your choice that you can see. Each creature or object within 5 feet of one or more points must succeed on a Dexterity saving throw or take 10d6 lightning damage, or half as much damage on a successful one. Additionally, each creature within 100 feet of one or more points must succeed on a Constitution saving throw or take 2d6 thunder damage and become deafened for 5 minutes.
+    **Crashing Lightning.** Tremendous bolts of lightning strike up to six points beneath the cloud of your choice that you can see. Each creature or object within 5 feet of one or more points must make a Dexterity saving throw. A creature takes 10d6 lightning damage on a failed save, or half as much damage on a successful one. Additionally, each creature within 100 feet of one or more points must succeed on a Constitution saving throw or take 2d6 thunder damage and become deafened for 5 minutes.
 
     **Pounding Hail.** Massive hailstones fall from the clouds. Until the start of your next turn, each creature that starts its turn in the area or that enters it for the first time on a turn takes 2d6 bludgeoning damage, and the ground becomes difficult terrain for 1 minute.
 
