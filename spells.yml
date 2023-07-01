@@ -3577,6 +3577,28 @@ feign_death:
     - necromancy
     - ritual
     - wizard
+feral_frenzy:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You summon a frenzied squirrel, rat, or other Tiny beast in the space of one Small or larger creature within range. The summoned beast uses the frenzied critter statblock and acts at the start of each of your turns.
+
+    The critter climbs onto the target, repeatedly clawing and biting it. The critter acts at the start of each of your turns and automatically hits with its Bite attack. While the critter remains on the target, the target has disadvantage on Constitution saving throws made to maintain concentration.
+
+    The critter can be attacked and targeted by effects as normal, but it has half cover against all sources other than the target. The critter disappears if it is reduced to 0 hit points, the spell ends, or it stops being in the target's space.
+  duration: Up to 1 minute
+  higher_level: When cast with a spell slot of 2nd level or higher, you summon an additional frenzied critter in the target's space for each slot level above 1st.
+  level: 1
+  material: an acorn
+  name: Feral Frenzy
+  range: 10 feet
+  sources:
+    - 2D
+  tags:
+    - conjuration
+    - druid
+    - primal
 fey_mischief:
   casting_time: 1 standard action
   components: S, M
@@ -9860,6 +9882,32 @@ wall_of_fire:
     - fire
     - sorcerer
     - wizard
+wall_of_flesh:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You create a wall of living flesh within range. The wall is 1 foot thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with at least one other panel, be vertically oriented, and be supported underneath by a solid surface or on any sides by at least two other panels. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choose which side).
+
+    Each panel is a Large object with 10 AC, 30 hit points, and immunity to psychic damage and forced movement. A panel is destroyed if it is reduced to 0 hit points, potentially causing other panels to collapse and be destroyed.
+
+    At the start of each of your turns, you can cause the wall to regenerate up to 30 hit points, divided as you choose among any number of panels. Alternatively, you can choose a panel that has all its hit points and cause a new panel to grow from it. The new panel must be connected to the old panel but otherwise follows the rules of panel creation as above.
+
+    Each panel has eyes and darkvision out to a range of 30 feet. When a creature a panel can see starts its turn within 5 feet of the panel, the wall attacks with its fleshy tendrils. Make a melee spell attack against the target. On a hit, the target takes 2d8 bludgeoning damage, and if the target is Large or smaller, it is grappled by the wall (escape DC equals your spell save DC).
+
+    On your turn as a minor action, you can move each panel up to 5 feet, potentially altering the wall's overall shape but not changing how the panels are connected.
+  duration: Up to 1 minute
+  higher_level: When you cast this spell using a level spell slot 5 or more, the damage of the spell increases by 1d8 for each level of higher spell slot to 4.
+  level: 4
+  material: an eyeball with the optic nerve still attached
+  name: Wall of Flesh
+  range: 120 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - transmutation
+    - wizard
 wall_of_force:
   casting_time: 1 standard action
   components: V, S, M
@@ -10282,6 +10330,23 @@ witch_bolt:
     - fire
     - sorcerer
     - warlock
+    - wizard
+wizards_strike:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: You swipe the spell's material component in the direction of a foe to bash it from a distance. Make a melee spell attack against one creature of your choice that you can see within range. On a hit, the target takes 2d10 bludgeoning, piercing, or slashing damage (your choice).
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.
+  level: 1
+  material: an arcane focus worth at least 1 gp
+  name: Wizard's Strike
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - transmutation
     - wizard
 word_of_radiance:
   casting_time: 1 standard action
