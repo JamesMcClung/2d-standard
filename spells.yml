@@ -9464,8 +9464,9 @@ thunderous_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
   concentration: false
-  description: Your weapon rings with thunder that is audible within 300 feet of you, and the triggering attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.
+  description: Your weapon rings with thunder that is audible within 300 feet of you, and the triggering attack deals an extra 1d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.
   duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
   level: 1
   name: Thunderous Smite
   range: Self
