@@ -9464,8 +9464,9 @@ thunderous_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
   concentration: false
-  description: Your weapon rings with thunder that is audible within 300 feet of you, and the triggering attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.
+  description: Your weapon rings with thunder that is audible within 300 feet of you, and the triggering attack deals an extra 1d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone.
   duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
   level: 1
   name: Thunderous Smite
   range: Self
@@ -10335,7 +10336,7 @@ wizards_strike:
   casting_time: 1 standard action
   components: S, M
   concentration: false
-  description: You swipe the spell's material component in the direction of a foe to bash it from a distance. Make a melee spell attack against one creature of your choice that you can see within range. On a hit, the target takes 2d10 bludgeoning, piercing, or slashing damage (your choice).
+  description: You swipe the spell's material component in the direction of a foe to bash it from a distance. Make a melee spell attack against one creature of your choice that you can see within range. On a hit, the target takes 1d10 bludgeoning, piercing, or slashing damage (your choice), and if the target is Medium or smaller, it is pushed up to 5 feet away from you and knocked prone.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.
   level: 1
