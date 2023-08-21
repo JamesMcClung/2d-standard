@@ -2594,7 +2594,7 @@ dim:
   casting_time: 1 standard action
   components: V, M
   concentration: true
-  description: Choose a 100-foot cube within range. For the duration, bright light in the cube becomes dim light light, and creatures in the cube take half damage from radiant damage.
+  description: You suppress strong light in a 100-foot cube of your choice within range. For the duration, bright light in the cube becomes dim light light, and creatures in the cube take half damage from radiant damage.
   duration: Up to 1 hour
   level: 4
   material: a piece of tinted glass
@@ -3670,7 +3670,7 @@ face_swap:
   components: S
   concentration: false
   description: |-
-    Make a melee spell attack against a creature within 5 feet of you that's the same size as you. On a hit, you become disguised as the target as if by _disguise self_ and vice versa.
+    Make a melee spell attack against a creature within 5 feet of you that's the same size as you. On a hit, you become disguised as the target as if by _disguise self_ and vice versa. You automatically hit a willing target.
 
     The disguises created by this spell are based on how the other creature appears, including any illusory changes. Thus, if you cast _disguise self_ to look like an orc and then cast _face swap_ on an elf, you will look like the elf and the elf will look like an orc.
   duration: 1 hour
@@ -6451,7 +6451,7 @@ major_image:
 
     As long as you are within range of the illusion, you can use a standard action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.
 
-    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
+    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the illusion becomes translucent and its other sensory qualities become faint to the creature.
   duration: Up to 10 minutes
   higher_level: When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.
   level: 3
@@ -6817,7 +6817,7 @@ minor_illusion:
 
     If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.
 
-    A creature can use the Study action to inspect the sound or image, making an Investigation check against your spell save DC. On a success, the creature discovers that the sound or image is illusory. If a creature discerns the illusion for what it is, the illusion becomes faint to that creature.
+    A creature can use the Study action to inspect the sound or image, making an Investigation check against your spell save DC. On a success, the creature discovers that the sound or image is illusory. If a creature discerns the illusion for what it is, the illusion becomes translucent (if visible) or faint (if auditory) to that creature.
   duration: 1 minute
   level: 0
   material: a bit of fleece
@@ -6865,7 +6865,7 @@ mirror_image:
   description: |-
     Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use a standard Magic action to dismiss the illusory duplicates.
 
-    Each time a creature targets you with an attack during the spell's duration, randomly determine whether the attack instead targets one of your duplicates. You and each duplicate have equal chances of being hit. For example, if you have three duplicates, there is a 25% chance the attack targets you and a 75% chance that it targets one of your duplicates.
+    Each time a creature targets you with an attack during the spell's duration, roll a d12. If all three of your duplicates remain and you roll a 4 or higher, the attack instead targets one of your duplicates. You must roll a 5 or higher if two duplicates remain, or 7 or higher if one remains.
 
     A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.
 
