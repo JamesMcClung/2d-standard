@@ -4964,7 +4964,7 @@ hex:
     If the target drops to 0 hit points before this spell ends, you can use a minor action on a subsequent turn of yours to curse a new creature.
 
     A _remove curse_ cast on the target ends this spell early.
-  duration: Up until you finish a short rest
+  duration: Until you finish a short rest
   level: 1
   material: the petrified eye of a newt
   name: Hex
