@@ -10702,6 +10702,7 @@ wall_of_stone:
 
     If you maintain your concentration on this spell for its whole duration, the wall becomes permanent and can't be dispelled. Otherwise, the wall disappears when the spell ends.
   duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 6th level or higher, you can create two additional panels for each slot level above 5th.
   level: 5
   material: a small block of granite
   name: Wall of Stone
