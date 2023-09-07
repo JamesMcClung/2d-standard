@@ -3194,8 +3194,9 @@ earthen_grasp:
 
     To break out, the restrained target can use a standard action to make a Strength check against your spell save DC. On a success, the target escapes and is no longer restrained by the hand.
 
-    As a standard action, you can cause the hand to reach for a different creature or to move to a different unoccupied space within range. The hand releases a restrained target if you do either.
+    As a standard action, you can cause the hand to release a restrained target (if any) and move up to 30 feet and reach for a different creature you can see, subjecting it to the spell's initial effect. The hand can move along any earth or stone surface, even walls and ceilings.
   duration: Up to 1 minute
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.
   level: 2
   material: a miniature hand sculpted from clay
   name: Earthen Grasp
