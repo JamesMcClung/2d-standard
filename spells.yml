@@ -1400,6 +1400,26 @@ clairvoyance:
     - divination
     - sorcerer
     - wizard
+clay_armor:
+  casting_time: 1 minor action
+  components: V, S, M
+  concentration: true
+  description: You form a shell of earth around your body, similar to a suit of armor. For the duration, your AC is 17, unless it's already higher. Additionally, you have resistance to lightning damage and are immune to forced movement while standing on earth or stone.
+  duration: Up to 1 minute
+  level: 2
+  material: a lump of clay
+  name: Clay Armor
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - artificer
+    - druid
+    - earth
+    - magus
+    - primal
+    - sorcerer
+    - transmutation
 cloak_of_shadow:
   casting_time: 1 standard action
   components: V, S, M
@@ -2231,6 +2251,64 @@ crusaders_mantle:
     - divine
     - evocation
     - paladin
+crushing_corrider:
+  casting_time: 1 standard action
+  components: S
+  concentration: false
+  description: |-
+    You create two parallel walls of stone and smash them together. Each target in a 60-foot-long, 25-foot-wide, 10-foot-tall line must make a Strength saving throw. The line must be along the ground and emanates from you. On a failed save, a target takes 5d8 bludgeoning damage, is pushed to the center of the line, and is restrained by residual stone (save ends).  On a successful save, a target takes half damage as it destroys a section of the wall. The wall reforms after passing the target.
+
+    The debris from the collapsed walls cause the middle 5 feet of the line becomes difficult terrain until cleared. Each foot traveled through this difficult terrain requires 3 extra feet of movement instead of 1. Each 5-foot square section of the difficult terrain requires at least 5 minutes to clear by hand.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.
+  level: 5
+  name: Crushing Corridor
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - druid
+    - earth
+    - primal
+    - transmutation
+crystal_burst:
+  casting_time: 1 standard action
+  components: S
+  concentration: false
+  description: Numerous jagged crystals erupt from the ground in a 30-foot cone. Each target in the area must make a Dexterity saving throw. A target takes 7d6 piercing damage on a failed save, or half as much damage on a successful one. Additionally, the ground in the area becomes hazardous difficult terrain. A creature affected by the difficult terrain takes 1d6 piercing damage for every 5 feet they travel without sneaking. The crystals gradually crumble and break apart, ending the difficult terrain after 1 hour.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 1d6 for each slot level above 4th.
+  level: 4
+  name: Crystal Burst
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - earth
+    - magus
+    - primal
+    - sorcerer
+    - transmutation
+crystal_spear:
+  casting_time: 1 standard action
+  components: S
+  concentration: false
+  description: |-
+    You thrust a crystal from the ground at a target you can see within range. Make a melee spell attack against the target. On a hit, the target takes 1d12 piercing damage.
+
+    This spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).
+  duration: Instantaneous
+  level: 0
+  name: Crystal Spear
+  range: 10 feet
+  sources:
+    - 2D
+  tags:
+    - earth
+    - evocation
+    - magus
+    - primal
+    - warlock
 cure_wounds:
   casting_time: 1 standard action
   components: V, S
@@ -3139,6 +3217,23 @@ dust_devil:
     - primal
     - sorcerer
     - wizard
+earth_glide:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: You touch a willing creature and grant it the ability to move through solid earth or stone as if it was air and without destabilizing it. If the target ends its movement there, it is ejected to the nearest unoccupied space and takes 1d10 force damage for every 5 feet it travels.
+  duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.
+  level: 3
+  name: Earth Glide
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - druid
+    - earth
+    - primal
+    - transmutation
 earth_tremor:
   casting_time: 1 standard action
   components: V, S
@@ -3183,6 +3278,24 @@ earthbind:
     - transmutation
     - warlock
     - wizard
+earthen_barrier:
+  casting_time: 1 reaction, which you take when you or a creature within range you can see is hit by an attack or fails a Dexterity saving throw
+  components: S
+  concentration: false
+  description: One or more protective barriers rise from the earth to intercept the triggering attack or effect. Choose any number of creatures you can see within range that are standing on earth or stone, including yourself. Each target gains half cover against the triggering attack or effect, potentially causing the attack to miss or its save to succeed. This cover applies against an effect that would normally go around cover, such as a _fireball_.
+  duration: Instantaneous
+  level: 1
+  name: Earthen Barrier
+  range: 10 feet
+  sources:
+    - 2D
+  tags:
+    - artificer
+    - druid
+    - earth
+    - magus
+    - primal
+    - transmutation
 earthen_grasp:
   casting_time: 1 standard action
   components: V, S, M
@@ -3498,6 +3611,30 @@ enthrall:
     - bard
     - enchantment
     - warlock
+entomb:
+  casting_time: 1 standard action
+  components: S
+  concentration: true
+  description: |-
+    Choose up to three creatures you can see on the ground within range. Each target must make a Strength saving throw as stone slabs burst out of the ground to trap it. A target takes 3d4 bludgeoning damage on a failed save, or half as much damage on a successful one. A target that fails its save becomes trapped in a stone tomb for the duration. An entombed target is restrained and has three-quarters cover from all sources.
+
+    Each tomb is an object with AC 15, 20 hit points, and immunity to poison and psychic damage. A tomb fills the target's space and blocks movement. An entombed target can use a standard action to make a Strength check against your spell save DC, breaking the tomb on a success. A tomb also breaks apart when the spell ends.
+
+    When a tomb breaks, or when a target succeeds on the initial saving throw, the target's space becomes difficult terrain. Each 5-foot square of difficult terrain takes at least 1 minute to clear by hand.
+  duration: Up to 1 minute
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.
+  level: 2
+  name: Entomb
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - artificer
+    - druid
+    - earth
+    - primal
+    - transmutation
+    - wizard
 erupting_earth:
   casting_time: 1 standard action
   components: V, S, M
@@ -3519,6 +3656,30 @@ erupting_earth:
     - sorcerer
     - transmutation
     - wizard
+eruption:
+  casting_time: 1 standard action
+  components: S
+  concentration: true
+  description: |-
+    You cause a fountain of lava to burst from the ground at a point you can see within range. Each creature within a 40-foot-radius sphere centered on the point you chose must make a Dexterity saving throw. A target takes 4d12 bludgeoning damage and 4d12 fire damage on a failed save, or half as much on a success.  This spell damages objects in the area and ignites flammable objects that aren't being worn or carried.
+
+    The ground in the spell's area becomes a lake of molten lava for the duration, which is difficult terrain. A creature that ends its turn in the lava takes 4d12 fire damage, and a creature that ends its turn within 10 feet of the lava (but not in it) takes 2d12 fire damage.
+
+    On each of your subsequent turns for the duration of the spell, you can use a standard action to cause debris to spew from the lava lake. Roll a d4; the result is how many lava bombs are hurled from the area, as if you had cast _lava bombs_. Each lava bomb lands in a point you choose within 60 feet of the lava lake.
+
+    If you maintain your concentration on this spell for its whole duration, the lava lake becomes permanent and can't be dispelled. It cools after 24 hours.
+  duration: Up to 1 minute
+  level: 8
+  name: Eruption
+  range: 1000 feet
+  sources:
+    - 2D
+  tags:
+    - earth
+    - fire
+    - primal
+    - sorcerer
+    - transmutation
 ethereal_strike:
   casting_time: 1 free action, which you take when you make a melee weapon attack
   components: V
@@ -4146,6 +4307,27 @@ fireball:
     - evocation
     - fire
     - sorcerer
+fissure:
+  casting_time: 1 major action
+  components: S
+  concentration: true
+  description: |-
+    You split the ground in a 30-foot wide, 300-foot long line along the ground extending from you, forming a 300-foot deep ravine. Each creature in the line must make a Dexterity saving throw. A creature falls into the ravine on a failed save. On a successful save, a creature maintains its footing as the ground shifts beneath it and is moved 15 feet away from the center of the line.
+
+    The walls of the ravine are rough and can be climbed without an ability check.
+
+    The ravine does not close when the spell ends unless you use a major action to do so. Each creature in the ravine when you close it can make a Dexterity saving throw. On a failed save, a creature takes 10d12 bludgeoning damage and is crushed between the walls. On a success, the creature can use its reaction to move up to its speed and potentially escape; otherwise, it takes half damage and is still crushed. The DC to move while crushed in this way equals your spell save DC.
+  duration: Up to 1 minute
+  level: 9
+  name: Fissure
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - earth
+    - primal
+    - sorcerer
+    - transmutation
 flame_arrows:
   casting_time: 1 standard action
   components: V, S
@@ -4868,6 +5050,46 @@ grim_apparitions:
     - necromancy
     - paladin
     - warlock
+    - wizard
+ground_shift:
+  casting_time: 1 standard action
+  components: S
+  concentration: false
+  description: |-
+    You cause the ground to shift beneath your enemies' feet. Up to three 5-foot wide, 1-inch tall square platforms rise from the ground at points you can see within range. Each platform then moves up to 30 feet along a straight line before sinking back into the ground. A platform safely lifts and carries any object or creature supported by the platform when it appeared, unless the target succeeds on a Dexterity saving throw to jump off.
+
+    When a platform enters a creature or object's space, the target must make a Dexterity saving throw. On a success, the target can safely jump onto the platform or out of the way (its choice). Otherwise, the target is knocked prone, and if there is space on the platform for it to fit without squeezing, it is carried along with the platform. 
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can create one additional platform for each slot level above 2nd.
+  level: 2
+  name: Ground Shift
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - druid
+    - earth
+    - primal
+    - transmutation
+    - wizard
+ground_surf:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: false
+  description: You make the ground swell beneath you like a wave, and use it to carry yourself along. You move up to 30 feet along the ground, ignoring difficult terrain and without provoking opportunity attacks. Additionally, the first time you pass within 5 feet of a creature or object during this movement, the target must make a Strength saving throw against the surging earth around you. A target takes 1d8 bludgeoning damage and is pushed up to 5 feet away on a failed save, or half as much damage and no other effects on a successful one.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
+  level: 1
+  name: Ground Surf
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - earth
+    - magus
+    - primal
+    - sorcerer
+    - transmutation
     - wizard
 guardian_of_nature:
   casting_time: 1 minor action
@@ -5990,6 +6212,27 @@ knock:
     - sorcerer
     - transmutation
     - wizard
+lava_bombs:
+  casting_time: 1 standard action
+  components: S
+  concentration: false
+  description: |-
+    You hurl up to 4 large chunks of molten lava at different points you can see within range. Each creature within 5 feet of one or more points must succeed on a Dexterity saving throw or take 3d8 bludgeoning and 3d8 fire damage, or half as much on a success. The lava bombs damage objects in the area and ignite flammable objects that aren't being worn or carried.
+
+    For the next minute, the area of the spell becomes hazardous difficult terrain. A creature takes 2d8 fire damage when it ends its turn in the area and for every 5 feet moved across it.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 7th level or higher, either the initial bludgeoning or fire damage (your choice) increases by 1d8 for each slot level above 6th.
+  level: 6
+  name: Lava Bombs
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - conjuration
+    - earth
+    - fire
+    - primal
+    - sorcerer
 legend_lore:
   casting_time: 10 minutes
   components: V, S, M
@@ -7908,6 +8151,30 @@ purify_food_and_drink:
     - paladin
     - ritual
     - transmutation
+pyroclastic_blast:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: false
+  description: |-
+    You release an explosive cloud of hot gas and ash in a 60 foot cone. Each creature in the area must succeed on a Dexterity saving throw or take 14d6 fire damage and be blinded for 1 minute (save ends). A target that succeeds on its saving throw takes half as much damage and isn't blinded.
+
+    The cloud created by the blast lingers in the spell’s area for 1 minute after you cast this spell, or until dispersed by a strong wind. The cloud is heavily obscured, and its heat and poisonous gases make breathing difficult. When a creature enters the cloud for the first time on a turn or starts its turn there, it must make a Constitution saving throw. It takes 2d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target is also poisoned unless it holds its breath.
+
+    The initial blast damages objects in the area and ignites flammable objects that aren't being worn or carried.
+  duration: Instantaneous
+  level: 7
+  name: Pyroclastic Blast
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - air
+    - druid
+    - earth
+    - fire
+    - primal
+    - sorcerer
+    - transmutation
 pyrotechnics:
   casting_time: 1 standard action
   components: V, S
@@ -7956,6 +8223,33 @@ quaking_blow:
     - magus
     - sorcerer
     - warlock
+quicksand:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: |-
+    You turn the ground within 10 feet of a point you can see within range into treacherous quicksand. The area becomes difficult terrain, requiring 4 feet of movement spent for every 1 foot traveled.
+
+    A creature that ends its turn on the sand must make a Dexterity saving throw. On a failed save, the target sinks halfway into the ground. A half-sunken target is slowed, has half cover from all sources, can't fly, and is immune to forced movement.
+
+    At the end of a half-sunken creature's turn, it must succeed on a Strength saving throw or sink further down, becoming mostly-sunken. In addition to the above effects, a mostly-sunken target is restrained and has three-quarters cover from all sources.
+
+    At the end of a mostly-sunken creature's turn, it must succeed on a Strength saving throw or become fully-sunken. In addition to the above effects, a fully-sunken target is suffocating and has total cover from all sources.
+
+    A sunken target immediately stops sinking if it leaves the area, and any time it succeeds on a Strength saving throw against the spell, its sunkenness decreases by one stage, potentially freeing itself. Additionally, a sunken target or nearby creature can use a standard action to make a Strength check against your spell save DC to attempt to pull the target out. On a success, the target's sunkenness decreases by one stage.
+  duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 4th level or higher, the area of effect increases by 5 feet in radius for each slot level above 3rd.
+  level: 3
+  name: Quicksand
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - druid
+    - earth
+    - primal
+    - transmutation
+    - wizard
 raise_dead:
   casting_time: 1 hour
   components: V, S, M
@@ -8257,6 +8551,27 @@ rime_blade:
     - sorcerer
     - warlock
     - water
+rock_cannon:
+  casting_time: 1 standard action
+  components: S
+  concentration: false
+  description: |-
+    You launch a chunk of rock at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 bludgeoning damage to a creature. An object or structure takes an additional 1d10 bludgeoning damage.
+
+    This spell's damage increases by 1d10 when you reach 5th level (2d10 or 3d10), 11th level (3d10 or 4d10), and 17th level (4d10 or 5d10).
+  duration: Instantaneous
+  level: 0
+  name: Rock Cannon
+  range: 300 feet
+  sources:
+    - 2D
+  tags:
+    - druid
+    - earth
+    - primal
+    - sorcerer
+    - transmutation
+    - warlock
 rot_ward:
   casting_time: 1 reaction, which you take when you would take necrotic damage
   components: S
@@ -8338,6 +8653,25 @@ sanctum:
     - abjuration
     - arcane
     - artificer
+    - wizard
+sand_blast:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: You conjure a blast of coarse sand in a 15-foot cone. Each creature in the area must make a Dexterity saving throw. A target takes 2d4 slashing damage on a failed save, or half as much on a successful one. A target that fails its save is also blinded until it uses a minor action to clear the sand from its eyes.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.
+  level: 1
+  material: a pouch of sand
+  name: Sand Blast
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - conjuration
+    - druid
+    - earth
+    - primal
     - wizard
 sapping_strike:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
@@ -8544,6 +8878,26 @@ seeming:
     - bard
     - illusion
     - sorcerer
+    - wizard
+seismic_sense:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: false
+  description: You gain a supernatural ability to sense vibrations in the ground. For the duration, you have tremorsense out to a range of 30 feet.
+  duration: 1 hour
+  level: 1
+  name: Seismic Sense
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - druid
+    - earth
+    - magus
+    - primal
+    - ranger
+    - sorcerer
+    - transmutation
     - wizard
 sequester:
   casting_time: 1 standard action
@@ -9220,6 +9574,31 @@ stinking_cloud:
     - conjuration
     - sorcerer
     - wizard
+stone_pillar:
+  casting_time: 1 standard action
+  components: S
+  concentration: false
+  description: |-
+    You cause a solid pillar to rapidly extrude from an earth or stone surface that you can see within range. The pillar is a cylinder with a diameter of 5 feet and a length of up to 30 feet. The surface must be large enough in area to contain the diameter of the cylinder.
+
+    Each target in the path of the pillar must succeed on a Dexterity saving throw or be pushed along with the pillar and any other targets in the way. A creature can willingly fail this save. Due to the speed of the pillar's growth, you can cause each target that failed its save to be pushed up to 10 feet beyond where the pillar stops.
+
+    The pillar's growth is stopped by an immovable obstacle or a Huge or larger target. The blocking obstacle and each target pushed by the pillar takes 1d8 bludgeoning damage, or 2d8 bludgeoning damage if the original surface was difficult terrain. Whether or not it reached its full length, the pillar retracts immediately after its growth stops.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can create one additional pillar within range for each slot level above 1st.
+  level: 1
+  name: Stone Pillar
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - artificer
+    - druid
+    - earth
+    - primal
+    - sorcerer
+    - transmutation
+    - wizard
 stone_shape:
   casting_time: 1 standard action
   components: V, S, M
@@ -9237,6 +9616,27 @@ stone_shape:
     - artificer
     - cleric
     - druid
+    - transmutation
+    - wizard
+stone_slam:
+  casting_time: 1 standard action
+  components: S
+  concentration: false
+  description: |-
+    You cause a slab of earth or stone to slam into a creature you can see within range. The creature must succeed on a Strength saving throw or take 1d4 bludgeoning damage and be pushed up to 5 feet in a direction you choose, or 1d6 bludgeoning damage if the target was in difficult terrain made of earth or stone.
+
+    This spell's damage increases by one die when you reach 5th level (2d4 or 2d6), 11th level (3d4 or 3d6), and 17th level (4d4 or 4d6).
+  duration: Instantaneous
+  level: 0
+  name: Stone Slam
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - druid
+    - earth
+    - primal
+    - sorcerer
     - transmutation
     - wizard
 stoneskin:
@@ -10544,6 +10944,31 @@ vitriolic_sphere:
     - arcane
     - evocation
     - sorcerer
+    - wizard
+wall_of_dirt:
+  casting_time: 1 standard action
+  components: S
+  concentration: true
+  description: |-
+    A nonmagical wall of compact dirt rises from the ground at a point you choose within range. The wall is 3 inches thick and up to 20 feet long.
+
+    If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall
+
+    The wall is an object that can be damaged and thus breached. Each 5-foot long section has AC 8, 10 hit points, and immunity to poison and psychic damage. Reducing a panel to 0 hit points destroys it, leaving behind a 5-foot square of difficult terrain that takes at least 1 minute to clear by hand.
+
+    If you maintain your concentration on this spell for its whole duration, the wall becomes permanent and can't be dispelled. Otherwise, the wall disappears when the spell ends.
+  duration: Up to 1 minute
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can extend the length of the wall by 5 feet for each slot level above 2nd.
+  level: 2
+  name: Wall of Dirt
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - druid
+    - earth
+    - primal
+    - transmutation
     - wizard
 wall_of_fire:
   casting_time: 1 standard action
