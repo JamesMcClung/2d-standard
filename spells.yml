@@ -1064,18 +1064,19 @@ cacaphony:
     - arcane
     - illusion
 cadaverous_puppet:
-  casting_time: 1 standard action
-  components: V, S
+  casting_time: 1 free action
+  components: V, S, M
   concentration: true
   description: |-
-    You wrest control of a Medium or smaller corpse or skeleton within range. You control the body for the duration of the spell.
+    You wrest control of a Medium or smaller corpse or skeleton you can see within range. You control the body for the duration of the spell.
 
-    When you cast this spell, and as a minor action on subsequent turns, you can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing unless you will otherwise. You can also have the body perform simple tasks as part of this action, such as opening a door or pushing a rock. You can't cause the body to attack in this way, however.
+    When you cast this spell, and as a free action on subsequent turns, you can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing unless you will otherwise. You can also have the body perform simple tasks as part of this action, such as opening a door or pushing a rock. You can't use this action to cause the body to attack.
 
-    The body counts as an object. It has 15 hit points, 10 AC, and immunity to necrotic, poison, and psychic damage. It uses the Strength, Dexterity, and Constitution scores it had in life. If the body is reduced to 0 hit points, it is destroyed and the spell ends.
+    The body counts as an object. It has 15 hit points, 10 AC, and immunity to necrotic, poison, and psychic damage. It uses the Strength, Dexterity, and Constitution scores it had in life. If the body is reduced to 0 hit points, it is destroyed, and you can use a free action to wrest control of a new body as described above.
   duration: Up to 8 hours
   higher_level: When you cast this spell using a spell slot of 3rd level, you can animate a Large or smaller body. When you cast this spell using a spell slot of 4th level, you can animate a Huge or smaller body. When you cast this spell using a spell slot of 5th level or higher, you can animate a body of any size. The body also has an additional 15 hp for each slot level above 2nd.
   level: 2
+  material: a handful of strings
   name: Cadaverous Puppet
   range: 60 feet
   sources:
