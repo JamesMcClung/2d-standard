@@ -3650,7 +3650,7 @@ eyes_of_the_dead:
     You touch one corpse, skull, or willing undead creature, and its eyes fill with a blood-red mist. For the duration of the spell, you can see through the target's eyes, which have darkvision out to a range of 60 feet. You can't hear through the target, nor can you control where it looks using this spell.
 
     While looking through the target's eyes, you are blinded to your own surroundings. You can switch between the target's vision and your own vision as a minor action.
-  duration: Up to 1 hour
+  duration: 1 hour
   level: 1
   name: Eyes of the Dead
   range: Touch
@@ -8224,7 +8224,7 @@ rigor_mortis:
   casting_time: 1 standard action
   components: V, S
   concentration: true
-  description: Choose a humanoid or undead you can see within range. The target takes 1d8 necrotic damage and must make on a Constitution saving throw. On a failed save, the target is paralyzed and takes ongoing 1d8 necrotic damage for the duration (save ends), as its limbs seize up and start to rot. Undead have disadvantage on the initial saving throw, and a creature with 0 hit points automatically fails.
+  description: Choose a humanoid or undead you can see within range. The target takes 1d8 necrotic damage and must make on a Constitution saving throw. On a failed save, the target is paralyzed and takes ongoing 1d8 necrotic damage for the duration (save ends), as its limbs seize up and start to rot. An undead creature has disadvantage on the initial saving throw, and a creature with 0 hit points automatically fails.
   duration: Up to 1 minute
   level: 3
   name: Rigor Mortis
