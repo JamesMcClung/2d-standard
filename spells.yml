@@ -2389,6 +2389,21 @@ daylight:
     - paladin
     - ranger
     - sorcerer
+deadwalk:
+  casting_time: 1 free action
+  components: V, S, M
+  concentration: true
+  description: Choose a Medium or smaller corpse or skeleton you can see within range. You can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing until the end of the current turn. You can have the body perform simple tasks as part of this action, such as opening a door or pushing a rock.
+  duration: 1 turn
+  level: 0
+  material: a piece of string
+  name: Deadwalk
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 death_ward:
   casting_time: 1 standard action
   components: V, S
