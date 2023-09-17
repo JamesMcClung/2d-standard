@@ -838,6 +838,20 @@ blight:
     - sorcerer
     - warlock
     - wizard
+blind_spot:
+  casting_time: 1 standard action
+  components: S
+  concentration: true
+  description: Choose a creature and a 10-foot cube within range. Each creature or object in the cube and not within 10 feet of the target is invisible to the target for the duration.
+  duration: Up to 10 minutes
+  level: 4
+  name: Blind Spot
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 blinding_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
@@ -895,6 +909,22 @@ blink:
     - sorcerer
     - transmutation
     - wizard
+bloat_burst:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: false
+  description: You cause a decaying corpse within range to burst, destroying the corpse in an explosion of putrid viscera. Each creature within 5 feet of the corpse must make a Dexterity saving throw. A target takes poison damage equal to four rolls of the corpse's size die on a failed save, or half as much on a successful one. A target that fails its save by 5 or more is also poisoned by the foul substance until it uses a minor action to clean it off.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can cause an additional corpse to explode for each slot level above 2nd. A creature in the area of multiple explosions is only affected once, by the largest one.
+  level: 2
+  material: an unclean needle
+  name: Bloat Burst
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 blur:
   casting_time: 1 standard action
   components: V
@@ -913,6 +943,21 @@ blur:
     - magus
     - sorcerer
     - wizard
+bolster_undead:
+  casting_time: 1 standard action
+  components: V
+  concentration: false
+  description: Choose up to three undead within range that you can see. Each target gains a number of temporary hit points equal to your spellcasting ability modifier, which disappear when the spell ends. While a target has these temporary hit points, it has advantage on ability checks.
+  duration: 1 hour
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, each target gains an additional 1d8 temporary hit points for each slot level above 1st.
+  level: 1
+  name: Bolster Undead
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 bones_of_the_earth:
   casting_time: 1 standard action
   components: V, S
@@ -951,6 +996,7 @@ booming_blade:
   range: Self (5-foot radius)
   sources:
     - TCE
+    - 2D
   tags:
     - air
     - arcane
@@ -959,7 +1005,6 @@ booming_blade:
     - magus
     - sorcerer
     - warlock
-    - wizard
 branding_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
@@ -1000,6 +1045,45 @@ burning_hands:
     - magus
     - sorcerer
     - wizard
+cacaphony:
+  casting_time: 1 standard action
+  components: V
+  concentration: true
+  description: |-
+    Painfully loud sounds of your choice fill a 30-foot radius sphere centered on a point within range for the duration. A creature is deafened while in the area.
+
+    As a minor action, you can make an exceptionally loud burst of noise in the area. Each creature in the area must succeed on a Constitution saving throw or take 1d8 thunder damage, or half as much damage on a success.
+  duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, the thunder damage increases by 1d8 for each slot level above 2nd.
+  level: 2
+  name: Cacaphony
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
+cadaverous_puppet:
+  casting_time: 1 free action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You wrest control of a Medium or smaller corpse or skeleton you can see within range. You control the body for the duration of the spell.
+
+    When you cast this spell, and as a free action on subsequent turns, you can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing unless you will otherwise. You can also have the body perform simple tasks as part of this action, such as opening a door or pushing a rock. You can't use this action to cause the body to attack.
+
+    The body counts as an object. It has 15 hit points, 10 AC, and immunity to necrotic, poison, and psychic damage. It uses the Strength, Dexterity, and Constitution scores it had in life. If the body is reduced to 0 hit points, it is destroyed, and you can use a free action to wrest control of a new body as described above.
+  duration: Up to 8 hours
+  higher_level: When you cast this spell using a spell slot of 3rd level, you can animate a Large or smaller body. When you cast this spell using a spell slot of 4th level, you can animate a Huge or smaller body. When you cast this spell using a spell slot of 5th level or higher, you can animate a body of any size. The body also has an additional 15 hp for each slot level above 2nd.
+  level: 2
+  material: a handful of strings
+  name: Cadaverous Puppet
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 call_lightning:
   casting_time: 1 standard action
   components: V, S
@@ -1398,6 +1482,27 @@ cloudkill:
     - conjuration
     - sorcerer
     - wizard
+clutches_of_death:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    Ghastly hands rise from the ground in a 20-foot-radius, 30-foot-high cylinder centered on a point within range, and white mist fills the area. The mist cause the area to be lightly obscured, while the hands cause the ground to be difficult terrain.
+
+    When you cast the spell, and at the start of each of your turns for the spell's duration, you can force each creature of your choice in the area that you can see to make a Strength saving throw. On a failed save, a target is safely pulled to the ground by misty tendrils if it is airborne, and then pulled prone and restrained by the hands. A target can repeat the saving throw as a standard action to attempt to end the restrained condition on itself.
+
+    As a minor action, you can cause each target restrained by the spell to automatically take 1d12 necrotic damage. This damage ignores an undead target's necrotic resistance or immunity.
+  duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, the radius of the cylinder increases by 10 feet for each slot level above 4th.
+  level: 4
+  material: a mummified hand
+  name: Clutches of Death
+  range: 120 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 color_spray:
   casting_time: 1 standard action
   components: V, S, M
@@ -1902,6 +2007,26 @@ cordon_of_arrows:
     - arcane
     - ranger
     - transmutation
+counterclairvoyance:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: false
+  description: |-
+    Choose a 100-foot cube within range. For the duration, the area appears different to divination spells and other effects that allow remote perception. You determine how the area appears when you cast the spell. It can include arbitrary sensory effects.
+
+    The illusion even foils truesight. Only a creature's natural senses can perceive the area as it truly is.
+
+    If you cast this spell on the same spot with the same appearance every day for a year, the spell lasts until dispelled.
+  duration: 24 hours
+  level: 8
+  material: a small red fish
+  name: Counterclairvoyance
+  range: 300 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 counterspell:
   casting_time: 1 reaction, which you take when you see a creature within range casting a spell
   components: S
@@ -1988,6 +2113,30 @@ create_or_destroy_water:
     - druid
     - transmutation
     - water
+create_phylactery:
+  casting_time: 1 hour
+  components: V, M
+  concentration: false
+  description: |-
+    You affix your soul to the token object used as this spell's material component and endow it with a source of fuel for everlasting unlife. As part of casting this spell, you or another creature must use the ritual dagger used as the spell's material component to kill one or more humanoids within 30 feet of you. The souls of the slain humanoids become bound to the token object, which becomes your phylactery at the end of the spell.
+
+    When you die, your consciousness enters the phylactery as if the phylactery were a _magic jar_, except you have no body to return to. Every 1d100 days while you are in this state, if there are any other souls bound to the phylactery, one of them is destroyed and you form a new body within 10 feet of the phylactery. Your new body is undead, doesn't age, has immunity to poison damage and the poisoned condition, and has resistance to necrotic damage, but otherwise uses your game statistics.
+
+    Nothing short of divine intervention can resurrect you or a creature whose soul is bound to the phylactery. The phylactery can be destroyed, however. It is a magical object with 30 AC and immunity to all damage except force damage and the damage dealt by magical weapons. It is only destroyed if it takes at least 50 damage at once. It is unaffected by spells such as _dispel magic_ and _antimagic field_.
+
+    If the phylactery is destroyed, you die, your soul is destroyed, and any other souls bound to it are freed. Not even divine intervention can resurrect you or another creature whose soul has been destroyed by this spell.
+
+    You can only have one phylactery. Casting this spell again using your phylactery as the token object simply binds more souls to the phylactery.
+  duration: Instantaneous
+  level: 9
+  material: special incense, candles, and chalks worth 10,000 gp, which the spell consumes, a magic ritual dagger worth 5,000 gp, and a small token object such as a locket or crystal worth at least 1 gp
+  name: Create Phylactery
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 creation:
   casting_time: 1 minute
   components: V, S, M
@@ -2240,6 +2389,21 @@ daylight:
     - paladin
     - ranger
     - sorcerer
+deadwalk:
+  casting_time: 1 free action
+  components: V, S, M
+  concentration: true
+  description: Choose a Medium or smaller corpse or skeleton you can see within range. You can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing until the end of the current turn. You can have the body perform simple tasks as part of this action, such as opening a door or pushing a rock.
+  duration: 1 turn
+  level: 0
+  material: a piece of string
+  name: Deadwalk
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 death_ward:
   casting_time: 1 standard action
   components: V, S
@@ -2442,6 +2606,21 @@ detect_thoughts:
     - magus
     - sorcerer
     - wizard
+dim:
+  casting_time: 1 standard action
+  components: V, M
+  concentration: true
+  description: You suppress strong light in a 100-foot cube of your choice within range. For the duration, bright light in the cube becomes dim light light, and creatures in the cube take half damage from radiant damage.
+  duration: Up to 1 hour
+  level: 4
+  material: a piece of tinted glass
+  name: Dim
+  range: 300 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 dimension_door:
   casting_time: 1 standard action
   components: V
@@ -2475,13 +2654,14 @@ disguise_self:
 
     The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.
 
-    To discern that you are disguised, a creature can use a standard action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.
-  duration: Until you finish a short rest
+    A creature can also use the Study action to inspect you from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers which aspects of your appearance are illusory.
+  duration: 1 hour
   level: 1
   name: Disguise Self
   range: Self
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - artificer
@@ -2490,6 +2670,21 @@ disguise_self:
     - magus
     - sorcerer
     - wizard
+disillusion:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: You fight illusion with illusion, making reality appear as it should. All illusions and illusion spells cast at 3rd level or lower within range are suppressed for the duration, except for those you choose not to suppress.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 4th level or higher, you can suppress illusion spells cast at a level equal to or less than the level of the spell slot you expend.
+  level: 3
+  name: Disillusion
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 disintegrate:
   casting_time: 1 standard action
   components: V, S, M
@@ -2602,6 +2797,20 @@ distort_magic:
     - arcane
     - illusion
     - wizard
+distraction:
+  casting_time: 1 reaction, which you take when you would be hit by an attack that you can see
+  components: V, S
+  concentration: false
+  description: You quickly weave an illusory distraction to prevent an attack from hitting you, such as creating a blinding flash, disguising yourself as the attacker's ally, or making yourself appear in a different location. Whatever the nature of the distraction, the triggering attack misses.
+  duration: Instantaneous
+  level: 1
+  name: Distraction
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 divination:
   casting_time: 1 standard action
   components: V, S, M
@@ -2883,6 +3092,26 @@ druidcraft:
     - druid
     - primal
     - transmutation
+duplicate_self:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: |-
+    An illusory duplicate of yourself appears in an unoccupied space within range. The illusion looks, sounds, and acts just like you. You can use a free action to cause it to move up to your speed to a space you can see, but it can't talk or imitate any other actions.
+
+    Physical interaction with the duplicate reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the duplicate from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the duplicate is illusory.
+
+    As a minor action, if the duplicate's space is within range and unoccupied, you can switch places with the duplicate by teleporting to its space. This transposition is visually and audibly undetectable, so a creature that previously identified your duplicate as illusory may now believe that you are the fake and the duplicate is real.
+  duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 7th level or higher, you can create an additional duplicate for each slot level above 6th. You can move each of them at once with the same free action, and you can swap places with any of them.
+  level: 6
+  name: Duplicate Self
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 dust_devil:
   casting_time: 1 standard action
   components: V, S, M
@@ -3385,6 +3614,52 @@ expeditious_retreat:
     - transmutation
     - warlock
     - wizard
+extinguish_life:
+  casting_time: 1 minor action
+  components: S
+  concentration: false
+  description: Choose one dying creature you can see within range. The target dies.
+  duration: Instantaneous
+  level: 1
+  name: Extinguish Life
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
+extract_vitality:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: false
+  description: You siphon remaining life energy from one recently deceased corpse within range. The target must have died in the past hour. The corpse withers away and is destroyed, and you gain a number of hit points equal to three rolls of the target's hit die plus its Constitution modifier from when it was alive (minimum 1 hit point).
+  duration: Instantaneous
+  level: 1
+  name: Extract Vitality
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
+eyes_of_the_dead:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: false
+  description: |-
+    You touch one corpse, skull, or willing undead creature, and its eyes fill with a blood-red mist. For the duration of the spell, you can see through the target's eyes, which have darkvision out to a range of 60 feet. You can't hear through the target, nor can you control where it looks using this spell.
+
+    While looking through the target's eyes, you are blinded to your own surroundings. You can switch between the target's vision and your own vision as a minor action.
+  duration: 1 hour
+  level: 1
+  name: Eyes of the Dead
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
+    - ritual
 fabricate:
   casting_time: 10 minutes
   components: V, S
@@ -3406,6 +3681,23 @@ fabricate:
     - artificer
     - transmutation
     - wizard
+face_swap:
+  casting_time: 1 standard action
+  components: S
+  concentration: false
+  description: |-
+    Make a melee spell attack against a creature within 5 feet of you that's the same size as you. On a hit, you become disguised as the target as if by _disguise self_ and vice versa. You automatically hit a willing target.
+
+    The disguises created by this spell are based on how the other creature appears, including any illusory changes. Thus, if you cast _disguise self_ to look like an orc and then cast _face swap_ on an elf, you will look like the elf and the elf will look like an orc.
+  duration: 1 hour
+  level: 2
+  name: Face Swap
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 faerie_fire:
   casting_time: 1 standard action
   components: V
@@ -3447,6 +3739,26 @@ false_life:
     - necromancy
     - sorcerer
     - wizard
+false_portal:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You create an illusory window in a flat plane within range. The window must fit in ten contiguous 10-by-10 foot squares.
+
+    The appearance of the window and what lies beyond it are up to you, chosen when you cast the spell. The illusion is only visible from one direction, can only include visual and auditory aspects, can't emit or block light, and can't block noise. For example, you could make a doorway leading to a nonexistent room, a magma-filled crevasse in the floor, or the image of an empty room that you can hide behind. 
+
+    A creature can use the Study action to inspect the illusion, making an Investigation check against your spell save DC. On a success, the creature discovers that the illusion is fake.
+  duration: Up to 10 minutes
+  level: 2
+  material: a piece of glass
+  name: False Portal
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 far_sense:
   casting_time: 1 standard action
   components: V, S, M
@@ -3827,12 +4139,12 @@ fireball:
   range: 150 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - evocation
     - fire
     - sorcerer
-    - wizard
 flame_arrows:
   casting_time: 1 standard action
   components: V, S
@@ -3923,6 +4235,23 @@ flaming_stride:
     - sorcerer
     - transmutation
     - wizard
+fleeting_mask:
+  casting_time: 1 minor action
+  components: S
+  concentration: false
+  description: |-
+    You make an image of an object or disguise in your space that lasts until the start of your next turn. The image can't be longer than half your height in any dimension. You control the image's motion, which must remain in your space at all times. You can interact with the image as if it were a real item. For example, you could make a sword in your hand, put a halo behind your head, or give yourself pointy ears.
+
+    A creature can use the Study action to inspect you from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers which aspects of your appearance are illusory.
+  duration: 1 round
+  level: 0
+  name: Fleeting Mask
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 floating_disk:
   casting_time: 1 standard action
   components: V, S, M
@@ -4266,6 +4595,31 @@ giant_insect:
     - druid
     - primal
     - transmutation
+glamour:
+  casting_time: 1 standard action
+  components: V
+  concentration: true
+  description: |-
+    When you cast this spell, choose Beauty or Dread. You gain the benefits of that effect for the duration.
+
+    **Beauty.** Your face becomes impossibly beautiful and your entire presence seems to glow. You gain the following effects:
+    - You have advantage on Persuasion checks.
+    - You can use your spellcasting ability instead of Charisma for Persuasion checks.
+    - When a creature starts its turn within 5 feet of you and can see you, it must succeed on a Wisdom saving throw or be charmed by you until the start of its next turn.
+
+    **Dread.** Your face becomes masked in shadow and the lights around you dim. You gain the following effects:
+    - You have advantage on Intimidation checks.
+    - You can use your spellcasting ability instead of Charisma for Intimidation checks.
+    - When a creature starts its turn within 5 feet of you and can see you, it must succeed on a Wisdom saving throw or be frightened by you until the start of its next turn.
+  duration: Up to 1 minute
+  level: 2
+  name: Glamour
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 glibness:
   casting_time: 1 standard action
   components: V
@@ -4311,7 +4665,7 @@ glyph_of_warding:
   description: |-
     When you cast this spell, you inscribe a glyph that potentially harms other creatures, either upon a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.
 
-    The glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found.
+    The glyph is nearly invisible, requiring a successful Investigation check against your spell save DC to find it.
 
     You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends.
 
@@ -4330,6 +4684,7 @@ glyph_of_warding:
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - abjuration
     - arcane
@@ -4481,6 +4836,7 @@ green_flame_blade:
   range: Self (5-foot radius)
   sources:
     - TCE
+    - 2D
   tags:
     - arcane
     - artificer
@@ -4489,7 +4845,6 @@ green_flame_blade:
     - magus
     - sorcerer
     - warlock
-    - wizard
 grim_apparitions:
   casting_time: 1 minor action
   components: V, S
@@ -4735,7 +5090,7 @@ hallucinatory_terrain:
   description: |-
     You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed in appearance.
 
-    The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is sees it as a vague image superimposed on the terrain.
+    The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature can use the Study action to inspect the terrain, making an Investigation check against your spell save DC. On a success, the creature discovers that the terrain is illusory. A creature who discerns the illusion for what it is sees it as a vague image superimposed on the terrain.
   duration: 24 hours
   level: 4
   material: a stone, a twig, and a bit of green plant
@@ -4743,6 +5098,7 @@ hallucinatory_terrain:
   range: 300 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -5164,6 +5520,29 @@ identify:
     - divination
     - ritual
     - wizard
+illusify:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: |-
+    By inverting the usual techniques of illusion magic, you can turn reality to illusion. Choose one creature or unattended object within range. If the target is a creature, it can make a Charisma saving throw to resist this spell's effect.
+
+    The target becomes illusory for the duration. It remains visually and audibly unchanged. This spell gives you no special control over the creature's appearance or behavior. The creature counts as an illusion, not a creature, and thus can't be targeted by spells such as _mind sliver_.
+
+    The target can still take actions, although anything it does is also illusory and has no effect on the real world. It can't do anything as an illusion that it couldn't do in reality. For example, it can't fly or walk through walls unless it has a means to do so.
+
+    The target can use a standard action to make a Charisma saving throw. On a success, the spell ends on it. If the spell is dispelled, such as by _dispel magic_ or _disillusion_, the target safely returns to corporeality.
+
+    Physical interaction with the target reveals it to be illusory, because things can pass through it. A creature can also use the Study action to inspect the target from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory.
+  duration: Up to 1 minute
+  level: 7
+  name: Illusify
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 illusory_script:
   casting_time: 1 minute
   components: S, M
@@ -5515,6 +5894,20 @@ invisibility:
     - sorcerer
     - warlock
     - wizard
+invisible_item:
+  casting_time: 1 minor action
+  components: S
+  concentration: false
+  description: You touch a Medium or smaller item and make it turn invisible for 1 hour. You can end the spell early by using another minor action to touch the object and make it reappear. If the item is held or worn by a creature, that creature can make a Dexterity saving throw to pull the item away from your touch, causing the spell to fail.
+  duration: 1 round
+  level: 1
+  name: Invisible Item
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 invulnerability:
   casting_time: 1 standard action
   components: V, S, M
@@ -5963,6 +6356,23 @@ magic_jar:
     - arcane
     - necromancy
     - wizard
+magic_mirrors:
+  casting_time: 10 minutes
+  components: V, M
+  concentration: false
+  description: The mirrors used as the spell's material component become magically linked. Their reflections are swapped for the duration, so looking into one mirror gives a view through the other and vice versa.
+  duration: 8 hours
+  higher_level: When you cast this spell using a spell slot of 3rd, 4th, or 5th level, the mirrors must cost at least 10 gp each and the duration is 1 week. When you cast this spell using a spell slot of 6th, 7th, or 8th level, the mirrors must cost at least 100 gp each and the duration is 1 year. When you cast this spell using a spell slot of 9th level, the mirrors must cost at least 500 gp each and the spell lasts until dispelled.
+  level: 2
+  material: two identical mirrors worth at least 1 gp each
+  name: Magic Mirrors
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
+    - ritual
 magic_missile:
   casting_time: 1 standard action
   components: V, S
@@ -6056,7 +6466,7 @@ major_image:
 
     As long as you are within range of the illusion, you can use a standard action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.
 
-    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses a standard action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
+    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the illusion becomes translucent and its other sensory qualities become faint to the creature.
   duration: Up to 10 minutes
   higher_level: When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.
   level: 3
@@ -6065,6 +6475,7 @@ major_image:
   range: 120 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -6144,6 +6555,20 @@ mass_healing_word:
     - cleric
     - divine
     - evocation
+mass_invisibility:
+  casting_time: 1 standard action
+  components: S
+  concentration: true
+  description: Choose a point within range. Any number of willing creatures in a 20-foot radius sphere centered at that point become invisible for the duration. Anything a target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.
+  duration: Up to 8 hours
+  level: 5
+  name: Mass Invisibility
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 mass_polymorph:
   casting_time: 1 standard action
   components: V, S, M
@@ -6407,7 +6832,7 @@ minor_illusion:
 
     If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.
 
-    If a creature uses a standard action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.
+    A creature can use the Study action to inspect the sound or image, making an Investigation check against your spell save DC. On a success, the creature discovers that the sound or image is illusory. If a creature discerns the illusion for what it is, the illusion becomes translucent (if visible) or faint (if auditory) to that creature.
   duration: 1 minute
   level: 0
   material: a bit of fleece
@@ -6415,6 +6840,7 @@ minor_illusion:
   range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -6452,11 +6878,9 @@ mirror_image:
   components: V, S
   concentration: false
   description: |-
-    Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use a standard action to dismiss the illusory duplicates.
+    Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use a standard Magic action to dismiss the illusory duplicates.
 
-    Each time a creature targets you with an attack during the spell's duration, roll a d20 to determine whether the attack instead targets one of your duplicates.
-
-    If you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.
+    Each time a creature targets you with an attack during the spell's duration, roll a d12. If all three of your duplicates remain and you roll a 4 or higher, the attack instead targets one of your duplicates. You must roll a 5 or higher if two duplicates remain, or 7 or higher if one remains.
 
     A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.
 
@@ -6468,6 +6892,7 @@ mirror_image:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - arcane
     - bard
@@ -6652,6 +7077,24 @@ move_earth:
     - sorcerer
     - transmutation
     - wizard
+necrosis:
+  casting_time: 1 standard action
+  components: V
+  concentration: true
+  description: |-
+    Choose up to three creatures you can see within range that are within 10 feet of each other. Each target takes 3d8 necrotic damage and must succeed on a Constitution saving throw or rot alive for the duration (save ends). While rotting in this way, a target is slowed, takes ongoing 3d8 necrotic damage, and has disadvantage on Constitution saving throws.
+
+    Constructs, undead, and creatures immune to necrotic damage are immune to this spell. The spell ends early on a target if _lesser restoration_ is cast on it.
+  duration: Up to 1 minute
+  higher_level: When you cast this spell using a spell slot of 6th level or higher, the initial and ongoing damage increases by 1d8 for each slot level above 5th.
+  level: 5
+  name: Necrosis
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 negative_energy_flood:
   casting_time: 1 standard action
   components: V, M
@@ -6807,7 +7250,7 @@ phantasmal_force:
 
     The phantasm includes sound, temperature, and other stimuli, also evident only to the creature.
 
-    The target can use a standard action to examine the phantasm with an Intelligence (Investigation) check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.
+    The target can use the Study action to inspect the phantasm, making an Investigation check against your spell save DC. On a success, the target realizes that the phantasm is an illusion, and the spell ends.
 
     While a target is affected by the spell, the target treats the phantasm as if it were real. The target rationalizes any illogical outcomes from interacting with the phantasm. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall—it was pushed, it slipped, or a strong wind might have knocked it off.
 
@@ -6819,6 +7262,7 @@ phantasmal_force:
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -6884,6 +7328,28 @@ phantom_steed:
     - illusion
     - ritual
     - wizard
+phantom_warriors:
+  casting_time: 1 standard action
+  components: V
+  concentration: true
+  description: |-
+    Up to four illusory, Medium- or Small-sized phantom warriors appear in unoccupied spaces within range. Each creature's appearance and behavior is up to you. They appear real, visually and audibly, but are incorporeal.
+
+    If a phantom warrior is attacked, the attack appears to miss. If one would be harmed anyways, such as from a _fireball_ spell, it appears harmed, bloodied, or even killed at your discretion.
+
+    You can use a standard action to control the phantom warriors. Each warrior moves up to 40 feet and can pantomime an attack, though they can do no damage and appear to miss their targets. You can also cause one of them to use the Taunt, Frighten, or Help (aid an ally's attack only) action, using your own ability scores and skill proficiencies for any ability checks. The warriors can also engage in flanks.
+
+    A creature can use the Study action to inspect a phantom warrior, making an Investigation check against your spell save DC. On a success, the creature discovers that the warriors are illusory. A creature that knows the warriors are illusory can't be flanked by them, but can still be taunted, frightened, or affected by the Help action.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 4th level or higher, you can create two additional phantom warriors for each slot level above 3rd.
+  level: 3
+  name: Phantom Warriors
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 planar_binding:
   casting_time: 1 hour
   components: V, S, M
@@ -7021,6 +7487,24 @@ polymorph:
     - sorcerer
     - transmutation
     - wizard
+posthumous_punch:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: |-
+    You briefly animate part of a Small or larger corpse or skeleton within range and cause it to lash out. Make a melee spell attack against one creature within 5 feet of the body. On a hit, the target takes bludgeoning, piercing, or slashing damage as appropriate. The damage equals a roll of the body's size die.
+
+    The spell's damage increases by a size die when you reach 5th level (2 dice), 11th level (3 dice), and 17th level (4 dice).
+  duration: Instantaneous
+  level: 0
+  material: a drop of acid
+  name: Posthumous Punch
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 power_word_heal:
   casting_time: 1 standard action
   components: V, S
@@ -7250,7 +7734,7 @@ programmed_illusion:
 
     The triggering condition can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door, or you could set the illusion to trigger only when a creature says the correct word or phrase.
 
-    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses a standard action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
+    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
   duration: Until dispelled
   level: 6
   material: a bit of fleece and jade dust worth at least 25 gp
@@ -7258,6 +7742,7 @@ programmed_illusion:
   range: 120 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -7274,7 +7759,7 @@ project_image:
 
     You can see through its eyes and hear through its ears as if you were in its space. On your turn as a minor action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.
 
-    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses a standard action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
+    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
   duration: Up to 24 hours
   level: 7
   material: a small replica of you made from materials worth at least 5 gp
@@ -7282,6 +7767,7 @@ project_image:
   range: 500 miles
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -7550,6 +8036,25 @@ ray_of_sickness:
     - necromancy
     - sorcerer
     - wizard
+reap:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: |-
+    With a sweeping motion, you harvest the souls of the dying. Each bloodied creature in a 60-foot cube originating from you must make a Charisma saving throw. A target takes 6d10 damage on a failed save, or half as much damage on a success.
+
+    A target reduced to 0 hit points by this spell is killed instantly as you consume its soul. You gain number of temporary hit points equal to the target's hit points before it took this spell's damage, and the target can't be restored to life until you die and its soul is released. The temporary hit points gained from multiple creatures killed in this way don't stack.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d10 for each slot level above 6th.
+  level: 6
+  material: a farmer's scythe
+  name: Reap
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 regenerate:
   casting_time: 1 minute
   components: V, S, M
@@ -7714,6 +8219,20 @@ revivify:
     - necromancy
     - paladin
     - ranger
+rigor_mortis:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: Choose a humanoid or undead you can see within range. The target takes 1d8 necrotic damage and must make on a Constitution saving throw. On a failed save, the target is paralyzed and takes ongoing 1d8 necrotic damage for the duration (save ends), as its limbs seize up and start to rot. An undead creature has disadvantage on the initial saving throw, and a creature with 0 hit points automatically fails.
+  duration: Up to 1 minute
+  level: 3
+  name: Rigor Mortis
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 rime_blade:
   casting_time: 1 standard action
   components: S, M
@@ -7737,6 +8256,20 @@ rime_blade:
     - sorcerer
     - warlock
     - water
+rot_ward:
+  casting_time: 1 reaction, which you take when you would take necrotic damage
+  components: S
+  concentration: false
+  description: You temporarily kill your own flesh to prevent worse harm. You take 2d12 necrotic damage and then gain immunity to necrotic damage until the start of your next turn. You count as undead in addition to your normal creature type while you have this immunity.
+  duration: 1 round
+  level: 4
+  name: Rot Ward
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 sacred_flame:
   casting_time: 1 standard action
   components: V, S
@@ -7997,13 +8530,14 @@ seeming:
 
     The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to a creature's outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel the creature's head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.
 
-    A creature can use a standard action to inspect a target and make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.
-  duration: Until you finish a long rest
+    A creature can also use the Study action to inspect a target from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers which aspects of the target's appearance are illusory.
+  duration: 8 hours
   level: 5
   name: Seeming
   range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -8031,6 +8565,28 @@ sequester:
     - arcane
     - transmutation
     - wizard
+sever_the_soul:
+  casting_time: 1 major action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You attempt to pry a creature's soul from its body. One creature you can see within range takes 10d4 psychic damage and must make a Wisdom saving throw. On a failed save, the target enters a death-like state (save ends). In this state, the target experiences all the effects of the unconscious condition (though this does not count as being unconscious). The target also has immunity to psychic damage and any effect that can't target an object, as the target's mind is physically elsewhere.
+
+    If the _revivify_ spell is cast on the target, its material components are not consumed and this spell ends.
+
+    If you maintain concentration on this spell for the full duration and you are within 5 feet of the target when it ends, you can slash out with the dagger used as the spell's material component and sever the target's soul. This kills the target.
+
+    Constructs and undead are immune to this spell.
+  duration: Up to 1 minute
+  level: 7
+  material: a silver ritual dagger worth at least 500 gp
+  name: Sever the Soul
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 shadow_blade:
   casting_time: 1 minor action
   components: V, S
@@ -8046,13 +8602,13 @@ shadow_blade:
   range: Self
   sources:
     - XGE
+    - 2D
   tags:
     - arcane
     - illusion
     - magus
     - sorcerer
     - warlock
-    - wizard
 shape_water:
   casting_time: 1 standard action
   components: S
@@ -8253,7 +8809,7 @@ silent_image:
 
     You can use a standard action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.
 
-    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses a standard action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.
+    Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the creature can see through the image.
   duration: Up to 10 minutes
   level: 1
   material: a bit of fleece
@@ -8261,6 +8817,7 @@ silent_image:
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -8978,6 +9535,27 @@ summon_fiend:
     - conjuration
     - warlock
     - wizard
+summon_greater_undead:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You summon a greater undead of your choice: a ghoul, wight, or wraith. It appears in an unoccupied space that you can see within range. The creature has the Companion trait in addition to its usual traits.
+
+    The creature disappears when it drops to 0 hit points or when the spell ends.
+
+    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a ghoul, wight, or wraith if cast on a corpse, or a wight or wraith if cast on a skeleton.  The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 7th level or higher, use the higher level wherever the spell's level appears in the stat block.
+  level: 6
+  material: a gem-encrusted skull worth at least 600 gp
+  name: Summon Greater Undead
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
 summon_monstrosity:
   casting_time: 1 standard action
   components: V, S, M
@@ -9009,7 +9587,7 @@ summon_undead:
 
     The creature disappears when it drops to 0 hit points or when the spell ends.
 
-    You can cast this spell on an existing Small or Medium corpse or skeleton instead of summoning an undead out of thin air. This animates the corpse or skeleton to form a zombie or skeleton, respectively, summoning equipment if needed. Alternatively, you draw forth an impression of the creature's soul to form a specter. The resulting creature has the same stats as above, except it is Small if the source body was Small. When you cast the spell in this way and concentrate on it for the full duration at night, the undead loses the Companion trait and does not disappear.
+    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a zombie or specter if cast on a corpse, or a skeleton or specter if cast on a skeleton.  The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.
   level: 3
@@ -9120,7 +9698,7 @@ symbol:
   description: |-
     When you cast this spell, you inscribe a harmful glyph either on a surface (such as a section of floor, a wall, or a table) or within an object that can be closed to conceal the glyph (such as a book, a scroll, or a treasure chest). If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place; if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.
 
-    The glyph is nearly invisible, requiring an Intelligence (Investigation) check against your spell save DC to find it.
+    The glyph is nearly invisible, requiring a successful Investigation check against your spell save DC to find it.
 
     You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or stepping on the glyph, removing another object covering it, approaching within a certain distance of it, or manipulating the object that holds it. For glyphs inscribed within an object, the most common triggers are opening the object, approaching within a certain distance of it, or seeing or reading the glyph.
 
@@ -9151,6 +9729,7 @@ symbol:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - abjuration
     - bard
@@ -9777,6 +10356,80 @@ tsunami:
     - druid
     - primal
     - water
+undead_horde:
+  casting_time: 8 hours
+  components: V, S, M
+  concentration: false
+  description: |-
+    An army of undead rises from the ground around you. Up to 100 zombie minions appear in unoccupied spaces you can see within range. Alternatively, you can create skeleton minions, each of which counts as 5 zombie minions. An undead created by this spell crumbles to dust when reduced to 0 hit points.
+
+    The skull scepter used as the spell's material component becomes magical for the duration and can be used to command the undead. As a standard action, any creature wielding the scepter can magically command any number of undead created by this casting of the spell within range. The command must be straightforward and 10 words or less, such as "kill the dragon in the mountain" or "bring me the pearl necklace." If you issue a command to an undead that already has a command, the undead forgets its previous command and begins carrying out the new one.
+
+    The undead interpret commands literally and may act contrary to their intent. For example, if you issued the command "find the pearl necklace," your minions may uselessly gather at the bottom of the river where the necklace lies.
+
+    This spell can only be cast at night. If the skull scepter is dispelled or used to cast this spell again, any preexisting undead crumble to dust.
+  duration: Until dispelled
+  level: 8
+  material: a skull scepter worth at least 1,000 gp
+  name: Undead Horde
+  range: 300 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - necromancy
+undead_transformation:
+  casting_time: 1 action
+  components: V, S
+  concentration: false
+  description: |-
+    One willing creature you touch is cursed with undeath. While cursed in this way, the target experiences the following effects:
+
+    - The target is undead in addition to its normal creature type.
+    - The target has resistance to necrotic damage and immunity to poison damage and the poisoned condition.
+    - The target has darkvision out to a range of 60 feet. If the target already had darkvision, its range is increased by 30 feet instead.
+    - At the end of every hour, the target's hit point maximum decreases by 1. This reduction can't be prevented in any way, and is removed only when the curse is lifted.
+
+    A _remove curse_ spell cast on the target ends this effect.
+  duration: Instantaneous
+  level: 4
+  name: Undead Transformation
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - curse
+    - necromancy
+unreality:
+  casting_time: 1 major action
+  components: V
+  concentration: true
+  description: |-
+    You alter reality on a massive scale. This spell creates a 1,000-foot-radius sphere centered on you and remaining fixed in place for the duration. If you leave the area, the spell ends.
+
+    When you cast the spell, and as a major action on subsequent turns, you can reshape the appearance of reality within the sphere in each the following ways:
+    - All illusions and illusion spells in the area are suppressed, except for those you choose not to suppress.
+    - You can create illusory terrain, objects, and environmental details, but not creatures. The illusions can include visual, audible, and even olfactory elements. For example, you could make a burning forest with the smell of smoke in the air, but not a dragon flying through the sky.
+    - You can cause real terrain, unattended objects, and environmental details to become invisible, inaudible, and unsmellable.
+    - You can change the perceived temperature, but not enough to cause or prevent damage.
+    - You can change the light and to what degree the area is obscured.
+    - From within the sphere, you can cause the outside to appear however you wish, and vice versa. For example, you could make a small town disappear to the outside world, while the town inhabitants experience a solar eclipse.
+
+    These changes last until the spell ends or until you change them again. You can be as specific or as general as you want when making these changes; the spell automatically fills in missing details to match your proscribed reality.
+
+    If the spheres of two or more castings of _unreality_ would overlap, each point in space is controlled by the sphere whose center is closest to that point.
+
+    As a standard action, you or another creature you permit can create a damaging effect. The effect can deal any damage type of your choice. It can be inflicted with a melee spell attack for 8d10 damage, a ranged spell attack with infinite range for 6d10 damage, or a saving throw of your choice targeting up to 10 creatures for 4d10 damage (dealing half damage on a successful save). The nature of the effect is up to you, but the damage must be dealt before the start of your next turn. For example, you could let an archer shoot a beam of light, or force the next 10 creatures that get too close to lava to make a saving throw against fire damage. Once this standard action is used, it can't be used again until the start of your next turn.
+  duration: Up to 24 hours
+  level: 9
+  name: Unreality
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 unseen_servant:
   casting_time: 1 standard action
   components: V, S, M
@@ -9820,6 +10473,20 @@ vampiric_touch:
     - sorcerer
     - warlock
     - wizard
+vanish:
+  casting_time: 1 standard action
+  components: S
+  concentration: true
+  description: You become invisible and hidden for the duration, as this spell hides even your footsteps and sounds. Your Hide DC equals your spell save DC and you don't reroll it while the spell persists. Additionally, when you cast this spell, you can teleport up to 30 feet to an unoccupied space you can see.
+  duration: Up to 1 minute
+  level: 3
+  name: Vanish
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 vicious_mockery:
   casting_time: 1 standard action
   components: V
@@ -9838,6 +10505,24 @@ vicious_mockery:
     - arcane
     - bard
     - enchantment
+vile_ventriloquy:
+  casting_time: 1 standard action
+  components: V
+  concentration: false
+  description: |-
+    Choose one creature you can see within range. You cause vile accusations and profanities to emanate from that creature's space as if it had said them. One other creature of your choice must succeed on an Intelligence saving throw or be taunted by the first creature (save ends).
+
+    This spell does not force the taunted creature to attack the first creature.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can choose another creature to be taunted for each slot level above 2nd.
+  level: 2
+  name: Vile Ventriloquy
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - illusion
 vitriolic_sphere:
   casting_time: 1 standard action
   components: V, S, M
@@ -10330,7 +11015,6 @@ witch_bolt:
     - fire
     - sorcerer
     - warlock
-    - wizard
 wizards_strike:
   casting_time: 1 standard action
   components: S, M
