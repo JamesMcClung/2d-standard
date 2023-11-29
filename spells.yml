@@ -8042,7 +8042,7 @@ reap:
   components: S, M
   concentration: false
   description: |-
-    With a sweeping motion, you harvest the souls of the dying. Each bloodied creature in a 60-foot cube originating from you must make a Charisma saving throw. A target takes 6d10 damage on a failed save, or half as much damage on a success.
+    With a sweeping motion, you harvest the souls of the dying. Each bloodied creature in a 60-foot cube originating from you must make a Charisma saving throw. A target takes 6d10 necrotic damage on a failed save, or half as much damage on a success.
 
     A target reduced to 0 hit points by this spell is killed instantly as you consume its soul. You gain number of temporary hit points equal to the target's hit points before it took this spell's damage, and the target can't be restored to life until you die and its soul is released. The temporary hit points gained from multiple creatures killed in this way don't stack.
   duration: Instantaneous
