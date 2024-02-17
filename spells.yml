@@ -4789,12 +4789,12 @@ glamour:
     **Beauty.** Your face becomes impossibly beautiful and your entire presence seems to glow. You gain the following effects:
     - You have advantage on Persuasion checks.
     - You can use your spellcasting ability instead of Charisma for Persuasion checks.
-    - When a creature starts its turn within 5 feet of you and can see you, it must succeed on a Wisdom saving throw or be charmed by you until the start of its next turn.
+    - When a creature that can see you comes within 5 feet of you or starts its turn there, you can force it to make a Wisdom saving throw. A creature can't be forced to make this save more than once on a turn. On a failed save, the target is charmed by you until the start of its next turn.
 
     **Dread.** Your face becomes masked in shadow and the lights around you dim. You gain the following effects:
     - You have advantage on Intimidation checks.
     - You can use your spellcasting ability instead of Charisma for Intimidation checks.
-    - When a creature starts its turn within 5 feet of you and can see you, it must succeed on a Wisdom saving throw or be frightened by you until the start of its next turn.
+    - When a creature that can see you comes within 5 feet of you or starts its turn there, you can force it to make a Wisdom saving throw. A creature can't be forced to make this save more than once on a turn. On a failed save, the target is frightened by you until the start of its next turn.
   duration: Up to 1 minute
   level: 2
   name: Glamour
