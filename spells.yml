@@ -10876,7 +10876,7 @@ vanish:
   casting_time: 1 standard action
   components: S
   concentration: true
-  description: You become invisible and hidden for the duration, as this spell hides even your footsteps and sounds. Your Hide DC equals your spell save DC and you don't reroll it while the spell persists. Additionally, when you cast this spell, you can teleport up to 30 feet to an unoccupied space you can see.
+  description: You become invisible and hidden for the duration, as this spell hides even your footsteps and sounds. Your Hide DC equals your spell save DC plus your Stealth proficiency, and you don't reroll it while the spell persists. Additionally, when you cast this spell, you can teleport up to 30 feet to an unoccupied space you can see. This spell ends if you attack or cast a spell.
   duration: Up to 1 minute
   level: 3
   name: Vanish
