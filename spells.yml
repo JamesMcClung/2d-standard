@@ -6096,17 +6096,12 @@ light:
     - sorcerer
     - wizard
 lightning_arrow:
-  casting_time: 1 free action, which you take when you make a ranged weapon attack
+  casting_time: 1 free action, which you take when you hit with a ranged weapon attack
   components: V, S
   concentration: false
-  description: |-
-    The triggering weapon's ammunition, or the weapon itself if it's a thrown weapon, transforms into a bolt of lightning. Make the attack roll as normal. The target takes 4d8 lightning damage on a hit, or half as much damage on a miss, instead of the weapon's normal damage.
-
-    Whether you hit or miss, each creature within 10 feet of the target must make a Dexterity saving throw. Each of these creatures takes 2d8 lightning damage on a failed save, or half as much damage on a successful one.
-
-    The piece of ammunition or weapon then returns to its normal form.
+  description: Your projectile is charged with the power of a lightning bolt as it strikes. In addition to the normal effects of the triggering attack, the target takes 4d8 lightning damage, and lightning arcs to up to three other creatures of your choice within 10 feet of the original target. Each of these creatures must succeed on a Dexterity saving throw or take the same lightning damage you rolled for the first creature, or half as much damage on a successful save.
   duration: Instantaneous
-  higher_level: When you cast this spell using a spell slot of 4th level or higher, the damage for both effects of the spell increases by 1d8 for each slot level above 3rd.
+  higher_level: When you cast this spell using a spell slot of 4th level or higher, the damage increaess by 1d8 for each slot level above 3rd.
   level: 3
   name: Lightning Arrow
   range: Self
