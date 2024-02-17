@@ -6122,8 +6122,8 @@ invisible_item:
   casting_time: 1 minor action
   components: S
   concentration: false
-  description: You touch a Medium or smaller item and make it turn invisible for 1 hour. You can end the spell early by using another minor action to touch the object and make it reappear. If the item is held or worn by a creature, that creature can make a Dexterity saving throw to pull the item away from your touch, causing the spell to fail.
-  duration: 1 round
+  description: You touch a Medium or smaller item and make it turn invisible for the duration. You can end the spell early by using another minor action to touch the object and make it reappear. If the item is held or worn by a creature, that creature can make a Dexterity saving throw to pull the item away from your touch, causing the spell to fail.
+  duration: 1 hour
   level: 1
   name: Invisible Item
   range: Touch
