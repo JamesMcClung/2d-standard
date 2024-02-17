@@ -373,7 +373,7 @@ armor_of_ice:
   components: V, S, M
   concentration: false
   description: A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage.
-  duration: 1 hour
+  duration: Until you finish a short rest
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st.
   level: 1
   material: a cup of water
@@ -1635,7 +1635,7 @@ comprehend_languages:
     For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.
 
     This spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.
-  duration: 1 hour
+  duration: Until you finish a short rest
   level: 1
   material: a pinch of soot and salt
   name: Comprehend Languages
@@ -2203,7 +2203,7 @@ crown_of_stars:
     Seven star-like motes of light appear and orbit your head until the spell ends. You can use a minor action to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes 4d12 radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.
 
     If you have four or more motes remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet. If you have one to three motes remaining, they shed dim light in a 30-foot radius.
-  duration: 1 hour
+  duration: Until you finish a short rest
   higher_level: When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th.
   level: 7
   name: Crown of Stars
@@ -2326,7 +2326,7 @@ darkvision:
   components: V, S, M
   concentration: false
   description: You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.
-  duration: 8 hours
+  duration: Until the target finishes a long rest
   level: 2
   material: either a pinch of dried carrot or an agate
   name: Darkvision
@@ -2414,7 +2414,7 @@ death_ward:
     The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.
 
     If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.
-  duration: 8 hours
+  duration: Until the target finishes a long rest
   level: 4
   name: Death Ward
   range: Touch
@@ -3724,7 +3724,7 @@ false_life:
   components: V, S, M
   concentration: false
   description: Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.
-  duration: 1 hour
+  duration: Until you finish a short rest
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.
   level: 1
   material: a small amount of alcohol or distilled spirits
@@ -4349,7 +4349,7 @@ foresight:
     You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.
 
     This spell immediately ends if you cast it again before its duration ends.
-  duration: 8 hours
+  duration: Until the target finishes a long rest
   level: 9
   material: a hummingbird feather
   name: Foresight
@@ -4371,7 +4371,7 @@ freedom_of_movement:
     You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.
 
     The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.
-  duration: 1 hour
+  duration: Until the target finishes a short rest
   level: 4
   material: a leather strap, bound around the arm or a similar appendage
   name: Freedom of Movement
@@ -4625,7 +4625,7 @@ glibness:
   components: V
   concentration: false
   description: Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.
-  duration: 1 hour
+  duration: Until you finish a short rest
   level: 8
   name: Glibness
   range: Self
@@ -5313,15 +5313,14 @@ heroism:
 hex:
   casting_time: 1 minor action
   components: V, S, M
-  concentration: true
+  concentration: false
   description: |-
     You place a curse on a creature that you can see within range. Until the spell ends, you deals an extra 1d6 necrotic damage to the target whenever you hit it with an attack. Also choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.
 
     If the target drops to 0 hit points before this spell ends, you can use a minor action on a subsequent turn of yours to curse a new creature.
 
     A _remove curse_ cast on the target ends this spell early.
-  duration: Up to 1 hour
-  higher_level: When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.
+  duration: Until you finish a short rest
   level: 1
   material: the petrified eye of a newt
   name: Hex
@@ -6201,8 +6200,8 @@ longstrider:
   components: V, S, M
   concentration: false
   description: You touch a creature. The target's speed increases by 10 feet until the spell ends.
-  duration: 1 hour
-  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st.
+  duration: Until the target finish a short rest
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st. When you do so, the duration of this spell is specific to each target.
   level: 1
   material: a pinch of dirt
   name: Longstrider
@@ -6261,7 +6260,7 @@ mage_armor:
   components: V, S, M
   concentration: false
   description: You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as a standard action.
-  duration: 8 hours
+  duration: Until the target finishes a long rest
   level: 1
   material: a piece of cured leather
   name: Mage Armor
@@ -6756,7 +6755,7 @@ mind_blank:
   components: V, S
   concentration: false
   description: Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the charmed condition. The spell even foils divine intervention or effects of similar power used to affect the target's mind or to gain information about the target.
-  duration: 24 hours
+  duration: Until the target finishes a long rest
   level: 8
   name: Mind Blank
   range: Touch
@@ -7121,7 +7120,7 @@ nondetection:
   components: V, S, M
   concentration: false
   description: For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical scrying sensors.
-  duration: 8 hours
+  duration: Until the target finishes a long rest
   level: 3
   material: a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes
   name: Nondetection
@@ -7831,7 +7830,7 @@ protection_from_poison:
     You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random.
 
     For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage.
-  duration: 1 hour
+  duration: Until the target finishes a short rest
   level: 2
   name: Protection from Poison
   range: Touch
@@ -8064,7 +8063,7 @@ regenerate:
     You touch a creature and stimulate its natural healing ability. The target regains 4d8 + 15 hit points. For the duration of the spell, the target regains 1 hit point at the start of each of its turns (10 hit points each minute).
 
     If one of the target's body parts has been severed, it can be reattached as a standard action by holding it in its proper place at any point during the spell.
-  duration: 1 hour
+  duration: Until the target finishes a short rest
   level: 7
   material: a prayer wheel and holy water
   name: Regenerate
@@ -8505,7 +8504,7 @@ see_invisibility:
   components: V, S, M
   concentration: false
   description: For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.
-  duration: 1 hour
+  duration: Until you finish a short rest
   level: 2
   material: a pinch of talc and a small sprinkling of powdered silver
   name: See Invisibility
@@ -9813,7 +9812,9 @@ telepathic_bond:
     You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.
 
     Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence.
-  duration: 1 hour
+  
+    The duration of this spell is specific to each target.
+  duration: Until the target finishes a short rest
   level: 5
   material: pieces of eggshell from two different kinds of creatures
   name: Telepathic Bond
@@ -9835,7 +9836,7 @@ telepathy:
     You create a telepathic link between yourself and a willing creature with which you are familiar. The creature can be anywhere on the same plane of existence as you. The spell ends if you or the target are no longer on the same plane.
 
     Until the spell ends, you and the target can instantaneously share words, images, sounds, and other sensory messages with one another through the link, and the target recognizes you as the creature it is communicating with. The spell enables a creature with an Intelligence score of at least 1 to understand the meaning of your words and take in the scope of any sensory messages you send to it.
-  duration: 24 hours
+  duration: Until you finish a long rest
   level: 8
   material: a pair of linked silver rings
   name: Telepathy
@@ -10168,7 +10169,7 @@ tongues:
   components: V, M
   concentration: false
   description: This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.
-  duration: 1 hour
+  duration: Until the target finishes a short rest
   level: 3
   material: a small clay model of a ziggurat
   name: Tongues
@@ -10300,7 +10301,7 @@ true_seeing:
   components: V, S, M
   concentration: false
   description: This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight out to a range of 120 feet.
-  duration: 1 hour
+  duration: Until you finish a short rest
   level: 6
   material: an ointment for the eyes that costs 25 gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell
   name: True Seeing
@@ -10767,7 +10768,7 @@ warding_bond:
     This spell wards a willing creature you can see within range and creates a mystic connection between you and the target until the spell ends. While the target is within range, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage. Damage you take in this way cannot be reduced or prevented.
 
     The spell ends if you drop to 0 hit points or if the spell is cast again on either of the connected creatures. You can also dismiss the spell as a minor action.
-  duration: 1 hour
+  duration: Until you finish a short rest
   level: 2
   material: a platinum ring worth at least 50 gp, which you must wear for the duration
   name: Warding Bond
@@ -10813,8 +10814,11 @@ water_breathing:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.
-  duration: 24 hours
+  description: 
+    This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.
+
+    The duration of this spell is specific to each target.
+  duration: Until the target finishes a long rest
   level: 3
   material: a short reed or piece of straw
   name: Water Breathing
@@ -10838,7 +10842,9 @@ water_walk:
     This spell grants the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.
 
     If you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round.
-  duration: 1 hour
+
+    The duration of this spell is specific to each target.
+  duration: Until the target finish a short rest
   level: 3
   name: Water Walk
   range: 30 feet
