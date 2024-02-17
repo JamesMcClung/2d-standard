@@ -10996,17 +10996,15 @@ wall_of_flesh:
   components: V, S, M
   concentration: true
   description: |-
-    You create a wall of living flesh within range. The wall is 1 foot thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with at least one other panel, be vertically oriented, and be supported underneath by a solid surface or on any sides by at least two other panels. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choose which side).
+    You create a wall of living flesh within range. The wall is 1 foot thick, up to 10 feet tall, and up to 40 feet long in a straight line. It must be supported underneath by a solid surface at all times. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side).
 
-    Each panel is a Large object with 10 AC, 30 hit points, and immunity to psychic damage and forced movement. A panel is destroyed if it is reduced to 0 hit points, potentially causing other panels to collapse and be destroyed.
+    The wall is an object with 10 AC and immunity to psychic damage and forced movement. It starts with 2 hit points for every foot of its length, regardless of its height. The wall has no hit point maximum. Whenever it gains or loses hit points, the wall must grow or shrink so that its length in feet is equal to half its current hit points. You determine the amount by which it grows (or shrinks) in each direction, potentially pushing creatures lengthwise according to the rules in the next paragraph. The wall can't gain hit points if there isn't space for it to grow.
 
-    At the start of each of your turns, you can cause the wall to regenerate up to 30 hit points, divided as you choose among any number of panels. Alternatively, you can choose a panel that has all its hit points and cause a new panel to grow from it. The new panel must be connected to the old panel but otherwise follows the rules of panel creation as above.
+    At the start of each of your turns, the wall regenerates 20 hit points. As a minor action, you can cause the wall to move up to 5 feet in a direction of your choice, automatically pushing Large or smaller creatures along with it. A Huge or larger creature in the wall's way can make a Strength saving throw against your spell save DC, preventing the wall's movement on a success; otherwise, it is also pushed.
 
-    Each panel has eyes and darkvision out to a range of 30 feet. When a creature a panel can see starts its turn within 5 feet of the panel, the wall attacks with its fleshy tendrils. Make a melee spell attack against the target. On a hit, the target takes 2d8 bludgeoning damage, and if the target is Large or smaller, it is grappled by the wall (escape DC equals your spell save DC).
-
-    On your turn as a minor action, you can move each panel up to 5 feet, potentially altering the wall's overall shape but not changing how the panels are connected.
+    The wall has eyes and darkvision out to a range of 30 feet. When a creature the wall can see starts its turn within 5 feet of the wall, the wall attacks it with fleshy tendrils. Make a melee spell attack against the target. On a hit, the target takes 2d8 bludgeoning damage, and if the target is Large or smaller, it is grappled by the wall (escape DC equals your spell save DC).
   duration: Up to 1 minute
-  higher_level: When you cast this spell using a level spell slot 5 or more, the damage of the spell increases by 1d8 for each level of higher spell slot to 4.
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, the wall can start up to 20 feet longer and regenerates an additional 10 hit points per turn for each slot level above 4th.
   level: 4
   material: an eyeball with the optic nerve still attached
   name: Wall of Flesh
