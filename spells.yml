@@ -2600,10 +2600,10 @@ detect_thoughts:
   sources:
     - PHB
   tags:
-    - arcane
     - bard
     - divination
     - magus
+    - psionic
     - sorcerer
     - wizard
 dim:
