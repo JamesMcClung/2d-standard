@@ -2326,7 +2326,7 @@ darkvision:
   components: V, S, M
   concentration: false
   description: You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.
-  duration: Until you finish a long rest
+  duration: Until the target finishes a long rest
   level: 2
   material: either a pinch of dried carrot or an agate
   name: Darkvision
@@ -2414,7 +2414,7 @@ death_ward:
     The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends.
 
     If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends.
-  duration: Until you finish a long rest
+  duration: Until the target finishes a long rest
   level: 4
   name: Death Ward
   range: Touch
@@ -4349,7 +4349,7 @@ foresight:
     You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.
 
     This spell immediately ends if you cast it again before its duration ends.
-  duration: Until you finish a long rest
+  duration: Until the target finishes a long rest
   level: 9
   material: a hummingbird feather
   name: Foresight
@@ -4371,7 +4371,7 @@ freedom_of_movement:
     You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.
 
     The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target's movement or attacks.
-  duration: Until you finish a short rest
+  duration: Until the target finishes a short rest
   level: 4
   material: a leather strap, bound around the arm or a similar appendage
   name: Freedom of Movement
@@ -6200,8 +6200,8 @@ longstrider:
   components: V, S, M
   concentration: false
   description: You touch a creature. The target's speed increases by 10 feet until the spell ends.
-  duration: Until you finish a short rest
-  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st.
+  duration: Until the target finish a short rest
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st. When you do so, the duration of this spell is specific to each target.
   level: 1
   material: a pinch of dirt
   name: Longstrider
@@ -6260,7 +6260,7 @@ mage_armor:
   components: V, S, M
   concentration: false
   description: You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as a standard action.
-  duration: Until you finish a long rest
+  duration: Until the target finishes a long rest
   level: 1
   material: a piece of cured leather
   name: Mage Armor
@@ -6755,7 +6755,7 @@ mind_blank:
   components: V, S
   concentration: false
   description: Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the charmed condition. The spell even foils divine intervention or effects of similar power used to affect the target's mind or to gain information about the target.
-  duration: Until you finish a long rest
+  duration: Until the target finishes a long rest
   level: 8
   name: Mind Blank
   range: Touch
@@ -7120,7 +7120,7 @@ nondetection:
   components: V, S, M
   concentration: false
   description: For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical scrying sensors.
-  duration: Until you finish a long rest
+  duration: Until the target finishes a long rest
   level: 3
   material: a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes
   name: Nondetection
@@ -7830,7 +7830,7 @@ protection_from_poison:
     You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random.
 
     For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage.
-  duration: Until you finish a short rest
+  duration: Until the target finishes a short rest
   level: 2
   name: Protection from Poison
   range: Touch
@@ -8063,7 +8063,7 @@ regenerate:
     You touch a creature and stimulate its natural healing ability. The target regains 4d8 + 15 hit points. For the duration of the spell, the target regains 1 hit point at the start of each of its turns (10 hit points each minute).
 
     If one of the target's body parts has been severed, it can be reattached as a standard action by holding it in its proper place at any point during the spell.
-  duration: Until you finish a short rest
+  duration: Until the target finishes a short rest
   level: 7
   material: a prayer wheel and holy water
   name: Regenerate
@@ -9812,7 +9812,9 @@ telepathic_bond:
     You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.
 
     Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence.
-  duration: Until you finish a short rest
+  
+    The duration of this spell is specific to each target.
+  duration: Until the target finishes a short rest
   level: 5
   material: pieces of eggshell from two different kinds of creatures
   name: Telepathic Bond
@@ -10167,7 +10169,7 @@ tongues:
   components: V, M
   concentration: false
   description: This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.
-  duration: Until you finish a short rest
+  duration: Until the target finishes a short rest
   level: 3
   material: a small clay model of a ziggurat
   name: Tongues
@@ -10812,8 +10814,11 @@ water_breathing:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.
-  duration: Until you finish a long rest
+  description: 
+    This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.
+
+    The duration of this spell is specific to each target.
+  duration: Until the target finishes a long rest
   level: 3
   material: a short reed or piece of straw
   name: Water Breathing
@@ -10837,7 +10842,9 @@ water_walk:
     This spell grants the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.
 
     If you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round.
-  duration: Until you finish a short rest
+
+    The duration of this spell is specific to each target.
+  duration: Until the target finish a short rest
   level: 3
   name: Water Walk
   range: 30 feet
