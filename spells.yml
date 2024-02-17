@@ -7704,7 +7704,7 @@ posthumous_punch:
   components: S, M
   concentration: false
   description: |-
-    You briefly animate part of a Small or larger corpse or skeleton within range and cause it to lash out. Make a melee spell attack against one creature within 5 feet of the body. On a hit, the target takes bludgeoning, piercing, or slashing damage as appropriate. The damage equals a roll of the body's size die.
+    You cause the inanimate remains of a Small or larger creature to lash out. Make a melee spell attack against one creature within 5 feet of the remains. On a hit, the target takes bludgeoning, piercing, or slashing damage as appropriate. The damage equals a roll of the body's size die.
 
     The spell's damage increases by a size die when you reach 5th level (2 dice), 11th level (3 dice), and 17th level (4 dice).
   duration: Instantaneous
