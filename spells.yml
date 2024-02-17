@@ -7547,11 +7547,11 @@ phantom_warriors:
   description: |-
     Up to four illusory, Medium- or Small-sized phantom warriors appear in unoccupied spaces within range. Each creature's appearance and behavior is up to you. They appear real, visually and audibly, but are incorporeal.
 
-    If a phantom warrior is attacked, the attack appears to miss. If one would be harmed anyways, such as from a _fireball_ spell, it appears harmed, bloodied, or even killed at your discretion.
+    You can use a minor action to control the phantom warriors. Each warrior moves up to 40 feet to a point you can see and can pantomime an attack, though it can do no damage and appears to miss its target. You can also cause one of them to take the Taunt, Frighten, or Help (aid your or an ally's attack only) action, using your own ability scores and skill proficiencies for any ability checks.
 
-    You can use a standard action to control the phantom warriors. Each warrior moves up to 40 feet and can pantomime an attack, though they can do no damage and appear to miss their targets. You can also cause one of them to use the Taunt, Frighten, or Help (aid an ally's attack only) action, using your own ability scores and skill proficiencies for any ability checks. The warriors can also engage in flanks.
+    A creature can use the Study action to inspect a phantom warrior, making an Investigation check against your spell save DC. On a success, the creature discovers that the warriors are illusory. A creature that knows the warriors are illusory can still be taunted, frightened, and affected by the Help action.
 
-    A creature can use the Study action to inspect a phantom warrior, making an Investigation check against your spell save DC. On a success, the creature discovers that the warriors are illusory. A creature that knows the warriors are illusory can't be flanked by them, but can still be taunted, frightened, or affected by the Help action.
+    You determine how a phantom warrior responds to effects that you are aware of. For example, if you see an enemy archer shoot a phantom warrior, you can cause the warrior appear to dodge out of the way. If you fail to do so, each creature that can see the warrior immediately learns that it is illusory. Additionally, a creature that targets a phantom warrior with a melee attack automatically gains the benefit of the Study action against it as if it had rolled an Investigation check with a result equal to the attack roll, potentially discerning its nature even if the warrior appeared to evade the attack.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 4th level or higher, you can create two additional phantom warriors for each slot level above 3rd.
   level: 3
