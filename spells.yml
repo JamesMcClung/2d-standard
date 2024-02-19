@@ -6200,8 +6200,8 @@ longstrider:
   components: V, S, M
   concentration: false
   description: You touch a creature. The target's speed increases by 10 feet until the spell ends.
-  duration: Until the target finish a short rest
-  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st. When you do so, the duration of this spell is specific to each target.
+  duration: Until the target finishes a short rest
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st. When a target finishes a short rest, the spell only ends on that target.
   level: 1
   material: a pinch of dirt
   name: Longstrider
@@ -10301,7 +10301,7 @@ true_seeing:
   components: V, S, M
   concentration: false
   description: This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight out to a range of 120 feet.
-  duration: Until you finish a short rest
+  duration: Until the target finishes a short rest
   level: 6
   material: an ointment for the eyes that costs 25 gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell
   name: True Seeing
@@ -10814,10 +10814,7 @@ water_breathing:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: 
-    This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.
-
-    The duration of this spell is specific to each target.
+  description: This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration. When a target finishes a long rest, the spell only ends on that target.
   duration: Until the target finishes a long rest
   level: 3
   material: a short reed or piece of straw
