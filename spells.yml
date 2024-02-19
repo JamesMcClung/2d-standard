@@ -10555,7 +10555,7 @@ wall_of_fire:
 
     One side of the wall, selected by you when you cast this spell, deals 5d8 fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.
   duration: Up to 1 minute
-  higher_level: When you cast this spell using a level spell slot 5 or more, the damage of the spell increases by 1d8 for each level of higher spell slot to 4.
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, the damage of the spell increases by 1d8 for each slot level above 4th.
   level: 4
   material: a small piece of phosphorus
   name: Wall of Fire
