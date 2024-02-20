@@ -5755,11 +5755,9 @@ hex:
   components: V, S, M
   concentration: true
   description: |-
-    You place a curse on a creature that you can see within range. Until the spell ends, you deals an extra 1d6 necrotic damage to the target whenever you hit it with an attack. Also choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.
+    You place a curse on a creature you can see within range. Choose one ability. While cursed, the target has disadvantage on ability checks made with the chosen ability, and your attacks against it deal an extra 1d6 necrotic damage on a hit.
 
-    If the target drops to 0 hit points before this spell ends, you can use a minor action on a subsequent turn of yours to curse a new creature.
-
-    A _remove curse_ cast on the target ends this spell early.
+    If the target is dead or has 0 hit points, you can use a repeatable minor action to move the curse to a new creature.
   duration: Until you finish a short rest
   level: 1
   material: the petrified eye of a newt
@@ -5767,6 +5765,7 @@ hex:
   range: 90 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - curse
