@@ -3661,9 +3661,9 @@ eruption:
   components: S
   concentration: true
   description: |-
-    You cause a fountain of lava to burst from the ground at a point you can see within range. Each creature within a 40-foot-radius sphere centered on the point you chose must make a Dexterity saving throw. A target takes 4d12 bludgeoning damage and 4d12 fire damage on a failed save, or half as much on a success.  This spell damages objects in the area and ignites flammable objects that aren't being worn or carried.
+    You cause a fountain of lava to burst from the ground at a point you can see within range. Each creature within a 40-foot-radius sphere centered on the point you chose must make a Dexterity saving throw. A target takes 3d12 bludgeoning damage and 3d12 fire damage on a failed save, or half as much on a success.  This spell damages objects in the area and ignites flammable objects that aren't being worn or carried.
 
-    The ground in the spell's area becomes a lake of molten lava for the duration, which is difficult terrain. A creature that ends its turn in the lava takes 4d12 fire damage, and a creature that ends its turn within 10 feet of the lava (but not in it) takes 2d12 fire damage.
+    The ground in the spell's area becomes a lake of molten lava for the duration, which is difficult terrain. A creature that ends its turn in the lava takes 2d12 fire damage, and a creature that ends its turn within 10 feet of the lava (but not in it) takes 1d12 fire damage.
 
     On each of your subsequent turns for the duration of the spell, you can use a standard action to cause debris to spew from the lava lake. Roll a d4; the result is how many lava bombs are hurled from the area, as if you had cast _lava bombs_. Each lava bomb lands in a point you choose within 60 feet of the lava lake.
 
