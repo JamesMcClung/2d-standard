@@ -5945,10 +5945,10 @@ irresistible_dance:
     - enchantment
     - wizard
 jump:
-  casting_time: 1 standard action
+  casting_time: 1 minor action
   components: V, S, M
   concentration: false
-  description: You touch a creature. The creature's jumping distance is tripled until the spell ends.
+  description: You touch a creature. For the duration of the spell, the creature takes no falling damage, and its maximum jump distance is always at least 20 feet.
   duration: 1 minute
   level: 1
   material: a grasshopper's hind leg
