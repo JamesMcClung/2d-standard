@@ -11713,7 +11713,7 @@ warding_bond:
   components: V, S, M
   concentration: false
   description: |-
-    This spell wards a willing creature you can see within range and creates a mystic connection between you and the target until the spell ends. While the target is within range, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage. Damage you take in this way cannot be reduced or prevented.
+    This spell wards a willing creature you can see within range and creates a mystic connection between you and the target until the spell ends. While the target is within range, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage. Damage you take in this way can't be reduced or prevented.
 
     The spell ends if you drop to 0 hit points or if the spell is cast again on either of the connected creatures. You can also dismiss the spell as a minor action.
   duration: Until you finish a short rest
