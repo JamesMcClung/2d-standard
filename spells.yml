@@ -10760,7 +10760,7 @@ undead_horde:
   components: V, S, M
   concentration: false
   description: |-
-    An army of undead rises from the ground around you. Up to 100 zombie minions appear in unoccupied spaces you can see within range. Alternatively, you can create skeleton minions, each of which counts as 5 zombie minions. An undead created by this spell crumbles to dust when reduced to 0 hit points.
+    An army of undead rises from the ground around you. Up to 100 zombie minions appear in unoccupied spaces you can see within range. You can also create skeleton minions, each of which counts as 5 zombie minions. An undead created by this spell crumbles to dust when reduced to 0 hit points.
 
     The skull scepter used as the spell's material component becomes magical for the duration and can be used to command the undead. As a standard action, any creature wielding the scepter can magically command any number of undead created by this casting of the spell within range. The command must be straightforward and 10 words or less, such as "kill the dragon in the mountain" or "bring me the pearl necklace." If you issue a command to an undead that already has a command, the undead forgets its previous command and begins carrying out the new one.
 
