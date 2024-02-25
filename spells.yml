@@ -2358,11 +2358,11 @@ danse_macabre:
   components: V, S
   concentration: true
   description: |-
-    Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton, and it gains a bonus to its attack and damage rolls equal to your spellcasting ability score.
+    Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead: either a zombie or a skeleton (your choice).
 
-    You can use a minor action to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what actions the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. If you issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.
+    Each of the creatures created by this spell has the Companion trait. You can use a single minor action to command any number of the creatures you make with this spell, issuing the same command to all of them.
 
-    The creatures are under your control until the spell ends, after which they become inanimate once more
+    The creatures are under your control until the spell ends, after which they become inanimate once more.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th.
   level: 5
@@ -2370,6 +2370,7 @@ danse_macabre:
   range: 60 feet
   sources:
     - XGE
+    - 2D
   tags:
     - arcane
     - necromancy
@@ -4211,7 +4212,7 @@ finger_of_death:
   description: |-
     You send negative energy coursing through a creature that you can see within range, causing it searing pain. The target must make a Constitution saving throw. It takes 7d8 + 30 necrotic damage on a failed save, or half as much damage on a successful one.
 
-    A humanoid killed by this spell rises at the start of your next turn as a zombie that is permanently under your command, following your verbal orders to the best of its ability.
+    A humanoid killed by this spell rises at the start of your next turn as a zombie with the Companion trait under your absolute control.
   duration: Instantaneous
   level: 7
   name: Finger of Death
