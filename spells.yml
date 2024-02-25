@@ -608,7 +608,7 @@ barkskin:
   casting_time: 1 minor action
   components: V, S, M
   concentration: true
-  description: You touch one willing creature to protect it with regenerating bark. Until the spell ends, the target's skin assumes a bark-like appearance, and at the end of each of the target's turns, the target gains a number of temporary hit points equal to your spellcasting ability modifier plus your proficiency bonus.
+  description: You touch one willing creature to protect it with regenerating bark. Until the spell ends, the target's skin assumes a bark-like appearance, and at the end of each of the target's turns, the target gains a number of temporary hit points equal to your spellcasting ability score plus your proficiency bonus.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional willing creature for each slot level above 2nd.
   level: 2
@@ -947,7 +947,7 @@ bolster_undead:
   casting_time: 1 standard action
   components: V
   concentration: false
-  description: Choose up to three undead within range that you can see. Each target gains a number of temporary hit points equal to your spellcasting ability modifier, which disappear when the spell ends. While a target has these temporary hit points, it has advantage on ability checks.
+  description: Choose up to three undead within range that you can see. Each target gains a number of temporary hit points equal to your spellcasting ability score, which disappear when the spell ends. While a target has these temporary hit points, it has advantage on ability checks.
   duration: 1 hour
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, each target gains an additional 1d8 temporary hit points for each slot level above 1st.
   level: 1
@@ -2313,7 +2313,7 @@ cure_wounds:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+  description: A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability score. This spell has no effect on undead or constructs.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.
   level: 1
@@ -2358,7 +2358,7 @@ danse_macabre:
   components: V, S
   concentration: true
   description: |-
-    Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton, and it gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier.
+    Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton, and it gains a bonus to its attack and damage rolls equal to your spellcasting ability score.
 
     You can use a minor action to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what actions the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. If you issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.
 
@@ -3794,7 +3794,7 @@ extract_vitality:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You siphon remaining life energy from one recently deceased corpse within range. The target must have died in the past hour. The corpse withers away and is destroyed, and you gain a number of hit points equal to three rolls of the target's hit die plus its Constitution modifier from when it was alive (minimum 1 hit point).
+  description: You siphon remaining life energy from one recently deceased corpse within range. The target must have died in the past hour. The corpse withers away and is destroyed, and you gain a number of hit points equal to three rolls of the target's hit die plus its Constitution score from when it was alive (minimum 1 hit point).
   duration: Instantaneous
   level: 1
   name: Extract Vitality
@@ -4009,7 +4009,7 @@ feeblemind:
   description: |-
     You blast the mind of a creature that you can see within range, attempting to shatter its intellect and personality. The target takes 4d6 psychic damage and must make an Intelligence saving throw.
 
-    On a failed save, the creature's Intelligence and Charisma scores become 1. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way. The creature can, however, identify its friends, follow them, and even protect them.
+    On a failed save, the creature's Intelligence and Charisma scores become -5. The creature can't cast spells, activate magic items, understand language, or communicate in any intelligible way. The creature can, however, identify its friends, follow them, and even protect them.
 
     At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends.
 
@@ -5009,9 +5009,9 @@ green_flame_blade:
   components: S, M
   concentration: false
   description: |-
-    You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.
+    You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability score.
 
-    This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target on a hit, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level (2d8 and 2d8) and 17th level (3d8 and 3d8).
+    This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target on a hit, and the fire damage to the second creature increases to 1d8 + your spellcasting ability score. Both damage rolls increase by 1d8 at 11th level (2d8 and 2d8) and 17th level (3d8 and 3d8).
   duration: Instantaneous
   level: 0
   material: a melee weapon worth at least 1 sp
@@ -5342,9 +5342,9 @@ hand_of_force:
 
     **Clenched Fist.** The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes 4d8 force damage.
 
-    **Forceful Hand.** The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand's Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability modifier. The hand moves with the target to remain within 5 feet of it.
+    **Forceful Hand.** The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand's Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability score. The hand moves with the target to remain within 5 feet of it.
 
-    **Grasping Hand.** The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a minor action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 + your spellcasting ability modifier.
+    **Grasping Hand.** The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a minor action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 + your spellcasting ability score.
 
     **Interposing Hand.** The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target.
   duration: Up to 1 minute
@@ -5423,7 +5423,7 @@ healing_spirit:
   description: |-
     You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).
 
-    Until the spell ends, whenever you or a creature you can see moves into the spirits space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required). The spirit can't heal constructs or undead. The spirit can heal a number of times equal to 1 + your spellcasting ability modifier (minimum of twice). After healing that number of times, the spirit disappears.
+    Until the spell ends, whenever you or a creature you can see moves into the spirits space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required). The spirit can't heal constructs or undead. The spirit can heal a number of times equal to 1 + your spellcasting ability score (minimum of twice). After healing that number of times, the spirit disappears.
 
     As a minor action on your turn, you can move the spirit up to 30 feet to a space you can see.
   duration: Up to 1 minute
@@ -5442,7 +5442,7 @@ healing_word:
   casting_time: 1 minor action
   components: V
   concentration: false
-  description: A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+  description: A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability score. This spell has no effect on undead or constructs.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.
   level: 1
@@ -5521,7 +5521,7 @@ heroism:
   casting_time: 1 standard action
   components: V, S
   concentration: true
-  description: A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.
+  description: A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability score at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.
   duration: Up to 1 minute
   level: 1
   name: Heroism
@@ -6658,7 +6658,7 @@ magic_stone:
   components: V, S
   concentration: false
   description: |-
-    You touch one to three pebbles and imbue them with magic. You or someone else can make a ranged spell attack with one of the pebbles by throwing it or hurling it with a sling. If thrown, a pebble has a range of 60 feet. If someone else attacks with a pebble, that attacker adds your spellcasting ability modifier, not the attackers, to the attack roll. On a hit, the target takes bludgeoning damage equal to 1d6 + your spellcasting ability modifier. Whether the attack hits or misses, the spell then ends on the stone.
+    You touch one to three pebbles and imbue them with magic. You or someone else can make a ranged spell attack with one of the pebbles by throwing it or hurling it with a sling. If thrown, a pebble has a range of 60 feet. If someone else attacks with a pebble, that attacker adds your spellcasting attack modifier, not the attacker's usual bonus, to the attack roll. On a hit, the target takes bludgeoning damage equal to 1d6 + your spellcasting ability score. Whether the attack hits or misses, the spell then ends on the stone.
 
     If you cast this spell again, the spell ends on any pebbles still affected by your previous casting.
   duration: 1 minute
@@ -6747,7 +6747,7 @@ mass_cure_wounds:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+  description: A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability score. This spell has no effect on undead or constructs.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.
   level: 5
@@ -6780,7 +6780,7 @@ mass_healing_word:
   casting_time: 1 minor action
   components: V
   concentration: false
-  description: As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+  description: As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability score. This spell has no effect on undead or constructs.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.
   level: 3
@@ -7121,7 +7121,7 @@ mirror_image:
 
     Each time a creature targets you with an attack during the spell's duration, roll a d12. If all three of your duplicates remain and you roll a 4 or higher, the attack instead targets one of your duplicates. You must roll a 5 or higher if two duplicates remain, or 7 or higher if one remains.
 
-    A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.
+    A duplicate's AC equals 10 + your Dexterity score. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.
 
     A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.
   duration: 1 minute
@@ -7356,7 +7356,7 @@ otherworldly_guise:
     - You are immune to the poisoned condition (Lower Planes) or the charmed condition (Upper Planes).
     - Spectral wings appear on your back, giving you a fly speed of 40 feet.
     - You have a +2 bonus to AC.
-    - All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls.
+    - All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability score, instead of Strength or Dexterity, for the attack and damage rolls.
     - You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that lets you attack more than once when you take the Attack action on your turn.
   duration: Up to 1 minute
   level: 6
@@ -7507,7 +7507,7 @@ phantom_hound:
 
     The hound is invisible to all creatures except you and can't be harmed. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound sees invisible creatures and can see into the Ethereal Plane. It ignores illusions.
 
-    At the start of each of your turns, the hound attempts to bite one creature within 5 feet of it that is hostile to you. The hound's attack bonus is equal to your spellcasting ability modifier + your proficiency bonus. On a hit, it deals 4d8 piercing damage.
+    At the start of each of your turns, the hound attempts to bite one creature within 5 feet of it that is hostile to you. The hound's attack bonus is equal to your spellcasting attack modifier. On a hit, it deals 4d8 piercing damage.
   duration: 8 hours
   level: 4
   material: a tiny silver whistle, a piece of bone, and a thread
@@ -7793,7 +7793,7 @@ prayer_of_healing:
   casting_time: 10 minutes
   components: V
   concentration: false
-  description: You utter an extended prayer of restoration. Choose a number of willing creatures equal to your spellcasting ability modifier (minimum of 1). Each of those creatures who remains within range for the spell's entire casting gains the benefits of a short rest and also regains 2d8 hit points, and a creature can't be affected by this spell again until that creature finishes a long rest.
+  description: You utter an extended prayer of restoration. Choose a number of willing creatures equal to your spellcasting ability score (minimum of 1). Each of those creatures who remains within range for the spell's entire casting gains the benefits of a short rest and also regains 2d8 hit points, and a creature can't be affected by this spell again until that creature finishes a long rest.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd.
   level: 2
@@ -9011,7 +9011,7 @@ shield:
   casting_time: 1 reaction, which you take when you are hit by an attack or targeted by the _magic missile_ spell
   components: V, S
   concentration: false
-  description: An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a bonus to your AC equal to your spellcasting ability modifier, including against the triggering attack, and you take no damage from _magic missile_.
+  description: An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a bonus to your AC equal to your spellcasting ability score, including against the triggering attack, and you take no damage from _magic missile_.
   duration: 1 round
   level: 1
   name: Shield
@@ -9461,7 +9461,7 @@ spiritual_weapon:
   components: V, S
   concentration: true
   description: |-
-    You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.
+    You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability score.
 
     As a minor action on your turn, you can move the weapon up to 30 feet and repeat the attack against a creature within 5 feet of it.
 
@@ -10299,7 +10299,7 @@ temple_of_the_gods:
 
     In addition, the sensors created by divination spells can't appear inside the temple, and creatures within can't be targeted by divination spells.
 
-    Finally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your Wisdom modifier (minimum 1 hit point).
+    Finally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your spellcasting ability score (minimum 1 hit point).
 
     The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temples interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by _dispel magic_, and _antimagic field_ has no effect on it. A _disintegrate_ spell destroys the temple instantly.
 
