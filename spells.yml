@@ -6498,7 +6498,7 @@ mage_armor:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: You touch a willing creature, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if you dismiss the spell as a free action.
+  description: You touch a willing creature, and a protective magical force surrounds it. Until the spell ends, the target can calculate its base AC as 13 + its Dexterity modifier. You can dismiss the spell as a free action.
   duration: Until the target finishes a long rest
   level: 1
   material: a piece of cured leather
