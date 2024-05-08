@@ -1,6 +1,6 @@
 # 2D Standard
 
-This repo contains "official" versions of 2D spells and featsd.
+This repo contains "official" versions of 2D spells and feats.
 
 The standard object structure is given at https://docs.google.com/document/d/1JmN3yyxtMsPsqc20GxxeTw9YhY3F9wwHr4dod5K15Go/edit.
 
@@ -27,7 +27,7 @@ sources: string[]
 
 ### Feat
 
-Feats are simply features as describes in the aforementioned standard:
+Feats are simply features as described in the aforementioned standard:
 
 ```yml
 name: string
