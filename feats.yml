@@ -119,6 +119,7 @@ moderately_armored:
 powerful_build:
   name: Powerful Build
   cost: 2
+  prerequisite: Strength 2 or higher
   description: |-
     You are unusually bulky. You count as one size larger than your actual size for the purpose of grappling and being grappled, wielding heavy weapons, determining your carrying capacity, and determining the weight you can push, drag, or lift.
 ritual_caster:
