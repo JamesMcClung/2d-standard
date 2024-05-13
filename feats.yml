@@ -1,5 +1,158 @@
+alert:
+  name: Alert
+  cost: 1
+  description: |-
+    Always on the lookout for danger, you gain the following benefits:
+    - When you roll initiative, you can add your proficiency bonus to the roll.
+    - Immediately after you roll initiative, you can swap your initiative with the initiative of one willing ally in the same combat. You can't make this swap if you or the ally is incapacitated.
+athlete:
+  name: Athlete
+  cost: 2
+  description: |-
+    You have undergone extensive physical training to gain the following benefits:
+    - When you are prone, standing up uses only 5 feet of your movement.
+    - You gain a climb speed equal to your walk speed.
+    - When you jump, your running start distance is halved.
+combat_medic:
+  name: Combat Medic
+  cost: 2
+  prerequisite: Proficiency in Medicine
+  description: |-
+    You are a trained combat physician. You gain the following benefits:
+    - You can use the Stabilize option of the Heal action as a minor action, and the Treat Wounds option as a single standard action.
+    - You can administer a potion, goodberry, or other small consumable to another creature as a minor action instead of a standard action.
+dual_wielder:
+  name: Dual Wielder
+  cost: 4
+  prerequisite: Proficiency with a light weapon
+  description: |-
+    You master fighting with two weapons, gaining the following benefits:
+    - When you attack a creature with a light weapon and miss, you gain advantage on the next attack you make with a different light weapon against that creature before the start of your next turn.
+    - When a creature you can see hits you with a melee weapon attack, you can attempt to parry the blow as a reaction. For each hand holding a light melee weapon that you're proficient with, add your proficiency bonus to your AC for that attack, potentially causing it to miss.
+expert:
+  name: Expert
+  cost: 3
+  description: |-
+    Choose one skill or tool that you are proficient in. You gain expertise in that skill or tool.
+frightening:
+  name: Frightening
+  cost: 2
+  prerequisite: Proficiency in Intimidation
+  description: |-
+    You are especially menacing. When you take the Frighten action, you gain the following benefits:
+    - You can target any number of creatures within range and within 20 feet of each other.
+    - Instead of rolling for the Frighten DC, you can use your passive Intimidation. If you do so, the duration of the effect is save ends.
+gladiator:
+  name: Gladiator
+  cost: 4
+  prerequisite: Proficiency with shields
+  description: |-
+    If you're wielding a shield when a creature misses you with a melee weapon attack, you can make a melee weapon attack against that creature as a reaction.
+heavily_armored:
+  name: Heavily Armored
+  cost: 2
+  prerequisite: Proficiency with medium armor
+  description: |-
+    You gain proficiency with heavy armor.
+infuriating:
+  name: Infuriating
+  cost: 2
+  prerequisite: Proficiency in Deception, Performance, or Persuasion
+  description: |-
+    You are especially irritating. When you take the Taunt action, you gain the following benefits:
+    - You can target any number of creatures within range and within 20 feet of each other.
+    - Instead of rolling for the Taunt DC, you can use your passive Deception, Performance, or Persuasion. If you do so, the duration of the effect is save ends
+keen_mind:
+  name: Keen Mind
+  cost: 1
+  preerquisite: Proficiency in Arcana, History, Investigation, Nature, or Religion
+  description: |-
+    You can think quickly. You gain the following benefits:
+    - You can take the Study action as a minor action.
+    - As long as nothing is preventing you from using reactions, you can use the Recognize Spell reaction without expending a reaction.
+lightly_armored:
+  name: Lightly Armored
+  cost: 1
+  description: |-
+    You gain proficiency with light armor.
+mage_slayer:
+  name: Mage Slayer
+  cost: 3
+  description: |-
+    You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:
+    - When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.
+    - When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.
+    - You have advantage on saving throws against spells cast by creatures within 5 feet of you.
+magic_initiate:
+  name: Magic Initiate
+  cost: 4
+  description: |-
+    You have trained to channel a specific domain of magic. Pick one of the following domains:
+    
+    **Arcane.** You learn the prestidigitation cantrip, plus two other cantrips and a 1st-level spell of your choice with the Arcane tag.
+
+    **Divine.** You learn the thaumaturgy cantrip, plus two other cantrips and a 1st-level spell of your choice with the Divine tag.
+
+    **Primal.** You learn the druidcraft cantrip, plus two other cantrips and a 1st-level spell of your choice with the Primal tag.
+
+    When you take this feat, choose Intelligence, Wisdom, or Charisma as your spellcasting ability for these spells. You can cast the 1st-level spell without expending a spell slot a number of times equal to your proficiency bonus, regaining expended uses when you finish a long rest. You can also cast the 1st-level spell using any spell slots you have, as normal.
+martial_adept:
+  name: Martial Adept
+  cost: 4
+  description: |-
+    You have martial training that allows you to perform a special combat maneuver. You gain the following benefits:
+    - You learn one maneuver of your choice from the fighter class.
+    - If you don't already have a maneuver die, your maneuver die is a d4, and you can only use your chosen maneuver a number of times equal to your proficiency bonus. You regain expended uses when you finish a short rest or long rest.
+mobile:
+  name: Mobile
+  cost: 3
+  description: |-
+    You are exceptionally speedy and agile. You gain the following benefits:
+    - Your speed increases by 10 feet.
+    - When you use the Dash action, you gain the benefits of the Disengage action, and difficult terrain doesn't cost you extra movement on that turn.
+moderately_armored:
+  name: Moderately Armored
+  cost: 2
+  prerequisite: Proficiency with light armor
+  description: |-
+    You gain proficiency with medium armor and shields.
+powerful_build:
+  name: Powerful Build
+  cost: 2
+  prerequisite: Strength 2 or higher
+  description: |-
+    You are unusually bulky. You count as one size larger than your actual size for the purpose of grappling and being grappled, wielding heavy weapons, determining your carrying capacity, and determining the weight you can push, drag, or lift.
+ritual_caster:
+  name: Ritual Caster
+  cost: 3
+  prerequisite: Intelligence or Wisdom 1 or higher
+  description: |-
+    You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.
+
+    When you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose one of the following classes: bard, cleric, druid, sorcerer, warlock, or wizard. You must choose your spells from that class's spell list, and the spells you choose must have the ritual tag. The class you choose also determines your spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.
+
+    If you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the spell list for the class you chose, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.
+resilient:
+  name: Resilient
+  cost: 3
+  description: |-
+    Choose one ability score. You gain proficiency in saving throws using the chosen ability.
+spell_sniper:
+  name: Spell Sniper
+  cost: 4
+  prerequisite: The ability to cast at least one spell
+  description: |-
+    You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:
+    - When you cast a spell that requires you to make an attack roll, the spell's range is doubled.
+    - Your ranged spell attacks ignore half cover and three-quarters cover.
+    - You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.
 skilled:
   name: Skilled
   cost: 2
   description: |-
     You gain proficiency in any combination of three skills or tools of your choice.
+weapons_generalist:
+  name: Weapons Generalist
+  cost: 1
+  description: |-
+    You have practiced with a variety of weapons. You gain proficiency with all simple and martial weapons.
