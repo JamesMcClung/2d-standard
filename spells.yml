@@ -3543,7 +3543,7 @@ eldritch_smite:
   casting_time: 1 free action, which you take when you hit with a weapon attack
   components: V
   concentration: false
-  description: Your weapon hums with eldritch power, and the target takes 4d8 force damage. If it is Huge or smaller, you may also knock it prone.
+  description: Your weapon hums with eldritch power, and the target takes 3d8 force damage. If the target is Huge or smaller, you can also knock it prone.
   duration: Instantaneous
   higher_level: If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 1st.
   level: 3
