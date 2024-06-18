@@ -9940,6 +9940,27 @@ summon_fiend:
     - conjuration
     - warlock
     - wizard
+summon_greater_plant:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You summon an animated plant of your choice: a great tree, a siren flower, or a swamp mancatcher. It appears in an unoccupied space on the ground that you can see within range. The plant has the Companion trait in addition to its usual traits.
+
+    The plant disappears when it drops to 0 hit points or when the spell ends.
+
+    When you cast this spell, you can plant the material component in the soil of an unoccupied space within 5 feet of you. If you do so, the plant grows from that space instead of a space within range and the material component is consumed. A plant grown in this way doesn't disappear when it drops to 0 hit points or when the spell ends. Instead, it simply dies or loses its Companion trait, respectively.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block.
+  level: 4
+  material: an exotic seed or bulb worth at least 400 gp
+  name: Summon Greater Plant
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - primal
+    - transmutation
 summon_greater_undead:
   casting_time: 1 standard action
   components: V, S, M
@@ -9983,6 +10004,27 @@ summon_monstrosity:
     - conjuration
     - warlock
     - wizard
+summon_plant:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You summon an animated plant of your choice: a thornshoot bush, a purple puffshroom, or a tangle of creepvines. It appears in an unoccupied space on the ground that you can see within range. The plant has the Companion trait in addition to its usual traits.
+
+    The plant disappears when it drops to 0 hit points or when the spell ends. If you summoned a puffshroom, each spawned puffshroom also disappears when it drops to 0 hit points or when the spell ends, and no new puffshrooms can be spawned after the spell ends.
+
+    When you cast this spell, you can plant the material component in the soil of an unoccupied space within 5 feet of you. If you do so, the plant grows from that space instead of a space within range and the material component is consumed. A plant grown in this way (including any spawned puffshrooms) doesn't disappear when it drops to 0 hit points or when the spell ends. Instead, it simply dies or loses its Companion trait, respectively.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block.
+  level: 1
+  material: a rare seed or bulb worth at least 100 gp
+  name: Summon Plant
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - primal
+    - transmutation
 summon_undead:
   casting_time: 1 standard action
   components: V, S, M
