@@ -3911,6 +3911,8 @@ false_portal:
     The appearance of the window and what lies beyond it are up to you, chosen when you cast the spell. The illusion is only visible from one direction, can only include visual and auditory aspects, can't emit or block light, and can't block noise. For example, you could make a doorway leading to a nonexistent room, a magma-filled crevasse in the floor, or the image of an empty room that you can hide behind. 
 
     A creature can use the Study action to inspect the illusion, making an Investigation check against your spell save DC. On a success, the creature discovers that the illusion is fake.
+
+    If you cast this spell on the same spot with the same appearance every day for 30 days, the effect lasts until dispelled and doesn't require concentration.
   duration: Up to 1 hour
   level: 2
   material: a piece of glass
