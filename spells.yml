@@ -7063,6 +7063,30 @@ mind_whip:
     - psionic
     - sorcerer
     - wizard
+minor_alteration:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: |-
+    You touch a Tiny object and imbue it with one of the following magical properties of your choice:
+    - The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.
+    - Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.
+    - The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away.
+    - A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like.
+
+    The imbued effect lasts indefinitely, or until you use a standard action to touch and end it. If you cast this spell multiple times, you can have up to three of its effects active at a time. If there are already three effects active when you cast this spell, you choose one of those effects and end it before the new effect is imbued.
+  duration: Instantaneous
+  level: 0
+  material: any type of [artisan's tools](?2dp/equipment#) worth at least 1 sp
+  name: Minor Alteration
+  range: Touch
+  sources:
+    - 2D
+    - TCE
+  tags:
+    - arcane
+    - artificer
+    - transmutation
 minor_illusion:
   casting_time: 1 standard action
   components: S, M
