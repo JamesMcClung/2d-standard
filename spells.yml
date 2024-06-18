@@ -6993,7 +6993,7 @@ mind_blank:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the charmed condition. The spell even foils divine intervention or effects of similar power used to affect the target's mind or to gain information about the target.
+  description: Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts (including mindsense), divination spells, and the charmed condition. The spell even foils divine intervention or effects of similar power used to affect the target's mind or to gain information about the target.
   duration: Until the target finishes a long rest
   level: 8
   name: Mind Blank
