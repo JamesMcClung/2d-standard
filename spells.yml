@@ -12064,10 +12064,7 @@ zapping_strike:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
   concentration: false
-  description: |-
-    Electricity crackles about your weapon. The target, as well as one other creature of your choice within 15 feet of the initial target, take 1d6 lightning damage.
-
-    Immediately after the attack, you may choose to teleport to an unoccupied space within 5 feet of the target of the lightning bounce.
+  description: Electricity crackles about your weapon. The target, as well as one other creature of your choice within 15 feet of the initial target, each take 1d6 lightning damage. You can then teleport to an unoccupied space within 5 feet of the secondary target.
   duration: Instantaneous
   higher_level: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
   level: 1
