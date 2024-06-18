@@ -9061,7 +9061,7 @@ sapping_strike:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
   concentration: false
-  description: You wreath your weapon in necrotic energy. The target takes 1d6 necrotic damage and must then make a Constitution saving throw. On a failure, the target is slowed until the end of your next turn. Constructs and Undead are immune to the slowed condition inflicted by this spell.
+  description: You wreath your weapon in necrotic energy. The target takes 1d6 necrotic damage and must then make a Constitution saving throw. On a failure, the target is slowed until the end of your next turn. Constructs and Undead are immune to being slowed by this spell.
   duration: 1 round
   higher_level: If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
   level: 1
