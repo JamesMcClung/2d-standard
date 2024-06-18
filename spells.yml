@@ -6445,13 +6445,14 @@ longstrider:
   concentration: false
   description: You touch a creature. The target's speed increases by 10 feet until the spell ends.
   duration: Until the target finishes a short rest
-  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st. When a target finishes a short rest, the spell only ends on that target.
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the speed bonus increases by 5 feet for each slot level above 1st.
   level: 1
   material: a pinch of dirt
   name: Longstrider
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - artificer
