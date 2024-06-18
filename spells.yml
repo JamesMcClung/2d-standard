@@ -1759,6 +1759,7 @@ conjure_barrage:
     - 2D
   tags:
     - arcane
+    - artificer
     - conjuration
     - ranger
 conjure_volley:
@@ -2322,7 +2323,6 @@ cure_wounds:
   sources:
     - PHB
   tags:
-    - artificer
     - bard
     - cleric
     - divine
@@ -9063,6 +9063,7 @@ shatter:
     - PHB
   tags:
     - arcane
+    - artificer
     - bard
     - evocation
     - sorcerer
@@ -9083,6 +9084,7 @@ shield:
   tags:
     - abjuration
     - arcane
+    - artificer
     - magus
     - sorcerer
     - wizard
@@ -9620,7 +9622,6 @@ stone_pillar:
   sources:
     - 2D
   tags:
-    - artificer
     - druid
     - earth
     - primal
