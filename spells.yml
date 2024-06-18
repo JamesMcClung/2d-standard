@@ -10620,10 +10620,7 @@ telekinetic_grip:
   casting_time: 1 minor action
   components: V, S
   concentration: false
-  description: |-
-    You attempt to bind a creature with telekinetic force. The target must succeed on a Strength saving throw or be pulled to an unoccupied space within 5 feet of you and be slowed until the start of your next turn.
-
-    If the target is willing, they may forgo the saving throw and not be subjected to the slowed condition.
+  description: You attempt to bind a creature with telekinetic force. The target must succeed on a Strength saving throw or be pulled up to 30 feet towards you and be slowed until the start of your next turn. The target isn't slowed if it willingly fails the saving throw.
   duration: 1 round
   level: 2
   name: Telekinetic Grip
