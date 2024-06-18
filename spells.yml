@@ -1068,9 +1068,9 @@ cadaverous_puppet:
   components: V, S, M
   concentration: true
   description: |-
-    You wrest control of a Medium or smaller corpse or skeleton you can see within range. You control the body for the duration of the spell.
+    You animate the body of a deceased Medium or smaller creature you can see within range. You control the body for the duration of the spell.
 
-    When you cast this spell, and as a free action on subsequent turns, you can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing unless you will otherwise. You can also have the body perform simple tasks as part of this action, such as opening a door or pushing a rock. You can't use this action to cause the body to attack.
+    When you cast this spell, and as a free action on subsequent turns, you can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing unless you will otherwise. You can also have the body perform simple tasks as part of this action, such as opening a door or pushing a rock. You can't use this spell to cause the body to attack, however.
 
     The body counts as an object. It has 15 hit points, 10 AC, and immunity to necrotic, poison, and psychic damage. It uses the Strength, Dexterity, and Constitution scores it had in life. If the body is reduced to 0 hit points, it is destroyed, and you can use a free action to wrest control of a new body as described above.
   duration: Up to 8 hours
@@ -2471,7 +2471,7 @@ deadwalk:
   casting_time: 1 free action
   components: V, S, M
   concentration: true
-  description: Choose a Medium or smaller corpse or skeleton you can see within range. You can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing until the end of the current turn. You can have the body perform simple tasks as part of this action, such as opening a door or pushing a rock.
+  description: Choose a Medium or smaller corpse or skeleton you can see within range. You can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing until the end of the current turn. You can have the body perform simple tasks as part of this action, such as opening a door or pushing a rock. You can't use this spell to cause the body to attack, however.
   duration: 1 turn
   level: 0
   material: a piece of string
@@ -3911,7 +3911,9 @@ false_portal:
     The appearance of the window and what lies beyond it are up to you, chosen when you cast the spell. The illusion is only visible from one direction, can only include visual and auditory aspects, can't emit or block light, and can't block noise. For example, you could make a doorway leading to a nonexistent room, a magma-filled crevasse in the floor, or the image of an empty room that you can hide behind. 
 
     A creature can use the Study action to inspect the illusion, making an Investigation check against your spell save DC. On a success, the creature discovers that the illusion is fake.
-  duration: Up to 10 minutes
+
+    If you cast this spell on the same spot with the same appearance every day for 30 days, the effect lasts until dispelled and doesn't require concentration.
+  duration: Up to 1 hour
   level: 2
   material: a piece of glass
   name: False Portal
@@ -3921,6 +3923,7 @@ false_portal:
   tags:
     - arcane
     - illusion
+    - ritual
 far_sense:
   casting_time: 1 standard action
   components: V, S, M
@@ -4788,12 +4791,12 @@ glamour:
     **Beauty.** Your face becomes impossibly beautiful and your entire presence seems to glow. You gain the following effects:
     - You have advantage on Persuasion checks.
     - You can use your spellcasting ability instead of Charisma for Persuasion checks.
-    - When a creature starts its turn within 5 feet of you and can see you, it must succeed on a Wisdom saving throw or be charmed by you until the start of its next turn.
+    - When a creature that can see you comes within 5 feet of you or starts its turn there, you can force it to make a Wisdom saving throw. A creature can't be forced to make this save more than once on a turn. On a failed save, the target is charmed by you until the start of its next turn.
 
     **Dread.** Your face becomes masked in shadow and the lights around you dim. You gain the following effects:
     - You have advantage on Intimidation checks.
     - You can use your spellcasting ability instead of Charisma for Intimidation checks.
-    - When a creature starts its turn within 5 feet of you and can see you, it must succeed on a Wisdom saving throw or be frightened by you until the start of its next turn.
+    - When a creature that can see you comes within 5 feet of you or starts its turn there, you can force it to make a Wisdom saving throw. A creature can't be forced to make this save more than once on a turn. On a failed save, the target is frightened by you until the start of its next turn.
   duration: Up to 1 minute
   level: 2
   name: Glamour
@@ -6121,8 +6124,8 @@ invisible_item:
   casting_time: 1 minor action
   components: S
   concentration: false
-  description: You touch a Medium or smaller item and make it turn invisible for 1 hour. You can end the spell early by using another minor action to touch the object and make it reappear. If the item is held or worn by a creature, that creature can make a Dexterity saving throw to pull the item away from your touch, causing the spell to fail.
-  duration: 1 round
+  description: You touch a Medium or smaller item and make it turn invisible for the duration. You can end the spell early by using another minor action to touch the object and make it reappear. If the item is held or worn by a creature, that creature can make a Dexterity saving throw to pull the item away from your touch, causing the spell to fail.
+  duration: 1 hour
   level: 1
   name: Invisible Item
   range: Touch
@@ -7546,11 +7549,11 @@ phantom_warriors:
   description: |-
     Up to four illusory, Medium- or Small-sized phantom warriors appear in unoccupied spaces within range. Each creature's appearance and behavior is up to you. They appear real, visually and audibly, but are incorporeal.
 
-    If a phantom warrior is attacked, the attack appears to miss. If one would be harmed anyways, such as from a _fireball_ spell, it appears harmed, bloodied, or even killed at your discretion.
+    You can use a minor action to control the phantom warriors. Each warrior moves up to 40 feet to a point you can see and can pantomime an attack, though it can do no damage and appears to miss its target. You can also cause one of them to take the Taunt, Frighten, or Help (aid your or an ally's attack only) action, using your own ability scores and skill proficiencies for any ability checks.
 
-    You can use a standard action to control the phantom warriors. Each warrior moves up to 40 feet and can pantomime an attack, though they can do no damage and appear to miss their targets. You can also cause one of them to use the Taunt, Frighten, or Help (aid an ally's attack only) action, using your own ability scores and skill proficiencies for any ability checks. The warriors can also engage in flanks.
+    A creature can use the Study action to inspect a phantom warrior, making an Investigation check against your spell save DC. On a success, the creature discovers that the warriors are illusory. A creature that knows the warriors are illusory can still be taunted, frightened, and affected by the Help action.
 
-    A creature can use the Study action to inspect a phantom warrior, making an Investigation check against your spell save DC. On a success, the creature discovers that the warriors are illusory. A creature that knows the warriors are illusory can't be flanked by them, but can still be taunted, frightened, or affected by the Help action.
+    You determine how a phantom warrior responds to effects that you are aware of. For example, if you see an enemy archer shoot a phantom warrior, you can cause the warrior appear to dodge out of the way. If you fail to do so, each creature that can see the warrior immediately learns that it is illusory. Additionally, a creature that targets a phantom warrior with a melee attack automatically gains the benefit of the Study action against it as if it had rolled an Investigation check with a result equal to the attack roll, potentially discerning its nature even if the warrior appeared to evade the attack.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 4th level or higher, you can create two additional phantom warriors for each slot level above 3rd.
   level: 3
@@ -7703,7 +7706,7 @@ posthumous_punch:
   components: S, M
   concentration: false
   description: |-
-    You briefly animate part of a Small or larger corpse or skeleton within range and cause it to lash out. Make a melee spell attack against one creature within 5 feet of the body. On a hit, the target takes bludgeoning, piercing, or slashing damage as appropriate. The damage equals a roll of the body's size die.
+    You cause the inanimate remains of a Small or larger creature to lash out. Make a melee spell attack against one creature within 5 feet of the remains. On a hit, the target takes bludgeoning, piercing, or slashing damage as appropriate. The damage equals a roll of the body's size die.
 
     The spell's damage increases by a size die when you reach 5th level (2 dice), 11th level (3 dice), and 17th level (4 dice).
   duration: Instantaneous
@@ -10759,7 +10762,7 @@ undead_horde:
   components: V, S, M
   concentration: false
   description: |-
-    An army of undead rises from the ground around you. Up to 100 zombie minions appear in unoccupied spaces you can see within range. Alternatively, you can create skeleton minions, each of which counts as 5 zombie minions. An undead created by this spell crumbles to dust when reduced to 0 hit points.
+    An army of undead rises from the ground around you. Up to 100 zombie minions appear in unoccupied spaces you can see within range. You can also create skeleton minions, each of which counts as 5 zombie minions. An undead created by this spell crumbles to dust when reduced to 0 hit points.
 
     The skull scepter used as the spell's material component becomes magical for the duration and can be used to command the undead. As a standard action, any creature wielding the scepter can magically command any number of undead created by this casting of the spell within range. The command must be straightforward and 10 words or less, such as "kill the dragon in the mountain" or "bring me the pearl necklace." If you issue a command to an undead that already has a command, the undead forgets its previous command and begins carrying out the new one.
 
@@ -10875,7 +10878,7 @@ vanish:
   casting_time: 1 standard action
   components: S
   concentration: true
-  description: You become invisible and hidden for the duration, as this spell hides even your footsteps and sounds. Your Hide DC equals your spell save DC and you don't reroll it while the spell persists. Additionally, when you cast this spell, you can teleport up to 30 feet to an unoccupied space you can see.
+  description: You become invisible and hidden for the duration, as this spell hides even your footsteps and sounds. Your Hide DC equals your spell save DC plus your Stealth proficiency, and you don't reroll it while the spell persists. Additionally, when you cast this spell, you can teleport up to 30 feet to an unoccupied space you can see. This spell ends if you attack or cast a spell.
   duration: Up to 1 minute
   level: 3
   name: Vanish
@@ -10995,17 +10998,15 @@ wall_of_flesh:
   components: V, S, M
   concentration: true
   description: |-
-    You create a wall of living flesh within range. The wall is 1 foot thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with at least one other panel, be vertically oriented, and be supported underneath by a solid surface or on any sides by at least two other panels. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choose which side).
+    You create a wall of living flesh within range. The wall is 1 foot thick, up to 10 feet tall, and up to 40 feet long in a straight line. It must be supported underneath by a solid surface at all times. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side).
 
-    Each panel is a Large object with 10 AC, 30 hit points, and immunity to psychic damage and forced movement. A panel is destroyed if it is reduced to 0 hit points, potentially causing other panels to collapse and be destroyed.
+    The wall is an object with 10 AC and immunity to psychic damage and forced movement. It starts with 2 hit points for every foot of its length, regardless of its height. The wall has no hit point maximum. Whenever it gains or loses hit points, the wall must grow or shrink so that its length in feet is equal to half its current hit points. You determine the amount by which it grows (or shrinks) in each direction, potentially pushing creatures lengthwise according to the rules in the next paragraph. The wall can't gain hit points if there isn't space for it to grow.
 
-    At the start of each of your turns, you can cause the wall to regenerate up to 30 hit points, divided as you choose among any number of panels. Alternatively, you can choose a panel that has all its hit points and cause a new panel to grow from it. The new panel must be connected to the old panel but otherwise follows the rules of panel creation as above.
+    At the start of each of your turns, the wall regenerates 20 hit points. As a minor action, you can cause the wall to move up to 5 feet in a direction of your choice, automatically pushing Large or smaller creatures along with it. A Huge or larger creature in the wall's way can make a Strength saving throw against your spell save DC, preventing the wall's movement on a success; otherwise, it is also pushed.
 
-    Each panel has eyes and darkvision out to a range of 30 feet. When a creature a panel can see starts its turn within 5 feet of the panel, the wall attacks with its fleshy tendrils. Make a melee spell attack against the target. On a hit, the target takes 2d8 bludgeoning damage, and if the target is Large or smaller, it is grappled by the wall (escape DC equals your spell save DC).
-
-    On your turn as a minor action, you can move each panel up to 5 feet, potentially altering the wall's overall shape but not changing how the panels are connected.
+    The wall has eyes and darkvision out to a range of 30 feet. When a creature the wall can see starts its turn within 5 feet of the wall, the wall attacks it with fleshy tendrils. Make a melee spell attack against the target. On a hit, the target takes 2d8 bludgeoning damage, and if the target is Large or smaller, it is grappled by the wall (escape DC equals your spell save DC).
   duration: Up to 1 minute
-  higher_level: When you cast this spell using a level spell slot 5 or more, the damage of the spell increases by 1d8 for each level of higher spell slot to 4.
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, the wall can start up to 20 feet longer and regenerates an additional 10 hit points per turn for each slot level above 4th.
   level: 4
   material: an eyeball with the optic nerve still attached
   name: Wall of Flesh
@@ -11445,9 +11446,9 @@ wizards_strike:
   casting_time: 1 standard action
   components: S, M
   concentration: false
-  description: You swipe the spell's material component in the direction of a foe to bash it from a distance. Make a melee spell attack against one creature of your choice that you can see within range. On a hit, the target takes 1d10 bludgeoning, piercing, or slashing damage (your choice), and if the target is Medium or smaller, it is pushed up to 5 feet away from you and knocked prone.
+  description: You swipe the spell's material component in the direction of a foe to bash it from a distance. Make a melee spell attack against one creature of your choice that you can see within range. On a hit, the target takes 1d10 bludgeoning, piercing, or slashing damage (your choice), and the target is pushed up to 5 feet away from you and knocked prone.
   duration: Instantaneous
-  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 and the distance pushed increases by 5 feet for each slot level above 1st.
   level: 1
   material: an arcane focus worth at least 1 gp
   name: Wizard's Strike
