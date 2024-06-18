@@ -137,7 +137,7 @@ animal_friendship:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spells ends.
+  description: This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence score is 0 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spells ends.
   duration: 24 hours
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.
   level: 1
