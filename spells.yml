@@ -3758,13 +3758,15 @@ expeditious_retreat:
   casting_time: 1 minor action
   components: V, S
   concentration: true
-  description: This spell allows you to move at an incredible pace. When you cast this spell, and then as a minor action on each of your turns until the spell ends, you can take the Dash action.
+  description: Choose a creature you can see within range. The target can take the Dash action as a minor action for the duration of the spell and as a reaction when the spell is cast. If you are the target, you can Dash as part of the same action used to cast the spell instead of using a reaction.
   duration: Up to 10 minutes
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
   level: 1
   name: Expeditious Retreat
-  range: Self
+  range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - artificer
@@ -6440,13 +6442,14 @@ longstrider:
   concentration: false
   description: You touch a creature. The target's speed increases by 10 feet until the spell ends.
   duration: Until the target finishes a short rest
-  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st. When a target finishes a short rest, the spell only ends on that target.
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the speed bonus increases by 5 feet for each slot level above 1st.
   level: 1
   material: a pinch of dirt
   name: Longstrider
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - artificer
