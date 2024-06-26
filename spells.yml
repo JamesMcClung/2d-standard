@@ -4773,7 +4773,7 @@ giant_insect:
   description: |-
     You transform up to ten centipedes, three spiders, five wasps, or one scorpion within range into giant versions of their natural forms for the duration. A centipede becomes a giant centipede, a spider becomes a giant spider, a wasp becomes a giant wasp, and a scorpion becomes a giant scorpion.
 
-    Each creature obeys your verbal commands, and in combat, they act on your turn each round. The DM has the statistics for these creatures and resolves their actions and movement.
+    Each creature has the Companion trait in addition to its usual traits and understands your verbal commands. You can command any number of the creatures using the same action, issuing the same or different commands to each one.
 
     A creature remains in its giant size for the duration, until it drops to 0 hit points, or until you use a standard action to dismiss the effect on it.
 
@@ -4784,6 +4784,7 @@ giant_insect:
   range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - druid
     - primal
