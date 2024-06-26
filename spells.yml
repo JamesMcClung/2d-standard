@@ -7077,7 +7077,7 @@ minor_alteration:
     The imbued effect lasts indefinitely, or until you use a standard action to touch and end it. If you cast this spell multiple times, you can have up to three of its effects active at a time. If there are already three effects active when you cast this spell, you choose one of those effects and end it before the new effect is imbued.
   duration: Instantaneous
   level: 0
-  material: any type of [artisan's tools](?2dp/equipment#) worth at least 1 sp
+  material: any type of artisan's tools worth at least 1 sp
   name: Minor Alteration
   range: Touch
   sources:
