@@ -10637,17 +10637,18 @@ tiny_servant:
   components: V, S
   concentration: false
   description: |-
-    You touch one Tiny, nonmagical object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and sprouts little arms and legs, becoming a creature under your control until the spell ends or the creature drops to 0 hit points. See the Tiny Servant stat block for its statistics.
+    You touch one Tiny, nonmagical object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and sprouts little arms and legs, becoming a Tiny Servant until the spell ends.
 
-    As a minor action, you can mentally command the creature if it is within 120 feet of you. (If you control multiple creatures with this spell, you can command any or all of them at the same time, issuing the same command to each one.) You decide what actions the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a key, stand watch, or stack some books. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.
+    The creature has the Companion trait in addition to is usual traits. You can mentally command the creature if it is within 120 feet of you, issuing specific instructions for which actions to take or a simple, general command, such as "fetch the library key" or "defend against intruders". (If you control multiple creatures with this spell, you can command any or all of them as part of the same action, issuing the same general command to each one.) Once given a general command, the servant continues to follow that order until its task is complete, and may even use actions not normally available to companions to do so.
 
-    When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.
+    When the creature drops to 0 hit points, the spell ends, the creature reverts to its original form, and any remaining damage carries over to that form.
   duration: 8 hours
   level: 3
   name: Tiny Servant
   range: Touch
   sources:
     - XGE
+    - 2D
   tags:
     - arcane
     - artificer
