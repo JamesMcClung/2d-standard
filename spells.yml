@@ -597,6 +597,7 @@ awaken:
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - bard
     - druid
@@ -7277,6 +7278,7 @@ mind_blank:
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - abjuration
     - arcane
@@ -10814,6 +10816,7 @@ terraform:
   range: 120 feet
   sources:
     - PHB
+    - 2D
   tags:
     - druid
     - earth
