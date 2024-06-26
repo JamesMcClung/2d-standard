@@ -1759,6 +1759,7 @@ conjure_barrage:
     - 2D
   tags:
     - arcane
+    - artificer
     - conjuration
     - ranger
 conjure_volley:
@@ -2322,7 +2323,6 @@ cure_wounds:
   sources:
     - PHB
   tags:
-    - artificer
     - bard
     - cleric
     - divine
@@ -7063,6 +7063,30 @@ mind_whip:
     - psionic
     - sorcerer
     - wizard
+minor_alteration:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: |-
+    You touch a Tiny object and imbue it with one of the following magical properties of your choice:
+    - The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.
+    - Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.
+    - The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away.
+    - A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like.
+
+    The imbued effect lasts indefinitely, or until you use a standard action to touch and end it. If you cast this spell multiple times, you can have up to three of its effects active at a time. If there are already three effects active when you cast this spell, you choose one of those effects and end it before the new effect is imbued.
+  duration: Instantaneous
+  level: 0
+  material: any type of artisan's tools worth at least 1 sp
+  name: Minor Alteration
+  range: Touch
+  sources:
+    - 2D
+    - TCE
+  tags:
+    - arcane
+    - artificer
+    - transmutation
 minor_illusion:
   casting_time: 1 standard action
   components: S, M
@@ -8398,6 +8422,40 @@ remove_curse:
     - paladin
     - warlock
     - wizard
+repair_major_damage:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: A creature you touch regains a number of hit points equal to 8d6 + your spellcasting ability score and can make a saving throw against one "save ends" condition currently affecting it. The condition can be slowed, dazed, or stunned. If the target is a construct, it regains twice as many hit points and automatically succeeds on the saving throw. This spell has no effect on undead.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, the healing increases by 2d6 for each slot level above 4th.
+  level: 4
+  material: a duck feather and a drop of oil
+  name: Repair Major Damage
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - artificer
+    - transmutation
+repair_minor_damage:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: false
+  description: A creature you touch regains a number of hit points equal to 1d6 + your spellcasting ability score, or twice that amount if the target is a construct. This spell has no effect on undead.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d6 for each slot level above 1st.
+  level: 1
+  material: a small hammer
+  name: Repair Minor Damage
+  range: Touch
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - artificer
+    - transmutation
 resistance:
   casting_time: 1 reaction, which you take in response to you or an ally within 10 feet of you failing a saving throw
   components: V, S
@@ -9005,6 +9063,7 @@ shatter:
     - PHB
   tags:
     - arcane
+    - artificer
     - bard
     - evocation
     - sorcerer
@@ -9025,6 +9084,7 @@ shield:
   tags:
     - abjuration
     - arcane
+    - artificer
     - magus
     - sorcerer
     - wizard
@@ -9562,7 +9622,6 @@ stone_pillar:
   sources:
     - 2D
   tags:
-    - artificer
     - druid
     - earth
     - primal
@@ -9906,6 +9965,27 @@ summon_fiend:
     - conjuration
     - warlock
     - wizard
+summon_greater_plant:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You summon an animated plant of your choice: a great tree, a siren flower, or a swamp mancatcher. It appears in an unoccupied space on the ground that you can see within range. The plant has the Companion trait in addition to its usual traits.
+
+    The plant disappears when it drops to 0 hit points or when the spell ends.
+
+    When you cast this spell, you can plant the material component in the soil of an unoccupied space within 5 feet of you. If you do so, the plant grows from that space instead of a space within range and the material component is consumed. A plant grown in this way doesn't disappear when it drops to 0 hit points or when the spell ends. Instead, it simply dies or loses its Companion trait, respectively.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block.
+  level: 4
+  material: an exotic seed or bulb worth at least 400 gp
+  name: Summon Greater Plant
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - primal
+    - transmutation
 summon_greater_undead:
   casting_time: 1 standard action
   components: V, S, M
@@ -9949,6 +10029,27 @@ summon_monstrosity:
     - conjuration
     - warlock
     - wizard
+summon_plant:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You summon an animated plant of your choice: a thornshoot bush, a purple puffshroom, or a tangle of creepvines. It appears in an unoccupied space on the ground that you can see within range. The plant has the Companion trait in addition to its usual traits.
+
+    The plant disappears when it drops to 0 hit points or when the spell ends. If you summoned a puffshroom, each spawned puffshroom also disappears when it drops to 0 hit points or when the spell ends, and no new puffshrooms can be spawned after the spell ends.
+
+    When you cast this spell, you can plant the material component in the soil of an unoccupied space within 5 feet of you. If you do so, the plant grows from that space instead of a space within range and the material component is consumed. A plant grown in this way (including any spawned puffshrooms) doesn't disappear when it drops to 0 hit points or when the spell ends. Instead, it simply dies or loses its Companion trait, respectively.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block.
+  level: 1
+  material: a rare seed or bulb worth at least 100 gp
+  name: Summon Plant
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - primal
+    - transmutation
 summon_undead:
   casting_time: 1 standard action
   components: V, S, M
