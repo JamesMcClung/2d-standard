@@ -288,7 +288,7 @@ arcane_eye:
   description: |-
     You create an invisible, magical eye within range that hovers in the air for the duration.
 
-    You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.
+    You mentally receive visual information from the eye, which has normal vision and darkvision (30 ft.). The eye can look in every direction.
 
     As a standard action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.
   duration: Up to 1 hour
@@ -1009,7 +1009,7 @@ branding_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
   concentration: true
-  description: The weapon gleams with astral radiance as you strike. The triggering attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's invisible, and the target sheds dim light in a 5-foot radius and can't become invisible until the spell ends.
+  description: The weapon gleams with astral radiance as you strike. The triggering attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's invisible, and the target sheds dim light (5 ft.) and can't become invisible until the spell ends.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.
   level: 2
@@ -1881,7 +1881,7 @@ control_flames:
 
     - You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.
     - You instantaneously extinguish the flames within the cube.
-    - You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.
+    - You double or halve the area of bright and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.
     - You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The shapes last for 1 hour.
 
     If you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as a standard action.
@@ -2223,7 +2223,7 @@ crown_of_stars:
   description: |-
     Seven star-like motes of light appear and orbit your head until the spell ends. You can use a minor action to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes 4d12 radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.
 
-    If you have four or more motes remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet. If you have one to three motes remaining, they shed dim light in a 30-foot radius.
+    If you have four or more motes remaining, they shed light (30/60 ft.). If you have one to three motes remaining, they shed dim light (30 ft.).
   duration: Until you finish a short rest
   higher_level: When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th.
   level: 7
@@ -2404,7 +2404,7 @@ darkvision:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.
+  description: You touch a willing creature to grant it darkvision (60 ft.) for the duration.
   duration: Until the target finishes a long rest
   level: 2
   material: either a pinch of dried carrot or an agate
@@ -2662,7 +2662,7 @@ detect_thoughts:
   components: V, S, M
   concentration: true
   description: |-
-    You gain mindsense out to a range of 30 feet for the duration.
+    You gain mindsense (30 ft.) for the duration.
 
     When you cast the spell and as a standard action on each turn until the spell ends, you can focus your mind on a particular creature that you can sense with mindsense to learn its surface thoughts (what is most on its mind at that moment). As a subsequent standard action, you can attempt to probe deeper into that creature's mind. If you probe deeper, the target must make an Intelligence saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use a standard action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.
 
@@ -3051,7 +3051,7 @@ draconic_transformation:
   description: |-
     With a roar, you draw on the magic of dragons to transform yourself, taking on draconic features. You gain the following benefits until the spell ends:
 
-    - You have blindsight with a range of 30 feet.
+    - You have blindsight (30 ft.).
     - When you cast this spell, and as a minor action on subsequent turns for the duration, you can exhale shimmering energy in a 60-foot cone. Each creature in the area must make a Dexterity saving throw, taking 6d8 force damage on a failed save, or half as much damage on a successful one.
     - Incorporeal wings sprout from your back, giving you a fly speed of 60 feet.
   duration: Up to 1 minute
@@ -3816,7 +3816,7 @@ eyes_of_the_dead:
   components: V, S
   concentration: false
   description: |-
-    You touch one corpse, skull, or willing undead creature, and its eyes fill with a blood-red mist. For the duration of the spell, you can see through the target's eyes, which have darkvision out to a range of 60 feet. You can't hear through the target, nor can you control where it looks using this spell.
+    You touch one corpse, skull, or willing undead creature, and its eyes fill with a blood-red mist. For the duration of the spell, you can see through the target's eyes, which have darkvision (60 ft.). You can't hear through the target, nor can you control where it looks using this spell.
 
     While looking through the target's eyes, you are blinded to your own surroundings. You can switch between the target's vision and your own vision as a minor action.
   duration: 1 hour
@@ -3872,7 +3872,7 @@ faerie_fire:
   components: V
   concentration: true
   description: |-
-    Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.
+    Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light (10 ft.).
 
     Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.
   duration: Up to 1 minute
@@ -4115,9 +4115,7 @@ fiery_whip:
   components: V, S
   concentration: true
   description: |-
-    A whip of fire appears in your free hand. The whip is a weapon with the finesse, light, and reach 15 properties. On a hit, the whip deals 2d4 fire damage, and if the target is no more than one size larger than you, you can pull it up to 10 feet towards you.
-
-    The whip sheds bright light in a 15-foot radius and dim light for an additional 15 feet.
+    A whip of fire appears in your free hand. The whip is a weapon with the finesse, light, and reach 15 properties. On a hit, the whip deals 2d4 fire damage, and if the target is no more than one size larger than you, you can pull it up to 10 feet towards you. The whip sheds light (15/30 ft.).
 
     If you let go of the whip, it disappears, but you can resummon it as a minor Magic action.
   duration: Up to 10 minutes
@@ -4253,7 +4251,7 @@ fire_shield:
   components: V, S, M
   concentration: false
   description: |-
-    Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using a standard action to dismiss it.
+    Thin and wispy flames wreathe your body for the duration, shedding light (10/20 ft.). You can end the spell early by using a standard action to dismiss it.
 
     The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.
 
@@ -4388,7 +4386,7 @@ flaming_sphere:
 
     As a minor action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere's damage, and the sphere stops moving this turn.
 
-    When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
+    When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere sheds light (20/40 ft.) and ignites flammable objects not being worn or carried.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.
   level: 2
@@ -5113,7 +5111,7 @@ guardian_of_nature:
     **Primal Beast.** Bestial fur covers your body, your facial features become feral, and you gain the following benefits:
 
     - Your walk speed increases by 10 feet.
-    - You gain darkvision with a range of 120 feet.
+    - You gain darkvision (120 ft.).
     - You make Strength-based attack rolls with advantage.
     - Your melee weapon attacks deal an extra 1d6 force damage on a hit.
 
@@ -5613,7 +5611,7 @@ holy_aura:
   casting_time: 1 standard action
   components: V, S, M
   concentration: true
-  description: Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Creatures of your choice in that radius when you cast this spell shed dim light in a 5-foot radius and have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be blinded until the spell ends.
+  description: Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Creatures of your choice in that radius when you cast this spell shed dim light (5 ft.) and have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be blinded until the spell ends.
   duration: Up to 1 minute
   level: 8
   material: a tiny reliquary worth at least 1,000 gp containing a sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a religious text
@@ -5630,7 +5628,7 @@ holy_weapon:
   components: V, S
   concentration: true
   description: |-
-    You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 3d8 radiant damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.
+    You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits light (30/60 ft.). In addition, weapon attacks made with it deal an extra 3d8 radiant damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.
 
     As a minor action, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of the weapon must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute (save ends). On a successful save, a creature takes half as much damage and isn't blinded.
 
@@ -5809,7 +5807,7 @@ immolation:
   components: V
   concentration: false
   description: |-
-    Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 10d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns indefinitely, taking ongoing 5d6 fire damage (save ends). The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. These magical flames can't be extinguished by nonmagical means.
+    Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 10d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns indefinitely, taking ongoing 5d6 fire damage (save ends). The burning target sheds light (30/60 ft.). These magical flames can't be extinguished by nonmagical means.
 
     If damage from this spell kills a target, the target is turned to ash.
   duration: Instantaneous
@@ -6011,7 +6009,7 @@ investiture_of_flame:
   components: V, S
   concentration: true
   description: |-
-    Flames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits:
+    Flames race across your body, shedding light (30/60 ft.) for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits:
 
     - You are immune to fire damage and have resistance to cold damage.
     - Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes 1d10 fire damage.
@@ -6332,7 +6330,7 @@ light:
   components: V, M
   concentration: false
   description: |-
-    You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as a standard action.
+    You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds light (20/40 ft.) in a color of your choice. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as a standard action.
 
     If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.
   duration: 1 hour
@@ -7079,7 +7077,7 @@ minor_alteration:
   concentration: false
   description: |-
     You touch a Tiny object and imbue it with one of the following magical properties of your choice:
-    - The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.
+    - The object sheds light (5/10 ft.).
     - Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.
     - The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away.
     - A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like.
@@ -7671,9 +7669,7 @@ platinum_shield:
   components: V, S, M
   concentration: true
   description: |-
-    You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet.
-
-    The creature protected by the field gains the following benefits:
+    You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light (5 ft.), and the creature protected by the field gains the following benefits:
     - The creature has half cover.
     - The creature has resistance to acid, cold, fire, lightning, and poison damage.
     - If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
@@ -7955,7 +7951,7 @@ produce_flame:
   components: V, S
   concentration: false
   description: |-
-    A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as a standard action or if you cast it again.
+    A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds light (10/20 ft.). The spell ends if you dismiss it as a standard action or if you cast it again.
 
     You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as a standard action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.
 
@@ -8921,7 +8917,7 @@ seismic_sense:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You gain a supernatural ability to sense vibrations in the ground. For the duration, you have tremorsense out to a range of 30 feet.
+  description: You gain a supernatural ability to sense vibrations in the ground. You have tremorsense (30 ft.) for the duration.
   duration: 1 hour
   level: 1
   name: Seismic Sense
@@ -10093,7 +10089,7 @@ sunbeam:
 
     You can create a new line of radiance as a standard action on any turn until the spell ends.
 
-    For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight.
+    For the duration, a mote of brilliant radiance shines in your hand, shedding light (30/60 ft.). This light is sunlight.
   duration: Up to 1 minute
   level: 6
   material: a magnifying glass
@@ -10811,7 +10807,7 @@ true_seeing:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight out to a range of 120 feet.
+  description: This spell gives the willing creature you touch the ability to see things as they actually are. The target has truesight (120 ft.) for the duration.
   duration: Until the target finishes a short rest
   level: 6
   material: an ointment for the eyes that costs 25 gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell
@@ -10900,7 +10896,7 @@ undead_transformation:
 
     - The target is undead in addition to its normal creature type.
     - The target has resistance to necrotic damage and immunity to poison damage and the poisoned condition.
-    - The target has darkvision out to a range of 60 feet. If the target already had darkvision, its range is increased by 30 feet instead.
+    - The target has darkvision (60 ft.). If the target already had darkvision, its range is increased by 30 feet instead.
     - At the end of every hour, the target's hit point maximum decreases by 1. This reduction can't be prevented in any way, and is removed only when the curse is lifted.
 
     A _remove curse_ spell cast on the target ends this effect.
@@ -11116,7 +11112,7 @@ wall_of_flesh:
 
     At the start of each of your turns, the wall regenerates 20 hit points. As a minor action, you can cause the wall to move up to 5 feet in a direction of your choice, automatically pushing Large or smaller creatures along with it. A Huge or larger creature in the wall's way can make a Strength saving throw against your spell save DC, preventing the wall's movement on a success; otherwise, it is also pushed.
 
-    The wall has eyes and darkvision out to a range of 30 feet. When a creature the wall can see starts its turn within 5 feet of the wall, the wall attacks it with fleshy tendrils. Make a melee spell attack against the target. On a hit, the target takes 2d8 bludgeoning damage, and if the target is Large or smaller, it is grappled by the wall (escape DC equals your spell save DC).
+    The wall has eyes that grant it darkvision (30 ft.). When a creature the wall can see starts its turn within 5 feet of the wall, the wall attacks it with fleshy tendrils. Make a melee spell attack against the target. On a hit, the target takes 2d8 bludgeoning damage, and if the target is Large or smaller, it is grappled by the wall (escape DC equals your spell save DC).
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 5th level or higher, the wall can start up to 20 feet longer and regenerates an additional 10 hit points per turn for each slot level above 4th.
   level: 4
@@ -11179,7 +11175,7 @@ wall_of_light:
   components: V, S, M
   concentration: true
   description: |-
-    A shimmering wall of bright light appears at a point you choose within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. The wall can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall blocks line of sight, but creatures and objects can pass through it. It emits bright light out to 120 feet and dim light for an additional 120 feet.
+    A shimmering wall of bright light appears at a point you choose within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. The wall can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall emits light (120/240 ft.), blocking line of sight, but creatures and objects can pass through it.
 
     When the wall appears, each creature in its area must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute (save ends). On a successful save, it takes half as much damage and isn't blinded.
 
