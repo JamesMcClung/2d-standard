@@ -3529,9 +3529,15 @@ enlarge_reduce:
 
     If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.
 
-    **Enlarge.** The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.
+    **Enlarge.** The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. While enlarged in this way, the target gains the following benefits:
+    - Its reach increases by 5 feet.
+    - It has advantage on Strength checks and Strength saving throws.
+    - Its weapon attacks deal 1d4 extra damage.
 
-    **Reduce.** The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).
+    **Reduce.** The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. While reduced in this way, the target suffers the following effects:
+    - Its reach decreases by 5 feet (to a minimum of 5 feet).
+    - It has disadvantage on Strength checks and Strength saving throws.
+    - Its weapon attacks deal 1d4 less damage. This can't reduce an attack's damage below 1.
   duration: Up to 1 minute
   level: 2
   material: a pinch of powdered iron
@@ -3540,6 +3546,7 @@ enlarge_reduce:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - arcane
     - artificer
@@ -6390,13 +6397,13 @@ lightning_lure:
   components: V
   concentration: false
   description: |-
-    You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.
+    You create a lash of lightning energy that strikes at one creature of your choice that you can see within range. The target must succeed on a Strength saving throw or take 1d10 lightning damage and be pulled up to 10 feet in a straight line toward you. On a successful save, the target takes half as much damage and isn't pulled. If you pull the target to a space within 5 feet of you, its speed is reduced by 10 feet until the end of your next turn.
 
-    This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
+    This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).
   duration: Instantaneous
   level: 0
   name: Lightning Lure
-  range: Self (15-foot radius)
+  range: 15 feet
   sources:
     - TCE
   tags:
@@ -6683,8 +6690,8 @@ magic_weapon:
   concentration: true
   description: You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.
   duration: Up to 1 hour
-  higher_level: When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.
-  level: 2
+  higher_level: When you cast this spell using a spell slot of 3th level or higher, the bonus increases to +2. When you use a spell slot of 5th level or higher, the bonus increases to +3.
+  level: 1
   name: Magic Weapon
   range: Touch
   sources:
