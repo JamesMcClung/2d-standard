@@ -137,7 +137,7 @@ animal_friendship:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spells ends.
+  description: This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence score is 0 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spells ends.
   duration: 24 hours
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.
   level: 1
@@ -2143,7 +2143,7 @@ create_phylactery:
 
     When you die, your consciousness enters the phylactery as if the phylactery were a _magic jar_, except you have no body to return to. Every 1d100 days while you are in this state, if there are any other souls bound to the phylactery, one of them is destroyed and you form a new body within 10 feet of the phylactery. Your new body is undead, doesn't age, has immunity to poison damage and the poisoned condition, and has resistance to necrotic damage, but otherwise uses your game statistics.
 
-    Nothing short of divine intervention can resurrect you or a creature whose soul is bound to the phylactery. The phylactery can be destroyed, however. It is a magical object with 30 AC and immunity to all damage except force damage and the damage dealt by magical weapons. It is only destroyed if it takes at least 50 damage at once. It is unaffected by spells such as _dispel magic_ and _antimagic field_.
+    Nothing short of divine intervention can resurrect you or a creature whose soul is bound to the phylactery. The phylactery can be destroyed, however. It is a magical object with AC 30 and immunity to all damage except force damage and the damage dealt by magical weapons. It is only destroyed if it takes at least 50 damage at once. It is unaffected by spells such as _dispel magic_ and _antimagic field_.
 
     If the phylactery is destroyed, you die, your soul is destroyed, and any other souls bound to it are freed. Not even divine intervention can resurrect you or another creature whose soul has been destroyed by this spell.
 
@@ -2276,7 +2276,7 @@ crystal_burst:
   casting_time: 1 standard action
   components: S
   concentration: false
-  description: Numerous jagged crystals erupt from the ground in a 30-foot cone. Each target in the area must make a Dexterity saving throw. A target takes 7d6 piercing damage on a failed save, or half as much damage on a successful one. Additionally, the ground in the area becomes hazardous difficult terrain. A creature affected by the difficult terrain takes 1d6 piercing damage for every 5 feet they travel without sneaking. The crystals gradually crumble and break apart, ending the difficult terrain after 1 hour.
+  description: Numerous jagged crystals erupt from the ground in a 30-foot cone. Each target in the area must make a Dexterity saving throw. A target takes 7d6 piercing damage on a failed save, or half as much damage on a successful one. Additionally, the ground in the area becomes hazardous difficult terrain. A creature affected by the difficult terrain takes 1d6 piercing damage for every 5 feet it travels without sneaking. The crystals gradually crumble and break apart, ending the difficult terrain after 1 hour.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 1d6 for each slot level above 4th.
   level: 4
@@ -2685,7 +2685,7 @@ dim:
   casting_time: 1 standard action
   components: V, M
   concentration: true
-  description: You suppress strong light in a 100-foot cube of your choice within range. For the duration, bright light in the cube becomes dim light light, and creatures in the cube take half damage from radiant damage.
+  description: You suppress strong light in a 100-foot cube of your choice within range. For the duration, bright light in the cube becomes dim light light, and creatures and objects in the cube take half damage from radiant damage.
   duration: Up to 1 hour
   level: 4
   material: a piece of tinted glass
@@ -5345,15 +5345,15 @@ hand_of_force:
   description: |-
     You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell's duration, and it moves at your command, mimicking the movements of your own hand.
 
-    The hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn't fill its space.
+    The hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength score of 8 and a Dexterity score of 0. The hand doesn't occupy its space.
 
     When you cast the spell and as a minor action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it.
 
-    **Clenched Fist.** The hand strikes one creature or object within 5 feet of it. Make a melee spell attack for the hand using your game statistics. On a hit, the target takes 4d8 force damage.
+    **Clenched Fist.** The hand strikes one creature or object within 5 feet of it. Make a melee spell attack. On a hit, the target takes 4d8 force damage.
 
-    **Forceful Hand.** The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a check with the hand's Strength contested by the Strength (Athletics) check of the target. If the target is Medium or smaller, you have advantage on the check. If you succeed, the hand pushes the target up to 5 feet plus a number of feet equal to five times your spellcasting ability score. The hand moves with the target to remain within 5 feet of it.
+    **Forceful Hand.** The hand attempts to push a creature within 5 feet of it in a direction you choose. Make a melee spell attack. If the target is Medium or smaller, you have advantage on the attack. On a hit, the target must make a Strength saving throw against a DC equal to 10 + the hand's Strength score + your proficiency bonus. On a failed save, the hand pushes the target in a straight line up to 30 feet, moving with the target to remain within 5 feet of it.
 
-    **Grasping Hand.** The hand attempts to grapple a Huge or smaller creature within 5 feet of it. You use the hand's Strength score to resolve the grapple. If the target is Medium or smaller, you have advantage on the check. While the hand is grappling the target, you can use a minor action to have the hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 + your spellcasting ability score.
+    **Grasping Hand.** The hand attempts to grapple a Huge or smaller creature within 5 feet of it. Make a melee spell attack. If the target is Medium or smaller, you have advantage on the attack. On a hit, the target is grappled by the hand, with an escape DC of 10 + the hand's Strength score + your proficiency bonus. While the hand is grappling the target, you can use a minor action to have the hand crush it, dealing bludgeoning damage equal to 2d6 + your spellcasting ability score.
 
     **Interposing Hand.** The hand interposes itself between you and a creature you choose until you give the hand a different command. The hand moves to stay between you and the target, providing you with half cover against the target. The target can't move through the hand's space if its Strength score is less than or equal to the hand's Strength score. If its Strength score is higher than the hand's Strength score, the target can move toward you through the hand's space, but that space is difficult terrain for the target.
   duration: Up to 1 minute
@@ -5364,7 +5364,7 @@ hand_of_force:
   range: 120 feet
   sources:
     - PHB
-    - TCE
+    - 2D
   tags:
     - arcane
     - artificer
@@ -9878,7 +9878,7 @@ summon_dragon:
   components: V, S, M
   concentration: true
   description: |-
-    You summon a dragon of your choice: a dragon of destruction, dragon of wisdom, or dragon of isolation for wood. It appears in an unoccupied space that you can see within range. The dragon has the Companion trait in addition to its usual traits.
+    You summon a dragon of your choice: a dragon of destruction, dragon of wisdom, or dragon of isolation. It appears in an unoccupied space that you can see within range. The dragon has the Companion trait in addition to its usual traits.
 
     The construct disappears when it drops to 0 hit points or when the spell ends. If you give this spell's material component to the dragon and concentrate on this spell for the full duration, the dragon loses the Companion trait and does not disappear until the item is taken from it.
 
@@ -10002,7 +10002,7 @@ summon_greater_undead:
 
     The creature disappears when it drops to 0 hit points or when the spell ends.
 
-    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a ghoul, wight, or wraith if cast on a corpse, or a wight or wraith if cast on a skeleton.  The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
+    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a ghoul, wight, or wraith if cast on a corpse, or a wight or wraith if cast on a skeleton. The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 7th level or higher, use the higher level wherever the spell's level appears in the stat block.
   level: 6
@@ -10066,7 +10066,7 @@ summon_undead:
 
     The creature disappears when it drops to 0 hit points or when the spell ends.
 
-    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a zombie or specter if cast on a corpse, or a skeleton or specter if cast on a skeleton.  The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
+    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a zombie or specter if cast on a corpse, or a skeleton or specter if cast on a skeleton. The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.
   level: 3
