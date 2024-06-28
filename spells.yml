@@ -2685,7 +2685,7 @@ dim:
   casting_time: 1 standard action
   components: V, M
   concentration: true
-  description: You suppress strong light in a 100-foot cube of your choice within range. For the duration, bright light in the cube becomes dim light light, and creatures in the cube take half damage from radiant damage.
+  description: You suppress strong light in a 100-foot cube of your choice within range. For the duration, bright light in the cube becomes dim light light, and creatures and objects in the cube take half damage from radiant damage.
   duration: Up to 1 hour
   level: 4
   material: a piece of tinted glass
