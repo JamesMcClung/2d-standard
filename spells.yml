@@ -2143,7 +2143,7 @@ create_phylactery:
 
     When you die, your consciousness enters the phylactery as if the phylactery were a _magic jar_, except you have no body to return to. Every 1d100 days while you are in this state, if there are any other souls bound to the phylactery, one of them is destroyed and you form a new body within 10 feet of the phylactery. Your new body is undead, doesn't age, has immunity to poison damage and the poisoned condition, and has resistance to necrotic damage, but otherwise uses your game statistics.
 
-    Nothing short of divine intervention can resurrect you or a creature whose soul is bound to the phylactery. The phylactery can be destroyed, however. It is a magical object with 30 AC and immunity to all damage except force damage and the damage dealt by magical weapons. It is only destroyed if it takes at least 50 damage at once. It is unaffected by spells such as _dispel magic_ and _antimagic field_.
+    Nothing short of divine intervention can resurrect you or a creature whose soul is bound to the phylactery. The phylactery can be destroyed, however. It is a magical object with AC 30 and immunity to all damage except force damage and the damage dealt by magical weapons. It is only destroyed if it takes at least 50 damage at once. It is unaffected by spells such as _dispel magic_ and _antimagic field_.
 
     If the phylactery is destroyed, you die, your soul is destroyed, and any other souls bound to it are freed. Not even divine intervention can resurrect you or another creature whose soul has been destroyed by this spell.
 
