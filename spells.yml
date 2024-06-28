@@ -2276,7 +2276,7 @@ crystal_burst:
   casting_time: 1 standard action
   components: S
   concentration: false
-  description: Numerous jagged crystals erupt from the ground in a 30-foot cone. Each target in the area must make a Dexterity saving throw. A target takes 7d6 piercing damage on a failed save, or half as much damage on a successful one. Additionally, the ground in the area becomes hazardous difficult terrain. A creature affected by the difficult terrain takes 1d6 piercing damage for every 5 feet they travel without sneaking. The crystals gradually crumble and break apart, ending the difficult terrain after 1 hour.
+  description: Numerous jagged crystals erupt from the ground in a 30-foot cone. Each target in the area must make a Dexterity saving throw. A target takes 7d6 piercing damage on a failed save, or half as much damage on a successful one. Additionally, the ground in the area becomes hazardous difficult terrain. A creature affected by the difficult terrain takes 1d6 piercing damage for every 5 feet it travels without sneaking. The crystals gradually crumble and break apart, ending the difficult terrain after 1 hour.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 1d6 for each slot level above 4th.
   level: 4
