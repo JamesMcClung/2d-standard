@@ -10002,7 +10002,7 @@ summon_greater_undead:
 
     The creature disappears when it drops to 0 hit points or when the spell ends.
 
-    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a ghoul, wight, or wraith if cast on a corpse, or a wight or wraith if cast on a skeleton.  The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
+    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a ghoul, wight, or wraith if cast on a corpse, or a wight or wraith if cast on a skeleton. The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 7th level or higher, use the higher level wherever the spell's level appears in the stat block.
   level: 6
@@ -10066,7 +10066,7 @@ summon_undead:
 
     The creature disappears when it drops to 0 hit points or when the spell ends.
 
-    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a zombie or specter if cast on a corpse, or a skeleton or specter if cast on a skeleton.  The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
+    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a zombie or specter if cast on a corpse, or a skeleton or specter if cast on a skeleton. The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.
   level: 3
