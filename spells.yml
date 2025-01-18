@@ -4152,7 +4152,6 @@ far_sense:
     - druid
     - primal
     - ranger
-    - ritual
 far_step:
   casting_time: 1 minor action
   components: V
