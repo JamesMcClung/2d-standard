@@ -1028,7 +1028,7 @@ bolster_undead:
   casting_time: 1 standard action
   components: V
   concentration: false
-  description: Choose up to three Undead within range that you can see. Each target gains a number of temporary hit points equal to your spellcasting ability score, which disappear when the spell ends. While a target has these temporary hit points, it has advantage on ability checks.
+  description: Choose up to three Undead within range that you can see. Each target gains a number of temporary hit points equal to your spellcasting ability score, which disappear when the spell ends. While a target has these temporary hit points, it has advantage on ability checks and saving throws.
   duration: 1 hour
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, each target gains an additional 1d8 temporary hit points for each slot level above 1st.
   level: 1
