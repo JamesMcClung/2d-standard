@@ -705,7 +705,7 @@ binding_ice:
   casting_time: 1 standard action
   components: S, M
   concentration: false
-  description: A burst of cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 cold damage and is hindered by ice formations for 1 minute, or until it or another creature within reach of it uses a standard action to break away the ice. A creature hindered by ice has its speed reduced to 0. On a successful save, a creature takes half as much damage and isn't hindered by ice.
+  description: A burst of cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 cold damage and is hindered by ice formations for 1 minute (standard action ends). A creature hindered by ice has its speed reduced to 0. On a successful save, a creature takes half as much damage and isn't hindered by ice.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, increase the cold damage by 1d8 for each slot level above 2nd.
   level: 2
@@ -915,7 +915,7 @@ bloat_burst:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: You cause a decaying corpse within range to burst, destroying the corpse in an explosion of putrid viscera. Each creature within 5 feet of the corpse must make a Dexterity saving throw. A target takes poison damage equal to four rolls of the corpse's size die on a failed save, or half as much on a successful one. A target that fails its save by 5 or more is also poisoned by the foul substance until it uses a minor action to clean it off.
+  description: You cause a decaying corpse within range to burst, destroying the corpse in an explosion of putrid viscera. Each creature within 5 feet of the corpse must make a Dexterity saving throw. A target takes poison damage equal to four rolls of the corpse's size die on a failed save, or half as much on a successful one. A target that fails its save by 5 or more is also poisoned by the foul, clinging substance (minor action ends).
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can cause an additional corpse to explode for each slot level above 2nd. A creature in the area of multiple explosions is only affected once, by the largest one.
   level: 2
@@ -1188,7 +1188,7 @@ caustic_spray:
   casting_time: 1 standard action
   components: V, S, M
   concentration: true
-  description: A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses a standard action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 2d4 acid damage at start of each of its turns.
+  description: A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration (standard action ends). A creature covered in the acid takes 2d4 acid damage at start of each of its turns.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d4 for each slot level above 1st.
   level: 1
@@ -1512,7 +1512,7 @@ clutches_of_death:
   description: |-
     Ghastly hands rise from the ground in a 20-foot-radius, 30-foot-high cylinder centered on a point within range, and white mist fills the area. The mist cause the area to be lightly obscured, while the hands cause the ground to be difficult terrain.
 
-    When you cast the spell, and at the start of each of your turns for the spell's duration, you can force each creature of your choice in the area that you can see to make a Strength saving throw. On a failed save, a target is safely pulled to the ground by misty tendrils if it is airborne, and then pulled prone and restrained by the hands. A target can repeat the saving throw as a standard action to attempt to end the restrained condition on itself.
+    When you cast the spell, and at the start of each of your turns for the spell's duration, you can force each creature of your choice in the area that you can see to make a Strength saving throw. On a failed save, a target is safely pulled to the ground by misty tendrils if it is airborne, pulled prone, and finally restrained by the hands for the duration (Athletics check ends).
 
     As a minor action, you can cause each target restrained by the spell to automatically take 1d12 necrotic damage. This damage ignores an Undead target's necrotic resistance or immunity.
   duration: Up to 10 minutes
@@ -3302,11 +3302,9 @@ earthen_grasp:
   components: V, S, M
   concentration: true
   description: |-
-    You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes 2d6 bludgeoning damage and is restrained for the spell's duration.
+    You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes 2d6 bludgeoning damage and is restrained for the spell's duration (Strength check ends).
 
     As a standard action, you can cause the hand to crush the restrained target, which must make a Strength saving throw. The target takes 2d6 bludgeoning damage on a failed save, or half as much damage on a successful one.
-
-    To break out, the restrained target can use a standard action to make a Strength check against your spell save DC. On a success, the target escapes and is no longer restrained by the hand.
 
     As a standard action, you can cause the hand to release a restrained target (if any) and move up to 30 feet and reach for a different creature you can see, subjecting it to the spell's initial effect. The hand can move along any earth or stone surface, even walls and ceilings.
   duration: Up to 1 minute
@@ -6166,15 +6164,16 @@ irresistible_dance:
   components: V
   concentration: true
   description: |-
-    Choose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration. Creatures that can't be charmed are immune to this spell.
+    Choose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration (Charisma check ends). Creatures that can't be charmed are immune to this spell.
 
-    A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As a standard action, a dancing creature makes a Charisma saving throw to regain control of itself. On a successful save, the spell ends.
+    A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it.
   duration: Up to 1 minute
   level: 6
   name: Irresistible Dance
   range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -8696,7 +8695,7 @@ sand_blast:
   casting_time: 1 standard action
   components: S, M
   concentration: false
-  description: You conjure a blast of coarse sand in a 15-foot cone. Each creature in the area must make a Dexterity saving throw. A target takes 2d4 slashing damage on a failed save, or half as much on a successful one. A target that fails its save is also blinded until it uses a minor action to clear the sand from its eyes.
+  description: You conjure a blast of coarse sand in a 15-foot cone. Each creature in the area must make a Dexterity saving throw. A target takes 2d4 slashing damage on a failed save, or half as much on a successful one. A target that fails its save is also blinded by the sand in its eyes (minor action ends).
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.
   level: 1
@@ -11639,7 +11638,7 @@ wrathful_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
   concentration: true
-  description: The triggering attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As a standard action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell.
+  description: The triggering attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends (Wisdom check ends).
   duration: Up to 1 minute
   level: 1
   name: Wrathful Smite
