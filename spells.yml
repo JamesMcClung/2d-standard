@@ -11480,7 +11480,7 @@ wall_of_dirt:
   components: S
   concentration: true
   description: |-
-    A nonmagical wall of compact dirt rises from the ground at a point you choose within range. The wall is 3 inches thick and up to 20 feet long.
+    A nonmagical wall of compact dirt rises from the ground at a point you choose within range. The wall is 3 inches thick, up to 10 feet high, and up to 20 feet long.
 
     If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use a reaction to move up to its speed so that it is no longer enclosed by the wall
 
