@@ -6492,13 +6492,14 @@ lesser_restoration:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.
+  description: You touch a creature and can end one condition afflicting it. The condition can be blinded, deafened, paralyzed, poisoned, or diseased.
   duration: Instantaneous
   level: 2
   name: Lesser Restoration
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - abjuration
     - artificer
