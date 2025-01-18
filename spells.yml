@@ -2413,18 +2413,25 @@ cure_wounds:
 dancing_lights:
   casting_time: 1 standard action
   components: V, S, M
-  concentration: true
+  concentration: false
   description: |-
-    You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.
+    You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You choose whether each light's position is fixed relative to your location (moving with you) or to the ground. You can also combine the four lights into one glowing, vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light (10 ft.).
 
-    As a minor action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.
-  duration: Up to 1 minute
+    You can reconfigure the lights as a repeatable minor action on each of your turns, doing any number of the following for each light:
+    - Move the light up to 60 feet.
+    - Switch the light's anchor point from yourself to the ground, or vice versa.
+    - Dismiss the light.
+    - Create a new light within range, up to a maximum of four lights.
+
+    A light automatically winks out if its distance from you ever exceeds the spell's range. The spell ends if you cast it again or all the lights have gone out.
+  duration: 10 minutes
   level: 0
   material: a bit of phosphorus or wychwood, or a glowworm
   name: Dancing Lights
   range: 120 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - artificer
