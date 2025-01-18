@@ -9182,7 +9182,7 @@ searing_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
   concentration: false
-  description: Your weapon flares with white-hot intensity, and the triggering attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. The flames deal ongoing 1d6 fire damage (Constitution save ends). If the target or a creature within 5 feet of it uses a standard action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends.
+  description: Your weapon flares with white-hot intensity, and the triggering attack deals an extra 1d6 fire damage to the target and causes the target to be ignited (1d6) for the duration (Constitution save or standard action ends).
   duration: 1 minute
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot level above 1st.
   level: 1
