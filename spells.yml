@@ -10231,7 +10231,7 @@ summon_dragon:
   description: |-
     You summon a dragon of your choice: a dragon of destruction, dragon of wisdom, or dragon of isolation. It appears in an unoccupied space that you can see within range. The dragon has the Companion trait in addition to its usual traits.
 
-    The construct disappears when it drops to 0 hit points or when the spell ends. If you give this spell's material component to the dragon and concentrate on this spell for the full duration, the dragon loses the Companion trait and does not disappear until the item is taken from it.
+    The dragon disappears when it drops to 0 hit points or when the spell ends. If you give this spell's material component to the dragon and concentrate on this spell for the full duration, the dragon loses the Companion trait and does not disappear until the item is taken from it.
 
     > #### Variant: Different Dragons
     > Different kinds of dragons may satisfy the archetypes presented in this spell. At your DM's discretion, you may be able to summon a dragon with a different damage immunity, type of elemental damage dealt, and Breath Weapon shape (a 60-foot line instead of a 30-foot cone) and saving throw.
