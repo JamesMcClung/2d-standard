@@ -2964,7 +2964,7 @@ distort_magic:
 
     **False Aura.** You change the way the target appears to spells and magical effects, such as _detect magic_, that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object's magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item.
 
-    **Mask.** You change the way the target appears to spells and magical effects that detect creature types, such as a paladin's Divine Sense or the trigger of a _symbol_ spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.
+    **Mask.** You change the way the target appears to spells and magical effects that detect creature types or alignments, such as a paladin's Divine Sense or the trigger of a _symbol_ spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.
   duration: 24 hours
   level: 2
   material: a small square of silk
@@ -2972,6 +2972,7 @@ distort_magic:
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - illusion
