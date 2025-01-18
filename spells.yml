@@ -8551,7 +8551,7 @@ quicksand:
   description: |-
     You turn the ground within 10 feet of a point you can see within range into treacherous quicksand. The area becomes difficult terrain, requiring 4 feet of movement spent for every 1 foot traveled.
 
-    A creature that ends its turn on the sand must make a Dexterity saving throw. On a failed save, the target sinks halfway into the ground. A half-sunken target is slowed, has half cover from all sources, can't fly, and is immune to forced movement.
+    A creature that ends its turn on the sand must make a Dexterity saving throw. On a failed save, the target sinks halfway into the ground. A half-sunken target is hindered, has half cover from all sources, can't fly, and is immune to forced movement.
 
     At the end of a half-sunken creature's turn, it must succeed on a Strength saving throw or sink further down, becoming mostly-sunken. In addition to the above effects, a mostly-sunken target is restrained and has three-quarters cover from all sources.
 
