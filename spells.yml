@@ -2841,7 +2841,7 @@ dissonant_whispers:
   casting_time: 1 standard action
   components: V
   concentration: false
-  description: You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.
+  description: You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use a reaction (if available) to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
   level: 1
@@ -2979,7 +2979,7 @@ dominate_beast:
 
     While the beast is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.
 
-    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.
+    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use a reaction of your own as well.
 
     Each time the target takes damage, it makes a new Charisma saving throw against the spell. If the saving throw succeeds, the spell ends.
   duration: Up to 1 minute
@@ -3005,7 +3005,7 @@ dominate_monster:
 
     While the creature is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.
 
-    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.
+    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use a reaction of your own as well.
 
     Each time the target takes damage, it makes a new Charisma saving throw against the spell. If the saving throw succeeds, the spell ends.
   duration: Up to 1 hour
@@ -3031,7 +3031,7 @@ dominate_person:
 
     While the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.
 
-    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.
+    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use a reaction of your own as well.
 
     Each time the target takes damage, it makes a new Charisma saving throw against the spell. If the saving throw succeeds, the spell ends.
   duration: Up to 1 minute
@@ -3744,7 +3744,7 @@ evil_eye:
   description: |-
     For the spell's duration, your eyes become an inky void imbued with dread power. If you can see a creature within 30 feet of you and it can see you, you can force it to make a Wisdom saving throw. On a failed save, the target is affected by one of the following effects of your choice for the duration.
 
-    The first time a creature would have to make this saving throw, it can use its reaction to avert its eyes and avoid making the saving throw. While its eyes are averted, it can't see you or anything behind you. It can keep its eyes averted indefinitely, but it must immediately make the saving throw if it looks at you later.
+    The first time a creature would have to make this saving throw, it can use a reaction to avert its eyes and avoid making the saving throw. While its eyes are averted, it can't see you or anything behind you. It can keep its eyes averted indefinitely, but it must immediately make the saving throw if it looks at you later.
 
     **Asleep.** The target falls unconscious. It wakes up if it takes any damage or if another creature uses a standard action to shake the sleeper awake.
 
@@ -4152,7 +4152,7 @@ find_familiar:
 
     You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.
 
-    Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your spell attack modifier for the roll.
+    Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use a reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your spell attack modifier for the roll.
   duration: Instantaneous
   level: 1
   material: 10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier
@@ -4328,7 +4328,7 @@ fissure:
 
     The walls of the ravine are rough and can be climbed without an ability check.
 
-    The ravine does not close when the spell ends unless you use a major action to do so. Each creature in the ravine when you close it can make a Dexterity saving throw. On a failed save, a creature takes 10d12 bludgeoning damage and is crushed between the walls. On a success, the creature can use its reaction to move up to its speed and potentially escape; otherwise, it takes half damage and is still crushed. The DC to move while crushed in this way equals your spell save DC.
+    The ravine does not close when the spell ends unless you use a major action to do so. Each creature in the ravine when you close it can make a Dexterity saving throw. On a failed save, a creature takes 10d12 bludgeoning damage and is crushed between the walls. On a success, the creature can use a reaction to move up to its speed and potentially escape; otherwise, it takes half damage and is still crushed. The DC to move while crushed in this way equals your spell save DC.
   duration: Up to 1 minute
   level: 9
   name: Fissure
@@ -7757,7 +7757,7 @@ power_word_heal:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on Constructs or Undead.
+  description: A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use a reaction to stand up. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   level: 9
   name: Power Word Heal
@@ -7899,7 +7899,7 @@ primordial_ward:
   description: |-
     You have resistance to acid, cold, fire, lightning, and thunder damage for the spell's duration.
 
-    When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends.
+    When you take damage of one of those types, you can use a reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends.
   duration: Up to 1 minute
   level: 6
   name: Primordial Ward
@@ -11064,7 +11064,7 @@ wall_of_dirt:
   description: |-
     A nonmagical wall of compact dirt rises from the ground at a point you choose within range. The wall is 3 inches thick and up to 20 feet long.
 
-    If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall
+    If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use a reaction to move up to its speed so that it is no longer enclosed by the wall
 
     The wall is an object that can be damaged and thus breached. Each 5-foot long section has AC 8, 10 hit points, and immunity to poison and psychic damage. Reducing a panel to 0 hit points destroys it, leaving behind a 5-foot square of difficult terrain that takes at least 1 minute to clear by hand.
 
@@ -11227,7 +11227,7 @@ wall_of_stone:
   description: |-
     A nonmagical wall of solid stone springs into existence at a point you choose within range. The wall is 6 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with at least one other panel. Alternatively, you can create 10-foot-by-20-foot panels that are only 3 inches thick.
 
-    If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall.
+    If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use a reaction to move up to its speed so that it is no longer enclosed by the wall.
 
     The wall can have any shape you desire, though it can't occupy the same space as a creature or object. The wall doesn't need to be vertical or rest on any firm foundation. It must, however, merge with and be solidly supported by existing stone. Thus, you can use this spell to bridge a chasm or create a ramp.
 
