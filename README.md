@@ -37,10 +37,10 @@ higher_level: markdown
 level: int
 range: string
 components: string
-material?: string
+material?: markdown
 duration: string
 concentration?: boolean
-casting_time: string
+casting_time: markdown
 tags: string[] # includes classes, school(s), domain(s), element?, curse?, ritual?
 sources: string[]
 ```
@@ -52,6 +52,6 @@ Feats are simply features as described in the aforementioned standard:
 ```yml
 name: string
 cost: string
-prerequisite?: string
+prerequisite?: markdown
 description: markdown
 ```
