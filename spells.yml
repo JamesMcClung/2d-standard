@@ -7020,13 +7020,14 @@ mass_heal:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on Constructs or Undead.
+  description: A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of each effect that can be ended by the _lesser restoration_ spell. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   level: 9
   name: Mass Heal
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - cleric
     - divine
