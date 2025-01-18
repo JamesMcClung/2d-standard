@@ -3180,6 +3180,7 @@ draconic_transformation:
   description: |-
     With a roar, you draw on the magic of dragons to transform yourself, taking on draconic features. You gain the following benefits until the spell ends:
 
+    - You have the Dragon creature type in addition to your other types.
     - You have blindsight (30 ft.).
     - When you cast this spell, and as a minor action on subsequent turns for the duration, you can exhale shimmering energy in a 60-foot cone. Each creature in the area must make a Dexterity saving throw, taking 6d8 force damage on a failed save, or half as much damage on a successful one.
     - Incorporeal wings sprout from your back, giving you a fly speed of 60 feet.
@@ -3190,6 +3191,7 @@ draconic_transformation:
   range: Self
   sources:
     - FTD
+    - 2D
   tags:
     - arcane
     - druid
