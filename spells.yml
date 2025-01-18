@@ -8578,7 +8578,7 @@ raise_dead:
   description: |-
     You return a dead creature you touch to life, provided that it has been dead no longer than 10 days. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.
 
-    This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.
+    This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an Undead creature to life.
 
     This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.
 
@@ -8600,13 +8600,14 @@ ray_of_enfeeblement:
   casting_time: 1 standard action
   components: V, S
   concentration: true
-  description: A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength for the duration (save ends).
+  description: A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target is weakened for the duration (save ends).
   duration: Up to 1 minute
   level: 2
   name: Ray of Enfeeblement
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - necromancy
