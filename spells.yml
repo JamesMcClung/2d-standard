@@ -11312,10 +11312,8 @@ undead_transformation:
 
     - The target gains the Undead creature type.
     - The target has resistance to necrotic damage, immunity to poison damage, and immunity to the poisoned and diseased conditions.
-    - The target has darkvision (60 ft.). If the target already had darkvision, its range is increased by 30 feet instead.
-    - At the end of every hour, the target's hit point maximum decreases by 1. This reduction can't be prevented in any way, and is removed only when the curse is lifted.
-
-    A _remove curse_ spell cast on the target ends this effect.
+    - The target has darkvision (60 ft.). If the target already had darkvision, its range increases by 30 feet instead.
+    - At the end of every hour, the target's hit point maximum decreases by 1. This reduction can't be prevented in any way, and is removed only when this curse is lifted.
   duration: Instantaneous
   level: 4
   name: Undead Transformation
