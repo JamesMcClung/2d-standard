@@ -18,9 +18,7 @@ combat_medic:
   cost: 2
   prerequisite: Proficiency in Medicine
   description: |-
-    You are a trained combat physician. You gain the following benefits:
-    - You can use the Stabilize option of the Heal action as a minor action, and the Treat Wounds option as a single standard action.
-    - You can administer a potion, goodberry, or other small consumable to another creature as a minor action instead of a standard action.
+    Accustomed to working in the heat of battle, you are particularly adept at healing. The Heal action is a minor action for you, and so is administering a potion to another creature.
 dual_wielder:
   name: Dual Wielder
   cost: 4
