@@ -5581,13 +5581,14 @@ harm:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You unleash a virulent disease on a creature that you can see within range. The target must make a Constitution saving throw. On a failed save, it takes 14d6 necrotic damage, or half as much damage on a successful save. The damage can't reduce the target's hit points below 1. If the target fails the saving throw, its hit point maximum is reduced for 1 hour by an amount equal to the necrotic damage it took. Any effect that removes a disease allows a creature's hit point maximum to return to normal before that time passes.
+  description: You unleash a virulent disease on a creature that you can see within range. The target must succeed on a Constitution saving throw or take 14d6 necrotic damage and be diseased for 1 hour. The target takes half as much damage and isn't diseased on a successful save. This spell's damage can't reduce the target's hit points below 1.
   duration: Instantaneous
   level: 6
   name: Harm
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - cleric
     - divine
