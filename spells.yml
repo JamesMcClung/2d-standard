@@ -4701,8 +4701,10 @@ fog_cloud:
   range: 120 feet
   sources:
     - PHB
+    - 2D
   tags:
     - air
+    - artificer
     - conjuration
     - druid
     - magus
