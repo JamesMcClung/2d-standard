@@ -11283,7 +11283,7 @@ undead_transformation:
     One willing creature you touch is cursed with undeath. While cursed in this way, the target experiences the following effects:
 
     - The target gains the Undead creature type.
-    - The target has resistance to necrotic damage and immunity to poison damage and the poisoned condition.
+    - The target has resistance to necrotic damage, immunity to poison damage, and immunity to the poisoned and diseased conditions.
     - The target has darkvision (60 ft.). If the target already had darkvision, its range is increased by 30 feet instead.
     - At the end of every hour, the target's hit point maximum decreases by 1. This reduction can't be prevented in any way, and is removed only when the curse is lifted.
 
