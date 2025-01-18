@@ -6712,7 +6712,7 @@ maddening_darkness:
   components: V, M
   concentration: true
   description: |-
-    Magical darkness spreads from a point you choose within range to fill a 60-foot-radius sphere until the spell ends. The darkness spreads around corners. A creature with darkvision can't see through this darkness. Nonmagical light, as well as light created by spells of 8th level or lower, can't illuminate the area.
+    Magical darkness emanates from a point you choose within range to fill a 60-foot-radius sphere for the duration, spreading around cover. The darkness is impenetrable even to darkvision, and only light created by a 9th-level spell can illuminate it.
 
     Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom saving throw, taking 8d8 psychic damage on a failed save, or half as much damage on a successful one.
   duration: Up to 10 minutes
@@ -6722,6 +6722,7 @@ maddening_darkness:
   range: 150 feet
   sources:
     - XGE
+    - 2D
   tags:
     - arcane
     - evocation
