@@ -11378,10 +11378,10 @@ unseen_servant:
     - warlock
     - wizard
 vampiric_touch:
-  casting_time: 1 standard action
+  casting_time: 1 minor action
   components: V, S
   concentration: true
-  description: The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as a standard action.
+  description: The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. For the duration, whenever you would make an unarmed strike, you can make a special melee spell attack against the target instead. On a hit, the target takes 2d6 + your spellcasting ability score necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
   level: 3
@@ -11390,6 +11390,7 @@ vampiric_touch:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - arcane
     - necromancy
