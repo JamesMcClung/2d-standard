@@ -2360,7 +2360,7 @@ danse_macabre:
   description: |-
     Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead: either a zombie or a skeleton (your choice).
 
-    Each of the creatures created by this spell has the Companion trait. You can use a single minor action to command any number of the creatures you make with this spell, issuing the same command to all of them.
+    Each of the creatures created by this spell has the Companion trait. You can command any number of these undead with a single Command action, issuing the same command to all of them.
 
     The creatures are under your control until the spell ends, after which they become inanimate once more.
   duration: Up to 1 hour
