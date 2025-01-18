@@ -5290,7 +5290,7 @@ ground_surf:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You make the ground swell beneath you like a wave, and use it to carry yourself along. You move up to 30 feet along the ground, ignoring difficult terrain and without provoking opportunity attacks. Additionally, the first time you pass within 5 feet of a creature or object during this movement, the target must make a Strength saving throw against the surging earth around you. A target takes 1d8 bludgeoning damage and is pushed up to 5 feet away on a failed save, or half as much damage and no other effects on a successful one.
+  description: You make the ground swell beneath you like a wave, and use it to carry yourself along. You move up to 30 feet in a straight line along the ground, ignoring difficult terrain and without provoking opportunity attacks. Additionally, each time you pass within 5 feet of a creature or object during this movement, the target must make a Strength saving throw against the surging earth around you. A target takes 1d8 bludgeoning damage and is pushed up to 5 feet away on a failed save, or half as much damage and no other effects on a successful one. The same target can't be forced to make this saving throw more than once.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
   level: 1
