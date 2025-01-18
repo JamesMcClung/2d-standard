@@ -7950,7 +7950,7 @@ plant_growth:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: This spell channels vitality into plants within a specific area. All normal plants in a 100-foot radius centered on a point within range become thick and overgrown. You can exclude one or more areas of any size within the spell's area from being affected. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.
+  description: This spell channels vitality into plants within a specific area. All normal plants in a 100-foot radius centered on a point within range become thick and overgrown, constituting difficult terrain. You can exclude one or more areas of any size within the spell's area from being affected. A creature moving through this difficult terrain must spend an additional 3 feet of movement for every 1 foot it travels instead of the usual 1 extra foot.
   duration: Instantaneous
   level: 3
   name: Plant Growth
