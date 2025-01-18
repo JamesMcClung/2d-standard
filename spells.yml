@@ -9738,13 +9738,14 @@ spare_the_dying:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on Constructs or Undead.
+  description: You touch a living creature that is dying. The creature stops dying. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   level: 0
   name: Spare the Dying
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - artificer
     - cleric
