@@ -2114,7 +2114,7 @@ counterclairvoyance:
   description: |-
     Choose a 100-foot cube within range. For the duration, the area appears different to divination spells and other effects that allow remote perception. You determine how the area appears when you cast the spell. It can include arbitrary sensory effects.
 
-    The illusion even foils truesight. Only a creature's natural senses can perceive the area as it truly is.
+    The illusion even foils truesight. Only a creature's own nonmagical senses can perceive the area as it truly is.
 
     If you cast this spell on the same spot with the same appearance every day for a year, the spell lasts until dispelled.
   duration: 24 hours
