@@ -7597,9 +7597,9 @@ necrosis:
   components: V
   concentration: true
   description: |-
-    Choose up to three creatures you can see within range that are within 10 feet of each other. Each target takes 3d8 necrotic damage and must succeed on a Constitution saving throw or rot alive for the duration (save ends). While rotting in this way, a target is slowed, takes ongoing 3d8 necrotic damage, and has disadvantage on Constitution saving throws.
+    Choose up to three creatures you can see within range that are within 10 feet of each other. Each target takes 3d8 necrotic damage and must succeed on a Constitution saving throw or become diseased for the duration (save ends), as it rots alive. While diseased in this way, a target is slowed and takes ongoing 3d8 necrotic damage.
 
-    Constructs, Undead, and creatures immune to necrotic damage are immune to this spell. The spell ends early on a target if _lesser restoration_ is cast on it.
+    Constructs, Undead, and creatures immune to necrotic damage are immune to this spell.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 6th level or higher, the initial and ongoing damage increases by 1d8 for each slot level above 5th.
   level: 5
