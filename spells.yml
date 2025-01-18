@@ -8058,7 +8058,7 @@ power_word_heal:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use a reaction to stand up. This spell has no effect on Constructs or Undead.
+  description: A wave of healing energy washes over the creature you touch. The target regains all its hit points. The creature is cured of any effect that can be ended by _lesser restoration_ or _greater restoration_. If the creature is prone, it can use a reaction to stand up. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   level: 9
   name: Power Word Heal
@@ -8066,6 +8066,7 @@ power_word_heal:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - bard
     - cleric
