@@ -7651,6 +7651,30 @@ nondetection:
     - magus
     - ranger
     - wizard
+noxious_fumes:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: false
+  description: |-
+    You eject a terrible scent into the air that clings to creatures it touches. Each creature in a 30-foot cone must succeed on a Constitution saving throw or take 1d6 poison damage and be poisoned until the end of its next turn. A creature with supersmell makes its saving throw with disadvantage.
+
+    Additionally, each creature in the 30-foot line centered within the cone must succeed on a Dexterity saving throw or reek for the duration of the spell. While reeking, the target and each creature within 5 feet of it must make a saving throw against the above poison effect at the end of the each of the reeking target's turns.
+
+    A reeking creature or one of its allies within 5 feet of it can use a standard action to scrape off the foul substance, ending the effect on that creature.
+  duration: 1 minute
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the poison damage inflicted by the initial cone increases by 1d6 for each slot level above 1st.
+  level: 1
+  material: a skunk's scent gland
+  name: Noxious Fumes
+  range: Self (30-foot cone)
+  sources:
+    - 2D
+  tags:
+    - bard
+    - conjuration
+    - druid
+    - primal
+    - wizard
 otherworldly_guise:
   casting_time: 1 minor action
   components: V, S, M
