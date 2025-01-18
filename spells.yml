@@ -288,7 +288,7 @@ arcane_eye:
   description: |-
     You create an invisible, magical eye within range that hovers in the air for the duration.
 
-    You mentally receive visual information from the eye, which has normal vision and darkvision (30 ft.). The eye can look in every direction.
+    You gain the eye's sense of sight in addition to your own. The eye has darkvision (30 ft.) and can look in every direction.
 
     As a standard action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.
   duration: Up to 1 hour
@@ -298,6 +298,7 @@ arcane_eye:
   range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - artificer
@@ -526,7 +527,7 @@ awaken:
   components: V, S, M
   concentration: false
   description: |-
-    After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of -1 or less. The target gains an Intelligence score of 0. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human's. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.
+    After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller beast, plant creature, or ordinary plant. The target must have either no Intelligence score or an Intelligence of -1 or less. The target gains an Intelligence score of 0. The target also gains the ability to speak one language you know. If the target is an ordinary plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains base senses similar to a human's. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.
 
     The awakened beast or plant is charmed by you for 30 days or until you or your companions do anything harmful to it. When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed.
   duration: Instantaneous
@@ -659,13 +660,14 @@ beast_sense:
   casting_time: 1 standard action
   components: S
   concentration: true
-  description: You touch a willing beast. For the duration of the spell, you can use a standard action to see through the beast's eyes and hear what it hears, and continue to do so until you use a standard action to return to your normal senses. While perceiving through the beast's senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings.
+  description: You touch a willing beast. For the duration of the spell, you can use a repeatable standard action to gain the beast's senses of sight and hearing, replacing your own, or vice versa.
   duration: Up to 1 hour
   level: 2
   name: Beast Sense
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - divination
     - druid
@@ -1383,7 +1385,7 @@ clairvoyance:
   description: |-
     You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can't be attacked or otherwise interacted with.
 
-    When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As a standard action, you can switch between seeing and hearing.
+    When you cast the spell, choose sight or hearing. The sensor has that sense, which you use in addition to your own senses. As a standard action, you can switch the sensor's sense between sight and hearing.
 
     A creature that can see the sensor (such as a creature benefiting from _see invisibility_ or truesight) sees a luminous, intangible orb about the size of your fist.
   duration: Up to 10 minutes
@@ -1393,6 +1395,7 @@ clairvoyance:
   range: 1 mile
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -3816,9 +3819,9 @@ eyes_of_the_dead:
   components: V, S
   concentration: false
   description: |-
-    You touch one corpse, skull, or willing undead creature, and its eyes fill with a blood-red mist. For the duration of the spell, you can see through the target's eyes, which have darkvision (60 ft.). You can't hear through the target, nor can you control where it looks using this spell.
+    You touch one corpse, skull, or willing Undead creature, and its eyes fill with a blood-red mist. For the duration of the spell, the target has a sense of sight and darkvision (60 ft.) if it didn't already, and you use its sense of sight instead of your own. You can switch between the target's sense of sight and your own as a repeatable minor action.
 
-    While looking through the target's eyes, you are blinded to your own surroundings. You can switch between the target's vision and your own vision as a minor action.
+    This spell doesn't give you any control over where the target looks.
   duration: 1 hour
   level: 1
   name: Eyes of the Dead
@@ -4145,7 +4148,7 @@ find_familiar:
 
     When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. As a standard action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As a standard action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. Whenever the familiar drops to 0 hit points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.
 
-    While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as a standard action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses.
+    While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as a standard action, you can use your familiar's senses of sight and hearing instead of your own until the start of your next turn.
 
     You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.
 
@@ -6588,7 +6591,7 @@ magic_jar:
 
     Once you possess a creature's body, you control it. Your game statistics are replaced by the statistics of the creature, though you retain your alignment and your Intelligence, Wisdom, and Charisma scores. You retain the benefit of your own class features. If the target has any class levels, you can't use any of its class features.
 
-    Meanwhile, the possessed creature's soul can perceive from the container using its own senses, but it can't take actions at all.
+    Meanwhile, the possessed creature's soul can perceive from the container using its own senses, but it can't take actions or reactions at all.
 
     While possessing a body, you can use a standard action to return from the host body to the container if it is within 100 feet of you, returning the host creature's soul to its body. If the host body dies while you're in it, the creature dies, and you must make a Charisma saving throw against your own spellcasting DC. On a success, you return to the container if it is within 100 feet of you. Otherwise, you die.
 
@@ -7158,7 +7161,7 @@ mirror_image:
 
     A duplicate's AC equals 10 + your Dexterity score. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.
 
-    A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.
+    A creature is unaffected by this spell if it can't see, if it can effectively see with a sense other than sight (such as blindsight), or if it can perceive illusions as false (such as with truesight).
   duration: 1 minute
   level: 2
   name: Mirror Image
@@ -7214,7 +7217,7 @@ mislead:
 
     You can use a standard action to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose.
 
-    You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a minor action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.
+    The illusion has the same senses of sight and hearing as you do, including any special senses. You can use its senses of sight and hearing instead of your own, and can swap back and forth as a minor action.
   duration: Up to 1 hour
   level: 5
   name: Mislead
@@ -7222,6 +7225,7 @@ mislead:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - arcane
     - bard
@@ -8001,7 +8005,7 @@ project_image:
 
     You can use a standard action to move this illusion up to twice your speed, and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.
 
-    You can see through its eyes and hear through its ears as if you were in its space. On your turn as a minor action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.
+    The illusion has the same senses of sight and hearing as you do, including any special senses. You can use its senses of sight and hearing instead of your own, and can swap back and forth as a minor action.
 
     Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
   duration: Up to 24 hours
@@ -9034,7 +9038,7 @@ shapechange:
 
     When you transform in this way, you retain your alignment and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus listed in its statistics is higher than yours, use the creature's bonus in place of yours.
 
-    You retain the benefit of any features from your class, race, or other source and can use them, provided that your new form is physically capable of doing so. You can't use any special senses you have (for example, darkvision) unless your new form also has that sense. You can only speak if the creature can normally speak.
+    You retain the benefit of any features from your class, race, or other source and can use them, provided that your new form is physically capable of doing so. You use the new form's senses instead of your own. You can only speak if the creature can normally speak.
 
     When you transform, you choose whether your equipment falls to the ground, merges into the new form, or is worn by it. Worn equipment functions as normal. The DM determines whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change shape or size to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge into your new form. Equipment that merges has no effect in that state.
 
@@ -9046,6 +9050,7 @@ shapechange:
   range: Self
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - druid
@@ -9367,7 +9372,7 @@ soul_cage:
 
     **Borrow Experience.** You can use a minor action to bolster yourself with the soul's life experience, making your next attack roll, ability check, or saving throw with advantage. If you don't use this benefit before the start of your next turn, it is lost.
 
-    **Eyes of the Dead.** You can use a standard action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.
+    **Eyes of the Dead.** You can use a standard action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you maintain concentration, up to 10 minutes. You can see and hear as if you were in the sensor's space in addition to your own space.
 
     A creature that can see the sensor (such as one using _see invisibility_ or truesight) sees a translucent image of the tormented humanoid whose soul you caged.
   duration: 8 hours
@@ -9377,6 +9382,7 @@ soul_cage:
   range: 60 feet
   sources:
     - XGE
+    - 2D
   tags:
     - arcane
     - necromancy
