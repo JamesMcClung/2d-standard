@@ -6012,7 +6012,7 @@ immolation:
   components: V
   concentration: false
   description: |-
-    Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 10d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns indefinitely, taking ongoing 5d6 fire damage (save ends). The burning target sheds light (30/60 ft.). These magical flames can't be extinguished by nonmagical means.
+    Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 10d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target is also ignited (5d6; save ends). These magical flames can't be extinguished by nonmagical means.
 
     If damage from this spell kills a target, the target is turned to ash.
   duration: Instantaneous
