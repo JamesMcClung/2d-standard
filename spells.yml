@@ -9668,9 +9668,9 @@ slow:
   components: V, S, M
   concentration: true
   description: |-
-    You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Charisma saving throw or be affected by this spell for the duration.
+    You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Charisma saving throw or be affected by this spell for the duration (save ends).
 
-    An affected target is dazed and slowed (save ends). Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.
+    An affected target is dazed, slowed, and attacks against it have advantage. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.
 
     If an affected creature attempts to cast a spell with a casting time of an action, roll a d20. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must repeat the Magic action on that turn to complete the spell. If it can't, the spell is wasted.
   duration: Up to 1 minute
