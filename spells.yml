@@ -2358,11 +2358,11 @@ danse_macabre:
   components: V, S
   concentration: true
   description: |-
-    Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton, and it gains a bonus to its attack and damage rolls equal to your spellcasting ability score.
+    Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead: either a zombie or a skeleton (your choice).
 
-    You can use a minor action to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what actions the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. If you issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.
+    Each of the creatures created by this spell has the Companion trait. You can command any number of these undead with a single Command action, issuing the same command to all of them.
 
-    The creatures are under your control until the spell ends, after which they become inanimate once more
+    The creatures are under your control until the spell ends, after which they become inanimate once more.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th.
   level: 5
@@ -2370,6 +2370,7 @@ danse_macabre:
   range: 60 feet
   sources:
     - XGE
+    - 2D
   tags:
     - arcane
     - necromancy
@@ -4211,7 +4212,7 @@ finger_of_death:
   description: |-
     You send negative energy coursing through a creature that you can see within range, causing it searing pain. The target must make a Constitution saving throw. It takes 7d8 + 30 necrotic damage on a failed save, or half as much damage on a successful one.
 
-    A humanoid killed by this spell rises at the start of your next turn as a zombie that is permanently under your command, following your verbal orders to the best of its ability.
+    A humanoid killed by this spell rises at the start of your next turn as a zombie with the Companion trait under your absolute control.
   duration: Instantaneous
   level: 7
   name: Finger of Death
@@ -4772,7 +4773,7 @@ giant_insect:
   description: |-
     You transform up to ten centipedes, three spiders, five wasps, or one scorpion within range into giant versions of their natural forms for the duration. A centipede becomes a giant centipede, a spider becomes a giant spider, a wasp becomes a giant wasp, and a scorpion becomes a giant scorpion.
 
-    Each creature obeys your verbal commands, and in combat, they act on your turn each round. The DM has the statistics for these creatures and resolves their actions and movement.
+    Each creature has the Companion trait in addition to its usual traits and understands your verbal commands. You can command any number of these insects with a single Command action, issuing the same or different commands to each one.
 
     A creature remains in its giant size for the duration, until it drops to 0 hit points, or until you use a standard action to dismiss the effect on it.
 
@@ -4783,6 +4784,7 @@ giant_insect:
   range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - druid
     - primal
@@ -10635,17 +10637,18 @@ tiny_servant:
   components: V, S
   concentration: false
   description: |-
-    You touch one Tiny, nonmagical object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and sprouts little arms and legs, becoming a creature under your control until the spell ends or the creature drops to 0 hit points. See the Tiny Servant stat block for its statistics.
+    You touch one Tiny, nonmagical object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and sprouts little arms and legs, becoming a Tiny Servant until the spell ends.
 
-    As a minor action, you can mentally command the creature if it is within 120 feet of you. (If you control multiple creatures with this spell, you can command any or all of them at the same time, issuing the same command to each one.) You decide what actions the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a key, stand watch, or stack some books. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.
+    The creature has the Companion trait in addition to is usual traits. You can mentally command the creature if it is within 120 feet of you, issuing specific instructions for which actions to take or a simple, general command, such as "fetch the library key" or "defend against intruders". (If you control multiple creatures with this spell, you can command any or all of them as part of the same action, issuing the same general command to each one.) Once given a general command, the servant continues to follow that order until its task is complete, and may even use actions not normally available to companions to do so.
 
-    When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.
+    When the creature drops to 0 hit points, the spell ends, the creature reverts to its original form, and any remaining damage carries over to that form.
   duration: 8 hours
   level: 3
   name: Tiny Servant
   range: Touch
   sources:
     - XGE
+    - 2D
   tags:
     - arcane
     - artificer
