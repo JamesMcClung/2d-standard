@@ -39,9 +39,9 @@ type Spell = {
     components: string
     material?: markdown
     duration: string
-    concentration: boolean = false
+    concentration?: boolean = false
     casting_time: markdown
-    tags: string[] = [] // includes classes, school(s), domain(s), element?, curse?, ritual?
+    tags?: string[] = [] // includes classes, school(s), domain(s), element?, curse?, ritual?
     sources: string[]
 }
 ```
@@ -70,33 +70,33 @@ type Creature = {
     alignment?: string
     druid_level?: int
     proficiency_bonus?: int // overridden when rendered in “spell mode” to be “equals your proficiency bonus”
-    ability_scores: {
-        [ability: AbilityAcronym]: int = 0
+    ability_scores?: {
+        [ability in AbilityAcronym]?: int = 0
     } = {}
-    speeds: {
+    speeds?: {
         [speed: string]: string // e.g. "walk: 30 ft."
     } = {}
-    senses: {
+    senses?: {
         [sense: string]: string // e.g. "darkvision: 60 ft."
     } = {}
-    saves: {
-        [ability: AbilityAcronym]: float = 0 // final result = ability_scores[ability] + floor(proficiency_bonus * saves[ability])
+    saves?: {
+        [ability in AbilityAcronym]?: float = 0 // final result = ability_scores[ability] + floor(proficiency_bonus * saves[ability])
     } = {} 
-    skills: {
-        [skill: Skill]: float = 0 // same calculation as saves
+    skills?: {
+        [skill in Skill]?: float = 0 // same calculation as saves
     } = {}
-    languages: string[] = []
-    damage_resistances: string[] = []
-    damage_immunities: string[] = []
-    damage_vulnerabilities: string[] = []
-    condition_immunities: string[] = []
-    ac: int | string = 10 + ability_scores[dex]
-    hp: uint | string = hit_dice * (average(size_to_hit_die[size]) + ability_scores[con])
+    languages?: string[] = []
+    damage_resistances?: string[] = []
+    damage_immunities?: string[] = []
+    damage_vulnerabilities?: string[] = []
+    condition_immunities?: string[] = []
+    ac?: int | string = 10 + ability_scores[dex]
+    hp?: uint | string = hit_dice * (average(size_to_hit_die[size]) + ability_scores[con])
     hit_dice: uint | string // if this is a string, hp must be specified
-    traits: CreatureTrait[] = []
-    attacks: CreatureAttack[] = []
-    actions: CreatureAction[] = []
-    reactions: CreatureReaction[] = []
+    traits?: CreatureTrait[] = []
+    attacks?: CreatureAttack[] = []
+    actions?: CreatureAction[] = []
+    reactions?: CreatureReaction[] = []
     legendary_actions?: CreatureAction[]
     legendary_action_points?: uint | string = legendary_actions === undefined ? undefined : “1 legendary action point per player”
 }
