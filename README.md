@@ -71,19 +71,19 @@ type Creature = {
     druid_level?: int
     proficiency_bonus?: int // overridden when rendered in “spell mode” to be “equals your proficiency bonus”
     ability_scores: {
-        [abbreviated_ability]: int = 0
+        [ability: AbilityAcronym]: int = 0
     } = {}
     speeds: {
-        [speed]: string // e.g. "walk: 30 ft."
+        [speed: string]: string // e.g. "walk: 30 ft."
     } = {}
     senses: {
-        [sense]: string // e.g. "darkvision: 60 ft."
+        [sense: string]: string // e.g. "darkvision: 60 ft."
     } = {}
     saves: {
-        [abbreviated_ability]: float = 0 // final result = ability_scores[stat] + floor(proficiency_bonus * saves[stat])
+        [ability: AbilityAcronym]: float = 0 // final result = ability_scores[ability] + floor(proficiency_bonus * saves[ability])
     } = {} 
     skills: {
-        [skill]: float = 0 // same calculation as saves
+        [skill: Skill]: float = 0 // same calculation as saves
     } = {}
     languages: string[] = []
     damage_resistances: string[] = []
@@ -148,3 +148,11 @@ In the above, `contextual_markdown` supports everything that `markdown` supports
 - in all of the above, the following values are allowed:
     - ability_score: str, dex, con, int, wis, cha
     - skill: acrobatics, animal_handling, arcana, athletics, deception, history, insight, intimidation, investigation, medicine, nature, perception, performance, persuasion, religion, sleight_of_hand, stealth
+
+## Miscellaneous Types
+
+```ts
+type Skill = "Acrobatics" | "Animal Handling" | "Arcana" | "Athletics" | "Deception" | "History" | "Insight" | "Intimidation" | "Investigation" | "Medicine" | "Nature" | "Perception" | "Performance" | "Persuasion" | "Religion" | "Sleight of Hand" | "Stealth"
+
+type AbilityAcronym = "str" | "dex" | "con" | "int" | "wis" | "cha"
+```
