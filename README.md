@@ -29,30 +29,34 @@ Anywhere `markdown` is allowed in a yaml, the following syntax is allowed:
 
 ### Spell
 
-```yml
-name: string
-description: markdown
-higher_level: markdown
-level: int
-range: string
-components: string
-material?: markdown
-duration: string
-concentration?: boolean
-casting_time: markdown
-tags: string[] # includes classes, school(s), domain(s), element?, curse?, ritual?
-sources: string[]
+```ts
+type Spell = {
+    name: string
+    description: markdown
+    higher_level: markdown
+    level: uint
+    range: string
+    components: string
+    material?: markdown
+    duration: string
+    concentration?: boolean
+    casting_time: markdown
+    tags: string[] = [] // includes classes, school(s), domain(s), element?, curse?, ritual?
+    sources: string[]
+}
 ```
 
 ### Feat
 
 Feats are simply features as described in the aforementioned standard:
 
-```yml
-name: string
-cost: string
-prerequisite?: markdown
-description: markdown
+```ts
+type Feat = {
+    name: string
+    cost: string
+    prerequisite?: markdown
+    description: markdown
+}
 ```
 
 ### Creature
