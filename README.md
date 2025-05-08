@@ -33,13 +33,13 @@ Anywhere `markdown` is allowed in a yaml, the following syntax is allowed:
 type Spell = {
     name: string
     description: markdown
-    higher_level: markdown
+    higher_level?: markdown
     level: uint
     range: string
     components: string
     material?: markdown
     duration: string
-    concentration?: boolean
+    concentration: boolean = false
     casting_time: markdown
     tags: string[] = [] // includes classes, school(s), domain(s), element?, curse?, ritual?
     sources: string[]
@@ -53,7 +53,7 @@ Feats are simply features as described in the aforementioned standard:
 ```ts
 type Feat = {
     name: string
-    cost: string
+    cost: int
     prerequisite?: markdown
     description: markdown
 }
