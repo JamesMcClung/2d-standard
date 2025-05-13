@@ -71,7 +71,7 @@ type Creature = {
     druid_level?: int
     proficiency_bonus?: int // overridden when rendered in “spell mode” to be “equals your proficiency bonus”
     ability_scores?: {
-        [ability in AbilityAcronym]?: int = 0
+        [ability in AbilityAbbreviation]?: int = 0
     } = {}
     speeds?: {
         [speed: string]: string // e.g. "walk: 30 ft."
@@ -80,7 +80,7 @@ type Creature = {
         [sense: string]: string // e.g. "darkvision: 60 ft."
     } = {}
     saves?: {
-        [ability in AbilityAcronym]?: float = 0 // final result = ability_scores[ability] + floor(proficiency_bonus * saves[ability])
+        [ability in AbilityAbbreviation]?: float = 0 // final result = ability_scores[ability] + floor(proficiency_bonus * saves[ability])
     } = {} 
     skills?: {
         [skill in Skill]?: float = 0 // same calculation as saves
@@ -154,5 +154,5 @@ In the above, `contextual_markdown` supports everything that `markdown` supports
 ```ts
 type Skill = "Acrobatics" | "Animal Handling" | "Arcana" | "Athletics" | "Deception" | "History" | "Insight" | "Intimidation" | "Investigation" | "Medicine" | "Nature" | "Perception" | "Performance" | "Persuasion" | "Religion" | "Sleight of Hand" | "Stealth"
 
-type AbilityAcronym = "str" | "dex" | "con" | "int" | "wis" | "cha"
+type AbilityAbbreviation = "str" | "dex" | "con" | "int" | "wis" | "cha"
 ```
