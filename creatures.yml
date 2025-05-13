@@ -1,0 +1,918 @@
+bat:
+  ability_scores:
+    cha: -4
+    con: -1
+    dex: 2
+    int: -5
+    str: -6
+    wis: 1
+  ac: 12
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Bite
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 8
+  hit_dice: 1
+  hp: 2
+  name: Bat
+  proficiency_bonus: 2
+  senses:
+    blindsight: 60 ft. (requires hearing)
+  size: Tiny
+  skills:
+    acrobatics: 1
+    perception: 1
+  speeds:
+    fly: 30 ft.
+    walk: 5 ft.
+  traits:
+    - description: The bat has advantage on Perception checks that rely on hearing.
+      name: Keen Hearing
+  type: Beast
+cat:
+  ability_scores:
+    cha: -2
+    con: 0
+    dex: 2
+    int: -4
+    str: -4
+    wis: 1
+  ac: 12
+  alignment: unaligned
+  attacks:
+    - hit: 1 slashing damage.
+      medium: weapon
+      name: Claws
+      properties:
+        - finesse
+        - light
+        - unarmed
+      proximity: melee
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Bite
+      properties:
+        - unarmed
+      proximity: melee
+  druid_level: 2
+  hit_dice: 1
+  hp: 3
+  name: Cat
+  proficiency_bonus: 2
+  saves:
+    Dexterity: 1
+  senses:
+    darkvision: 60 ft.
+    supersmell: 5 ft.
+  size: Tiny
+  skills:
+    acrobatics: 1
+    perception: 1
+    stealth: 2
+  speeds:
+    climb: 30 ft.
+    walk: 40 ft.
+  traits:
+    - description: Any falling damage the cat takes is reduced by 10.
+      name: Safe Landing
+    - description: When the cat takes the Charge action to make a Claws attack, it doesn't suffer the usual ill effects afterwards. Additionally, if the cat makes the attack as part of a running jump and hits, the target is grappled and the cat can make a Bite attack against it as part of the same action.
+      name: Pouncer
+  type: Beast
+chameleon:
+  ability_scores:
+    cha: -5
+    con: 0
+    dex: 0
+    int: -6
+    str: -6
+    wis: 2
+  ac: 11
+  actions:
+    - cost: 2
+      description: A target grappled by the chameleon's Tongue takes 1 bludgeoning damage.
+      name: Bite
+  alignment: unaligned
+  attacks:
+    - hit: If the target is smaller than the chameleon, it is grappled.
+      medium: weapon
+      name: Tongue
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 2
+  hit_dice: 1
+  hp: 3
+  name: Chameleon
+  proficiency_bonus: 2
+  size: Tiny
+  skills:
+    athletics: 1
+    perception: 1
+  speeds:
+    climb: 10 ft.
+    walk: 10 ft.
+  traits:
+    - description: The chameleon has advantage on Perception checks that rely on sight.
+      name: Keen Sight
+    - description: The chameleon has advantage on Stealth checks made to Hide in vegetation, and it only needs to be lightly obscured to do so.
+      name: Forest Camouflage
+  type: Beast
+crab:
+  ability_scores:
+    cha: -8
+    con: 0
+    dex: 1
+    int: -9
+    str: -6
+    wis: 0
+  ac: 15
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage, and if the target is the same size or smaller than the crab, it is grappled. The crab has two claws to grapple with.
+      medium: weapon
+      name: Claw
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 4
+  hit_dice: 1
+  hp: 3
+  name: Crab
+  proficiency_bonus: 2
+  size: Tiny
+  skills:
+    athletics: 1
+    stealth: 1
+  speeds:
+    climb: 5 ft.
+    swim: 10 ft.
+    walk: 10 ft.
+  traits:
+    - description: The crab can breathe both air and water.
+      name: Amphibious
+  type: Beast
+eel:
+  ability_scores:
+    cha: -6
+    con: 0
+    dex: 2
+    int: -8
+    str: -6
+    wis: 1
+  ac: 12
+  actions:
+    - cost: 1
+      description: The eel can make an Acrobatics check to escape a grapple.
+      name: Wriggle Away
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Bite
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 2
+  hit_dice: 1
+  hp: 3
+  name: Eel
+  proficiency_bonus: 2
+  saves:
+    Dexterity: 1
+  size: Tiny
+  skills:
+    stealth: 2
+  speeds:
+    swim: 30 ft.
+  traits:
+    - description: The eel can breathe only underwater.
+      name: Water Breathing
+  type: Beast
+frog:
+  ability_scores:
+    cha: -6
+    con: 0
+    dex: 2
+    int: -7
+    str: -7
+    wis: 1
+  ac: 12
+  actions:
+    - cost: 2
+      description: A target grappled by the frog's Tongue takes 1 bludgeoning damage.
+      name: Bite
+  alignment: unaligned
+  attacks:
+    - hit: If the target is smaller than the frog, it is grappled.
+      medium: weapon
+      name: Tongue
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 2
+  hit_dice: 2
+  hp: 2
+  name: Frog
+  proficiency_bonus: 2
+  size: Minuscule
+  speeds:
+    swim: 10 ft.
+    walk: 10 ft.
+  traits:
+    - description: The frog can breathe air and water.
+      name: Amphibious
+    - description: The frog doesn't need to take a running start when it jumps.
+      name: Standing Leap
+    - description: The frog's hit point maximum decreases by 1 at the end of each hour it spends outside of water. This reduction lasts until the frog is fully submerged in water.
+      name: Dry Skin
+  type: Beast
+hare:
+  ability_scores:
+    cha: -4
+    con: 0
+    dex: 3
+    int: -5
+    str: -5
+    wis: 1
+  ac: 13
+  actions:
+    - cost: 1
+      description: The hare moves up to half its speed.
+      name: Sprint
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Bite
+      properties:
+        - unarmed
+      proximity: melee
+  druid_level: 2
+  hit_dice: 1
+  hp: 3
+  name: Hare
+  proficiency_bonus: 2
+  saves:
+    Dexterity: 1
+  size: Tiny
+  skills:
+    athletics: 1
+    perception: 1
+    stealth: 1
+  speeds:
+    burrow: 5 ft.
+    walk: 40 ft.
+  traits:
+    - description: The hare's horizontal jump distance is doubled.
+      name: Long Jump
+    - description: The hare has advantage on Perception checks that rely on hearing.
+      name: Keen Hearing
+    - description: In winter months, the hare has resistance to cold damage and advantage on Stealth checks made to hide in snow.
+      name: Winter Coat
+  type: Beast
+hawk:
+  ability_scores:
+    cha: -2
+    con: 1
+    dex: 2
+    int: -5
+    str: -3
+    wis: 3
+  ac: 12
+  alignment: unaligned
+  attacks:
+    - hit: 1d4@plus(dex) piercing damage, and if the target is Tiny, it is grappled.
+      medium: weapon
+      name: Talons
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 6
+  hit_dice: 1
+  hp: 4
+  name: Hawk
+  proficiency_bonus: 2
+  size: Tiny
+  skills:
+    perception: 2
+  speeds:
+    fly: 60 ft.
+    walk: 5 ft.
+  traits:
+    - description: The eagle doesn't suffer from passive Perception falloff when it uses its sight.
+      name: Eagle Eyes
+    - description: The hawk has advantage on Perception checks that rely on sight.
+      name: Keen Sight
+  type: Beast
+hedgehog:
+  ability_scores:
+    cha: -4
+    con: 0
+    dex: 0
+    int: -5
+    str: -5
+    wis: -1
+  ac: 14
+  actions:
+    - cost: 1
+      description: The hedgehog curls up into a ball. Until it uncurls itself (no action required), its speed is 0, it has resistance to bludgeoning, piercing, and slashing damage, and it gains a +2 bonus to AC and Dexterity saving throws.
+      name: Defensive Curl
+  alignment: unaligned
+  druid_level: 8
+  hit_dice: 1
+  hp: 3
+  name: Hedgehog
+  proficiency_bonus: 2
+  senses:
+    darkvision: 30 ft.
+  size: Tiny
+  speeds:
+    burrow: 5 ft.
+    walk: 20 ft.
+  traits:
+    - description: The hedgehog has advantage on saving throws against poison.
+      name: Poison Resistance
+    - description: The hedgehog is covered in quills. A creature that hits it with an unarmed melee attack takes 1 piercing damage from the quills.
+      name: Quills
+  type: Beast
+horse:
+  ability_scores:
+    cha: -3
+    con: 1
+    dex: 0
+    int: -5
+    str: 2
+    wis: 0
+  ac: 11
+  actions:
+    - cost: 1
+      description: The horse moves up to half its speed.
+      name: Sprint
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Bite
+      properties:
+        - unarmed
+      proximity: melee
+    - hit: 1d1@plus(str) bludgeoning damage.
+      medium: weapon
+      name: Hooves
+      properties:
+        - unarmed
+      proximity: melee
+  druid_level: 4
+  hit_dice: 2
+  hp: 14
+  name: Horse
+  proficiency_bonus: 2
+  size: Large
+  skills:
+    athletics: 1
+  speeds:
+    walk: 50 ft.
+  type: Beast
+monkey:
+  ability_scores:
+    cha: -2
+    con: 0
+    dex: 3
+    int: -4
+    str: -4
+    wis: 1
+  ac: 13
+  actions:
+    - cost: 2
+      description: The monkey uses the Taunt action targeting one creature within 5 feet of one of the monkey's allies. That ally can use a reaction to move without provoking opportunity attacks from the target of the Taunt, regardless of the Taunt's outcome.
+      name: Distract
+    - cost: 1
+      description: The monkey uses the Help action to aid an ally's attack.
+      name: Harass
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Bite
+      properties:
+        - unarmed
+      proximity: melee
+  druid_level: 6
+  hit_dice: 1
+  hp: 3
+  name: Monkey
+  proficiency_bonus: 2
+  saves:
+    Strength: 1
+  size: Tiny
+  skills:
+    acrobatics: 1
+    athletics: 1
+    perception: 1
+  speeds:
+    climb: 40 ft.
+    walk: 30 ft.
+  type: Beast
+newt:
+  ability_scores:
+    cha: -4
+    con: 1
+    dex: 0
+    int: -7
+    str: -7
+    wis: 1
+  ac: 10
+  alignment: unaligned
+  attacks:
+    - hit: 1 bludgeoning damage.
+      medium: weapon
+      name: Bite
+      properties:
+        - unarmed
+      proximity: melee
+  druid_level: 2
+  hit_dice: 2
+  hp: 4
+  name: Newt
+  proficiency_bonus: 2
+  saves:
+    Constitution: 1
+  size: Minuscule
+  speeds:
+    swim: 5 ft.
+    walk: 5 ft.
+  traits:
+    - description: The newt can breathe air and water.
+      name: Amphibious
+    - description: A creature that touches the newt must succeed on a @save(con, dex) or take 1 poison damage. A creature that hits the newt with a Bite attack has disadvantage on this save.
+      name: Toxic Skin
+    - description: The newt is brightly colored, signaling its Toxic Skin to other beasts and any creature with an Intelligence score of 0 or higher. The newt also has disadvantage on Stealth checks.
+      name: Warning Colors
+    - description: The newt's hit point maximum decreases by 1 at the end of each hour it spends outside of water. This reduction lasts until the newt is fully submerged in water.
+      name: Dry Skin
+    - description: The newt regains 1 hit point at the end of each of its turns.
+      name: Rapid Regeneration
+  type: Beast
+octopus:
+  ability_scores:
+    cha: -6
+    con: 0
+    dex: 6
+    int: -4
+    str: -5
+    wis: 2
+  ac: 16
+  actions:
+    - cost: 1
+      description: The octopus makes three Tentacle attacks.
+      name: Tentacles
+      repeatable: true
+    - cost: 2
+      description: The octopus makes two Tentacle attacks and a Beak attack.
+      name: Multiattack
+    - cost: 1
+      description: A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink.
+      name: Ink Cloud (Recharges after a Short or Long Rest)
+  alignment: unaligned
+  attacks:
+    - hit: The target is grappled. The octopus has 8 tentacles to grapple with. A creature of the same size as the octopus or smaller that is grappled by two or more tentacles is restrained.
+      medium: weapon
+      name: Tentacle
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Beak
+      properties:
+        - unarmed
+      proximity: melee
+  druid_level: 8
+  hit_dice: 1
+  hp: 4
+  name: Octopus
+  proficiency_bonus: 2
+  saves:
+    Dexterity: 1
+    Intelligence: 1
+  size: Small
+  skills:
+    athletics: 1
+    deception: 1
+    investigation: 2
+    stealth: 2
+  speeds:
+    swim: 20 ft.
+    walk: 5 ft.
+  traits:
+    - description: The octopus can move in a space as narrow as 1 inch without squeezing.
+      name: Amorphous
+    - description: While out of water, the octopus can hold its breath for 30 minutes.
+      name: Hold Breath
+    - description: The octopus has advantage on Stealth checks made to Hide underwater, and it only needs to be lightly obscured to do so.
+      name: Underwater Camouflage
+    - description: The octopus can breathe only underwater.
+      name: Water Breathing
+  type: Beast
+owl:
+  ability_scores:
+    cha: -3
+    con: 0
+    dex: 2
+    int: -5
+    str: -4
+    wis: 3
+  ac: 12
+  alignment: unaligned
+  attacks:
+    - hit: 1d4@plus(dex) piercing damage.
+      medium: weapon
+      name: Talons
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 6
+  hit_dice: 1
+  hp: 3
+  name: Owl
+  proficiency_bonus: 2
+  senses:
+    darkvision: 120 ft.
+  size: Tiny
+  skills:
+    perception: 2
+    stealth: 2
+  speeds:
+    fly: 60 ft.
+    walk: 5 ft.
+  traits:
+    - description: When the owl makes a melee attack against a creature, it doesn't provoke opportunity attacks from that creature for the rest of the turn, whether it hit or not.
+      name: Hit and Run
+    - description: The owl has advantage on Perception checks that rely on hearing or sight, and it doesn't suffer from passive Perception falloff when it uses its sight.
+      name: Keen Hearing and Sight
+  type: Beast
+parrot:
+  ability_scores:
+    cha: -3
+    con: 0
+    dex: 2
+    int: -3
+    str: -5
+    wis: 1
+  ac: 12
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Beak
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 6
+  hit_dice: 1
+  hp: 3
+  name: Parrot
+  proficiency_bonus: 2
+  size: Tiny
+  skills:
+    deception: 1
+    perception: 1
+    performance: 1
+  speeds:
+    climb: 5 ft.
+    fly: 60 ft.
+    walk: 5 ft.
+  traits:
+    - description: The parrot has disadvantage on Stealth checks.
+      name: Bright Colors
+    - description: The parrot has advantage on Perception checks that rely on sight.
+      name: Keen Sight
+    - description: The parrot can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 11 Insight check.
+      name: Mimicry
+  type: Beast
+piranha:
+  ability_scores:
+    cha: -5
+    con: -1
+    dex: 2
+    int: -8
+    str: -6
+    wis: 2
+  ac: 12
+  alignment: unaligned
+  attacks:
+    - hit: 1d4@plus(dex) piercing damage.
+      medium: weapon
+      name: Bite
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 4
+  hit_dice: 2
+  hp: 4
+  name: Piranha
+  proficiency_bonus: 2
+  size: Tiny
+  speeds:
+    swim: 30 ft.
+  traits:
+    - description: The piranha has advantage on melee attack rolls against bloodied creatures.
+      name: Blood Frenzy
+    - description: A creature within 5 feet of at least two hostile, non-incapacitated creatures with the Pack Tactics trait is flanked.
+      name: Pack Tactics
+    - description: The piranha can breathe only underwater.
+      name: Water Breathing
+  type: Beast
+rat:
+  ability_scores:
+    cha: -4
+    con: -1
+    dex: 2
+    int: -4
+    str: -6
+    wis: -1
+  ac: 12
+  actions:
+    - cost: 1
+      description: The rat takes either the Disengage or Dash action.
+      name: Flee
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Bite
+      properties:
+        - unarmed
+      proximity: melee
+  druid_level: 2
+  hit_dice: 1
+  hp: 2
+  name: Rat
+  proficiency_bonus: 2
+  size: Tiny
+  skills:
+    stealth: 1
+  speeds:
+    climb: 20 ft.
+    walk: 20 ft.
+  traits:
+    - description: The rat has advantage on Perception checks that rely on hearing.
+      name: Keen Hearing
+    - description: The rat has disadvantage on Perception checks that rely on sight.
+      name: Poor Sight
+    - description: While in sunlight, the rat has disadvantage on attack rolls, as well as on Perception checks that rely on sight.
+      name: Sunlight Sensitivity
+  type: Beast
+raven:
+  ability_scores:
+    cha: -3
+    con: 0
+    dex: 2
+    int: -3
+    str: -4
+    wis: 1
+  ac: 12
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Beak
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 6
+  hit_dice: 1
+  hp: 3
+  name: Raven
+  proficiency_bonus: 2
+  size: Tiny
+  skills:
+    deception: 1
+    perception: 1
+    performance: 1
+  speeds:
+    fly: 50 ft.
+    walk: 5 ft.
+  traits:
+    - description: The raven has advantage on Perception checks that rely on sight.
+      name: Keen Sight
+    - description: The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Insight check.
+      name: Mimicry
+  type: Beast
+snake:
+  ability_scores:
+    cha: -4
+    con: 0
+    dex: 2
+    int: -6
+    str: -5
+    wis: 1
+  ac: 12
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Bite
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 4
+  hit_dice: 1
+  hp: 3
+  name: Snake
+  proficiency_bonus: 2
+  saves:
+    Strength: 1
+  senses:
+    supersmell: 5 ft.
+  size: Tiny
+  skills:
+    stealth: 1
+  speeds:
+    climb: 15 ft.
+    crawl: 15 ft.
+  traits:
+    - description: The snake has disadvantage on Perception checks that rely on hearing or sight.
+      name: Poor Hearing and Sight
+  type: Beast
+tarantula:
+  ability_scores:
+    cha: -7
+    con: -1
+    dex: 3
+    int: -9
+    str: -7
+    wis: 0
+  ac: 14
+  actions:
+    - cost: 1
+      description: The tarantula sprays barbed bristles in a 5-foot cone. Each creature in the cone must succeed on a @save(dex, dex) or take 1 piercing damage and be blinded by the hairs (save ends).
+      name: Bristles
+    - cost: 2
+      description: The tarantula makes two Bite attacks.
+      name: Multiattack
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage plus 1d4 poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
+      medium: weapon
+      name: Bite
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 6
+  hit_dice: 1
+  hp: 2
+  name: Tarantula
+  proficiency_bonus: 2
+  senses:
+    tremorsense: 5 ft.
+  size: Tiny
+  skills:
+    stealth: 1
+  speeds:
+    burrow: 5 ft.
+    climb: 15 ft.
+    walk: 15 ft.
+  traits:
+    - description: The tarantula can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+      name: Cling Climb
+    - description: The tarantula ignores movement restrictions caused by webbing.
+      name: Web Walker
+  type: Beast
+toad:
+  ability_scores:
+    cha: -6
+    con: 1
+    dex: 1
+    int: -7
+    str: -6
+    wis: 1
+  ac: 11
+  actions:
+    - cost: 2
+      description: A target grappled by the toad's Tongue takes 1 bludgeoning damage.
+      name: Bite
+  alignment: unaligned
+  attacks:
+    - hit: If the target is smaller than the toad, it is grappled.
+      medium: weapon
+      name: Tongue
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 2
+  hit_dice: 1
+  hp: 4
+  name: Toad
+  proficiency_bonus: 2
+  size: Tiny
+  speeds:
+    swim: 15 ft.
+    walk: 15 ft.
+  traits:
+    - description: The toad can breathe air and water.
+      name: Amphibious
+    - description: The toad doesn't need to take a running start when it jumps.
+      name: Standing Leap
+    - description: A creature that hits the toad with an attack using the creature's mouth, such as a Bite or Tongue attack, must succeed on a @save(con, con) or take 1 poison damage and be poisoned until the end of its next turn.
+      name: Poisonous Skin
+  type: Beast
+weasel:
+  ability_scores:
+    cha: -2
+    con: 0
+    dex: 3
+    int: -5
+    str: -5
+    wis: 1
+  ac: 13
+  alignment: unaligned
+  attacks:
+    - hit: 1 piercing damage.
+      medium: weapon
+      name: Bite
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 2
+  hit_dice: 1
+  hp: 3
+  name: Weasel
+  proficiency_bonus: 2
+  senses:
+    supersmell: 5 ft.
+  size: Tiny
+  skills:
+    acrobatics: 1
+  speeds:
+    climb: 20 ft.
+    walk: 30 ft.
+  traits:
+    - description: The weasel has advantage on Dexterity ability checks made to resist being restrained or grappled, and its movement doesn't provoke opportunity attacks.
+      name: Evasive Steps
+  type: Beast
+web_spider:
+  ability_scores:
+    cha: -8
+    con: -1
+    dex: 3
+    int: -9
+    str: -8
+    wis: 0
+  ac: 13
+  actions:
+    - cost: 3
+      description: |-
+        The spider wraps an incapacitated creature in the spider's space in silk. The target must be the same size as the spider or smaller. The target is restrained while wrapped. The target or another creature can use a standard action and make a DC 13 Strength check to break the silk and free the target. Any slashing damage dealt to the silk also frees the target (the silk has 10 AC).
+
+        The spider can also use this action to construct a web. Making a 5-foot diameter web takes 1 hour, using this action every turn. Noticing the web requires a DC 13 Perception check. A Tiny creature that touches the web must succeed on a @save(str, dex) or be restrained, as if by the usual use of this action. The web itself is destroyed if it takes any slashing or fire damage (it has 10 AC).
+      name: Web Wrap
+  alignment: unaligned
+  attacks:
+    - hit: 1 poison damage. If this damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.
+      medium: weapon
+      name: Bite
+      properties:
+        - finesse
+        - unarmed
+      proximity: melee
+  druid_level: 4
+  hit_dice: 1
+  hp: 1
+  name: Web Spider
+  proficiency_bonus: 2
+  senses:
+    tremorsense: 5 ft.
+  size: Minuscule
+  skills:
+    stealth: 1
+  speeds:
+    climb: 10 ft.
+    walk: 10 ft.
+  traits:
+    - description: The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+      name: Cling Climb
+    - description: While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.
+      name: Web Sense
+    - description: The spider ignores movement restrictions caused by webbing.
+      name: Web Walker
+  type: Beast
