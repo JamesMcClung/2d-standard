@@ -4141,7 +4141,7 @@ find_familiar:
   components: V, S, M
   concentration: false
   description: |-
-    You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.
+    You gain the service of a familiar, a spirit that takes an animal form you choose: [bat]($creatures), [cat]($creatures), [chameleon]($creatures), [crab]($creatures), [eel]($creatures), [frog]($creatures), [hare]($creatures), [hawk]($creatures), [hedgehog]($creatures), [monkey]($creatures), [newt]($creatures), [octopus]($creatures), [owl]($creatures), [parrot]($creatures), [piranha]($creatures), [rat]($creatures), [raven]($creatures), [snake]($creatures), [tarantula]($creatures), [toad]($creatures), [weasel]($creatures), or [web spider]($creatures). Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.
 
     Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.
 
@@ -4151,7 +4151,7 @@ find_familiar:
 
     You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.
 
-    Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll.
+    Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your spell attack modifier for the roll.
   duration: Instantaneous
   level: 1
   material: 10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier
@@ -4159,6 +4159,7 @@ find_familiar:
   range: 10 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - conjuration
@@ -7563,7 +7564,7 @@ phantom_steed:
   description: |-
     A Large quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.
 
-    For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 100 feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends if you use a standard action to dismiss it or if the steed takes any damage.
+    For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a [horse]($creatures), except it has a speed of 100 feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends if you use a standard action to dismiss it or if the steed takes any damage.
   duration: 1 hour
   level: 3
   name: Phantom Steed
