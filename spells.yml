@@ -137,9 +137,9 @@ animal_friendship:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast's Intelligence score is 0 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spells ends.
+  description: This spell lets you convince a beast that you mean it no harm. Choose a Beast that you can see within range. It must see and hear you. If the beast's Intelligence score is 0 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell's duration. If you or one of your companions harms the target, the spells ends.
   duration: 24 hours
-  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional Beast for each slot level above 1st.
   level: 1
   material: a morsel of food
   name: Animal Friendship
@@ -157,7 +157,7 @@ animal_messenger:
   components: V, S, M
   concentration: false
   description: |-
-    By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as "a man or woman dressed in the uniform of the town guard" or "a red-haired dwarf wearing a pointed hat." You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.
+    By means of this spell, you use an animal to deliver a message. Choose a Tiny Beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as "a man or woman dressed in the uniform of the town guard" or "a red-haired dwarf wearing a pointed hat." You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.
 
     When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell.
   duration: 24 hours
@@ -180,7 +180,7 @@ animal_shapes:
   components: V, S
   concentration: true
   description: |-
-    Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You cause each target to be transformed into a Large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use a standard action to transform affected creatures into new forms.
+    Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You cause each target to be transformed into a Large or smaller Beast with a challenge rating of 4 or lower. On subsequent turns, you can use a standard action to transform affected creatures into new forms.
 
     The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target.
 
@@ -201,7 +201,7 @@ antilife_shell:
   components: V, S
   concentration: true
   description: |-
-    A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. The barrier lasts for the duration.
+    A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than Undead and Constructs. The barrier lasts for the duration.
 
     The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier.
 
@@ -288,7 +288,7 @@ arcane_eye:
   description: |-
     You create an invisible, magical eye within range that hovers in the air for the duration.
 
-    You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.
+    You gain the eye's sense of sight in addition to your own. The eye has darkvision (30 ft.) and can look in every direction.
 
     As a standard action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.
   duration: Up to 1 hour
@@ -298,6 +298,7 @@ arcane_eye:
   range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - artificer
@@ -526,7 +527,7 @@ awaken:
   components: V, S, M
   concentration: false
   description: |-
-    After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of -1 or less. The target gains an Intelligence score of 0. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human's. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.
+    After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller Beast, Plant creature, or ordinary plant. The target must have either no Intelligence score or an Intelligence of -1 or less. The target gains an Intelligence score of 0. The target also gains the ability to speak one language you know. If the target is an ordinary plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains base senses similar to a human's. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.
 
     The awakened beast or plant is charmed by you for 30 days or until you or your companions do anything harmful to it. When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed.
   duration: Instantaneous
@@ -641,7 +642,7 @@ beast_bond:
   casting_time: 1 standard action
   components: V, S, M
   concentration: true
-  description: You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast's Intelligence score is 0 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see.
+  description: You establish a telepathic link with one Beast you touch that is friendly to you or charmed by you. The spell fails if the beast's Intelligence score is 0 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see.
   duration: Up to 10 minutes
   level: 1
   material: a bit of fur wrapped in a cloth
@@ -659,13 +660,14 @@ beast_sense:
   casting_time: 1 standard action
   components: S
   concentration: true
-  description: You touch a willing beast. For the duration of the spell, you can use a standard action to see through the beast's eyes and hear what it hears, and continue to do so until you use a standard action to return to your normal senses. While perceiving through the beast's senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings.
+  description: You touch a willing Beast. For the duration of the spell, you can use a repeatable standard action to gain the beast's senses of sight and hearing, replacing your own, or vice versa.
   duration: Up to 1 hour
   level: 2
   name: Beast Sense
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - divination
     - druid
@@ -703,7 +705,7 @@ binding_ice:
   casting_time: 1 standard action
   components: S, M
   concentration: false
-  description: A burst of cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 cold damage and is hindered by ice formations for 1 minute, or until it or another creature within reach of it uses a standard action to break away the ice. A creature hindered by ice has its speed reduced to 0. On a successful save, a creature takes half as much damage and isn't hindered by ice.
+  description: A burst of cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 cold damage and is hindered by ice formations for 1 minute (standard action ends). A creature hindered by ice has its speed reduced to 0. On a successful save, a creature takes half as much damage and isn't hindered by ice.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, increase the cold damage by 1d8 for each slot level above 2nd.
   level: 2
@@ -819,9 +821,9 @@ blight:
   components: V, S
   concentration: false
   description: |-
-    Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. The spell has no effect on undead or constructs.
+    Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. The spell has no effect on Undead or Constructs.
 
-    If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.
+    If you target a Plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.
 
     If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw; it simply withers and dies.
   duration: Instantaneous
@@ -913,7 +915,7 @@ bloat_burst:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: You cause a decaying corpse within range to burst, destroying the corpse in an explosion of putrid viscera. Each creature within 5 feet of the corpse must make a Dexterity saving throw. A target takes poison damage equal to four rolls of the corpse's size die on a failed save, or half as much on a successful one. A target that fails its save by 5 or more is also poisoned by the foul substance until it uses a minor action to clean it off.
+  description: You cause a decaying corpse within range to burst, destroying the corpse in an explosion of putrid viscera. Each creature within 5 feet of the corpse must make a Dexterity saving throw. A target takes poison damage equal to four rolls of the corpse's size die on a failed save, or half as much on a successful one. A target that fails its save by 5 or more is also poisoned by the foul, clinging substance (minor action ends).
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can cause an additional corpse to explode for each slot level above 2nd. A creature in the area of multiple explosions is only affected once, by the largest one.
   level: 2
@@ -947,7 +949,7 @@ bolster_undead:
   casting_time: 1 standard action
   components: V
   concentration: false
-  description: Choose up to three undead within range that you can see. Each target gains a number of temporary hit points equal to your spellcasting ability score, which disappear when the spell ends. While a target has these temporary hit points, it has advantage on ability checks.
+  description: Choose up to three Undead within range that you can see. Each target gains a number of temporary hit points equal to your spellcasting ability score, which disappear when the spell ends. While a target has these temporary hit points, it has advantage on ability checks.
   duration: 1 hour
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, each target gains an additional 1d8 temporary hit points for each slot level above 1st.
   level: 1
@@ -1009,7 +1011,7 @@ branding_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
   concentration: true
-  description: The weapon gleams with astral radiance as you strike. The triggering attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's invisible, and the target sheds dim light in a 5-foot radius and can't become invisible until the spell ends.
+  description: The weapon gleams with astral radiance as you strike. The triggering attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's invisible, and the target sheds dim light (5 ft.) and can't become invisible until the spell ends.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.
   level: 2
@@ -1111,7 +1113,7 @@ calm_emotions:
   components: V, S
   concentration: true
   description: |-
-    You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Wisdom saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed, taunted, or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.
+    You attempt to suppress strong emotions in a group of people. Each Humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Wisdom saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed, taunted, or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.
 
     Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise.
   duration: Up to 1 minute
@@ -1169,7 +1171,7 @@ cause_fear:
   casting_time: 1 standard action
   components: V
   concentration: true
-  description: You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends (save ends).
+  description: You awaken the sense of mortality in one creature you can see within range. A Construct or an Undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends (save ends).
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.
   level: 1
@@ -1186,7 +1188,7 @@ caustic_spray:
   casting_time: 1 standard action
   components: V, S, M
   concentration: true
-  description: A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration or until a creature uses a standard action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 2d4 acid damage at start of each of its turns.
+  description: A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell's duration (standard action ends). A creature covered in the acid takes 2d4 acid damage at start of each of its turns.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d4 for each slot level above 1st.
   level: 1
@@ -1281,7 +1283,7 @@ charm_person:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.
+  description: You attempt to charm a Humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.
   duration: 1 hour
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.
   level: 1
@@ -1304,7 +1306,7 @@ chill_touch:
   description: |-
     You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can't regain hit points until the start of your next turn. Until then, the hand clings to the target.
 
-    If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.
+    If you hit an Undead target, it also has disadvantage on attack rolls against you until the end of your next turn.
 
     This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
   duration: 1 round
@@ -1383,7 +1385,7 @@ clairvoyance:
   description: |-
     You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can't be attacked or otherwise interacted with.
 
-    When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As a standard action, you can switch between seeing and hearing.
+    When you cast the spell, choose sight or hearing. The sensor has that sense, which you use in addition to your own senses. As a standard action, you can switch the sensor's sense between sight and hearing.
 
     A creature that can see the sensor (such as a creature benefiting from _see invisibility_ or truesight) sees a luminous, intangible orb about the size of your fist.
   duration: Up to 10 minutes
@@ -1393,6 +1395,7 @@ clairvoyance:
   range: 1 mile
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -1509,9 +1512,9 @@ clutches_of_death:
   description: |-
     Ghastly hands rise from the ground in a 20-foot-radius, 30-foot-high cylinder centered on a point within range, and white mist fills the area. The mist cause the area to be lightly obscured, while the hands cause the ground to be difficult terrain.
 
-    When you cast the spell, and at the start of each of your turns for the spell's duration, you can force each creature of your choice in the area that you can see to make a Strength saving throw. On a failed save, a target is safely pulled to the ground by misty tendrils if it is airborne, and then pulled prone and restrained by the hands. A target can repeat the saving throw as a standard action to attempt to end the restrained condition on itself.
+    When you cast the spell, and at the start of each of your turns for the spell's duration, you can force each creature of your choice in the area that you can see to make a Strength saving throw. On a failed save, a target is safely pulled to the ground by misty tendrils if it is airborne, pulled prone, and finally restrained by the hands for the duration (Athletics check ends).
 
-    As a minor action, you can cause each target restrained by the spell to automatically take 1d12 necrotic damage. This damage ignores an undead target's necrotic resistance or immunity.
+    As a minor action, you can cause each target restrained by the spell to automatically take 1d12 necrotic damage. This damage ignores an Undead target's necrotic resistance or immunity.
   duration: Up to 10 minutes
   higher_level: When you cast this spell using a spell slot of 5th level or higher, the radius of the cylinder increases by 10 feet for each slot level above 4th.
   level: 4
@@ -1552,7 +1555,7 @@ command:
   components: V
   concentration: false
   description: |-
-    You speak a one-word command to a creature you can see within range. The target must succeed on a Charisma saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.
+    You speak a one-word command to a creature you can see within range. The target must succeed on a Charisma saving throw or follow the command on its next turn. The spell has no effect if the target is Undead, if it doesn't understand your language, or if your command is directly harmful to it.
 
     Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.
 
@@ -1612,7 +1615,7 @@ commune_with_nature:
 
     - terrain and bodies of water
     - prevalent plants, minerals, animals, or peoples
-    - powerful celestials, fey, fiends, elementals, or undead
+    - powerful Celestials, Fey, Fiends, Elementals, or Undead
     - influence from other planes of existence
     - buildings
 
@@ -1881,7 +1884,7 @@ control_flames:
 
     - You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.
     - You instantaneously extinguish the flames within the cube.
-    - You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.
+    - You double or halve the area of bright and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.
     - You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The shapes last for 1 hour.
 
     If you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as a standard action.
@@ -2097,7 +2100,7 @@ create_food_and_water:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn't go bad.
+  description: You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen Humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn't go bad.
   duration: Instantaneous
   level: 3
   name: Create Food and Water
@@ -2139,9 +2142,9 @@ create_phylactery:
   components: V, M
   concentration: false
   description: |-
-    You affix your soul to the token object used as this spell's material component and endow it with a source of fuel for everlasting unlife. As part of casting this spell, you or another creature must use the ritual dagger used as the spell's material component to kill one or more humanoids within 30 feet of you. The souls of the slain humanoids become bound to the token object, which becomes your phylactery at the end of the spell.
+    You affix your soul to the token object used as this spell's material component and endow it with a source of fuel for everlasting unlife. As part of casting this spell, you or another creature must use the ritual dagger used as the spell's material component to kill one or more Humanoids within 30 feet of you. The souls of the slain humanoids become bound to the token object, which becomes your phylactery at the end of the spell.
 
-    When you die, your consciousness enters the phylactery as if the phylactery were a _magic jar_, except you have no body to return to. Every 1d100 days while you are in this state, if there are any other souls bound to the phylactery, one of them is destroyed and you form a new body within 10 feet of the phylactery. Your new body is undead, doesn't age, has immunity to poison damage and the poisoned condition, and has resistance to necrotic damage, but otherwise uses your game statistics.
+    When you die, your consciousness enters the phylactery as if the phylactery were a _magic jar_, except you have no body to return to. Every 1d100 days while you are in this state, if there are any other souls bound to the phylactery, one of them is destroyed and you form a new body within 10 feet of the phylactery. Your new body is Undead, doesn't age, has immunity to poison damage and the poisoned condition, and has resistance to necrotic damage, but otherwise uses your game statistics.
 
     Nothing short of divine intervention can resurrect you or a creature whose soul is bound to the phylactery. The phylactery can be destroyed, however. It is a magical object with AC 30 and immunity to all damage except force damage and the damage dealt by magical weapons. It is only destroyed if it takes at least 50 damage at once. It is unaffected by spells such as _dispel magic_ and _antimagic field_.
 
@@ -2196,7 +2199,7 @@ crown_of_madness:
   components: V, S
   concentration: true
   description: |-
-    One humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration (save ends). While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.
+    One Humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration (save ends). While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.
 
     The charmed target must use a standard action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose.
 
@@ -2223,7 +2226,7 @@ crown_of_stars:
   description: |-
     Seven star-like motes of light appear and orbit your head until the spell ends. You can use a minor action to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes 4d12 radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.
 
-    If you have four or more motes remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet. If you have one to three motes remaining, they shed dim light in a 30-foot radius.
+    If you have four or more motes remaining, they shed light (30/60 ft.). If you have one to three motes remaining, they shed dim light (30 ft.).
   duration: Until you finish a short rest
   higher_level: When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th.
   level: 7
@@ -2314,7 +2317,7 @@ cure_wounds:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability score. This spell has no effect on undead or constructs.
+  description: A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability score. This spell has no effect on Undead or Constructs.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.
   level: 1
@@ -2404,7 +2407,7 @@ darkvision:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.
+  description: You touch a willing creature to grant it darkvision (60 ft.) for the duration.
   duration: Until the target finishes a long rest
   level: 2
   material: either a pinch of dried carrot or an agate
@@ -2556,7 +2559,7 @@ desiccation:
   components: V, S, M
   concentration: false
   description: |-
-    You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.
+    You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and Undead aren't affected, and Plants and water Elementals make this saving throw with disadvantage. A creature takes 12d8 necrotic damage on a failed save, or half as much damage on a successful one.
 
     Nonmagical plants in the area that aren't creatures, such as trees and shrubs, wither and die instantly.
   duration: Instantaneous
@@ -2593,7 +2596,7 @@ detect_evil_and_good:
   components: V, S
   concentration: true
   description: |-
-    For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated.
+    For the duration, you know if there is an Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated.
 
     The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.
   duration: Up to 10 minutes
@@ -2662,7 +2665,7 @@ detect_thoughts:
   components: V, S, M
   concentration: true
   description: |-
-    You gain mindsense out to a range of 30 feet for the duration.
+    You gain mindsense (30 ft.) for the duration.
 
     When you cast the spell and as a standard action on each turn until the spell ends, you can focus your mind on a particular creature that you can sense with mindsense to learn its surface thoughts (what is most on its mind at that moment). As a subsequent standard action, you can attempt to probe deeper into that creature's mind. If you probe deeper, the target must make an Intelligence saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use a standard action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.
 
@@ -2838,7 +2841,7 @@ dissonant_whispers:
   casting_time: 1 standard action
   components: V
   concentration: false
-  description: You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.
+  description: You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use a reaction (if available) to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
   level: 1
@@ -2956,7 +2959,7 @@ divine_word:
     - 30 hit points or fewer: blinded, deafened, and stunned for 1 hour
     - 20 hit points or fewer: killed instantly
 
-    Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of divine intervention.
+    Regardless of its current hit points, a Celestial, an Elemental, a Fey, or a Fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of divine intervention.
   duration: Instantaneous
   level: 7
   name: Divine Word
@@ -2972,11 +2975,11 @@ dominate_beast:
   components: V, S
   concentration: true
   description: |-
-    You attempt to beguile a beast that you can see within range. It must succeed on a Charisma saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.
+    You attempt to beguile a Beast that you can see within range. It must succeed on a Charisma saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.
 
     While the beast is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.
 
-    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.
+    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use a reaction of your own as well.
 
     Each time the target takes damage, it makes a new Charisma saving throw against the spell. If the saving throw succeeds, the spell ends.
   duration: Up to 1 minute
@@ -3002,7 +3005,7 @@ dominate_monster:
 
     While the creature is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.
 
-    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.
+    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use a reaction of your own as well.
 
     Each time the target takes damage, it makes a new Charisma saving throw against the spell. If the saving throw succeeds, the spell ends.
   duration: Up to 1 hour
@@ -3024,11 +3027,11 @@ dominate_person:
   components: V, S
   concentration: true
   description: |-
-    You attempt to beguile a humanoid that you can see within range. It must succeed on a Charisma saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.
+    You attempt to beguile a Humanoid that you can see within range. It must succeed on a Charisma saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.
 
     While the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.
 
-    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.
+    You can use a standard action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use a reaction of your own as well.
 
     Each time the target takes damage, it makes a new Charisma saving throw against the spell. If the saving throw succeeds, the spell ends.
   duration: Up to 1 minute
@@ -3051,7 +3054,7 @@ draconic_transformation:
   description: |-
     With a roar, you draw on the magic of dragons to transform yourself, taking on draconic features. You gain the following benefits until the spell ends:
 
-    - You have blindsight with a range of 30 feet.
+    - You have blindsight (30 ft.).
     - When you cast this spell, and as a minor action on subsequent turns for the duration, you can exhale shimmering energy in a 60-foot cone. Each creature in the area must make a Dexterity saving throw, taking 6d8 force damage on a failed save, or half as much damage on a successful one.
     - Incorporeal wings sprout from your back, giving you a fly speed of 60 feet.
   duration: Up to 1 minute
@@ -3299,11 +3302,9 @@ earthen_grasp:
   components: V, S, M
   concentration: true
   description: |-
-    You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes 2d6 bludgeoning damage and is restrained for the spell's duration.
+    You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes 2d6 bludgeoning damage and is restrained for the spell's duration (Strength check ends).
 
     As a standard action, you can cause the hand to crush the restrained target, which must make a Strength saving throw. The target takes 2d6 bludgeoning damage on a failed save, or half as much damage on a successful one.
-
-    To break out, the restrained target can use a standard action to make a Strength check against your spell save DC. On a success, the target escapes and is no longer restrained by the hand.
 
     As a standard action, you can cause the hand to release a restrained target (if any) and move up to 30 feet and reach for a different creature you can see, subjecting it to the spell's initial effect. The hand can move along any earth or stone surface, even walls and ceilings.
   duration: Up to 1 minute
@@ -3741,7 +3742,7 @@ evil_eye:
   description: |-
     For the spell's duration, your eyes become an inky void imbued with dread power. If you can see a creature within 30 feet of you and it can see you, you can force it to make a Wisdom saving throw. On a failed save, the target is affected by one of the following effects of your choice for the duration.
 
-    The first time a creature would have to make this saving throw, it can use its reaction to avert its eyes and avoid making the saving throw. While its eyes are averted, it can't see you or anything behind you. It can keep its eyes averted indefinitely, but it must immediately make the saving throw if it looks at you later.
+    The first time a creature would have to make this saving throw, it can use a reaction to avert its eyes and avoid making the saving throw. While its eyes are averted, it can't see you or anything behind you. It can keep its eyes averted indefinitely, but it must immediately make the saving throw if it looks at you later.
 
     **Asleep.** The target falls unconscious. It wakes up if it takes any damage or if another creature uses a standard action to shake the sleeper awake.
 
@@ -3816,9 +3817,9 @@ eyes_of_the_dead:
   components: V, S
   concentration: false
   description: |-
-    You touch one corpse, skull, or willing undead creature, and its eyes fill with a blood-red mist. For the duration of the spell, you can see through the target's eyes, which have darkvision out to a range of 60 feet. You can't hear through the target, nor can you control where it looks using this spell.
+    You touch one corpse, skull, or willing Undead creature, and its eyes fill with a blood-red mist. For the duration of the spell, the target has a sense of sight and darkvision (60 ft.) if it didn't already, and you use its sense of sight instead of your own. You can switch between the target's sense of sight and your own as a repeatable minor action.
 
-    While looking through the target's eyes, you are blinded to your own surroundings. You can switch between the target's vision and your own vision as a minor action.
+    This spell doesn't give you any control over where the target looks.
   duration: 1 hour
   level: 1
   name: Eyes of the Dead
@@ -3872,7 +3873,7 @@ faerie_fire:
   components: V
   concentration: true
   description: |-
-    Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.
+    Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light (10 ft.).
 
     Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.
   duration: Up to 1 minute
@@ -4066,7 +4067,7 @@ feral_frenzy:
   components: V, S, M
   concentration: true
   description: |-
-    You summon a frenzied squirrel, rat, or other Tiny beast in the space of one Small or larger creature within range. The summoned beast uses the frenzied critter statblock and acts at the start of each of your turns.
+    You summon a frenzied squirrel, rat, or other Tiny Beast in the space of one Small or larger creature within range. The summoned beast uses the frenzied critter statblock and acts at the start of each of your turns.
 
     The critter climbs onto the target, repeatedly clawing and biting it. The critter acts at the start of each of your turns and automatically hits with its Bite attack. While the critter remains on the target, the target has disadvantage on Constitution saving throws made to maintain concentration.
 
@@ -4115,9 +4116,7 @@ fiery_whip:
   components: V, S
   concentration: true
   description: |-
-    A whip of fire appears in your free hand. The whip is a weapon with the finesse, light, and reach 15 properties. On a hit, the whip deals 2d4 fire damage, and if the target is no more than one size larger than you, you can pull it up to 10 feet towards you.
-
-    The whip sheds bright light in a 15-foot radius and dim light for an additional 15 feet.
+    A whip of fire appears in your free hand. The whip is a weapon with the finesse, light, and reach 15 properties. On a hit, the whip deals 2d4 fire damage, and if the target is no more than one size larger than you, you can pull it up to 10 feet towards you. The whip sheds light (15/30 ft.).
 
     If you let go of the whip, it disappears, but you can resummon it as a minor Magic action.
   duration: Up to 10 minutes
@@ -4141,17 +4140,17 @@ find_familiar:
   components: V, S, M
   concentration: false
   description: |-
-    You gain the service of a familiar, a spirit that takes an animal form you choose: [bat]($creatures), [cat]($creatures), [chameleon]($creatures), [crab]($creatures), [eel]($creatures), [frog]($creatures), [hare]($creatures), [hawk]($creatures), [hedgehog]($creatures), [monkey]($creatures), [newt]($creatures), [octopus]($creatures), [owl]($creatures), [parrot]($creatures), [piranha]($creatures), [rat]($creatures), [raven]($creatures), [snake]($creatures), [tarantula]($creatures), [toad]($creatures), [weasel]($creatures), or [web spider]($creatures). Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.
+    You gain the service of a familiar, a spirit that takes an animal form you choose: [bat]($creatures), [cat]($creatures), [chameleon]($creatures), [crab]($creatures), [eel]($creatures), [frog]($creatures), [hare]($creatures), [hawk]($creatures), [hedgehog]($creatures), [monkey]($creatures), [newt]($creatures), [octopus]($creatures), [owl]($creatures), [parrot]($creatures), [piranha]($creatures), [rat]($creatures), [raven]($creatures), [snake]($creatures), [tarantula]($creatures), [toad]($creatures), [weasel]($creatures), or [web spider]($creatures). Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a Celestial, Fey, or Fiend (your choice) instead of a Beast.
 
     Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.
 
     When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. As a standard action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As a standard action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. Whenever the familiar drops to 0 hit points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.
 
-    While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as a standard action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses.
+    While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as a standard action, you can use your familiar's senses of sight and hearing instead of your own until the start of your next turn.
 
     You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.
 
-    Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your spell attack modifier for the roll.
+    Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use a reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your spell attack modifier for the roll.
   duration: Instantaneous
   level: 1
   material: 10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier
@@ -4213,7 +4212,7 @@ finger_of_death:
   description: |-
     You send negative energy coursing through a creature that you can see within range, causing it searing pain. The target must make a Constitution saving throw. It takes 7d8 + 30 necrotic damage on a failed save, or half as much damage on a successful one.
 
-    A humanoid killed by this spell rises at the start of your next turn as a zombie with the Companion trait under your absolute control.
+    A Humanoid killed by this spell rises at the start of your next turn as a zombie with the Companion trait under your absolute control.
   duration: Instantaneous
   level: 7
   name: Finger of Death
@@ -4253,7 +4252,7 @@ fire_shield:
   components: V, S, M
   concentration: false
   description: |-
-    Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using a standard action to dismiss it.
+    Thin and wispy flames wreathe your body for the duration, shedding light (10/20 ft.). You can end the spell early by using a standard action to dismiss it.
 
     The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.
 
@@ -4327,7 +4326,7 @@ fissure:
 
     The walls of the ravine are rough and can be climbed without an ability check.
 
-    The ravine does not close when the spell ends unless you use a major action to do so. Each creature in the ravine when you close it can make a Dexterity saving throw. On a failed save, a creature takes 10d12 bludgeoning damage and is crushed between the walls. On a success, the creature can use its reaction to move up to its speed and potentially escape; otherwise, it takes half damage and is still crushed. The DC to move while crushed in this way equals your spell save DC.
+    The ravine does not close when the spell ends unless you use a major action to do so. Each creature in the ravine when you close it can make a Dexterity saving throw. On a failed save, a creature takes 10d12 bludgeoning damage and is crushed between the walls. On a success, the creature can use a reaction to move up to its speed and potentially escape; otherwise, it takes half damage and is still crushed. The DC to move while crushed in this way equals your spell save DC.
   duration: Up to 1 minute
   level: 9
   name: Fissure
@@ -4388,7 +4387,7 @@ flaming_sphere:
 
     As a minor action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere's damage, and the sphere stops moving this turn.
 
-    When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
+    When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere sheds light (20/40 ft.) and ignites flammable objects not being worn or carried.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.
   level: 2
@@ -4518,7 +4517,7 @@ forbiddance:
   description: |-
     You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can't teleport into the area or use portals, such as those created by the gate spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Feywild, Shadowfell, or the _plane shift_ spell.
 
-    In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: celestials, elementals, fey, fiends, and undead. When a chosen creature enters the spell's area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this spell).
+    In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: Celestial, Elementals, Fey, Fiends, and Undead. When a chosen creature enters the spell's area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this spell).
 
     When you cast this spell, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the spell.
 
@@ -4749,7 +4748,7 @@ gentle_repose:
   components: V, S, M
   concentration: false
   description: |-
-    You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead.
+    You touch a corpse or other remains. For the duration, the target is protected from decay and can't become Undead.
 
     The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as _raise dead_.
   duration: 10 days
@@ -4864,7 +4863,7 @@ glyph_of_warding:
 
     You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends.
 
-    You can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect aberrations or drow), or alignment. You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.
+    You can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect Aberrations or goblins), or alignment. You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.
 
     When you inscribe the glyph, choose _explosive runes_ or a _spell glyph_.
 
@@ -5113,7 +5112,7 @@ guardian_of_nature:
     **Primal Beast.** Bestial fur covers your body, your facial features become feral, and you gain the following benefits:
 
     - Your walk speed increases by 10 feet.
-    - You gain darkvision with a range of 120 feet.
+    - You gain darkvision (120 ft.).
     - You make Strength-based attack rolls with advantage.
     - Your melee weapon attacks deal an extra 1d6 force damage on a hit.
 
@@ -5284,7 +5283,7 @@ hallow:
   description: |-
     You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a _hallow_ spell. The affected area is subject to the following effects.
 
-    First, celestials, elementals, fey, fiends, and undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature charmed, frightened, or possessed by such a creature is no longer charmed, frightened, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.
+    First, Celestials, Elementals, Fey, Fiends, and Undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature charmed, frightened, or possessed by such a creature is no longer charmed, frightened, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.
 
     Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the DM. Some of these effects apply to creatures in the area; you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as orcs or trolls. When a creature that would be affected enters the spell's area for the first time on a turn or starts its turn there, it can make a Charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area.
 
@@ -5298,7 +5297,7 @@ hallow:
 
     **Energy Vulnerability.** Affected creatures in the area have vulnerability to one damage type of your choice, except for bludgeoning, piercing, or slashing.
 
-    **Everlasting Rest.** Dead bodies interred in the area can't be turned into undead.
+    **Everlasting Rest.** Dead bodies interred in the area can't be turned into Undead creatures.
 
     **Extradimensional Interference.** Affected creatures can't move or travel using teleportation or by extradimensional or interplanar means.
 
@@ -5433,9 +5432,9 @@ healing_spirit:
   components: V, S
   concentration: true
   description: |-
-    You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).
+    You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent Beast or Fey of your choice.
 
-    Until the spell ends, whenever you or a creature you can see moves into the spirits space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required). The spirit can't heal constructs or undead. The spirit can heal a number of times equal to 1 + your spellcasting ability score (minimum of twice). After healing that number of times, the spirit disappears.
+    Until the spell ends, whenever you or a creature you can see moves into the spirits space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required). The spirit can't heal Constructs or Undead. The spirit can heal a number of times equal to 1 + your spellcasting ability score (minimum of twice). After healing that number of times, the spirit disappears.
 
     As a minor action on your turn, you can move the spirit up to 30 feet to a space you can see.
   duration: Up to 1 minute
@@ -5454,7 +5453,7 @@ healing_word:
   casting_time: 1 minor action
   components: V
   concentration: false
-  description: A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability score. This spell has no effect on undead or constructs.
+  description: A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability score. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.
   level: 1
@@ -5571,7 +5570,7 @@ hold_monster:
   casting_time: 1 standard action
   components: V, S, M
   concentration: true
-  description: Choose a creature that you can see within range. The target must succeed on a Charisma saving throw or be paralyzed for the duration (save ends). This spell has no effect on undead.
+  description: Choose a creature that you can see within range. The target must succeed on a Charisma saving throw or be paralyzed for the duration (save ends). This spell has no effect on Undead.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.
   level: 5
@@ -5591,9 +5590,9 @@ hold_person:
   casting_time: 1 standard action
   components: V, S, M
   concentration: true
-  description: Choose a humanoid that you can see within range. The target must succeed on a Charisma saving throw or be paralyzed for the duration (save ends).
+  description: Choose a Humanoid that you can see within range. The target must succeed on a Charisma saving throw or be paralyzed for the duration (save ends).
   duration: Up to 1 minute
-  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional Humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.
   level: 2
   material: a small, straight piece of iron
   name: Hold Person
@@ -5613,7 +5612,7 @@ holy_aura:
   casting_time: 1 standard action
   components: V, S, M
   concentration: true
-  description: Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Creatures of your choice in that radius when you cast this spell shed dim light in a 5-foot radius and have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be blinded until the spell ends.
+  description: Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Creatures of your choice in that radius when you cast this spell shed dim light (5 ft.) and have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the spell ends. In addition, when a Fiend or an Undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be blinded until the spell ends.
   duration: Up to 1 minute
   level: 8
   material: a tiny reliquary worth at least 1,000 gp containing a sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a religious text
@@ -5630,7 +5629,7 @@ holy_weapon:
   components: V, S
   concentration: true
   description: |-
-    You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 3d8 radiant damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.
+    You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits light (30/60 ft.). In addition, weapon attacks made with it deal an extra 3d8 radiant damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.
 
     As a minor action, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of the weapon must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute (save ends). On a successful save, a creature takes half as much damage and isn't blinded.
 
@@ -5809,7 +5808,7 @@ immolation:
   components: V
   concentration: false
   description: |-
-    Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 10d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns indefinitely, taking ongoing 5d6 fire damage (save ends). The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. These magical flames can't be extinguished by nonmagical means.
+    Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 10d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns indefinitely, taking ongoing 5d6 fire damage (save ends). The burning target sheds light (30/60 ft.). These magical flames can't be extinguished by nonmagical means.
 
     If damage from this spell kills a target, the target is turned to ash.
   duration: Instantaneous
@@ -6011,7 +6010,7 @@ investiture_of_flame:
   components: V, S
   concentration: true
   description: |-
-    Flames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits:
+    Flames race across your body, shedding light (30/60 ft.) for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits:
 
     - You are immune to fire damage and have resistance to cold damage.
     - Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes 1d10 fire damage.
@@ -6165,15 +6164,16 @@ irresistible_dance:
   components: V
   concentration: true
   description: |-
-    Choose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration. Creatures that can't be charmed are immune to this spell.
+    Choose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration (Charisma check ends). Creatures that can't be charmed are immune to this spell.
 
-    A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As a standard action, a dancing creature makes a Charisma saving throw to regain control of itself. On a successful save, the spell ends.
+    A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it.
   duration: Up to 1 minute
   level: 6
   name: Irresistible Dance
   range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -6332,7 +6332,7 @@ light:
   components: V, M
   concentration: false
   description: |-
-    You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as a standard action.
+    You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds light (20/40 ft.) in a color of your choice. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as a standard action.
 
     If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.
   duration: 1 hour
@@ -6557,7 +6557,7 @@ magic_circle:
   description: |-
     You create a 10-foot-radius, 20-foot-tall cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the cylinder intersects with the floor or other surface.
 
-    Choose one or more of the following types of creatures: celestials, elementals, fey, fiends, or undead. The circle affects a creature of the chosen type in the following ways:
+    Choose one or more of the following types of creatures: Celestials, Elementals, Fey, Fiends, or Undead. The circle affects a creature of the chosen type in the following ways:
 
     - The creature can't willingly enter the cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.
     - The creature has disadvantage on attack rolls against targets within the cylinder.
@@ -6584,13 +6584,13 @@ magic_jar:
   components: V, S, M
   concentration: false
   description: |-
-    Your body falls into a catatonic state as your soul leaves it and enters the container you used for the spell's material component. While your soul inhabits the container, you are aware of your surroundings as if you were in the container's space. You can't use reactions. The only action you can take is to project your soul up to 100 feet out of the container as a standard action, either returning to your living body (and ending the spell) or attempting to possess a humanoid's body.
+    Your body falls into a catatonic state as your soul leaves it and enters the container you used for the spell's material component. While your soul inhabits the container, you are aware of your surroundings as if you were in the container's space. You can't use reactions. The only action you can take is to project your soul up to 100 feet out of the container as a standard action, either returning to your living body (and ending the spell) or attempting to possess a Humanoid's body.
 
-    You can attempt to possess any humanoid within 100 feet of you that you can see (creatures warded by a _protection from evil and good_ or _magic circle_ spell can't be possessed). The target must make a Charisma saving throw. On a failure, your soul moves into the target's body, and the target's soul becomes trapped in the container. On a success, the target resists your efforts to possess it, and you can't attempt to possess it again for 24 hours.
+    You can attempt to possess any Humanoid within 100 feet of you that you can see (creatures warded by a _protection from evil and good_ or _magic circle_ spell can't be possessed). The target must make a Charisma saving throw. On a failure, your soul moves into the target's body, and the target's soul becomes trapped in the container. On a success, the target resists your efforts to possess it, and you can't attempt to possess it again for 24 hours.
 
     Once you possess a creature's body, you control it. Your game statistics are replaced by the statistics of the creature, though you retain your alignment and your Intelligence, Wisdom, and Charisma scores. You retain the benefit of your own class features. If the target has any class levels, you can't use any of its class features.
 
-    Meanwhile, the possessed creature's soul can perceive from the container using its own senses, but it can't take actions at all.
+    Meanwhile, the possessed creature's soul can perceive from the container using its own senses, but it can't take actions or reactions at all.
 
     While possessing a body, you can use a standard action to return from the host body to the container if it is within 100 feet of you, returning the host creature's soul to its body. If the host body dies while you're in it, the creature dies, and you must make a Charisma saving throw against your own spellcasting DC. On a success, you return to the container if it is within 100 feet of you. Otherwise, you die.
 
@@ -6760,7 +6760,7 @@ mass_cure_wounds:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability score. This spell has no effect on undead or constructs.
+  description: A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability score. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.
   level: 5
@@ -6778,7 +6778,7 @@ mass_heal:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on undead or constructs.
+  description: A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   level: 9
   name: Mass Heal
@@ -6793,7 +6793,7 @@ mass_healing_word:
   casting_time: 1 minor action
   components: V
   concentration: false
-  description: As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability score. This spell has no effect on undead or constructs.
+  description: As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability score. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.
   level: 3
@@ -6828,7 +6828,7 @@ mass_polymorph:
   description: |-
     You transform up to ten creatures of your choice that you can see within range. An unwilling target must succeed on a Charisma saving throw to resist the transformation. The spell has no effect on an unwilling shapechanger or a creature with 0 hit points.
 
-    Each target is transformed for the duration. You can choose the same form or different ones for each target. Each new form can be any beast you have seen whose challenge rating is equal to or less than the target's (or half the target's level, if the target doesn't have a challenge rating). The spell ends on a target if it drops to 0 hit points or dies.
+    Each target is transformed for the duration. You can choose the same form or different ones for each target. Each new form can be any Beast you have seen whose challenge rating is equal to or less than the target's (or half the target's level, if the target doesn't have a challenge rating). The spell ends on a target if it drops to 0 hit points or dies.
   duration: Up to 1 hour
   level: 9
   material: a caterpillar cocoon
@@ -6900,7 +6900,7 @@ mending:
   description: |-
     This spell repairs a single break or tear in an object you touch, such as a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no longer than 1 foot in any dimension, you mend it, leaving no trace of the former damage.
 
-    This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.
+    This spell can physically repair a magic item or destroyed Construct, but the spell can't restore magic to such an object.
   duration: Instantaneous
   level: 0
   material: two lodestones
@@ -7079,7 +7079,7 @@ minor_alteration:
   concentration: false
   description: |-
     You touch a Tiny object and imbue it with one of the following magical properties of your choice:
-    - The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet.
+    - The object sheds light (5/10 ft.).
     - Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long.
     - The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away.
     - A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like.
@@ -7160,7 +7160,7 @@ mirror_image:
 
     A duplicate's AC equals 10 + your Dexterity score. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.
 
-    A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.
+    A creature is unaffected by this spell if it can't see, if it can effectively see with a sense other than sight (such as blindsight), or if it can perceive illusions as false (such as with truesight).
   duration: 1 minute
   level: 2
   name: Mirror Image
@@ -7216,7 +7216,7 @@ mislead:
 
     You can use a standard action to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose.
 
-    You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a minor action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.
+    The illusion has the same senses of sight and hearing as you do, including any special senses. You can use its senses of sight and hearing instead of your own, and can swap back and forth as a minor action.
   duration: Up to 1 hour
   level: 5
   name: Mislead
@@ -7224,6 +7224,7 @@ mislead:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - arcane
     - bard
@@ -7332,7 +7333,7 @@ necrosis:
   description: |-
     Choose up to three creatures you can see within range that are within 10 feet of each other. Each target takes 3d8 necrotic damage and must succeed on a Constitution saving throw or rot alive for the duration (save ends). While rotting in this way, a target is slowed, takes ongoing 3d8 necrotic damage, and has disadvantage on Constitution saving throws.
 
-    Constructs, undead, and creatures immune to necrotic damage are immune to this spell. The spell ends early on a target if _lesser restoration_ is cast on it.
+    Constructs, Undead, and creatures immune to necrotic damage are immune to this spell. The spell ends early on a target if _lesser restoration_ is cast on it.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 6th level or higher, the initial and ongoing damage increases by 1d8 for each slot level above 5th.
   level: 5
@@ -7348,9 +7349,9 @@ negative_energy_flood:
   components: V, M
   concentration: false
   description: |-
-    You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking 5d12 necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it.
+    You send ribbons of negative energy at one creature you can see within range. Unless the target is Undead, it must make a Constitution saving throw, taking 5d12 necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it.
 
-    If you target an undead with this spell, the target doesn't make a saving throw. Instead, roll 5d12. The target gains half the total as temporary hit points.
+    If you target an Undead with this spell, the target doesn't make a saving throw. Instead, roll 5d12. The target gains half the total as temporary hit points.
   duration: Instantaneous
   level: 5
   material: a broken bone and a square of black silk
@@ -7494,7 +7495,7 @@ phantasmal_force:
   components: V, S, M
   concentration: true
   description: |-
-    You craft an illusion that takes root in the mind of a creature that you can see within range. The target must make an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other visible phenomenon of your choice that is no larger than a 10-foot cube and that is perceivable only to the target for the duration. This spell has no effect on undead or constructs.
+    You craft an illusion that takes root in the mind of a creature that you can see within range. The target must make an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other visible phenomenon of your choice that is no larger than a 10-foot cube and that is perceivable only to the target for the duration. This spell has no effect on Constructs or Undead.
 
     The phantasm includes sound, temperature, and other stimuli, also evident only to the creature.
 
@@ -7603,7 +7604,7 @@ planar_binding:
   components: V, S, M
   concentration: false
   description: |-
-    With this spell, you attempt to bind a celestial, an elemental, a fey, or a fiend to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of an inverted _magic circle_ in order to keep it trapped while this spell is cast.) At the completion of the casting, the target must make a Charisma saving throw. On a failed save, it is bound to serve you for the duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell.
+    With this spell, you attempt to bind a Celestial, an Elemental, a Fey, or a Fiend to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of an inverted _magic circle_ in order to keep it trapped while this spell is cast.) At the completion of the casting, the target must make a Charisma saving throw. On a failed save, it is bound to serve you for the duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell.
 
     A bound creature must follow your instructions to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. The creature obeys the letter of your instructions, but if the creature is hostile to you, it strives to twist your words to achieve its own objectives. If the creature carries out your instructions completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane of existence, it returns to the place where you bound it and remains there until the spell ends.
   duration: 24 hours
@@ -7671,9 +7672,7 @@ platinum_shield:
   components: V, S, M
   concentration: true
   description: |-
-    You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet.
-
-    The creature protected by the field gains the following benefits:
+    You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light (5 ft.), and the creature protected by the field gains the following benefits:
     - The creature has half cover.
     - The creature has resistance to acid, cold, fire, lightning, and poison damage.
     - If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
@@ -7720,7 +7719,7 @@ polymorph:
   description: |-
     You transform a creature that you can see within range. An unwilling target must succeed on a Charisma saving throw to resist the transformation. The spell has no effect on an unwilling shapechanger or a creature with 0 hit points.
 
-    The target is transformed for the duration. The new form can be any beast you have seen whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The spell ends if the target drops to 0 hit points or dies.
+    The target is transformed for the duration. The new form can be any Beast you have seen whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The spell ends if the target drops to 0 hit points or dies.
   duration: Up to 1 hour
   level: 4
   material: a caterpillar cocoon
@@ -7757,7 +7756,7 @@ power_word_heal:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs.
+  description: A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use a reaction to stand up. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   level: 9
   name: Power Word Heal
@@ -7899,7 +7898,7 @@ primordial_ward:
   description: |-
     You have resistance to acid, cold, fire, lightning, and thunder damage for the spell's duration.
 
-    When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends.
+    When you take damage of one of those types, you can use a reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends.
   duration: Up to 1 minute
   level: 6
   name: Primordial Ward
@@ -7955,7 +7954,7 @@ produce_flame:
   components: V, S
   concentration: false
   description: |-
-    A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as a standard action or if you cast it again.
+    A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds light (10/20 ft.). The spell ends if you dismiss it as a standard action or if you cast it again.
 
     You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as a standard action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.
 
@@ -8005,7 +8004,7 @@ project_image:
 
     You can use a standard action to move this illusion up to twice your speed, and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.
 
-    You can see through its eyes and hear through its ears as if you were in its space. On your turn as a minor action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.
+    The illusion has the same senses of sight and hearing as you do, including any special senses. You can use its senses of sight and hearing instead of your own, and can swap back and forth as a minor action.
 
     Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the image from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the image is illusory. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.
   duration: Up to 24 hours
@@ -8051,7 +8050,7 @@ protection_from_evil_and_good:
   components: V, S, M
   concentration: true
   description: |-
-    Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.
+    Until the spell ends, one willing creature you touch is protected against certain types of creatures: Aberrations, Celestials, Elementals, Fey, Fiends, and Undead.
 
     The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.
   duration: Up to 10 minutes
@@ -8381,7 +8380,7 @@ reincarnate:
   components: V, S, M
   concentration: false
   description: |-
-    You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target's soul isn't free or willing to do so, the spell fails.
+    You touch a dead Humanoid or a piece of a dead Humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target's soul isn't free or willing to do so, the spell fails.
 
     The magic fashions a new body for the creature to inhabit, which likely causes the creature's race to change. The DM rolls a d100 and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.
 
@@ -8436,7 +8435,7 @@ repair_major_damage:
   casting_time: 1 standard action
   components: S, M
   concentration: false
-  description: A creature you touch regains a number of hit points equal to 8d6 + your spellcasting ability score and can make a saving throw against one "save ends" condition currently affecting it. The condition can be slowed, dazed, or stunned. If the target is a construct, it regains twice as many hit points and automatically succeeds on the saving throw. This spell has no effect on undead.
+  description: A creature you touch regains a number of hit points equal to 8d6 + your spellcasting ability score and can make a saving throw against one "save ends" condition currently affecting it. The condition can be slowed, dazed, or stunned. If the target is a Construct, it regains twice as many hit points and automatically succeeds on the saving throw. This spell has no effect on Undead.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 5th level or higher, the healing increases by 2d6 for each slot level above 4th.
   level: 4
@@ -8453,7 +8452,7 @@ repair_minor_damage:
   casting_time: 1 standard action
   components: S, M
   concentration: false
-  description: A creature you touch regains a number of hit points equal to 1d6 + your spellcasting ability score, or twice that amount if the target is a construct. This spell has no effect on undead.
+  description: A creature you touch regains a number of hit points equal to 1d6 + your spellcasting ability score, or twice that amount if the target is a Construct. This spell has no effect on Undead.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d6 for each slot level above 1st.
   level: 1
@@ -8488,7 +8487,7 @@ resurrection:
   components: V, S, M
   concentration: false
   description: |-
-    You touch a dead creature that has been dead for no more than a century, that didn't die of old age, and that isn't undead. If its soul is free and willing, the target returns to life with all its hit points.
+    You touch a dead creature that has been dead for no more than a century, that didn't die of old age, and that isn't Undead. If its soul is free and willing, the target returns to life with all its hit points.
 
     This spell neutralizes any poisons and cures normal diseases afflicting the creature when it died. It doesn't, however, remove magical diseases, curses, and the like; if such effects aren't removed prior to casting the spell, they afflict the target on its return to life.
 
@@ -8556,7 +8555,7 @@ rigor_mortis:
   casting_time: 1 standard action
   components: V, S
   concentration: true
-  description: Choose a humanoid or undead you can see within range. The target takes 1d8 necrotic damage and must make on a Constitution saving throw. On a failed save, the target is paralyzed and takes ongoing 1d8 necrotic damage for the duration (save ends), as its limbs seize up and start to rot. An undead creature has disadvantage on the initial saving throw, and a creature with 0 hit points automatically fails.
+  description: Choose a Humanoid or Undead that you can see within range. The target takes 1d8 necrotic damage and must make a Constitution saving throw. On a failed save, the target is paralyzed and takes ongoing 1d8 necrotic damage for the duration (save ends), as its limbs seize up and start to rot. An Undead creature has disadvantage on the initial saving throw, and a creature with 0 hit points automatically fails.
   duration: Up to 1 minute
   level: 3
   name: Rigor Mortis
@@ -8614,7 +8613,7 @@ rot_ward:
   casting_time: 1 reaction, which you take when you would take necrotic damage
   components: S
   concentration: false
-  description: You temporarily kill your own flesh to prevent worse harm. You take 2d12 necrotic damage and then gain immunity to necrotic damage until the start of your next turn. You count as undead in addition to your normal creature type while you have this immunity.
+  description: You temporarily kill your own flesh to prevent worse harm. You take 2d12 necrotic damage and then gain immunity to necrotic damage until the start of your next turn. You count as Undead in addition to your normal creature type while you have this immunity.
   duration: 1 round
   level: 4
   name: Rot Ward
@@ -8696,7 +8695,7 @@ sand_blast:
   casting_time: 1 standard action
   components: S, M
   concentration: false
-  description: You conjure a blast of coarse sand in a 15-foot cone. Each creature in the area must make a Dexterity saving throw. A target takes 2d4 slashing damage on a failed save, or half as much on a successful one. A target that fails its save is also blinded until it uses a minor action to clear the sand from its eyes.
+  description: You conjure a blast of coarse sand in a 15-foot cone. Each creature in the area must make a Dexterity saving throw. A target takes 2d4 slashing damage on a failed save, or half as much on a successful one. A target that fails its save is also blinded by the sand in its eyes (minor action ends).
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.
   level: 1
@@ -8921,7 +8920,7 @@ seismic_sense:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You gain a supernatural ability to sense vibrations in the ground. For the duration, you have tremorsense out to a range of 30 feet.
+  description: You gain a supernatural ability to sense vibrations in the ground. You have tremorsense (30 ft.) for the duration.
   duration: 1 hour
   level: 1
   name: Seismic Sense
@@ -8969,7 +8968,7 @@ sever_the_soul:
 
     If you maintain concentration on this spell for the full duration and you are within 5 feet of the target when it ends, you can slash out with the dagger used as the spell's material component and sever the target's soul. This kills the target.
 
-    Constructs and undead are immune to this spell.
+    Constructs and Undead are immune to this spell.
   duration: Up to 1 minute
   level: 7
   material: a silver ritual dagger worth at least 500 gp
@@ -9034,11 +9033,11 @@ shapechange:
   components: V, S, M
   concentration: true
   description: |-
-    You are transformed into different creature for the duration. The new form can be of any creature with a challenge rating equal to your level or lower. The creature can't be a construct or an undead, and you must have seen the sort of creature at least once. You transform into an average example of that creature, one without any class levels or the Spellcasting trait.
+    You are transformed into different creature for the duration. The new form can be of any creature with a challenge rating equal to your level or lower. The creature can't be a Construct or an Undead, and you must have seen the sort of creature at least once. You transform into an average example of that creature, one without any class levels or the Spellcasting trait.
 
     When you transform in this way, you retain your alignment and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus listed in its statistics is higher than yours, use the creature's bonus in place of yours.
 
-    You retain the benefit of any features from your class, race, or other source and can use them, provided that your new form is physically capable of doing so. You can't use any special senses you have (for example, darkvision) unless your new form also has that sense. You can only speak if the creature can normally speak.
+    You retain the benefit of any features from your class, race, or other source and can use them, provided that your new form is physically capable of doing so. You use the new form's senses instead of your own. You can only speak if the creature can normally speak.
 
     When you transform, you choose whether your equipment falls to the ground, merges into the new form, or is worn by it. Worn equipment functions as normal. The DM determines whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change shape or size to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge into your new form. Equipment that merges has no effect in that state.
 
@@ -9050,6 +9049,7 @@ shapechange:
   range: Self
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - druid
@@ -9225,7 +9225,7 @@ simulacrum:
   components: V, S, M
   concentration: false
   description: |-
-    You shape an illusory duplicate of one beast or humanoid that is within range for the entire casting time of the spell. The duplicate is a creature, partially real and formed from the material components of the spell, and it can take actions and otherwise be affected as a normal creature. It appears to be the same as the original, but it has half the creature's hit point maximum and is formed without any equipment. Otherwise, the illusion uses all the statistics of the creature it duplicates, except that it is a construct.
+    You shape an illusory duplicate of one Beast or Humanoid that is within range for the entire casting time of the spell. The duplicate is a creature, partially real and formed from the material components of the spell, and it can take actions and otherwise be affected as a normal creature. It appears to be the same as the original, but it has half the creature's hit point maximum and is formed without any equipment. Otherwise, the illusion uses all the statistics of the creature it duplicates, except that it is a Construct.
 
     The simulacrum is friendly to you and creatures you designate. It obeys your spoken commands, moving and acting in accordance with your wishes and acting on your turn in combat. The simulacrum lacks the ability to learn or become more powerful, so it never increases its level or other abilities, nor can it regain expended spell slots.
 
@@ -9359,11 +9359,11 @@ snow_flurry:
     - water
     - wizard
 soul_cage:
-  casting_time: 1 reaction, which you take when a humanoid you can see within 60 feet of you dies
+  casting_time: 1 reaction, which you take when a Humanoid you can see within 60 feet of you dies
   components: V, S, M
   concentration: false
   description: |-
-    This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can't be revived.
+    This spell snatches the soul of a Humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can't be revived.
 
     **Steal Life.** You can use a minor action to drain vigor from the soul and regain 2d8 hit points.
 
@@ -9371,7 +9371,7 @@ soul_cage:
 
     **Borrow Experience.** You can use a minor action to bolster yourself with the soul's life experience, making your next attack roll, ability check, or saving throw with advantage. If you don't use this benefit before the start of your next turn, it is lost.
 
-    **Eyes of the Dead.** You can use a standard action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.
+    **Eyes of the Dead.** You can use a standard action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you're currently on. The sensor remains for as long as you maintain concentration, up to 10 minutes. You can see and hear as if you were in the sensor's space in addition to your own space.
 
     A creature that can see the sensor (such as one using _see invisibility_ or truesight) sees a translucent image of the tormented humanoid whose soul you caged.
   duration: 8 hours
@@ -9381,6 +9381,7 @@ soul_cage:
   range: 60 feet
   sources:
     - XGE
+    - 2D
   tags:
     - arcane
     - necromancy
@@ -9390,7 +9391,7 @@ spare_the_dying:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.
+  description: You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   level: 0
   name: Spare the Dying
@@ -9406,7 +9407,7 @@ speak_with_animals:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their Intelligence, but at a minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM's discretion.
+  description: You gain the ability to comprehend and verbally communicate with Beasts for the duration. The knowledge and awareness of many beasts is limited by their Intelligence, but at a minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM's discretion.
   duration: 10 minutes
   level: 1
   name: Speak with Animals
@@ -9425,7 +9426,7 @@ speak_with_dead:
   components: V, S, M
   concentration: false
   description: |-
-    You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 days.
+    You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be Undead. The spell fails if the corpse was the target of this spell within the last 10 days.
 
     Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.
   duration: 10 minutes
@@ -9453,7 +9454,7 @@ speak_with_plants:
 
     Plants might be able to perform other tasks on your behalf, at the DM's discretion. The spell doesn't enable plants to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.
 
-    If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.
+    If a Plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.
 
     This spell can cause the plants created by the _entangle_ spell to release a restrained creature.
   duration: 10 minutes
@@ -9795,7 +9796,7 @@ summon_aberration:
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block.
   level: 4
-  material: halves of two different humanoid brains, preserved with special fluids worth at least 400 gp
+  material: halves of two different Humanoid brains, preserved with special fluids worth at least 400 gp
   name: Summon Aberration
   range: 90 feet
   sources:
@@ -9960,7 +9961,7 @@ summon_fiend:
 
     The creature disappears when it drops to 0 hit points or when the spell ends.
 
-    When you cast this spell, you can sacrifice a humanoid within 5 feet of you as part of the same action used to cast the spell. The sacrifice must have 0 hit points and be incapacitated. You slit the sacrifice's throat using the material component of the spell, which is consumed in the process. If you then concentrate on the spell for the full duration, the creature loses the Companion trait and does not disappear.
+    When you cast this spell, you can sacrifice a Humanoid within 5 feet of you as part of the same action used to cast the spell. The sacrifice must have 0 hit points and be incapacitated. You slit the sacrifice's throat using the material component of the spell, which is consumed in the process. If you then concentrate on the spell for the full duration, the creature loses the Companion trait and does not disappear.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 7th level or higher, use the higher level wherever the spell's level appears in the stat block.
   level: 6
@@ -10005,7 +10006,7 @@ summon_greater_undead:
 
     The creature disappears when it drops to 0 hit points or when the spell ends.
 
-    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a ghoul, wight, or wraith if cast on a corpse, or a wight or wraith if cast on a skeleton. The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
+    You can cast this spell on the remains of a Small or Medium Humanoid instead of summoning an undead out of thin air. This use of the spell creates a ghoul, wight, or wraith if cast on a corpse, or a wight or wraith if cast on a skeleton. The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 7th level or higher, use the higher level wherever the spell's level appears in the stat block.
   level: 6
@@ -10069,7 +10070,7 @@ summon_undead:
 
     The creature disappears when it drops to 0 hit points or when the spell ends.
 
-    You can cast this spell on the remains of a Small or Medium humanoid instead of summoning an undead out of thin air. This use of the spell creates a zombie or specter if cast on a corpse, or a skeleton or specter if cast on a skeleton. The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
+    You can cast this spell on the remains of a Small or Medium Humanoid instead of summoning an undead out of thin air. This use of the spell creates a zombie or specter if cast on a corpse, or a skeleton or specter if cast on a skeleton. The resulting creature has the same game statistics as above, except it is Small if the remains were Small. When you cast the spell in this way and concentrate on it for the full duration, the material component shatters, and the undead loses the Companion trait and does not disappear.
   duration: Up to 1 hour
   higher_level: When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.
   level: 3
@@ -10089,11 +10090,11 @@ sunbeam:
   components: V, S, M
   concentration: true
   description: |-
-    A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes 6d8 radiant damage and is blinded until your next turn. On a successful save, it takes half as much damage and isn't blinded by this spell. Undead and oozes have disadvantage on this saving throw.
+    A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes 6d8 radiant damage and is blinded until your next turn. On a successful save, it takes half as much damage and isn't blinded by this spell. Undead and Oozes have disadvantage on this saving throw.
 
     You can create a new line of radiance as a standard action on any turn until the spell ends.
 
-    For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight.
+    For the duration, a mote of brilliant radiance shines in your hand, shedding light (30/60 ft.). This light is sunlight.
   duration: Up to 1 minute
   level: 6
   material: a magnifying glass
@@ -10114,7 +10115,7 @@ sunburst:
   components: V, S, M
   concentration: false
   description: |-
-    Brilliant sunlight flashes in a 60-foot radius centered on a point you choose within range. Each creature in that light must make a Constitution saving throw. On a failed save, a creature takes 12d6 radiant damage and is blinded for 1 minute (save ends). On a successful save, it takes half as much damage and isn't blinded by this spell. Undead and oozes have disadvantage on this saving throw.
+    Brilliant sunlight flashes in a 60-foot radius centered on a point you choose within range. Each creature in that light must make a Constitution saving throw. On a failed save, a creature takes 12d6 radiant damage and is blinded for 1 minute (save ends). On a successful save, it takes half as much damage and isn't blinded by this spell. Undead and Oozes have disadvantage on this saving throw.
 
     This spell dispels any darkness in its area that was created by a spell.
   duration: Instantaneous
@@ -10409,7 +10410,7 @@ temple_of_the_gods:
 
     The temple's interior is an open space with an idol or altar at one end. You decide whether the temple is illuminated and whether that illumination is bright light or dim light. The smell of burning incense fills the air within, and the temperature is mild.
 
-    The temple opposes types of creatures you choose when you cast this spell. Choose one or more of the following: celestials, elementals, fey, fiends, or undead. If a creature of the chosen type attempts to enter the temple, that creature must make a Charisma saving throw. On a failed save, it can't enter the temple for 24 hours. Even if the creature can enter the temple, the magic there hinders it; whenever it makes an attack roll, an ability check, or a saving throw inside the temple, it must roll a d4 and subtract the number rolled from the d20 roll.
+    The temple opposes types of creatures you choose when you cast this spell. Choose one or more of the following: Celestials, Elementals, Fey, Fiends, or Undead. If a creature of the chosen type attempts to enter the temple, that creature must make a Charisma saving throw. On a failed save, it can't enter the temple for 24 hours. Even if the creature can enter the temple, the magic there hinders it; whenever it makes an attack roll, an ability check, or a saving throw inside the temple, it must roll a d4 and subtract the number rolled from the d20 roll.
 
     In addition, the sensors created by divination spells can't appear inside the temple, and creatures within can't be targeted by divination spells.
 
@@ -10792,7 +10793,7 @@ true_resurrection:
   description: |-
     You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. If the creature's soul is free and willing, the creature is restored to life with all its hit points.
 
-    This spell closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was undead, it is restored to its non-undead form.
+    This spell closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was Undead, it is restored to its non-Undead form.
 
     The spell can even provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you.
   duration: Instantaneous
@@ -10811,7 +10812,7 @@ true_seeing:
   casting_time: 1 standard action
   components: V, S, M
   concentration: false
-  description: This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight out to a range of 120 feet.
+  description: This spell gives the willing creature you touch the ability to see things as they actually are. The target has truesight (120 ft.) for the duration.
   duration: Until the target finishes a short rest
   level: 6
   material: an ointment for the eyes that costs 25 gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell
@@ -10898,9 +10899,9 @@ undead_transformation:
   description: |-
     One willing creature you touch is cursed with undeath. While cursed in this way, the target experiences the following effects:
 
-    - The target is undead in addition to its normal creature type.
+    - The target gains the Undead creature type.
     - The target has resistance to necrotic damage and immunity to poison damage and the poisoned condition.
-    - The target has darkvision out to a range of 60 feet. If the target already had darkvision, its range is increased by 30 feet instead.
+    - The target has darkvision (60 ft.). If the target already had darkvision, its range is increased by 30 feet instead.
     - At the end of every hour, the target's hit point maximum decreases by 1. This reduction can't be prevented in any way, and is removed only when the curse is lifted.
 
     A _remove curse_ spell cast on the target ends this effect.
@@ -11062,7 +11063,7 @@ wall_of_dirt:
   description: |-
     A nonmagical wall of compact dirt rises from the ground at a point you choose within range. The wall is 3 inches thick and up to 20 feet long.
 
-    If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall
+    If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use a reaction to move up to its speed so that it is no longer enclosed by the wall
 
     The wall is an object that can be damaged and thus breached. Each 5-foot long section has AC 8, 10 hit points, and immunity to poison and psychic damage. Reducing a panel to 0 hit points destroys it, leaving behind a 5-foot square of difficult terrain that takes at least 1 minute to clear by hand.
 
@@ -11116,7 +11117,7 @@ wall_of_flesh:
 
     At the start of each of your turns, the wall regenerates 20 hit points. As a minor action, you can cause the wall to move up to 5 feet in a direction of your choice, automatically pushing Large or smaller creatures along with it. A Huge or larger creature in the wall's way can make a Strength saving throw against your spell save DC, preventing the wall's movement on a success; otherwise, it is also pushed.
 
-    The wall has eyes and darkvision out to a range of 30 feet. When a creature the wall can see starts its turn within 5 feet of the wall, the wall attacks it with fleshy tendrils. Make a melee spell attack against the target. On a hit, the target takes 2d8 bludgeoning damage, and if the target is Large or smaller, it is grappled by the wall (escape DC equals your spell save DC).
+    The wall has eyes that grant it darkvision (30 ft.). When a creature the wall can see starts its turn within 5 feet of the wall, the wall attacks it with fleshy tendrils. Make a melee spell attack against the target. On a hit, the target takes 2d8 bludgeoning damage, and if the target is Large or smaller, it is grappled by the wall (escape DC equals your spell save DC).
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 5th level or higher, the wall can start up to 20 feet longer and regenerates an additional 10 hit points per turn for each slot level above 4th.
   level: 4
@@ -11179,7 +11180,7 @@ wall_of_light:
   components: V, S, M
   concentration: true
   description: |-
-    A shimmering wall of bright light appears at a point you choose within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. The wall can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall blocks line of sight, but creatures and objects can pass through it. It emits bright light out to 120 feet and dim light for an additional 120 feet.
+    A shimmering wall of bright light appears at a point you choose within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. The wall can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall emits light (120/240 ft.), blocking line of sight, but creatures and objects can pass through it.
 
     When the wall appears, each creature in its area must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute (save ends). On a successful save, it takes half as much damage and isn't blinded.
 
@@ -11225,7 +11226,7 @@ wall_of_stone:
   description: |-
     A nonmagical wall of solid stone springs into existence at a point you choose within range. The wall is 6 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with at least one other panel. Alternatively, you can create 10-foot-by-20-foot panels that are only 3 inches thick.
 
-    If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall.
+    If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use a reaction to move up to its speed so that it is no longer enclosed by the wall.
 
     The wall can have any shape you desire, though it can't occupy the same space as a creature or object. The wall doesn't need to be vertical or rest on any firm foundation. It must, however, merge with and be solidly supported by existing stone. Thus, you can use this spell to bridge a chasm or create a ramp.
 
@@ -11637,7 +11638,7 @@ wrathful_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
   concentration: true
-  description: The triggering attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As a standard action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell.
+  description: The triggering attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends (Wisdom check ends).
   duration: Up to 1 minute
   level: 1
   name: Wrathful Smite
