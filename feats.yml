@@ -59,7 +59,7 @@ keen_mind:
   description: |-
     You can think quickly. You gain the following benefits:
     - You can take the Study action as a minor action.
-    - As long as nothing is preventing you from using reactions, you can use the Recognize Spell reaction without expending a reaction.
+    - The Recognize Spell reaction is a free reaction for you, and it doesn't count against your limit of 1 reaction per turn.
   name: Keen Mind
   prerequisite: Proficiency in Arcana, History, Investigation, Nature, or Religion
 lightly_armored:
