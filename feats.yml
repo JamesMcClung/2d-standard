@@ -13,6 +13,14 @@ athlete:
     - You gain a climb speed and a swim speed equal to your walk speed.
     - When you jump, your running start distance is halved.
   name: Athlete
+brawler:
+  cost: 2
+  description: |-
+    Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:
+    - You are proficient with improvised weapons.
+    - The damage die of your unarmed strike is a d4.
+    - When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a minor action to make a grapple attack against the target.
+  name: Brawler
 combat_medic:
   cost: 2
   description: Accustomed to working in the heat of battle, you are particularly adept at healing. The Heal action is a minor action for you, and so is administering a potion or similar item to another creature.
@@ -25,6 +33,13 @@ crossbow_expert:
     - Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.
     - When you take the Attack action and attack with a one-handed weapon, you can use a minor action to attack with a hand crossbow you are holding.
   name: Crossbow Expert
+crusher:
+  cost: 3
+  description: |-
+    You are practiced in the art of crushing your enemies, granting you the following benefits:
+    - Once per turn, when you hit a target with a weapon that deals bludgeoning damage, you can move the target 5 feet to an unoccupied space, provided it is no more than one size larger than you.
+    - When you score a critical hit with a weapon that deals bludgeoning damage to a target that's no more than one size larger than you, you can knock the target prone.
+  name: Crusher
 dual_wielder:
   cost: 4
   description: |-
@@ -72,6 +87,14 @@ gladiator:
   cost: 4
   description: If you're proficient with a shield you're wielding when a creature misses you with a melee weapon attack, you can make a melee weapon attack against that creature as a reaction.
   name: Gladiator
+grappler:
+  cost: 3
+  description: |-
+    An expert at grappling, you gain the following benefits:
+    - You have advantage on attack rolls against a creature that is grappled by you.
+    - When you use grappling to move a creature and it tries to escape as a reaction, it has disadvantage on the saving throw.
+  name: Grappler
+  prerequisite: Proficiency in Athletics
 heavily_armored:
   cost: 2
   description: You gain proficiency with heavy armor and heavy shields.
@@ -99,6 +122,13 @@ lightly_armored:
   cost: 1
   description: You gain proficiency with light armor and light shields.
   name: Lightly Armored
+linguist:
+  cost: 1
+  description: |-
+    Through study or experience, you gain the following benefits:
+    - You learn three languages of your choice.
+    - You have a +5 bonus to Intelligence checks made to understand a language or dialect that you don't already know.
+  name: Linguist
 mage_slayer:
   cost: 3
   description: |-
@@ -155,6 +185,30 @@ moderately_armored:
   description: You gain proficiency with medium armor and medium shields.
   name: Moderately Armored
   prerequisite: Proficiency with light armor
+piercer:
+  cost: 3
+  description: |-
+    You have achieved a penetrating precision in combat, granting you the following benefits:
+    - Once per turn, when you hit a target with a weapon that deals piercing damage, you can reroll one of the weapon's damage dice. You must use the new roll.
+    - When you score a critical hit with a weapon that deals piercing damage, you can roll one additional weapon damage die when determining the extra piercing damage the target takes.
+  name: Piercer
+poisoner:
+  cost: 4
+  description: |-
+    You can prepare and deliver deadly poisons, granting you the following benefits:
+    - You know how to bypass a creature's defenses against poison. When you make a damage roll that deals poison damage, it ignores resistance to poison damage.
+    - When you take the Use action to apply poison to a weapon or piece of ammunition, it costs you 1 action point instead of 2, and you don't need a free hand to do so.
+    - You can make poison from virtually anything. With one hour of work using a poisoner's kit and an Intelligence (poisoner's kit) check, you can make a number of doses of makeshift poison equal to the the check's result divided by 5 (you still have to provide a container for the poison, such as a vial). Makeshift poison functions as basic poison, except it loses its potency after 8 hours and you add your poisoner's kit proficiency to the save DC.
+  name: Poisoner
+  prerequisite: Proficiency with the poisoner's kit
+polearm_master:
+  cost: 4
+  description: |-
+    You can keep your enemies at bay with reach weapons. You gain the following benefits:
+    - Creatures that are friendly to you don't count as cover for the purpose of melee attacks you make with glaives, halberds, and pikes.
+    - While you are wielding a spear, glaive, halberd, or pike, other creatures provoke an opportunity attack from you when they enter your reach.
+  name: Polearm Master
+  prerequisite: Proficiency with glaives, halberds, or pikes
 powerful_build:
   cost: 2
   description: You are unusually bulky. You count as one size larger than your actual size for the purpose of grappling and being grappled, wielding heavy weapons, determining your carrying capacity, and determining the weight you can push, drag, or lift.
@@ -196,6 +250,13 @@ skilled:
   cost: 2
   description: You gain proficiency in any combination of three skills or tools of your choice.
   name: Skilled
+slasher:
+  cost: 3
+  description: |-
+    You've learned where to cut to have the greatest results, granting you the following benefits:
+    - Once per turn when you hit a target with a melee weapon that deals slashing damage, you can choose one of the weapon's damage dice that rolled a 6 or lower, and a second target within the weapon's reach and within 5 feet of the first target. You graze the second target with the blow that hit the first, dealing slashing damage equal to the number on the chosen die.
+    - When you score a critical hit with a melee weapon that deals slashing damage, you can use the momentum of the strike to immediately make another attack with that weapon as part of the same action. You can't attack a target that you've already attacked as part of that action.
+  name: Slasher
 spell_sniper:
   cost: 4
   description: |-
