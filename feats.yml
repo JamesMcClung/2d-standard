@@ -10,7 +10,7 @@ athlete:
   description: |-
     You have undergone extensive physical training to gain the following benefits:
     - When you are prone, standing up uses only 5 feet of your movement.
-    - You gain a climb speed equal to your walk speed.
+    - You gain a climb speed and a swim speed equal to your walk speed.
     - When you jump, your running start distance is halved.
   name: Athlete
 combat_medic:
