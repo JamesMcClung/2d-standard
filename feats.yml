@@ -34,10 +34,7 @@ expert:
   name: Expert
 frightening:
   cost: 2
-  description: |-
-    You are especially menacing. When you take the Frighten action, you gain the following benefits:
-    - You can target any number of creatures within range and within 20 feet of each other.
-    - Instead of rolling for the Frighten DC, you can use your passive Intimidation. If you do so, the duration of the effect is save ends.
+  description: You are especially menacing. When you take the Frighten action, you can target any number of creatures within range and within 20 feet of each other. When you do so, the saving throw DC to resist being frightened is your passive Intimidation.
   name: Frightening
   prerequisite: Proficiency in Intimidation
 gladiator:
@@ -54,10 +51,7 @@ heavily_armored:
   prerequisite: Proficiency with medium armor
 infuriating:
   cost: 2
-  description: |-
-    You are especially irritating. When you take the Taunt action, you gain the following benefits:
-    - You can target any number of creatures within range and within 20 feet of each other.
-    - Instead of rolling for the Taunt DC, you can use your passive Deception, Performance, or Persuasion. If you do so, the duration of the effect is save ends
+  description: You are especially irritating. When you take the Taunt action, you can target any number of creatures within range and within 20 feet of each other. When you do so, the saving throw DC to resist being taunted is your passive Deception, Performance, or Persuasion (your choice).
   name: Infuriating
   prerequisite: Proficiency in Deception, Performance, or Persuasion
 keen_mind:
