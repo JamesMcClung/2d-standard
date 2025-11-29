@@ -111,6 +111,11 @@ powerful_build:
     You are unusually bulky. You count as one size larger than your actual size for the purpose of grappling and being grappled, wielding heavy weapons, determining your carrying capacity, and determining the weight you can push, drag, or lift.
   name: Powerful Build
   prerequisite: Strength 2 or higher
+resilient:
+  cost: 3
+  description: |-
+    Choose one ability score. You gain proficiency in saving throws using the chosen ability.
+  name: Resilient
 ritual_caster:
   cost: 3
   description: |-
@@ -121,11 +126,11 @@ ritual_caster:
     If you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the spell list for the class you chose, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it.
   name: Ritual Caster
   prerequisite: Intelligence or Wisdom 1 or higher
-resilient:
-  cost: 3
+skilled:
+  cost: 2
   description: |-
-    Choose one ability score. You gain proficiency in saving throws using the chosen ability.
-  name: Resilient
+    You gain proficiency in any combination of three skills or tools of your choice.
+  name: Skilled
 spell_sniper:
   cost: 4
   description: |-
@@ -135,11 +140,6 @@ spell_sniper:
     - You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.
   name: Spell Sniper
   prerequisite: The ability to cast at least one spell
-skilled:
-  cost: 2
-  description: |-
-    You gain proficiency in any combination of three skills or tools of your choice.
-  name: Skilled
 weapons_generalist:
   cost: 1
   description: |-
