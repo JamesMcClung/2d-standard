@@ -37,9 +37,8 @@ frightening:
   prerequisite: Proficiency in Intimidation
 gladiator:
   cost: 4
-  description: If you're wielding a shield when a creature misses you with a melee weapon attack, you can make a melee weapon attack against that creature as a reaction.
+  description: If you're proficient with a shield you're wielding when a creature misses you with a melee weapon attack, you can make a melee weapon attack against that creature as a reaction.
   name: Gladiator
-  prerequisite: Proficiency with shields
 heavily_armored:
   cost: 2
   description: You gain proficiency with heavy armor and heavy shields.
