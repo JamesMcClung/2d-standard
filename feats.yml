@@ -15,8 +15,7 @@ athlete:
   name: Athlete
 combat_medic:
   cost: 2
-  description: |-
-    Accustomed to working in the heat of battle, you are particularly adept at healing. The Heal action is a minor action for you, and so is administering a potion to another creature.
+  description: Accustomed to working in the heat of battle, you are particularly adept at healing. The Heal action is a minor action for you, and so is administering a potion to another creature.
   name: Combat Medic
   prerequisite: Proficiency in Medicine
 dual_wielder:
@@ -29,8 +28,7 @@ dual_wielder:
   prerequisite: Proficiency with a light weapon
 expert:
   cost: 3
-  description: |-
-    Choose one skill or tool that you are proficient in. You gain expertise in that skill or tool.
+  description: Choose one skill or tool that you are proficient in. You gain expertise in that skill or tool.
   name: Expert
 frightening:
   cost: 2
@@ -39,8 +37,7 @@ frightening:
   prerequisite: Proficiency in Intimidation
 gladiator:
   cost: 4
-  description: |-
-    If you're wielding a shield when a creature misses you with a melee weapon attack, you can make a melee weapon attack against that creature as a reaction.
+  description: If you're wielding a shield when a creature misses you with a melee weapon attack, you can make a melee weapon attack against that creature as a reaction.
   name: Gladiator
   prerequisite: Proficiency with shields
 heavily_armored:
@@ -107,8 +104,7 @@ moderately_armored:
   prerequisite: Proficiency with light armor
 powerful_build:
   cost: 2
-  description: |-
-    You are unusually bulky. You count as one size larger than your actual size for the purpose of grappling and being grappled, wielding heavy weapons, determining your carrying capacity, and determining the weight you can push, drag, or lift.
+  description: You are unusually bulky. You count as one size larger than your actual size for the purpose of grappling and being grappled, wielding heavy weapons, determining your carrying capacity, and determining the weight you can push, drag, or lift.
   name: Powerful Build
   prerequisite: Strength 2 or higher
 resilient:
@@ -128,8 +124,7 @@ ritual_caster:
   prerequisite: Intelligence or Wisdom 1 or higher
 skilled:
   cost: 2
-  description: |-
-    You gain proficiency in any combination of three skills or tools of your choice.
+  description: You gain proficiency in any combination of three skills or tools of your choice.
   name: Skilled
 spell_sniper:
   cost: 4
@@ -142,6 +137,5 @@ spell_sniper:
   prerequisite: The ability to cast at least one spell
 weapons_generalist:
   cost: 1
-  description: |-
-    You have practiced with a variety of weapons. You gain proficiency with all simple and martial weapons.
+  description: You have practiced with a variety of weapons. You gain proficiency with all simple and martial weapons.
   name: Weapons Generalist
