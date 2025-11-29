@@ -79,12 +79,12 @@ magic_initiate:
   cost: 4
   description: |-
     You have trained to channel a specific domain of magic. Pick one of the following domains:
-    
-    **Arcane.** You learn the prestidigitation cantrip, plus two other cantrips and a 1st-level spell of your choice with the Arcane tag.
 
-    **Divine.** You learn the thaumaturgy cantrip, plus two other cantrips and a 1st-level spell of your choice with the Divine tag.
+    ***Arcane.*** You learn the [prestidigitation]($spells) cantrip, plus two other cantrips and a 1st-level spell of your choice with the Arcane tag.
 
-    **Primal.** You learn the druidcraft cantrip, plus two other cantrips and a 1st-level spell of your choice with the Primal tag.
+    ***Divine.*** You learn the [thaumaturgy]($spells) cantrip, plus two other cantrips and a 1st-level spell of your choice with the Divine tag.
+
+    ***Primal.*** You learn the [druidcraft]($spells) cantrip, plus two other cantrips and a 1st-level spell of your choice with the Primal tag.
 
     When you take this feat, choose Intelligence, Wisdom, or Charisma as your spellcasting ability for these spells. You can cast the 1st-level spell without expending a spell slot a number of times equal to your proficiency bonus, regaining expended uses when you finish a long rest. You can also cast the 1st-level spell using any spell slots you have, as normal.
   name: Magic Initiate
