@@ -45,8 +45,7 @@ gladiator:
   prerequisite: Proficiency with shields
 heavily_armored:
   cost: 2
-  description: |-
-    You gain proficiency with heavy armor.
+  description: You gain proficiency with heavy armor and heavy shields.
   name: Heavily Armored
   prerequisite: Proficiency with medium armor
 infuriating:
@@ -64,8 +63,7 @@ keen_mind:
   prerequisite: Proficiency in Arcana, History, Investigation, Nature, or Religion
 lightly_armored:
   cost: 1
-  description: |-
-    You gain proficiency with light armor.
+  description: You gain proficiency with light armor and light shields.
   name: Lightly Armored
 mage_slayer:
   cost: 3
@@ -104,8 +102,7 @@ mobile:
   name: Mobile
 moderately_armored:
   cost: 2
-  description: |-
-    You gain proficiency with medium armor and shields.
+  description: You gain proficiency with medium armor and medium shields.
   name: Moderately Armored
   prerequisite: Proficiency with light armor
 powerful_build:
