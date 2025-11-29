@@ -13,6 +13,14 @@ athlete:
     - You gain a climb speed and a swim speed equal to your walk speed.
     - When you jump, your running start distance is halved.
   name: Athlete
+bow_master:
+  cost: 3
+  description: |-
+    As comfortable with a bow at close range as at long range, you gain the following benefits:
+    - You are proficient with arrows as melee weapons. For you, an arrow's damage die and type is 1d4 piercing, and it has the finesse property. Additionally, when you hit a creature with this attack, your movement doesn't provoke opportunity attacks from that creature for the rest of the turn.
+    - As a major action, you can make a single, precise ranged attack with a shortbow, longbow, or greatbow. The weapon's normal and long ranges are doubled for the attack, and it ignores half cover and three-quarters cover. You have advantage on the attack roll if the target is within the weapon's usual normal range.
+  name: Bow Master
+  prerequisite: Proficiency with shortbows, longbows, or greatbows
 brawler:
   cost: 2
   description: |-
@@ -40,6 +48,10 @@ crusher:
     - Once per turn, when you hit a target with a weapon that deals bludgeoning damage, you can move the target 5 feet to an unoccupied space, provided it is no more than one size larger than you.
     - When you score a critical hit with a weapon that deals bludgeoning damage to a target that's no more than one size larger than you, you can knock the target prone.
   name: Crusher
+divine_mark:
+  cost: 1
+  description: Your skin is permanently marked with a religious symbol. The appearance, location, and manner of acquisition of the symbol is up to you. It may be a birthmark you've always had, a tattoo you paid for, or a supernatural mark that appeared at some pivotal moment. Whatever its source, the mark counts as a holy symbol. Like similar holy symbols, it must be visible to be used as a spellcasting focus.
+  name: Divine Mark
 dual_wielder:
   cost: 4
   description: |-
@@ -237,6 +249,14 @@ sentinel:
     - When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.
     - When a creature within 5 feet of you makes an attack against a target other than you (and that target doesn't have this feat), you can use a reaction to make a melee weapon attack against the attacking creature.
   name: Sentinel
+sharp_senses:
+  cost: 2
+  description: |-
+    As long as you can see and hear, you gain the following benefits:
+    - You don't suffer from passive Perception falloff.
+    - You have blindsight (5 ft.). If you already have blindsight from another source, the range of that blindsight is increased by 5 feet.
+  name: Sharp Senses
+  prerequisite: Proficiency in Perception
 shield_master:
   cost: 3
   description: |-
@@ -275,6 +295,14 @@ squat_nimbleness:
     - You have advantage on Acrobatics checks made to escape being grappled.
   name: Squat Nimbleness
   prerequisite: Dwarf or a Small race
+stick_fighter:
+  cost: 3
+  description: |-
+    You have practiced using both ends of a weapon to great effect. You gain the following benefits:
+    - After you take the Attack action to make a two-handed attack with a quarterstaff or spear, you can use a minor action to make another melee attack with the opposite end of the weapon. The weapon's damage die and type for this attack is 1d4 bludgeoning, and you must hold the weapon in two hands (you don't benefit from the weapon's versatile property for this attack).
+    - You gain a +1 bonus to AC while wielding a quarterstaff or spear with two hands.
+  name: Stick Fighter
+  prerequisite: Proficiency with quarterstaffs
 telekinetic:
   cost: 4
   description: |-
@@ -289,6 +317,24 @@ telepathic:
     - You can speak telepathically to any creature you can see within 60 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically.
     - You can cast the [detect thoughts]($spells) spell, requiring no spell slot or components, and you must finish a long rest before you can cast it this way again. Your spellcasting ability for the spell is Intelligence, Wisdom, or Charisma (choose when you select this feat). If you have spell slots of 2nd level or higher, you can cast this spell with them.
   name: Telepathic
+torch_fighter:
+  cost: 1
+  description: |-
+    Darkness is all too common. Fortunately, you never go anywhere without a trusty torch. You gain the following benefits:
+    - Through magic, special gear, or some other means, you can light torches unbelievably quickly. You can take the Use action (1 AP) to light a torch you're holding. You don't need any tools or even a free hand to do so.
+    - You are proficient with torches as melee weapons. For you, a torch's damage die and type is 1d4 fire, and it has the finesse, light, and thrown (20/60 ft.) properties. 
+    - When you score a critical hit with a torch, the target is ignited (1d4; standard action ends) for 1 minute.
+  name: Torch Fighter
+variant_spells:
+  cost: 1
+  description: |-
+    When you gain this feat, choose one of the following damage types: acid, bludgeoning, cold, fire, lightning, piercing, poison, slashing, or thunder. Also choose a number of spells up to your proficiency bonus that deal damage of one of the listed types. When you cast one of the chosen spells, it deals damage of the chosen type instead of the listed type.
+
+    Additionally, for each chosen spell, you can change the saving throw associated with the damage. Both the original and new saving throw must be Strength, Dexterity, or Constitution.
+
+    Whenever you gain a level, you can replace one of the chosen spells with another, or choose an additional spell if the number of chosen spells is less than your proficiency bonus.
+  name: Variant Spells
+  prerequisite: The ability to cast at least one spell
 war_caster:
   cost: 5
   description: |-
