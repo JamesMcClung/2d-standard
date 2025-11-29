@@ -15,7 +15,7 @@ athlete:
   name: Athlete
 combat_medic:
   cost: 2
-  description: Accustomed to working in the heat of battle, you are particularly adept at healing. The Heal action is a minor action for you, and so is administering a potion to another creature.
+  description: Accustomed to working in the heat of battle, you are particularly adept at healing. The Heal action is a minor action for you, and so is administering a potion or similar item to another creature.
   name: Combat Medic
   prerequisite: Proficiency in Medicine
 dual_wielder:
