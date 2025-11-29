@@ -104,7 +104,7 @@ grappler:
   description: |-
     An expert at grappling, you gain the following benefits:
     - You have advantage on attack rolls against a creature that is grappled by you.
-    - When you use grappling to move a creature and it tries to escape as a reaction, it has disadvantage on the saving throw.
+    - When you use grappling to move a creature and it tries to resist, it has disadvantage on the saving throw.
   name: Grappler
   prerequisite: Proficiency in Athletics
 heavily_armored:
