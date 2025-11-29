@@ -98,7 +98,7 @@ mobile:
   description: |-
     You are exceptionally speedy and agile. You gain the following benefits:
     - Your speed increases by 10 feet.
-    - When you use the Dash action, you gain the benefits of the Disengage action, and difficult terrain doesn't cost you extra movement on that turn.
+    - When you take the Dash action, you gain the benefits of the Disengage action, and difficult terrain doesn't cost you extra movement on that turn.
   name: Mobile
 moderately_armored:
   cost: 2
