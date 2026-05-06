@@ -108,6 +108,26 @@ alarm:
     - ranger
     - ritual
     - wizard
+all_seeing_eye:
+  casting_time: 1 standard action
+  components: V
+  concentration: true
+  description: |-
+    You manifest an all-seeing eye on your forehead or floating above it for the spell's duration. The appearance of the eye is up to you; for example, it could be a literal eye, a tattoo, or a glowing symbol. The eye has truesight with unlimited range, and it can read handwriting up to 10 miles away. The eye can see through obscured areas and even total cover out to a range of 60 feet.
+
+    You can open or close the eye as a repeatable minor action. While the eye is open, your real eyes are closed, and you gain the following benefits:
+    - You use the eye's sense of sight instead of your own.
+    - You gain a +10 bonus to Perception and Insight checks.
+    - You can take the Search action as a minor action.
+  duration: Up to 1 hour
+  level: 9
+  name: All-Seeing Eye
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 alter_self:
   casting_time: 1 standard action
   components: V, S
@@ -281,6 +301,31 @@ antipathy_sympathy:
     - druid
     - enchantment
     - wizard
+arcane_appraisal:
+  casting_time: 1 minor action
+  components: S
+  concentration: false
+  description: |-
+    You quickly evaluate the abilities of a creature you can see within range, which unknowingly makes an Intelligence saving throw. On a failed save, you learn the following information:
+
+    - The target's creature type.
+    - The highest level at which the target can cast any spell, if any.
+    - Which damage types are less effective against the target, such as via damage resistance or immunity.
+    - Which damage types are particularly harmful to the target, such as via damage vulnerability.
+
+    On a successful save, you learn one of the above options at random (you know which option you learn).
+
+    If you cast this spell as a ritual, the target must remain within range for the full casting time.
+  duration: Instantaneous
+  level: 1
+  name: Arcane Appraisal
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
+    - ritual
 arcane_eye:
   casting_time: 1 standard action
   components: V, S, M
@@ -369,6 +414,21 @@ arcane_weapon:
     - magus
     - transmutation
     - water
+archives_of_fate:
+  casting_time: 1 hour
+  components: V, S, M
+  concentration: false
+  description: You tap into the universe's knowledge of itself, directly learning its secrets. Make a DC 20 Intelligence saving throw to comprehend the arcane secrets you expose yourself to. On a successful save, you learn information about one topic of your choice, which may be about the past, present, or future. The DM formulates this information in one sentence that is as complete, straightforward, and truthful as possible. On a failed save, you take psychic damage equal to your hit point maximum and gain 5 levels of exhaustion. Whether you succeed or fail, roll a d2; on a 1, you can never cast this spell again.
+  duration: Instantaneous
+  level: 8
+  material: a golden key worth at least 1,000 gp, which the spell consumes
+  name: Archives of Fate
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 armor_of_ice:
   casting_time: 1 standard action
   components: V, S, M
@@ -911,6 +971,24 @@ blink:
     - sorcerer
     - transmutation
     - wizard
+blissful_revelations:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: false
+  description: |-
+    You force each creature of your choice that you can see within range to witness joyous possible realities about itself or its loved ones. Each target must succeed on an Intelligence saving throw or be charmed by all other creatures until the start of your next turn or until it takes damage. The target is incapacitated while charmed in this way. A target that fails its save by 5 or more also falls unconscious while charmed, as it is overwhelmed by the wonderful dreams.
+
+    Creatures with an Intelligence score of -3 or lower are immune to this spell.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
+  level: 3
+  name: Blissful Revelations
+  range: 10 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 bloat_burst:
   casting_time: 1 standard action
   components: V, S, M
@@ -2724,6 +2802,28 @@ dimension_door:
     - sorcerer
     - warlock
     - wizard
+dire_future:
+  casting_time: 1 standard action
+  components: V, S,
+  concentration: true
+  description: |-
+    You search a foe's future for a crack in its defenses and wait for that moment to strike. Choose a creature you can see within range, roll a d4, and keep track of the number rolled. At the start of each of your turns, you can increase the existing number by 1, or set it to 1 if it's 4. Once before the spell ends, when you are about to make a weapon attack against the creature or target it with a damage-dealing cantrip, you can end this spell. If you do so, your attack has advantage—or the target makes its saving throw with disadvantage—and the target suffers an additional effect on a hit or failed save. The effect is determined by the tracked value, as shown in the table.
+
+    | Tracked Number | Effect                                                                                          |
+    | :------------: | :---------------------------------------------------------------------------------------------- |
+    |       1        | The target is slowed until the end of your next turn.                           |
+    |       2        | The target is knocked prone and can't stand up until the end of your next turn. |
+    |       3        | The target is dazed until the end of your next turn.                            |
+    |       4        | The target is weakened until the end of your next turn.                         |
+  duration: Up to 1 minute
+  level: 1
+  name: Dire Future
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 disguise_self:
   casting_time: 1 standard action
   components: V, S
@@ -3047,6 +3147,32 @@ dominate_person:
     - enchantment
     - sorcerer
     - wizard
+doomsaying:
+  casting_time: 1 major action
+  components: V
+  concentration: false
+  description: |-
+    You attempt to seal the fate of up to three creatures that you can see within range and that are within 10 feet of each other. Each target must succeed on a Wisdom saving throw or be cursed for the duration. While cursed in this way, it rolls a d10 at the start of each of its turns and suffers an effect according to the table below:
+
+    | d10 | Effect                                                                                                                                                                                                                                                                                                                                                                                     |
+    | :-: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    |  1  | The target's fate comes to the ultimate crossroads. The target must succeed on a saving throw of its choice or die. The curse then ends on it.                                                                                                                                                                                                                                             |
+    |  2  | The target's body seizes up. It becomes paralyzed for the duration of the curse. Additionally, the curse becomes "Intelligence save ends" for the target, and the target stops rolling the d10 at the start of each of its turns.                                                                                                                                          |
+    |  3  | Sheer misfortune makes every blow against the target a grievous one. The target becomes vulnerable to all damage for the duration of the curse. Additionally, the curse becomes "Wisdom save ends" for the target, and the target stops rolling the d10 at the start of each of its turns.                                                                                                 |
+    |  4  | The target's wounds fester. If it is missing any hit points, it becomes diseased for the duration of the curse. While diseased in this way, it takes ongoing 4d6 poison damage. Additionally, the curse becomes "Constitution save ends" for the target, and the target stops rolling the d10 at the start of each of its turns.             |
+    |  5  | The target's strength fails. It becomes weakened and slowed for the duration of the curse. Additionally, the target stops rolling the d10 at the start of each of its turns, and at the end of each hour, it must make a Constitution saving throw. On a failed save, it gains a level of exhaustion; on a success, the curse ends for it. |
+    | 6-9 | Nothing happens yet.                                                                                                                                                                                                                                                                                                                                                                       |
+    | 10  | Fate smiles upon the target; the curse ends for it.                                                                                                                                                                                                                                                                                                                                        |
+  duration: Instantaneous
+  level: 7
+  name: Doomsaying
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - curse
+    - divination
 draconic_transformation:
   casting_time: 1 minor action
   components: V, S, M
@@ -3088,6 +3214,24 @@ dragons_breath:
     - sorcerer
     - transmutation
     - wizard
+dreadful_revelations:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: false
+  description: |-
+    You force each creature of your choice that you can see within range to face horrifying possibile realities about itself or its loved ones. Each target must succeed on an Intelligence saving throw or take 3d6 psychic damage and be frightened of all other creatures until the start of your next turn. A target that fails its save by 5 or more takes twice as much damage and is stunned while frightened in this way, as the possibilities it faces are especially severe.
+
+    Creatures with an Intelligence score of -3 or lower are immune to this spell.
+  duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
+  level: 3
+  name: Dreadful Revelations
+  range: 10 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 dream:
   casting_time: 1 minute
   components: V, S, M
@@ -3115,6 +3259,28 @@ dream:
     - illusion
     - warlock
     - wizard
+dream_web:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You lay an ephemeral web centered on a point you can see within range. The web fills a 10-foot-radius, 5-foot tall cylinder, penetrates cover, and lasts for the duration. The web can only be sensed with mindsense.
+
+    When a creature enters the web (including when you cast this spell) or ends its turn there, it must make an Intelligence saving throw. On a failed save, the target takes 3d8 psychic damage, you learn of its presence and its location, and you learn what it was trying to accomplish at that moment. A creature that fails its save by 5 or more also falls unconscious until it takes damage or is shaken awake as a standard action. On a successful save, the target realizes it's in a dangerous area and that something tried to read its mind. An unconscious creature doesn't make this saving throw, and once a creature makes this saving throw, it doesn't do so again until after the start of its next turn.
+
+    You can use a repeatable minor action to enter or exit the dreams of an unconscious creature in the web, switching your senses with the creature's dream senses or vice versa. When you enter a creature's dreams, it makes an Intelligence saving throw; on a success, it realizes its dreams are being watched and it can choose to wake up. If you observe a creature's dreams for at least 10 minutes, you learn what its most desired long-term goal is and how it intends to accomplish that goal.
+
+    Creatures with an Intelligence score of -3 or lower are unaffected by this spell.
+  duration: Up to 1 hour
+  level: 6
+  material: a dreamcatcher
+  name: Dream Web
+  range: 60 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 druid_grove:
   casting_time: 10 minutes
   components: V, S, M
@@ -3784,6 +3950,22 @@ expeditious_retreat:
     - transmutation
     - warlock
     - wizard
+expose_weakness:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: You unravel a foe's defenses for your allies to exploit. Choose a creature you can see within range to be affected by this spell (Intelligence save ends). For the duration, each creature of your choice ignores the target's damage resistances and deals 1d4 extra damage to the target the first time it deals damage to the target on each of its turns.
+  duration: Up to 1 minute
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
+  level: 2
+  material: a piece of parchment
+  name: Expose Weakness
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 extinguish_life:
   casting_time: 1 minor action
   components: S
@@ -3830,6 +4012,25 @@ eyes_of_the_dead:
     - arcane
     - necromancy
     - ritual
+eyeworm:
+  casting_time: 1 standard action
+  components: S, M
+  concentration: true
+  description: |-
+    You put yourself in the mind of a creature you can see within range, gaining access to some of its senses. For the duration of the spell, you use the target's senses of sight and hearing instead of your own, and you can use a repeatable minor action to switch back and forth between your senses of sight and hearing and those of the target.
+
+    When you cast this spell and each subsequent time you switch to its senses, the target makes an Intelligence saving throw. On a failed save, the target doesn't notice anything unusual. On a successful save, the target feels your presence in its mind for the duration and knows when you are spying on its senses, although it doesn't necessarily know that you are the spy. A target that is aware of your presence in its mind can attempt to force you out by making a Charisma check against your spell save DC as a standard action; on a success, the spell ends on it.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. When you do so, you can only use the senses of one creature (including yourself) at a time. You choose which target's senses you use first when you cast the spell. You can switch senses from one creature to any other creature using the spell's minor action.
+  level: 2
+  material: a parasitic worm
+  name: Eyeworm
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 fabricate:
   casting_time: 10 minutes
   components: V, S
@@ -5983,6 +6184,24 @@ insect_plague:
     - divine
     - druid
     - sorcerer
+insidious_insight:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: |-
+    You focus your ire at a creature you can see within range to determine how to hurt it the most. The target is affected by this spell (Intelligence save ends) for the duration, suffering the following effects:
+    - The target has disadvantage on the first saving throw it makes against each spell or other effect you subject it to.
+    - You have advantage on attack rolls and ability checks against it.
+    - When you deal damage to the target, you can deal an extra 2d6 damage. You can't do so again until the start of your next turn.
+  duration: Up to 1 minute
+  level: 5
+  name: Insidious Insight
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 intellect_fortress:
   casting_time: 1 standard action
   components: V
@@ -6310,6 +6529,24 @@ levitate:
     - sorcerer
     - transmutation
     - wizard
+library_of_the_mind:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    You tap into a vast repository of information formed by your own memories. Anything you see, hear, smell, taste, or feel while the spell persists is permanently recorded in the repository. All details are preserved in perfect clarity, and you can remember them during this or a subsequent casting of the spell.
+
+    The repository contains other memories: some that you remember, others that you've forgotten, and even a few that might belong to someone else. You have a bonus to Arcana, History, Nature, and Religion checks equal to your spellcasting ability score for the duration of the spell.
+  duration: Up to 1 hour
+  level: 2
+  material: a notepad
+  name: Library of the Mind
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 life_transference:
   casting_time: 1 standard action
   components: V, S
@@ -6807,6 +7044,30 @@ mass_healing_word:
     - cleric
     - divine
     - evocation
+mass_identify:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    For the duration, you sense the presence of magic within 30 feet of you that isn't behind total cover. Each creature, object, and area within that range that bears magic glows softly to your eyes, allowing you to effectively see it. In particular, you can see magically invisible things.
+
+    If you see a magic item within range, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.
+
+    If you see a target of a magical effect within range, you learn what the effect does, and if it's a spell, you learn which spell. You also learn whether a creature is maintaining concentration on the effect, and if that creature is in the area, you recognize it as doing so.
+
+    If you see a creature cast or concentrate on a spell within range, you learn which spell it is (as if by the Recognize Spell reaction).
+
+    The spell can penetrate most barriers, but it is blocked by 3 feet of wood or dirt, 1 foot of stone, 1 inch of common metal, or a thin sheet of lead.
+  duration: Up to 10 minutes
+  level: 4
+  material: a pearl necklace worth at least 500 gp and several owl feathers
+  name: Mass Identify
+  range: Self (30-foot radius)
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 mass_invisibility:
   casting_time: 1 standard action
   components: S
@@ -7425,6 +7686,21 @@ otherworldly_tendrils:
     - arcane
     - conjuration
     - warlock
+outwit:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: false
+  description: By reading a foe's intentions and even its immediate future, you keep it from gaining the upper hand. Choose a creature you can see within range. For the duration, the target can't have advantage on attack rolls or ability checks against you or saving throws against your effects, and you can't have disadvantage on attack rolls or ability checks against it or saving throws against its effects.
+  duration: 1 minute
+  higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can target two additional creatures for each slot level above 2nd.
+  level: 2
+  name: Outwit
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 pass_without_trace:
   casting_time: 1 standard action
   components: V, S, M
@@ -7599,6 +7875,26 @@ phantom_warriors:
   tags:
     - arcane
     - illusion
+piercing_gaze:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: true
+  description: |-
+    Your pupils glow with traces of the images augmenting your vision. You gain the following benefits for the duration of the spell:
+    - You have darkvision (60 ft.). This darkvision penetrates magical darkness and obscured areas.
+    - You have a bonus to Insight and Perception checks equal to your spellcasting ability score.
+    - You automatically succeed on saving throws against being blinded.
+  duration: Up to 1 hour
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the range of the darkvision increases by 60 feet for each slot level above 1st.
+  level: 1
+  material: a tiny mushroom
+  name: Piercing Gaze
+  range: Self
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 planar_binding:
   casting_time: 1 hour
   components: V, S, M
@@ -7843,6 +8139,23 @@ prayer_of_healing:
     - divine
     - evocation
     - paladin
+prescient_strike:
+  casting_time: 1 minor action
+  components: V, S
+  concentration: false
+  description: |-
+    You glimpse into the future of one creature you can see, searching for an opening to strike. Roll a d20 and note the result. On your next turn, you can use a minor action to make a ranged spell attack against the target if it is within range and not behind total cover. Use the number you already rolled for the attack roll; if you have advantage or disadvantage on the attack roll, use the number for only one of the d20s. On a hit, the target takes 1d6 force damage.
+
+    The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+  duration: 1 round
+  level: 0
+  name: Prescient Strike
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 prestidigitation:
   casting_time: 1 standard action
   components: V, S
@@ -8413,6 +8726,21 @@ reincarnate:
     - druid
     - primal
     - transmutation
+reminiscent_snare:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: You call to mind the image of a creature you have seen within the past minute. If the target is on the same plane of existence, it make a Charisma saving throw. On a failed save, the target is stunned for the duration, and you briefly see its immediate surroundings. The spell ends if the target takes any damage.
+  duration: Up to 1 minute
+  higher_level: When you cast this spell using a spell slot of 6th or 7th level, the maximum duration and time since seeing the creature both increase to 1 hour. When you cast this spell using a spell slot of 8th or 9th level, both times increase to 1 day.
+  level: 5
+  name: Reminiscent Snare
+  range: Unlimited
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 remove_curse:
   casting_time: 1 standard action
   components: V, S
@@ -8507,6 +8835,24 @@ resurrection:
     - cleric
     - divine
     - necromancy
+revealing_light:
+  casting_time: 1 standard action
+  components: V, S
+  concentration: true
+  description: |-
+    Raising your implement high, you produce a ghostly white light in a 60-foot cone for the duration. The light is blocked by invisible creatures and objects, producing stark shadows and revealing their location. The cone moves with you as you move, and you can change the direction of the cone as a minor action.
+
+    When an invisible target enters the cone (including when you cast this spell) or ends its turn there, it must make a Constitution saving throw. On a failed save, the target takes 8d4 radiant damage, or half as much on a success. A creature that fails its save is also blinded until it leaves the cone or stops being invisible. Once a target makes this saving throw, it doesn't have to make it again until the start of its next turn.
+  duration: Up to 1 minute
+  higher_level: When you cast this spell using a spell slot of 5th level or higher, the damage increases by 2d4 for each slot level above 4th.
+  level: 4
+  name: Revealing Light
+  range: Self (60-foot cone)
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 reverse_gravity:
   casting_time: 1 standard action
   components: V, S, M
@@ -10311,6 +10657,22 @@ telepathic_bond:
     - divination
     - ritual
     - wizard
+telepathic_interception:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: false
+  description: You weave a trap to listen in on telepathic communications. Choose a 100-foot cube within range. For the duration, you receive all telepathic communications sent from or into that area. The intended recipient also receives the message, but it is slightly distorted. The first time a given creature receives a message you intercepted with this casting of the spell, that creature makes an Intelligence saving throw. On a failed save, it notices nothing unusual; otherwise, it realizes the message has been intercepted (and possibly altered, although this spell doesn't allow you to do so) and can tell when subsequent messages have been intercepted for the duration.
+  duration: 1 hour
+  level: 4
+  material: a curved wire
+  name: Telepathic Interception
+  range: 120 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
+    - ritual
 telepathy:
   casting_time: 1 standard action
   components: V, S, M
@@ -10870,6 +11232,21 @@ tsunami:
     - druid
     - primal
     - water
+twist_of_fate:
+  casting_time: 1 reaction, which you take when a creature you can see within range rolls a 1 or a 20 on the d20 of an attack roll against a target you can see within range
+  components: S, M
+  concentration: false
+  description: You swap the fates of the assailed and the assailant. The d20 of the triggering attack changes from a 20 to a 1 or vice versa, and the next attack against the attacker before the start of its next turn uses the original d20 roll.
+  duration: 1 round
+  level: 5
+  material: a coin
+  name: Twist of Fate
+  range: 90 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 undead_horde:
   casting_time: 8 hours
   components: V, S, M
@@ -11001,6 +11378,20 @@ vanish:
   tags:
     - arcane
     - illusion
+verify:
+  casting_time: 1 reaction, which you take when a creature you can see within range makes a statement that is either true or false
+  components: S
+  concentration: false
+  description: You quickly assay a creature's thoughts while the triggering statement is fresh in its mind. The creature that made the statement realizes its mind is being read and makes a Charisma check. On a failed save, you learn whether the creature believed, disbelieved, or was unsure of its own statement. You learn nothing on a success.
+  duration: Instantaneous
+  level: 1
+  name: Verify
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 vicious_mockery:
   casting_time: 1 standard action
   components: V
@@ -11037,6 +11428,26 @@ vile_ventriloquy:
   tags:
     - arcane
     - illusion
+visions_of_odds:
+  casting_time: 1 standard action
+  components: V
+  concentration: false
+  description: |-
+    You anticipate the imminent luck of one creature you can see within range, forcing it to make an Intelligence saving throw. Roll three d20s on a failed save, or half as many on a success, and keep track of the results and the order they were rolled in.
+
+    For the duration of the spell, each time the target makes an attack roll, ability check, or saving throw, it uses the next d20 in your list as if it had rolled the number itself. If the target has advantage or disadvantage on its roll, it only uses one of your d20s, and rolls the other d20 by itself as normal.
+
+    The spell ends after the last d20 in your list is used.
+  duration: 1 minute
+  higher_level: When you cast this spell using a spell slot of 4th level or higher, roll an additional d20 on a failed save for each slot level above 3rd.
+  level: 3
+  name: Visions of Odds
+  range: 30 feet
+  sources:
+    - 2D
+  tags:
+    - arcane
+    - divination
 vitriolic_sphere:
   casting_time: 1 standard action
   components: V, S, M
