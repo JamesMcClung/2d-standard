@@ -150,6 +150,11 @@ restrained:
     - Attack rolls against you have advantage, and your attack rolls have disadvantage.
     - You have disadvantage on Dexterity saving throws.
   name: Restrained
+silenced:
+  effects:
+    - You can't speak.
+    - You can't cast any spells with a verbal component.
+  name: Silenced
 slowed:
   effects:
     - You have disadvantage on Dexterity attack rolls, ability checks, and saving throws.
