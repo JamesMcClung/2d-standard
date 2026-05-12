@@ -55,11 +55,6 @@ exhaustion:
     - Subtract your exhaustion level from the spell save DC of any spell you cast.
   end: You can reduce your exhaustion by resting.
   name: Exhaustion
-flanked:
-  effects:
-    - While flanked, melee attack rolls against you have advantage.
-  end: Creatures with blindsight or multiple heads are immune to this condition.
-  name: Flanked
 frightened:
   cause: This condition can be commonly applied via the Frighten action.
   effects:
@@ -89,20 +84,6 @@ grappling:
     - If you are the same size as the grappled target or larger, you can move it to another space within your reach as a repeatable minor action.
   end: You can end the grapple at any time, no action required. The grapple also ends if you become incapacitated or if the target is no longer within your reach.
   name: Grappling
-hidden:
-  cause: This condition is typically acquired via the Hide action.
-  description: While hidden from one or more creatures, you have a Hide DC, which is typically determined by the Hide action. If you move without sneaking, you must reroll the Hide DC by making another Stealth check.
-  effects:
-    - While hidden from a creature, it doesn't know where you are, and it can't track your movement.
-  end: |-
-    You cease to be hidden from a creature if any of the following occurs:
-    - You aren't heavily obscured or behind any cover relative to the creature.
-    - You attack the creature.
-    - You make a sound louder than a whisper, such as by casting a spell with a verbal component.
-    - Another creature reveals your location.
-    - The creature succeeds on a Perception check against your Hide DC. The Search action lets a creature attempt this check.
-    - Your Hide DC becomes less than the creature's passive Perception.
-  name: Hidden
 hindered:
   effects:
     - Each foot you travel costs 1 additional foot of movement.
@@ -134,12 +115,6 @@ invisible:
       You can't be seen without specialized aid, such as magic or blindsight. Any equipment you are wearing or carrying similarly can't be seen.
       You can take the Hide action once as a free action on the same turn that you become invisible.
   name: Invisible
-old_age:
-  description: |-
-    While you are older than your old age threshold, you have 1 permanent level of exhaustion. As you continue to age, you gain an additional permanent level of exhaustion for every number of years equal to your aging rate. These levels of exhaustion vanish immediately to reflect changes in your age or if you gain immunity to old age.
-
-    See the see the "Age" trait of your racial statblock for your old age threshold and aging rate.
-  name: Old Age
 ongoing_damage:
   description: Ongoing damage is damage that you take at the end of each of your turns. When ongoing damage is "save ends", make the saving throw first; you take no damage on a successful save.
   name: Ongoing Damage
