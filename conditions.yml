@@ -1,0 +1,236 @@
+addled:
+  effects:
+    - You have disadvantage on Intelligence attack rolls, ability checks, and saving throws.
+    - You can't maintain concentration.
+    - You have –1 reaction.
+  name: Addled
+blinded:
+  effects:
+    - You lose your sense of sight.
+  name: Blinded
+charmed:
+  effects:
+    - You can't deliberately harm the charmer.
+    - The charmer has advantage on any ability check to interact socially with you.
+  name: Charmed
+concentration:
+  description: |-
+    Some spells and other effects require you to maintain concentration in order to keep them active. If you lose concentration, such an effect ends. You can also choose to end concentration on any effect at any time (no action required).
+
+    If a spell must be maintained with concentration, that fact appears in its Duration entry, and the spell specifies how long you can concentrate on it.
+
+    Normal activity, such as moving and attacking, doesn't interfere with concentration. The following factors can break concentration:
+    - You lose concentration if you invoke another effect that requires concentration. You can't concentrate on two effects at once.
+    - Whenever you take damage while you are concentrating, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as an arrow and a dragon's breath, you make a separate saving throw for each source of damage.
+    - You lose concentration on an effect if you are incapacitated or if you die.
+    - Certain environmental phenomena, such as a wave crashing over you while you're on a storm-tossed ship, may require you to succeed on a DC 10 Constitution saving throw to maintain concentration. This is at your DM's discretion.
+  name: Concentration
+dazed:
+  effects:
+    - You have –1 AP (possibly causing you to be incapacitated) and –1 reaction.
+    - You have disadvantage on saving throws you make to maintain concentration (including on the saving throw triggered by the effect that dazed you, if it triggered such a save).
+  name: Dazed
+deafened:
+  effects:
+    - You lose your sense of hearing.
+  name: Deafened
+diseased:
+  effects:
+    - You have disadvantage on Constitution attack rolls, ability checks, and saving throws.
+    - You can't regain hit points.
+  name: Diseased
+dying:
+  cause: If you aren't already dying, you start dying when you are reduced to 0 hit points (you also fall unconscious) and there is at least 1 point of excess damage.
+  description: |-
+    While you are dying, make a DC 10 Constitution saving throw—called a **death saving throw**—at the start of each of your turns. Keep track of your successes and failures. You automatically suffer 1 failure each time you take damage while dying, or 2 failures if the damage was from a critical hit. If you reach 3 failures, you die. If you reach 3 successes, you stop dying. If you stop dying for any reason, stop tracking your successes and failures; the counts don't carry over to the next time you are dying.
+
+    On a roll of 20 or higher on a death saving throw, you regain 1 hit point.
+  end: The condition ends if you regain hit points. This condition can also be ended without healing you, such as via the Heal action.
+  name: Dying
+exhaustion:
+  cause: A common source of exhaustion is dropping to 0 hit points.
+  description: This condition is cumulative. Each time you receive it, you gain a specified number of levels of exhaustion. You die if your exhaustion level reaches or exceeds 10.
+  effects:
+    - When you make an attack roll, ability check, or saving throw, you subtract your exhaustion level from the d20 roll.
+    - Subtract your exhaustion level from the spell save DC of any spell you cast.
+  end: You can reduce your exhaustion by resting.
+  name: Exhaustion
+flanked:
+  effects:
+    - While flanked, melee attack rolls against you have advantage.
+  end: Creatures with blindsight or multiple heads are immune to this condition.
+  name: Flanked
+frightened:
+  cause: This condition can be commonly applied via the Frighten action.
+  effects:
+    - You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.
+    - You can't willingly move closer to the source of your fear.
+  name: Frightened
+gentled:
+  effects:
+    - You have disadvantage on Charisma attack rolls, ability checks, and saving throws.
+    - You have –1 AP (possibly causing you to be incapacitated).
+  name: Gentled
+grappled:
+  cause: This condition is typically inflicted by the grapple attack.
+  description: Grappling is an act that requires two creatures. One creature, the "grappler," has the grappling condition, while the other has this condition (grappled).
+  effects:
+    - Your speed is halved if you are one size larger than the grappler, or 0 if you are the same size or smaller.
+    - When you move, you drag the grappler with you.
+    - If the grappler attempts to use the grapple to move you, you can make a Strength saving throw against its passive Athletics. On a success, it can't use the grapple to move you until the start of its next turn.
+  end: You can attempt to escape the grapple by taking the Disengage action.
+  name: Grappled
+grappling:
+  cause: This condition is typically caused by the grapple attack (for grappling enemies) and the Interact action (for grappling allies).
+  description: Grappling is an act that requires two creatures. One creature, the "grappler," has this condition (grappling), while the other has the grappled condition.
+  effects:
+    - Your speed is halved if you are the same size as the grappled target, or 0 if you are smaller.
+    - When you move, you drag or push the grappled target with you.
+    - If you are the same size as the grappled target or larger, you can move it to another space within your reach as a repeatable minor action.
+  end: You can end the grapple at any time, no action required. The grapple also ends if you become incapacitated or if the target is no longer within your reach.
+  name: Grappling
+hidden:
+  cause: This condition is typically acquired via the Hide action.
+  description: While hidden from one or more creatures, you have a Hide DC, which is typically determined by the Hide action. If you move without sneaking, you must reroll the Hide DC by making another Stealth check.
+  effects:
+    - While hidden from a creature, it doesn't know where you are, and it can't track your movement.
+  end: |-
+    You cease to be hidden from a creature if any of the following occurs:
+    - You aren't heavily obscured or behind any cover relative to the creature.
+    - You attack the creature.
+    - You make a sound louder than a whisper, such as by casting a spell with a verbal component.
+    - Another creature reveals your location.
+    - The creature succeeds on a Perception check against your Hide DC. The Search action lets a creature attempt this check.
+    - Your Hide DC becomes less than the creature's passive Perception.
+  name: Hidden
+hindered:
+  effects:
+    - Each foot you travel costs 1 additional foot of movement.
+    - Attack rolls against you have advantage.
+    - Your attack rolls and Dexterity saving throws have disadvantage.
+  name: Hindered
+ignited:
+  effects:
+    - You take ongoing fire damage. The amount of ongoing damage is typically specified in parentheses after this condition's listing; for example, "ignited (1d6)" causes 1d6 ongoing fire damage.
+    - You shed light (20/40 ft.)
+  end: Unless otherwise specified, this condition ends if you are submerged underwater.
+  name: Ignited
+incapacitated:
+  cause: You are automatically incapacitated while you have 0 AP.
+  effects:
+    - You can't take actions or reactions, even free ones.
+    - You automatically fail Strength and Dexterity saving throws.
+    - You can't maintain concentration.
+    - You can't speak.
+  name: Incapacitated
+inebriated:
+  effects:
+    - You have disadvantage on Wisdom attack rolls, ability checks, and saving throws.
+    - The range of each of your special senses is halved.
+  name: Inebriated
+invisible:
+  effects:
+    - |-
+      You can't be seen without specialized aid, such as magic or blindsight. Any equipment you are wearing or carrying similarly can't be seen.
+      You can take the Hide action once as a free action on the same turn that you become invisible.
+  name: Invisible
+old_age:
+  description: |-
+    While you are older than your old age threshold, you have 1 permanent level of exhaustion. As you continue to age, you gain an additional permanent level of exhaustion for every number of years equal to your aging rate. These levels of exhaustion vanish immediately to reflect changes in your age or if you gain immunity to old age.
+
+    See the see the "Age" trait of your racial statblock for your old age threshold and aging rate.
+  name: Old Age
+ongoing_damage:
+  description: Ongoing damage is damage that you take at the end of each of your turns. When ongoing damage is "save ends", make the saving throw first; you take no damage on a successful save.
+  name: Ongoing Damage
+paralyzed:
+  effects:
+    - You have –3 AP (possibly causing you to be incapacitated) and –2 reactions.
+    - You have disadvantage on saving throws you make to maintain concentration (including on the saving throw triggered by the effect that stunned you, if it triggered such a save).
+    - You have disadvantage on attack rolls and Dexterity saving throws.
+    - Attack rolls against you have advantage.
+    - Any attack that hits you is a critical hit if the attacker is within 5 feet of you.
+  name: Paralyzed
+petrified:
+  effects:
+    - You are transformed into an object version of yourself, made out of a solid material. You retain your hit points and AC, but the rest of your game statistics are replaced by the material's properties. The material is typically specified in parentheses after this condition's listing.
+    - If you have 0 hit points, you don't start dying until you are cured of this condition. However, at your DM's discretion, you may physically break as a result of being reduced to 0 hit points. Being cured of this condition doesn't repair any such breaks.
+  end: This condition can be cured by the [greater restoration]($spells) spell.
+  name: Petrified
+poisoned:
+  effects:
+    - You have disadvantage on attack rolls and ability checks.
+  name: Poisoned
+prone:
+  cause: This condition is commonly caused by falling, falling unconscious, and the trip attack.
+  effects:
+    - The only movement mode available to you is crawling.
+    - You have disadvantage on attack rolls.
+    - An attack roll against you has advantage if the attacker is within 5 feet of you. Otherwise, the attack roll has disadvantage.
+  end: You can end this condition by standing up, which requires spending half of your walk speed when you move.
+  name: Prone
+restrained:
+  effects:
+    - Your speed is 0.
+    - Attack rolls against you have advantage, and your attack rolls have disadvantage.
+    - You have disadvantage on Dexterity saving throws.
+  name: Restrained
+slowed:
+  effects:
+    - You have disadvantage on Dexterity attack rolls, ability checks, and saving throws.
+    - Your speed is halved.
+  name: Slowed
+stunned:
+  effects:
+    - You have –2 AP (possibly causing you to be incapacitated) and –1 reaction.
+    - You have disadvantage on saving throws you make to maintain concentration (including on the saving throw triggered by the effect that stunned you, if it triggered such a save).
+    - You have disadvantage on attack rolls and Dexterity saving throws.
+    - Attack rolls against you have advantage.
+  name: Stunned
+suffocating:
+  description: |-
+    While you are suffocating, keep track of how many rounds go by. For a number of rounds equal to your Constitution score (minimum of 1 round), nothing happens. At the start of your next turn, you drop to 0 hit points and are dying, and you can't regain hit points or stop dying until you can breathe again.
+
+    You can hold your breath for a number of minutes equal to 1 + your Constitution score (minimum of 30 seconds). After that, you start suffocating.
+  name: Suffocating
+surprised:
+  cause: A creature is surprised when it's forced to roll initiative but isn't aware of any enemies that are also rolling initiative.
+  effects:
+    - You are incapacitated.
+  end: You stop being surprised at the end of your turn.
+  name: Surprised
+taunted:
+  cause: This condition can be commonly applied via the Taunt action.
+  effects:
+    - You have disadvantage on attacks against all creatures except the one taunting you.
+  end: If a creature taunts you while you are already taunted, the first taunt ends. A taunt also ends if the taunter dies.
+  name: Taunted
+transformed:
+  description: |-
+    While transformed into a creature, you experience the following effects:
+    - Your game statistics are replaced by the statistics of the creature, including hit points, hit dice, and mental ability scores. You retain your alignment and personality. If the creature has any legendary or lair actions, you can't use them.
+    - You are limited in the actions you can perform by the nature of your new form. You can't speak, cast spells, or take any other action that requires hands or speech, unless your new form is capable of such actions. Transforming doesn't break your concentration on a spell you've already cast, however, nor prevent you from taking actions that are part of a spell that you've already cast.
+    - Your equipment melds into your new form and has no effect.
+
+    While transformed into an object, you experience the following effects:
+    - Your game statistics are replaced by the statistics of the object.
+    - Your equipment melds into your new form and has no effect.
+    - You are incapacitated and are unaware of your surroundings.
+    - You have no memory of time spent in this form.
+    - You don't age, and you are immune to being poisoned or diseased. Any preexisting poisons or diseases are suspended, not cured.
+
+    When you revert to your normal form, you return to the number of hit points you had before you transformed, assuming you didn't die. If you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form.
+  name: Transformed
+unconscious:
+  cause: You are automatically unconscious while you have 0 hit points and while sleeping.
+  effects:
+    - You are incapacitated and are unaware of your surroundings.
+    - You drop whatever you're holding and fall prone.
+    - Attack rolls against you have advantage.
+    - Any attack that hits you is a critical hit if the attacker is within 5 feet of you.
+  name: Unconscious
+weakened:
+  effects:
+    - You have disadvantage on Strength attack rolls, ability checks, and saving throws.
+    - Your weapon attacks deal half damage.
+  name: Weakened
