@@ -149,6 +149,19 @@ In the above, `contextual_markdown` supports everything that `markdown` supports
     - ability_score: str, dex, con, int, wis, cha
     - skill: acrobatics, animal_handling, arcana, athletics, deception, history, insight, intimidation, investigation, medicine, nature, perception, performance, persuasion, religion, sleight_of_hand, stealth
 
+### Condition
+
+```ts
+type Condition = {
+    name: string
+    // in order of suggested rendering:
+    description?: markdown // arbitrary description (for more complex conditions)
+    effects?: markdown[],  // list of effects (for simple conditions)
+    end?: markdown,        // built-in mechanism(s) for ending this condition, if any
+    cause?: markdown,      // common ways to inflict this condition, if any
+}
+```
+
 ## Miscellaneous Types
 
 ```ts
