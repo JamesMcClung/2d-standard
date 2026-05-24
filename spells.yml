@@ -1885,29 +1885,26 @@ contagion:
   components: V, S
   concentration: false
   description: |-
-    Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, the target is poisoned.
+    Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, the target is diseased for the duration (save ends). After three failed saving throws against this effect, the the target's sickness worsens: the condition ceases to be "save ends," and the target suffers one of the following symptoms of your choice while it persists:
 
-    At the end of each of the poisoned target's turns, the target must make a Constitution saving throw. If the target succeeds on three of these saves, it is no longer poisoned, and the spell ends. If the target fails three of these saves, the target is no longer poisoned, but choose one of the diseases below. The target is subjected to the chosen disease for the spell's duration.
+    **Filth Fever.** A raging fever sweeps through the creature's body, causing it to be weakened.
 
-    Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease's effects apply to it.
+    **Seizure.** The creature is overcome with shaking, causing it to be slowed.
 
-    **Blinding Sickness.** Pain grips the creature's mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is blinded.
+    **Red Death.** The creature bleeds at the slightest provocation, causing it to be vulnerable to all damage.
 
-    **Filth Fever.** A raging fever sweeps through the creature's body. The creature has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength.
+    **Mindfire.** The creature's mind becomes feverish. The creature is addled, and in combat, it suffers the effects of the _confusion_ spell.
 
-    **Flesh Rot.** The creature's flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage.
+    **Blinding Sickness.** Pain grips the creature's mind, and its eyes turn milky white. The creature is inebriated and blinded.
 
-    **Mindfire.** The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the _confusion_ spell during combat.
-
-    **Seizure.** The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.
-
-    **Slimy Doom.** The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is stunned until the end of its next turn.
+    **Brain Rot.** The creature's head decays from the inside out. The creature is gentled, and whenever it takes damage, it is dazed until the end of its next turn.
   duration: 7 days
   level: 5
   name: Contagion
   range: Touch
   sources:
     - PHB (Errata 2.0)
+    - 2D
   tags:
     - cleric
     - divine
@@ -2223,7 +2220,7 @@ create_phylactery:
   description: |-
     You affix your soul to the token object used as this spell's material component and endow it with a source of fuel for everlasting unlife. As part of casting this spell, you or another creature must use the ritual dagger used as the spell's material component to kill one or more Humanoids within 30 feet of you. The souls of the slain humanoids become bound to the token object, which becomes your phylactery at the end of the spell.
 
-    When you die, your consciousness enters the phylactery as if the phylactery were a _magic jar_, except you have no body to return to. Every 1d100 days while you are in this state, if there are any other souls bound to the phylactery, one of them is destroyed and you form a new body within 10 feet of the phylactery. Your new body is Undead, doesn't age, has immunity to poison damage and the poisoned condition, and has resistance to necrotic damage, but otherwise uses your game statistics.
+    When you die, your consciousness enters the phylactery as if the phylactery were a _magic jar_, except you have no body to return to. Every 1d100 days while you are in this state, if there are any other souls bound to the phylactery, one of them is destroyed and you form a new body within 10 feet of the phylactery. Your new body is Undead, doesn't age, has immunity to poison damage and the poisoned and diseased conditions, and has resistance to necrotic damage, but otherwise uses your game statistics.
 
     Nothing short of divine intervention can resurrect you or a creature whose soul is bound to the phylactery. The phylactery can be destroyed, however. It is a magical object with AC 30 and immunity to all damage except force damage and the damage dealt by magical weapons. It is only destroyed if it takes at least 50 damage at once. It is unaffected by spells such as _dispel magic_ and _antimagic field_.
 
@@ -5581,13 +5578,14 @@ harm:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You unleash a virulent disease on a creature that you can see within range. The target must make a Constitution saving throw. On a failed save, it takes 14d6 necrotic damage, or half as much damage on a successful save. The damage can't reduce the target's hit points below 1. If the target fails the saving throw, its hit point maximum is reduced for 1 hour by an amount equal to the necrotic damage it took. Any effect that removes a disease allows a creature's hit point maximum to return to normal before that time passes.
+  description: You unleash a virulent disease on a creature that you can see within range. The target must succeed on a Constitution saving throw or take 14d6 necrotic damage and be diseased for 1 hour. The target takes half as much damage and isn't diseased on a successful save. This spell's damage can't reduce the target's hit points below 1.
   duration: Instantaneous
   level: 6
   name: Harm
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - cleric
     - divine
@@ -5618,7 +5616,7 @@ heal:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This spell also ends blindness, deafness, and any diseases affecting the target. This spell has no effect on constructs or undead.
+  description: Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points and ending each effect on it that can be ended by the _lesser restoration_ spell. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th.
   level: 6
@@ -5626,6 +5624,7 @@ heal:
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - cleric
     - divine
@@ -5717,7 +5716,7 @@ heroes_feast:
   description: |-
     You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don't set in until this hour is over. Up to twelve creatures can partake of the feast.
 
-    A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being frightened, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours.
+    A creature that partakes of the feast gains several benefits. The creature is cured of the diseased, poisoned, and frightened conditions, becomes immune to those conditions, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours.
   duration: Instantaneous
   level: 6
   material: a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes
@@ -5726,6 +5725,7 @@ heroes_feast:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - bard
     - cleric
@@ -6012,7 +6012,7 @@ immolation:
   components: V
   concentration: false
   description: |-
-    Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 10d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns indefinitely, taking ongoing 5d6 fire damage (save ends). The burning target sheds light (30/60 ft.). These magical flames can't be extinguished by nonmagical means.
+    Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 10d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target is also ignited (5d6; save ends). These magical flames can't be extinguished by nonmagical means.
 
     If damage from this spell kills a target, the target is turned to ash.
   duration: Instantaneous
@@ -6492,13 +6492,14 @@ lesser_restoration:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.
+  description: You touch a creature and can end one condition afflicting it. The condition can be blinded, deafened, paralyzed, poisoned, or diseased.
   duration: Instantaneous
   level: 2
   name: Lesser Restoration
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - abjuration
     - artificer
@@ -7019,13 +7020,14 @@ mass_heal:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on Constructs or Undead.
+  description: A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of each effect that can be ended by the _lesser restoration_ spell. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   level: 9
   name: Mass Heal
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - cleric
     - divine
@@ -7597,9 +7599,9 @@ necrosis:
   components: V
   concentration: true
   description: |-
-    Choose up to three creatures you can see within range that are within 10 feet of each other. Each target takes 3d8 necrotic damage and must succeed on a Constitution saving throw or rot alive for the duration (save ends). While rotting in this way, a target is slowed, takes ongoing 3d8 necrotic damage, and has disadvantage on Constitution saving throws.
+    Choose up to three creatures you can see within range that are within 10 feet of each other. Each target takes 3d8 necrotic damage and must succeed on a Constitution saving throw or become diseased for the duration (save ends), as it rots alive. While diseased in this way, a target is slowed and takes ongoing 3d8 necrotic damage.
 
-    Constructs, Undead, and creatures immune to necrotic damage are immune to this spell. The spell ends early on a target if _lesser restoration_ is cast on it.
+    Constructs, Undead, and creatures immune to necrotic damage are immune to this spell.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 6th level or higher, the initial and ongoing damage increases by 1d8 for each slot level above 5th.
   level: 5
@@ -8057,7 +8059,7 @@ power_word_heal:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use a reaction to stand up. This spell has no effect on Constructs or Undead.
+  description: A wave of healing energy washes over the creature you touch. The target regains all its hit points. The creature is cured of any effect that can be ended by _lesser restoration_ or _greater restoration_. If the creature is prone, it can use a reaction to stand up. This spell has no effect on Constructs or Undead.
   duration: Instantaneous
   level: 9
   name: Power Word Heal
@@ -8065,6 +8067,7 @@ power_word_heal:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - bard
     - cleric
@@ -8551,7 +8554,7 @@ quicksand:
   description: |-
     You turn the ground within 10 feet of a point you can see within range into treacherous quicksand. The area becomes difficult terrain, requiring 4 feet of movement spent for every 1 foot traveled.
 
-    A creature that ends its turn on the sand must make a Dexterity saving throw. On a failed save, the target sinks halfway into the ground. A half-sunken target is slowed, has half cover from all sources, can't fly, and is immune to forced movement.
+    A creature that ends its turn on the sand must make a Dexterity saving throw. On a failed save, the target sinks halfway into the ground. A half-sunken target is hindered, has half cover from all sources, can't fly, and is immune to forced movement.
 
     At the end of a half-sunken creature's turn, it must succeed on a Strength saving throw or sink further down, becoming mostly-sunken. In addition to the above effects, a mostly-sunken target is restrained and has three-quarters cover from all sources.
 
@@ -8578,7 +8581,7 @@ raise_dead:
   description: |-
     You return a dead creature you touch to life, provided that it has been dead no longer than 10 days. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.
 
-    This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.
+    This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an Undead creature to life.
 
     This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.
 
@@ -8600,13 +8603,14 @@ ray_of_enfeeblement:
   casting_time: 1 standard action
   components: V, S
   concentration: true
-  description: A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength for the duration (save ends).
+  description: A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target is weakened for the duration (save ends).
   duration: Up to 1 minute
   level: 2
   name: Ray of Enfeeblement
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - necromancy
@@ -8768,7 +8772,7 @@ repair_major_damage:
   casting_time: 1 standard action
   components: S, M
   concentration: false
-  description: A creature you touch regains a number of hit points equal to 8d6 + your spellcasting ability score and can make a saving throw against one "save ends" condition currently affecting it. The condition can be slowed, dazed, or stunned. If the target is a Construct, it regains twice as many hit points and automatically succeeds on the saving throw. This spell has no effect on Undead.
+  description: A creature you touch regains a number of hit points equal to 8d6 + your spellcasting ability score and can make a saving throw against one "save ends" condition currently affecting it. The condition can be weakened, slowed, dazed, or stunned. If the target is a Construct, it regains twice as many hit points and automatically succeeds on the saving throw. This spell has no effect on Undead.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 5th level or higher, the healing increases by 2d6 for each slot level above 4th.
   level: 4
@@ -9180,7 +9184,7 @@ searing_smite:
   casting_time: 1 free action, which you take when you hit with a melee weapon attack
   components: V
   concentration: false
-  description: Your weapon flares with white-hot intensity, and the triggering attack deals an extra 1d6 fire damage to the target and causes the target to ignite in flames. The flames deal ongoing 1d6 fire damage (Constitution save ends). If the target or a creature within 5 feet of it uses a standard action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the spell ends.
+  description: Your weapon flares with white-hot intensity, and the triggering attack deals an extra 1d6 fire damage to the target and causes the target to be ignited (1d6) for the duration (Constitution save or standard action ends).
   duration: 1 minute
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the initial extra damage dealt by the attack increases by 1d6 for each slot level above 1st.
   level: 1
@@ -9668,9 +9672,9 @@ slow:
   components: V, S, M
   concentration: true
   description: |-
-    You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Charisma saving throw or be affected by this spell for the duration.
+    You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Charisma saving throw or be affected by this spell for the duration (save ends).
 
-    An affected target is dazed and slowed (save ends). Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.
+    An affected target is dazed, slowed, and attacks against it have advantage. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.
 
     If an affected creature attempts to cast a spell with a casting time of an action, roll a d20. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must repeat the Magic action on that turn to complete the spell. If it can't, the spell is wasted.
   duration: Up to 1 minute
@@ -11281,7 +11285,7 @@ undead_transformation:
     One willing creature you touch is cursed with undeath. While cursed in this way, the target experiences the following effects:
 
     - The target gains the Undead creature type.
-    - The target has resistance to necrotic damage and immunity to poison damage and the poisoned condition.
+    - The target has resistance to necrotic damage, immunity to poison damage, and immunity to the poisoned and diseased conditions.
     - The target has darkvision (60 ft.). If the target already had darkvision, its range is increased by 30 feet instead.
     - At the end of every hour, the target's hit point maximum decreases by 1. This reduction can't be prevented in any way, and is removed only when the curse is lifted.
 
