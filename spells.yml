@@ -1028,7 +1028,7 @@ bolster_undead:
   casting_time: 1 standard action
   components: V
   concentration: false
-  description: Choose up to three Undead within range that you can see. Each target gains a number of temporary hit points equal to your spellcasting ability score, which disappear when the spell ends. While a target has these temporary hit points, it has advantage on ability checks.
+  description: Choose up to three Undead within range that you can see. Each target gains a number of temporary hit points equal to your spellcasting ability score, which disappear when the spell ends. While a target has these temporary hit points, it has advantage on ability checks and saving throws.
   duration: 1 hour
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, each target gains an additional 1d8 temporary hit points for each slot level above 1st.
   level: 1
@@ -1149,13 +1149,13 @@ cadaverous_puppet:
   components: V, S, M
   concentration: true
   description: |-
-    You animate the body of a deceased Medium or smaller creature you can see within range. You control the body for the duration of the spell.
+    You animate the body of a deceased Large or smaller creature you can see within range. You control the body for the duration of the spell.
 
     When you cast this spell, and as a free action on subsequent turns, you can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing unless you will otherwise. You can also have the body perform simple tasks as part of this action, such as opening a door or pushing a rock. You can't use this spell to cause the body to attack, however.
 
     The body counts as an object. It has 15 hit points, 10 AC, and immunity to necrotic, poison, and psychic damage. It uses the Strength, Dexterity, and Constitution scores it had in life. If the body is reduced to 0 hit points, it is destroyed, and you can use a free action to wrest control of a new body as described above.
   duration: Up to 8 hours
-  higher_level: When you cast this spell using a spell slot of 3rd level, you can animate a Large or smaller body. When you cast this spell using a spell slot of 4th level, you can animate a Huge or smaller body. When you cast this spell using a spell slot of 5th level or higher, you can animate a body of any size. The body also has an additional 15 hp for each slot level above 2nd.
+  higher_level: When you cast this spell using a spell slot of 3rd level, you can animate a Huge or smaller body. When you cast this spell using a spell slot of 4th level or higher, you can animate a body of any size. The body also has an additional 15 hit points for each slot level above 2nd.
   level: 2
   material: a handful of strings
   name: Cadaverous Puppet
@@ -2114,7 +2114,7 @@ counterclairvoyance:
   description: |-
     Choose a 100-foot cube within range. For the duration, the area appears different to divination spells and other effects that allow remote perception. You determine how the area appears when you cast the spell. It can include arbitrary sensory effects.
 
-    The illusion even foils truesight. Only a creature's natural senses can perceive the area as it truly is.
+    The illusion even foils truesight. Only a creature's own nonmagical senses can perceive the area as it truly is.
 
     If you cast this spell on the same spot with the same appearance every day for a year, the spell lasts until dispelled.
   duration: 24 hours
@@ -2549,10 +2549,10 @@ daylight:
     - ranger
     - sorcerer
 deadwalk:
-  casting_time: 1 free action
+  casting_time: 1 minor action
   components: V, S, M
-  concentration: true
-  description: Choose a Medium or smaller corpse or skeleton you can see within range. You can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing until the end of the current turn. You can have the body perform simple tasks as part of this action, such as opening a door or pushing a rock. You can't use this spell to cause the body to attack, however.
+  concentration: false
+  description: Choose the inanimate corpse or skeleton of a dead Medium or smaller creature you can see within range. You can cause the body to stand up if it is prone and walk up to 20 feet, where it remains standing until the end of the current turn. You can have the body perform simple tasks as part of this action, such as opening a door or pushing a rock. You can't use this spell to cause the body to attack, however.
   duration: 1 turn
   level: 0
   material: a piece of string
@@ -3984,11 +3984,11 @@ extract_vitality:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You siphon remaining life energy from one recently deceased corpse within range. The target must have died in the past hour. The corpse withers away and is destroyed, and you gain a number of hit points equal to three rolls of the target's hit die plus its Constitution score from when it was alive (minimum 1 hit point).
+  description: You siphon remaining life energy from one recently deceased corpse that you touch. The target must have died in the past hour. The corpse withers away and is destroyed, and you gain a number of hit points equal to three rolls of the target's size die.
   duration: Instantaneous
   level: 1
   name: Extract Vitality
-  range: 30 feet
+  range: Touch
   sources:
     - 2D
   tags:
@@ -4701,8 +4701,10 @@ fog_cloud:
   range: 120 feet
   sources:
     - PHB
+    - 2D
   tags:
     - air
+    - artificer
     - conjuration
     - druid
     - magus
@@ -5288,7 +5290,7 @@ ground_surf:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You make the ground swell beneath you like a wave, and use it to carry yourself along. You move up to 30 feet along the ground, ignoring difficult terrain and without provoking opportunity attacks. Additionally, the first time you pass within 5 feet of a creature or object during this movement, the target must make a Strength saving throw against the surging earth around you. A target takes 1d8 bludgeoning damage and is pushed up to 5 feet away on a failed save, or half as much damage and no other effects on a successful one.
+  description: You make the ground swell beneath you like a wave, and use it to carry yourself along. You move up to 30 feet in a straight line along the ground, ignoring difficult terrain and without provoking opportunity attacks. Additionally, each time you pass within 5 feet of a creature or object during this movement, the target must make a Strength saving throw against the surging earth around you. A target takes 1d8 bludgeoning damage and is pushed up to 5 feet away on a failed save, or half as much damage and no other effects on a successful one. The same target can't be forced to make this saving throw more than once.
   duration: Instantaneous
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.
   level: 1
@@ -7650,6 +7652,30 @@ nondetection:
     - bard
     - magus
     - ranger
+    - wizard
+noxious_fumes:
+  casting_time: 1 standard action
+  components: V, S, M
+  concentration: false
+  description: |-
+    You eject a terrible scent into the air that clings to creatures it touches. Each creature in a 30-foot cone must succeed on a Constitution saving throw or take 1d6 poison damage and be poisoned until the end of its next turn. A creature with supersmell makes its saving throw with disadvantage.
+
+    Additionally, each creature in the 30-foot line centered within the cone must succeed on a Dexterity saving throw or reek for the duration of the spell. While reeking, the target and each creature within 5 feet of it must make a saving throw against the above poison effect at the end of the each of the reeking target's turns.
+
+    A reeking creature or one of its allies within 5 feet of it can use a standard action to scrape off the foul substance, ending the effect on that creature.
+  duration: 1 minute
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the poison damage inflicted by the initial cone increases by 1d6 for each slot level above 1st.
+  level: 1
+  material: a skunk's scent gland
+  name: Noxious Fumes
+  range: Self (30-foot cone)
+  sources:
+    - 2D
+  tags:
+    - bard
+    - conjuration
+    - druid
+    - primal
     - wizard
 otherworldly_guise:
   casting_time: 1 minor action
@@ -11286,10 +11312,8 @@ undead_transformation:
 
     - The target gains the Undead creature type.
     - The target has resistance to necrotic damage, immunity to poison damage, and immunity to the poisoned and diseased conditions.
-    - The target has darkvision (60 ft.). If the target already had darkvision, its range is increased by 30 feet instead.
-    - At the end of every hour, the target's hit point maximum decreases by 1. This reduction can't be prevented in any way, and is removed only when the curse is lifted.
-
-    A _remove curse_ spell cast on the target ends this effect.
+    - The target has darkvision (60 ft.). If the target already had darkvision, its range increases by 30 feet instead.
+    - At the end of every hour, the target's hit point maximum decreases by 1. This reduction can't be prevented in any way, and is removed only when this curse is lifted.
   duration: Instantaneous
   level: 4
   name: Undead Transformation
@@ -11480,7 +11504,7 @@ wall_of_dirt:
   components: S
   concentration: true
   description: |-
-    A nonmagical wall of compact dirt rises from the ground at a point you choose within range. The wall is 3 inches thick and up to 20 feet long.
+    A nonmagical wall of compact dirt rises from the ground at a point you choose within range. The wall is 3 inches thick, up to 10 feet high, and up to 20 feet long.
 
     If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use a reaction to move up to its speed so that it is no longer enclosed by the wall
 
@@ -11978,9 +12002,9 @@ wizards_strike:
   casting_time: 1 standard action
   components: S, M
   concentration: false
-  description: You swipe the spell's material component in the direction of a foe to bash it from a distance. Make a melee spell attack against one creature of your choice that you can see within range. On a hit, the target takes 1d10 bludgeoning, piercing, or slashing damage (your choice), and the target is pushed up to 5 feet away from you and knocked prone.
+  description: You swipe the spell's material component in the direction of a foe to bash it from a distance. Make a melee spell attack against one creature of your choice that you can see within range, ignoring cover. On a hit, the target takes 1d8 bludgeoning, piercing, or slashing damage (your choice), and the target is pushed up to 5 feet away from you and knocked prone.
   duration: Instantaneous
-  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 and the distance pushed increases by 5 feet for each slot level above 1st.
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 and the distance pushed increases by 5 feet for each slot level above 1st.
   level: 1
   material: an arcane focus worth at least 1 gp
   name: Wizard's Strike
