@@ -747,7 +747,7 @@ bestow_curse:
     - While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes a standard action that turn doing nothing.
     - While the target is cursed, your attacks and spells deal an extra 1d8 necrotic damage to the target.
 
-    A _remove curse_ spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect.
+    At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect.
   duration: Up to 1 minute
   higher_level: If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration.
   level: 3
@@ -755,6 +755,7 @@ bestow_curse:
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -4925,11 +4926,11 @@ geas:
   components: V
   concentration: false
   description: |-
-    You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Charisma saving throw or become charmed by you for the duration. While the creature is charmed by you, it takes 5d10 psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day. A creature that can't understand you is unaffected by the spell.
+    You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Charisma saving throw or become cursed for the duration. While cursed in this way, the target is charmed by you. A creature is unaffected by the spell if it can't understand you or is immune to being charmed.
 
-    You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.
+    You can issue any command you choose to the charmed target, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends. Otherwise, if the target acts in a manner directly counter to your instructions, it takes 5d10 psychic damage. The target can't take this damage more than once per day.
 
-    You can end the spell early by using a standard action to dismiss it. A _remove curse_ or _greater restoration_ spell also ends it.
+    You can end the spell early as a standard action.
   duration: 30 days
   higher_level: When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. When you cast this spell using a spell slot of 9th level, the spell lasts until it is ended by one of the spells mentioned above.
   level: 5
@@ -4937,6 +4938,7 @@ geas:
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
@@ -5755,11 +5757,9 @@ hex:
   components: V, S, M
   concentration: true
   description: |-
-    You place a curse on a creature that you can see within range. Until the spell ends, you deals an extra 1d6 necrotic damage to the target whenever you hit it with an attack. Also choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.
+    You place a curse on a creature you can see within range. Choose one ability. While cursed, the target has disadvantage on ability checks made with the chosen ability, and your attacks against it deal an extra 1d6 necrotic damage on a hit.
 
-    If the target drops to 0 hit points before this spell ends, you can use a minor action on a subsequent turn of yours to curse a new creature.
-
-    A _remove curse_ cast on the target ends this spell early.
+    If the target is dead or has 0 hit points, you can use a repeatable minor action to move the curse to a new creature.
   duration: Until you finish a short rest
   level: 1
   material: the petrified eye of a newt
@@ -5767,6 +5767,7 @@ hex:
   range: 90 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - curse
@@ -7528,11 +7529,9 @@ modify_memory:
 
     While this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.
 
-    You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.
+    You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn't altered. Otherwise, the target is cursed when the spell ends, causing the modified memories to take hold. Removing this curse restores the creature's original memories.
 
     A modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.
-
-    A _remove curse_ or _greater restoration_ spell cast on the target restores the creature's true memory.
   duration: Up to 1 minute
   higher_level: If you cast this spell using a spell slot of 6th level or higher, you can alter the target's memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level).
   level: 5
@@ -7540,6 +7539,7 @@ modify_memory:
   range: 30 feet
   sources:
     - PHB
+    - 2D
   tags:
     - bard
     - curse
