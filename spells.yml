@@ -2413,18 +2413,25 @@ cure_wounds:
 dancing_lights:
   casting_time: 1 standard action
   components: V, S, M
-  concentration: true
+  concentration: false
   description: |-
-    You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.
+    You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You choose whether each light's position is fixed relative to your location (moving with you) or to the ground. You can also combine the four lights into one glowing, vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light (10 ft.).
 
-    As a minor action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.
-  duration: Up to 1 minute
+    You can reconfigure the lights as a repeatable minor action on each of your turns, doing any number of the following for each light:
+    - Move the light up to 60 feet.
+    - Switch the light's anchor point from yourself to the ground, or vice versa.
+    - Dismiss the light.
+    - Create a new light within range, up to a maximum of four lights.
+
+    A light automatically winks out if its distance from you ever exceeds the spell's range. The spell ends if you cast it again or all the lights have gone out.
+  duration: 10 minutes
   level: 0
   material: a bit of phosphorus or wychwood, or a glowworm
   name: Dancing Lights
   range: 120 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - artificer
@@ -2894,13 +2901,13 @@ dispel_evil_and_good:
   components: V, S, M
   concentration: true
   description: |-
-    Shimmering energy surrounds and protects you from fey, undead, and creatures originating from beyond the Material Plane. For the duration, celestials, elementals, fey, fiends, and undead have disadvantage on attack rolls against you.
+    Shimmering energy surrounds and protects you from outerplanar entities, which for the purposes of this spell includes Celestials, Elementals, Fey, Fiends, and Undead. For the duration, outerplanar entities have disadvantage on attack rolls against you.
 
     You can end the spell early by using either of the following special functions.
 
-    **Break Enchantment.** As a standard action, you touch a creature you can reach that is charmed, frightened, or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer charmed, frightened, or possessed by such creatures.
+    **Break Enchantment.** As a standard action, you touch a creature you can reach that is charmed, frightened, or possessed by an outerplanar entity. The creature you touch is no longer charmed, frightened, or possessed by such creatures.
 
-    **Dismissal.** As a standard action, make a melee spell attack against a celestial, an elemental, a fey, a fiend, or an undead you can reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a Charisma saving throw or be sent back to its home plane (if it isn't there already). If they aren't on their home plane, undead are sent to the Shadowfell, and fey are sent to the Feywild.
+    **Dismissal.** As a standard action, make a melee spell attack against an outerplanar entity within reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a Charisma saving throw or be sent back to its home plane (if it isn't there already). If they aren't on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.
   duration: Up to 1 minute
   level: 5
   material: holy water or powdered silver and iron
@@ -2964,7 +2971,7 @@ distort_magic:
 
     **False Aura.** You change the way the target appears to spells and magical effects, such as _detect magic_, that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object's magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item.
 
-    **Mask.** You change the way the target appears to spells and magical effects that detect creature types, such as a paladin's Divine Sense or the trigger of a _symbol_ spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.
+    **Mask.** You change the way the target appears to spells and magical effects that detect creature types or alignments, such as a paladin's Divine Sense or the trigger of a _symbol_ spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.
   duration: 24 hours
   level: 2
   material: a small square of silk
@@ -2972,6 +2979,7 @@ distort_magic:
   range: Touch
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - illusion
@@ -3180,6 +3188,7 @@ draconic_transformation:
   description: |-
     With a roar, you draw on the magic of dragons to transform yourself, taking on draconic features. You gain the following benefits until the spell ends:
 
+    - You have the Dragon creature type in addition to your other types.
     - You have blindsight (30 ft.).
     - When you cast this spell, and as a minor action on subsequent turns for the duration, you can exhale shimmering energy in a 60-foot cone. Each creature in the area must make a Dexterity saving throw, taking 6d8 force damage on a failed save, or half as much damage on a successful one.
     - Incorporeal wings sprout from your back, giving you a fly speed of 60 feet.
@@ -3190,6 +3199,7 @@ draconic_transformation:
   range: Self
   sources:
     - FTD
+    - 2D
   tags:
     - arcane
     - druid
@@ -3543,7 +3553,7 @@ eldritch_smite:
   casting_time: 1 free action, which you take when you hit with a weapon attack
   components: V
   concentration: false
-  description: Your weapon hums with eldritch power, and the target takes 4d8 force damage. If it is Huge or smaller, you may also knock it prone.
+  description: Your weapon hums with eldritch power, and the target takes 3d8 force damage. If the target is Huge or smaller, you can also knock it prone.
   duration: Instantaneous
   higher_level: If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 1st.
   level: 3
@@ -4152,7 +4162,6 @@ far_sense:
     - druid
     - primal
     - ranger
-    - ritual
 far_step:
   casting_time: 1 minor action
   components: V
@@ -11378,10 +11387,10 @@ unseen_servant:
     - warlock
     - wizard
 vampiric_touch:
-  casting_time: 1 standard action
+  casting_time: 1 minor action
   components: V, S
   concentration: true
-  description: The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as a standard action.
+  description: The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. For the duration, whenever you would make an unarmed strike, you can make a special melee spell attack against the target instead. On a hit, the target takes 2d6 + your spellcasting ability score necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
   level: 3
@@ -11390,6 +11399,7 @@ vampiric_touch:
   sources:
     - PHB
     - TCE
+    - 2D
   tags:
     - arcane
     - necromancy
@@ -11429,7 +11439,7 @@ vicious_mockery:
   components: V
   concentration: false
   description: |-
-    You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must make a Wisdom saving throw. On a failed save, it takes 1d4 psychic damage and has disadvantage on the next attack roll it makes before the end of its next turn. On a successful save, it takes half as much damage and suffers no other effects.
+    You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must make a Wisdom saving throw. On a failed save, it takes 1d6 psychic damage and has disadvantage on the next attack roll it makes before the end of its next turn. On a successful save, it takes half as much damage and suffers no other effects.
 
     This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
   duration: Instantaneous
@@ -11438,6 +11448,7 @@ vicious_mockery:
   range: 60 feet
   sources:
     - PHB
+    - 2D
   tags:
     - arcane
     - bard
