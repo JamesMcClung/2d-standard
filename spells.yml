@@ -8772,7 +8772,7 @@ reminiscent_snare:
   casting_time: 1 standard action
   components: V, S
   concentration: true
-  description: You call to mind the image of a creature you have seen within the past minute. If the target is on the same plane of existence, it make a Charisma saving throw. On a failed save, the target is stunned for the duration, and you briefly see its immediate surroundings. The spell ends if the target takes any damage.
+  description: You call to mind the image of a creature you have seen within the past minute. If the target is on the same plane of existence, it must make a Charisma saving throw. On a failed save, the target is stunned for the duration, and you briefly see its immediate surroundings. The spell ends if the target takes any damage.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 6th or 7th level, the maximum duration and time since seeing the creature both increase to 1 hour. When you cast this spell using a spell slot of 8th or 9th level, both times increase to 1 day.
   level: 5
