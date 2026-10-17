@@ -3981,8 +3981,9 @@ extinguish_life:
   casting_time: 1 minor action
   components: S
   concentration: false
-  description: Choose one dying creature you can see within range. The target dies.
+  description: You quash the faltering life force of one creature you can see within range. If the target is bloodied, it takes 1d4 necrotic damage. If this damage reduces the target to 0 hit points, the target dies.
   duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.
   level: 1
   name: Extinguish Life
   range: 30 feet
