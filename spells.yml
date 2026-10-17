@@ -3995,9 +3995,9 @@ extract_vitality:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You siphon remaining life energy from one recently deceased corpse that you touch. The target must have died in the past hour. The corpse withers away and is destroyed, and you gain a number of hit points equal to three rolls of the target's size die.
+  description: You siphon remaining life energy from one recently deceased corpse that you touch. The target must have died in the past hour. The corpse withers away and is destroyed, and you gain a number of hit points equal to three rolls of the target's size die + your spellcasting ability score.
   duration: Instantaneous
-  level: 1
+  level: 2
   name: Extract Vitality
   range: Touch
   sources:
