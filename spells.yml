@@ -3352,7 +3352,7 @@ duplicate_self:
   components: V, S
   concentration: true
   description: |-
-    An illusory duplicate of yourself appears in an unoccupied space within range. The illusion looks, sounds, and acts just like you. You can use a free action to cause it to move up to your speed to a space you can see, but it can't talk or imitate any other actions.
+    An illusory duplicate of yourself appears in an unoccupied space within range. The illusion looks, sounds, and acts just like you. You can use a free action to cause it to move up to your speed to a space you can see, talk, and imitate any action.
 
     Physical interaction with the duplicate reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the duplicate from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the duplicate is illusory.
 
