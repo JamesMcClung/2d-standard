@@ -11509,7 +11509,7 @@ vitriolic_sphere:
     - wizard
 wall_of_dirt:
   casting_time: 1 standard action
-  components: S
+  components: S, M
   concentration: true
   description: |-
     A nonmagical wall of compact dirt rises from the ground at a point you choose within range. The wall is 3 inches thick, up to 10 feet high, and up to 20 feet long.
@@ -11522,6 +11522,7 @@ wall_of_dirt:
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can extend the length of the wall by 5 feet for each slot level above 2nd.
   level: 2
+  material: a clump of dirt
   name: Wall of Dirt
   range: 60 feet
   sources:
