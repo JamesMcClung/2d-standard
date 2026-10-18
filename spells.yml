@@ -8584,15 +8584,20 @@ quicksand:
   components: V, S
   concentration: true
   description: |-
-    You turn the ground within 10 feet of a point you can see within range into treacherous quicksand. The area becomes difficult terrain, requiring 4 feet of movement spent for every 1 foot traveled.
+    You turn loose earth within 10 feet of a point you can see within range into treacherous quicksand. The area becomes difficult terrain, requiring 4 feet of movement spent for every 1 foot traveled.
+        
+    A creature that ends its turn on the sand must make a Dexterity saving throw. On a failed save, the target beings sinking. Its sunkenness level starts at 1. While sunken, the target has a certain amount of cover from all sources and suffers additional effects based on its sunkenness level, as shown in the Sunkenness Effects table below.
 
-    A creature that ends its turn on the sand must make a Dexterity saving throw. On a failed save, the target sinks halfway into the ground. A half-sunken target is hindered, has half cover from all sources, can't fly, and is immune to forced movement.
+    A sunken target makes a Strength saving throw at the end of each of its turns. On a failed save, its sunkenness level increases by 1, to a maximum of 3. A sunken creature or another creature within reach can also make a Strength check against your spell save DC as a standard action, freeing the sunken creature on a success.
 
-    At the end of a half-sunken creature's turn, it must succeed on a Strength saving throw or sink further down, becoming mostly-sunken. In addition to the above effects, a mostly-sunken target is restrained and has three-quarters cover from all sources.
+    ###### Sunkenness Effects
+    | Sunkenness Level | Cover | Effects                                                                                                        |
+    | :--------------: | :--------------------: | :------------------------------------------------------------------------------------------------------------- |
+    |        1         |          half          | The creature is hindered, can't fly, and is immune to forced movement. |
+    |        2         |     three-quarters     | The creature is restrained in addition to the above effects.                                   |
+    |        3         |         total          | The creature is suffocating in addition to the above effects.                                  |
 
-    At the end of a mostly-sunken creature's turn, it must succeed on a Strength saving throw or become fully-sunken. In addition to the above effects, a fully-sunken target is suffocating and has total cover from all sources.
-
-    A sunken target immediately stops sinking if it leaves the area, and any time it succeeds on a Strength saving throw against the spell, its sunkenness decreases by one stage, potentially freeing itself. Additionally, a sunken target or nearby creature can use a standard action to make a Strength check against your spell save DC to attempt to pull the target out. On a success, the target's sunkenness decreases by one stage.
+    When the spell ends, the ground reverts to its original material. Each sunken creature remains sunken, but it stops sinking deeper. Sunken creatures can still escape or be freed with a successful Strength check.
   duration: Up to 10 minutes
   higher_level: When you cast this spell using a spell slot of 4th level or higher, the area of effect increases by 5 feet in radius for each slot level above 3rd.
   level: 3
