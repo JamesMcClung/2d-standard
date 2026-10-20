@@ -3799,11 +3799,11 @@ entomb:
   components: S
   concentration: true
   description: |-
-    Choose up to three creatures you can see on the ground within range. Each target must make a Strength saving throw as stone slabs burst out of the ground to trap it. A target takes 3d4 bludgeoning damage on a failed save, or half as much damage on a successful one. A target that fails its save becomes trapped in a stone tomb for the duration. An entombed target is restrained and has three-quarters cover from all sources.
+    Choose up to three creatures you can see on the ground within range. Each target must make a Strength saving throw as stone slabs burst out of the ground to trap it. A target takes 3d4 bludgeoning damage on a failed save, or half as much damage on a successful one. A target that fails its save becomes trapped in a stone tomb for the duration (Strength check ends). An entombed target is restrained and has three-quarters cover from all sources.
 
-    Each tomb is an object with AC 15, 20 hit points, and immunity to poison and psychic damage. A tomb fills the target's space and blocks movement. An entombed target can use a standard action to make a Strength check against your spell save DC, breaking the tomb on a success. A tomb also breaks apart when the spell ends.
+    Each tomb is an object with AC 15, 20 hit points, and immunity to poison and psychic damage. A tomb fills its target's space and blocks movement.
 
-    When a tomb breaks, or when a target succeeds on the initial saving throw, the target's space becomes difficult terrain. Each 5-foot square of difficult terrain takes at least 1 minute to clear by hand.
+    A tomb breaks when the spell ends or when its target breaks free. When a tomb breaks, or when a target succeeds on the initial saving throw, the target's space becomes difficult terrain. Each 5-foot square of difficult terrain takes at least 1 minute to clear by hand.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.
   level: 2
