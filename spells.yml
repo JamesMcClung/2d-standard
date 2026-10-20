@@ -4337,8 +4337,6 @@ fiery_whip:
   name: Fiery Whip
   range: Self
   sources:
-    - PHB
-    - TCE
     - 2D
   tags:
     - arcane
