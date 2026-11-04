@@ -1156,8 +1156,8 @@ cadaverous_puppet:
 
     The body counts as an object. It has 15 hit points, 10 AC, and immunity to necrotic, poison, and psychic damage. It uses the Strength, Dexterity, and Constitution scores it had in life. If the body is reduced to 0 hit points, it is destroyed, and you can use a free action to wrest control of a new body as described above.
   duration: Up to 8 hours
-  higher_level: When you cast this spell using a spell slot of 3rd level, you can animate a Huge or smaller body. When you cast this spell using a spell slot of 4th level or higher, you can animate a body of any size. The body also has an additional 15 hit points for each slot level above 2nd.
-  level: 2
+  higher_level: When you cast this spell using a spell slot of 3rd or 4th level, you can animate a Huge or smaller body. When you cast this spell using a spell slot of 5th level or higher, you can animate a body of any size. The body also has an additional 15 hit points for each slot level above 1st.
+  level: 1
   material: a handful of strings
   name: Cadaverous Puppet
   range: 60 feet
@@ -3352,7 +3352,7 @@ duplicate_self:
   components: V, S
   concentration: true
   description: |-
-    An illusory duplicate of yourself appears in an unoccupied space within range. The illusion looks, sounds, and acts just like you. You can use a free action to cause it to move up to your speed to a space you can see, but it can't talk or imitate any other actions.
+    An illusory duplicate of yourself appears in an unoccupied space within range. The illusion looks, sounds, and acts just like you. You can use a free action to cause it to move up to your speed to a space you can see, talk, and imitate any action.
 
     Physical interaction with the duplicate reveals it to be an illusion, because things can pass through it. A creature can also use the Study action to inspect the duplicate from a distance, making an Investigation check against your spell save DC. On a success, the creature discovers that the duplicate is illusory.
 
@@ -3799,11 +3799,11 @@ entomb:
   components: S
   concentration: true
   description: |-
-    Choose up to three creatures you can see on the ground within range. Each target must make a Strength saving throw as stone slabs burst out of the ground to trap it. A target takes 3d4 bludgeoning damage on a failed save, or half as much damage on a successful one. A target that fails its save becomes trapped in a stone tomb for the duration. An entombed target is restrained and has three-quarters cover from all sources.
+    Choose up to three creatures you can see on the ground within range. Each target must make a Strength saving throw as stone slabs burst out of the ground to trap it. A target takes 3d4 bludgeoning damage on a failed save, or half as much damage on a successful one. A target that fails its save becomes trapped in a stone tomb for the duration (Strength check ends). An entombed target is restrained and has three-quarters cover from all sources.
 
-    Each tomb is an object with AC 15, 20 hit points, and immunity to poison and psychic damage. A tomb fills the target's space and blocks movement. An entombed target can use a standard action to make a Strength check against your spell save DC, breaking the tomb on a success. A tomb also breaks apart when the spell ends.
+    Each tomb is an object with AC 15, 20 hit points, and immunity to poison and psychic damage. A tomb fills its target's space and blocks movement.
 
-    When a tomb breaks, or when a target succeeds on the initial saving throw, the target's space becomes difficult terrain. Each 5-foot square of difficult terrain takes at least 1 minute to clear by hand.
+    A tomb breaks when the spell ends or when its target breaks free. When a tomb breaks, or when a target succeeds on the initial saving throw, the target's space becomes difficult terrain. Each 5-foot square of difficult terrain takes at least 1 minute to clear by hand.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.
   level: 2
@@ -3981,8 +3981,9 @@ extinguish_life:
   casting_time: 1 minor action
   components: S
   concentration: false
-  description: Choose one dying creature you can see within range. The target dies.
+  description: You quash the faltering life force of one creature you can see within range. If the target is bloodied, it takes 1d4 necrotic damage. If this damage reduces the target to 0 hit points, the target dies.
   duration: Instantaneous
+  higher_level: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.
   level: 1
   name: Extinguish Life
   range: 30 feet
@@ -3995,9 +3996,9 @@ extract_vitality:
   casting_time: 1 standard action
   components: V, S
   concentration: false
-  description: You siphon remaining life energy from one recently deceased corpse that you touch. The target must have died in the past hour. The corpse withers away and is destroyed, and you gain a number of hit points equal to three rolls of the target's size die.
+  description: You siphon remaining life energy from one recently deceased corpse that you touch. The target must have died in the past hour. The corpse withers away and is destroyed, and you gain a number of hit points equal to three rolls of the target's size die + your spellcasting ability score.
   duration: Instantaneous
-  level: 1
+  level: 2
   name: Extract Vitality
   range: Touch
   sources:
@@ -4336,8 +4337,6 @@ fiery_whip:
   name: Fiery Whip
   range: Self
   sources:
-    - PHB
-    - TCE
     - 2D
   tags:
     - arcane
@@ -7365,7 +7364,7 @@ minor_alteration:
     - A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like.
 
     The imbued effect lasts indefinitely, or until you use a standard action to touch and end it. If you cast this spell multiple times, you can have up to three of its effects active at a time. If there are already three effects active when you cast this spell, you choose one of those effects and end it before the new effect is imbued.
-  duration: Instantaneous
+  duration: Until dispelled
   level: 0
   material: any type of artisan's tools worth at least 1 sp
   name: Minor Alteration
@@ -7669,9 +7668,7 @@ noxious_fumes:
   description: |-
     You eject a terrible scent into the air that clings to creatures it touches. Each creature in a 30-foot cone must succeed on a Constitution saving throw or take 1d6 poison damage and be poisoned until the end of its next turn. A creature with supersmell makes its saving throw with disadvantage.
 
-    Additionally, each creature in the 30-foot line centered within the cone must succeed on a Dexterity saving throw or reek for the duration of the spell. While reeking, the target and each creature within 5 feet of it must make a saving throw against the above poison effect at the end of the each of the reeking target's turns.
-
-    A reeking creature or one of its allies within 5 feet of it can use a standard action to scrape off the foul substance, ending the effect on that creature.
+    Additionally, each creature in the 30-foot line centered within the cone must succeed on a Dexterity saving throw or be covered in a reeking fluid for the duration (standard action ends). While covered in this fluid, the target and each creature within 5 feet of it must make a saving throw against the above poison effect at the end of the each of the reeking target's turns.
   duration: 1 minute
   higher_level: When you cast this spell using a spell slot of 2nd level or higher, the poison damage inflicted by the initial cone increases by 1d6 for each slot level above 1st.
   level: 1
@@ -8587,15 +8584,20 @@ quicksand:
   components: V, S
   concentration: true
   description: |-
-    You turn the ground within 10 feet of a point you can see within range into treacherous quicksand. The area becomes difficult terrain, requiring 4 feet of movement spent for every 1 foot traveled.
+    You turn loose earth within 10 feet of a point you can see within range into treacherous quicksand. The area becomes difficult terrain, requiring 4 feet of movement spent for every 1 foot traveled.
+        
+    A creature that ends its turn on the sand must make a Dexterity saving throw. On a failed save, the target beings sinking. Its sunkenness level starts at 1. While sunken, the target has a certain amount of cover from all sources and suffers additional effects based on its sunkenness level, as shown in the Sunkenness Effects table below.
 
-    A creature that ends its turn on the sand must make a Dexterity saving throw. On a failed save, the target sinks halfway into the ground. A half-sunken target is hindered, has half cover from all sources, can't fly, and is immune to forced movement.
+    A sunken target makes a Strength saving throw at the end of each of its turns. On a failed save, its sunkenness level increases by 1, to a maximum of 3. A sunken creature or another creature within reach can also make a Strength check against your spell save DC as a standard action, freeing the sunken creature on a success.
 
-    At the end of a half-sunken creature's turn, it must succeed on a Strength saving throw or sink further down, becoming mostly-sunken. In addition to the above effects, a mostly-sunken target is restrained and has three-quarters cover from all sources.
+    ###### Sunkenness Effects
+    | Sunkenness Level | Cover | Effects                                                                                                        |
+    | :--------------: | :--------------------: | :------------------------------------------------------------------------------------------------------------- |
+    |        1         |          half          | The creature is hindered, can't fly, and is immune to forced movement. |
+    |        2         |     three-quarters     | The creature is restrained in addition to the above effects.                                   |
+    |        3         |         total          | The creature is suffocating in addition to the above effects.                                  |
 
-    At the end of a mostly-sunken creature's turn, it must succeed on a Strength saving throw or become fully-sunken. In addition to the above effects, a fully-sunken target is suffocating and has total cover from all sources.
-
-    A sunken target immediately stops sinking if it leaves the area, and any time it succeeds on a Strength saving throw against the spell, its sunkenness decreases by one stage, potentially freeing itself. Additionally, a sunken target or nearby creature can use a standard action to make a Strength check against your spell save DC to attempt to pull the target out. On a success, the target's sunkenness decreases by one stage.
+    When the spell ends, the ground reverts to its original material. Each sunken creature remains sunken, but it stops sinking deeper. Sunken creatures can still escape or be freed with a successful Strength check.
   duration: Up to 10 minutes
   higher_level: When you cast this spell using a spell slot of 4th level or higher, the area of effect increases by 5 feet in radius for each slot level above 3rd.
   level: 3
@@ -8774,7 +8776,7 @@ reminiscent_snare:
   casting_time: 1 standard action
   components: V, S
   concentration: true
-  description: You call to mind the image of a creature you have seen within the past minute. If the target is on the same plane of existence, it make a Charisma saving throw. On a failed save, the target is stunned for the duration, and you briefly see its immediate surroundings. The spell ends if the target takes any damage.
+  description: You call to mind the image of a creature you have seen within the past minute. If the target is on the same plane of existence, it must make a Charisma saving throw. On a failed save, the target is stunned for the duration, and you briefly see its immediate surroundings. The spell ends if the target takes any damage.
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 6th or 7th level, the maximum duration and time since seeing the creature both increase to 1 hour. When you cast this spell using a spell slot of 8th or 9th level, both times increase to 1 day.
   level: 5
@@ -11512,7 +11514,7 @@ vitriolic_sphere:
     - wizard
 wall_of_dirt:
   casting_time: 1 standard action
-  components: S
+  components: S, M
   concentration: true
   description: |-
     A nonmagical wall of compact dirt rises from the ground at a point you choose within range. The wall is 3 inches thick, up to 10 feet high, and up to 20 feet long.
@@ -11525,6 +11527,7 @@ wall_of_dirt:
   duration: Up to 1 minute
   higher_level: When you cast this spell using a spell slot of 3rd level or higher, you can extend the length of the wall by 5 feet for each slot level above 2nd.
   level: 2
+  material: a clump of dirt
   name: Wall of Dirt
   range: 60 feet
   sources:
